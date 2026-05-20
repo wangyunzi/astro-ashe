@@ -1,0 +1,28 @@
+---
+import { asheConfig } from "../ashe.config";
+import SidebarWidgets from "./SidebarWidgets.astro";
+
+const enabled = asheConfig.navigation.showAltSidebar && asheConfig.navigation.enabled;
+---
+
+{
+  enabled ? (
+    <div class="sidebar-alt-wrap">
+      <div class="sidebar-alt-close image-overlay"></div>
+      <aside class="sidebar-alt">
+        <div
+          class="sidebar-alt-close-btn"
+          role="button"
+          tabindex="0"
+          aria-label="关闭侧边栏"
+          data-i18n-aria-label="ui.closeSidebar"
+        >
+          <span></span>
+          <span></span>
+        </div>
+
+        <SidebarWidgets variant="alt" />
+      </aside>
+    </div>
+  ) : null
+}

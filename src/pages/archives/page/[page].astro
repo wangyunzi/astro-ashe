@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageShell from "../../../components/PageShell.astro";
+import BlogPagination from "../../../components/BlogPagination.astro";
+import { excerpt } from "../../../lib/ashe";
+import { getPublishedPosts } from "../../../lib/content";
+import { postHref } from "../../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  const perPage = 20;
+  const totalPages = Math.max(1, Math.ceil(posts.length / perPage));
+
+  return Array.from({ length: totalPages }, (_, index) => index + 1)
+    .filter((page) => page > 1)
+    .map((page) => ({
+      params: { page: String(page) },
+      props: { page }
+    }));
+}
+
+const posts = await getPublishedPosts();
+const perPage = 20;
+const totalPages = Math.max(1, Math.ceil(posts.length / perPage));
+const currentPage = Number(Astro.props.page || Astro.params.page || 1);
+const start = (currentPage - 1) * perPage;
+const currentPosts = posts.slice(start, start + perPage);
+---
+
+<BaseLayout
+  title={`归档 - 第 ${currentPage} 页`}
+  description="按时间线浏览所有文章"
+  bodyClass="page page-archives archive paged"
+>
+  <PageShell title="归档" titleEn="Archives">
+    <ol class="archive-timeline">
+      {
+        currentPosts.map((post) => (
+          <li class="archive-timeline-item">
+            <article class="archive-timeline-card">
+              <time class="archive-timeline-date" datetime={post.data.date.toISOString()}>
+                {post.data.date.getFullYear()}年{post.data.date.getMonth() + 1}月{post.data.date.getDate()}日
+              </time>
+              <div class="archive-timeline-content">
+                {
+                  post.data.categories.length ? (
+                    <div class="archive-timeline-categories">
+                      {post.data.categories.map((category, index) => (
+                        <>
+                          <span>{category}</span>
+                          {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;,&nbsp;&nbsp;</> : null}
+                        </>
+                      ))}
+                    </div>
+                  ) : null
+                }
+                <h2 class="archive-timeline-title">
+                  <a href={postHref(post)}>{post.data.title}</a>
+                </h2>
+                <p class="archive-timeline-excerpt">{excerpt(post.data.description || post.body || "", 26)}</p>
+                {
+                  post.data.tags.length ? (
+                    <div class="archive-timeline-tags">
+                      {post.data.tags.map((tag) => <span>#{tag}</span>)}
+                    </div>
+                  ) : null
+                }
+              </div>
+            </article>
+          </li>
+        ))
+      }
+    </ol>
+    <BlogPagination pagination={{ currentPage, totalPages, perPage, totalItems: posts.length, basePath: "/archives/" }} />
+  </PageShell>
+</BaseLayout>

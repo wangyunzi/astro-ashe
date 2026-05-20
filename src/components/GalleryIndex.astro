@@ -1,0 +1,56 @@
+---
+import { albumCover, albumHref, extractMarkdownImages, formatDate, type AlbumEntry } from "../lib/ashe";
+
+interface Props {
+  albums: AlbumEntry[];
+}
+
+const { albums } = Astro.props;
+const albumCards = albums.map((album) => ({
+  album,
+  cover: albumCover(album),
+  photoCount: extractMarkdownImages(album.body).length
+}));
+---
+
+{
+  albumCards.length ? (
+    <div class="gallery-album-grid">
+      {albumCards.map(({ album, cover, photoCount }) => (
+        <article class="gallery-album-card">
+          <a
+            class="gallery-album-cover lazy-image-shell"
+            href={albumHref(album)}
+            aria-label={`打开相簿：${album.data.title}`}
+          >
+            {cover ? (
+              <img
+                src={cover}
+                alt={album.data.title}
+                class="js-lazy-image"
+                loading="lazy"
+                decoding="async"
+                width="400"
+                height="400"
+              />
+            ) : null}
+            <span class="gallery-album-overlay">
+              <span class="gallery-album-title">{album.data.title}</span>
+              <span class="gallery-album-meta">
+                <time datetime={album.data.date.toISOString()} data-i18n-date>
+                  {formatDate(album.data.date)}
+                </time>
+                <span>{photoCount} 张照片</span>
+              </span>
+            </span>
+          </a>
+        </article>
+      ))}
+    </div>
+  ) : (
+    <div class="no-result-found">
+      <h3>没有找到相册</h3>
+      <p>在 src/content/albums 中添加 Markdown 相册后，会显示在这里。</p>
+    </div>
+  )
+}

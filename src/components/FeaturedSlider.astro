@@ -1,0 +1,85 @@
+---
+import { asheConfig } from "../ashe.config";
+import { categoryHref, excerpt, formatDate, postCover, postHref, postSummary, type PostEntry } from "../lib/ashe";
+
+interface Props {
+  posts: PostEntry[];
+}
+
+const { posts } = Astro.props;
+const sliderPosts = posts
+  .filter((post) => (asheConfig.featuredSlider.requireImages ? postCover(post) : true))
+  .slice(0, asheConfig.featuredSlider.amount);
+const areaClass = `featured-slider-area${
+  asheConfig.layout.sliderWidth === "boxed" ? " boxed-wrapper" : ""
+}`;
+const sliderClass = `ashe-astro-slider${
+  asheConfig.layout.sliderWidth === "boxed" ? " boxed-wrapper" : ""
+}`;
+---
+
+{
+  asheConfig.featuredSlider.enabled && sliderPosts.length ? (
+    <div class={areaClass}>
+      <div
+        id="featured-slider"
+        class={sliderClass}
+        data-slick='{"slidesToShow":1,"fade":true}'
+        data-autoplay={String(asheConfig.featuredSlider.autoplay)}
+        data-interval={String(asheConfig.featuredSlider.intervalMs)}
+      >
+        {sliderPosts.map((post, index) => (
+          <div class:list={["slider-item", index === 0 && "slick-current"]}>
+            <div class="slider-item-bg" style={`background-image:url(${postCover(post)});`}></div>
+
+            <div class="cv-container image-overlay">
+              <div class="cv-outer">
+                <div class="cv-inner">
+                  <div class="slider-info">
+                    <div class="slider-categories">
+                      {post.data.categories.map((category, categoryIndex) => (
+                        <>
+                          <a href={categoryHref(category)}>{category}</a>
+                          {categoryIndex < post.data.categories.length - 1 ? ", " : ""}
+                        </>
+                      ))}
+                    </div>
+
+                    <h2 class="slider-title">
+                      <a href={postHref(post)}>{post.data.title}</a>
+                    </h2>
+
+                    <div class="slider-content">{excerpt(postSummary(post), 24)}</div>
+
+                    <div class="slider-read-more">
+                      <a href={postHref(post)} data-i18n="post.readMore">阅读更多</a>
+                    </div>
+
+                    <time class="slider-date" datetime={post.data.date.toISOString()} data-i18n-date>
+                      {formatDate(post.data.date)}
+                    </time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+
+        {asheConfig.featuredSlider.navigation ? (
+          <>
+            <span class="prev-arrow icon-left-open-big"></span>
+            <span class="next-arrow icon-right-open-big"></span>
+          </>
+        ) : null}
+
+        {asheConfig.featuredSlider.pagination ? (
+          <ul class="slider-dots">
+            {sliderPosts.map((_, index) => (
+              <li class:list={[index === 0 && "slick-active"]}></li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    </div>
+  ) : null
+}

@@ -1,0 +1,18 @@
+---
+import BlogList from "../components/BlogList.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getPublishedPosts } from "../lib/content";
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout title="搜索" description="搜索文章" bodyClass="search">
+  <BlogList
+    posts={posts}
+    title="搜索"
+    titleEn="Search"
+    description="按标题、分类、标签或摘要搜索文章。"
+    descriptionEn="Search posts by title, category, tag, or excerpt."
+    search
+  />
+</BaseLayout>

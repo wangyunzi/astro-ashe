@@ -1,0 +1,29 @@
+---
+import AlbumLayout from "../../components/AlbumLayout.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPublishedAlbums } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const albums = await getPublishedAlbums();
+  return albums.map((album) => ({
+    params: { slug: album.slug },
+    props: { album }
+  }));
+}
+
+const { album } = Astro.props;
+---
+
+<BaseLayout title={album.data.title} description={album.data.description || album.data.title} bodyClass="page page-album">
+  <Fragment slot="head">
+    <link href="https://cdn.staticfile.org/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  </Fragment>
+
+  <AlbumLayout album={album} />
+
+  <script
+    slot="scripts"
+    src="https://cdn.staticfile.org/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"
+    charset="utf-8"
+  ></script>
+</BaseLayout>

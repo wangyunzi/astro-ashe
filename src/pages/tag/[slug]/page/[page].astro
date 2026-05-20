@@ -1,0 +1,41 @@
+---
+import BlogList from "../../../../components/BlogList.astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getAllTags, getPublishedPosts } from "../../../../lib/content";
+import { paginatePosts, paginatedPageNumbers, slugify, tagHref } from "../../../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+
+  return getAllTags(posts).flatMap((tag) => {
+    const tagPosts = posts.filter((post) => post.data.tags.includes(tag));
+
+    return paginatedPageNumbers(tagPosts)
+      .filter((page) => page > 1)
+      .map((page) => ({
+        params: { slug: slugify(tag), page: String(page) },
+        props: { tag, posts: tagPosts, page }
+      }));
+  });
+}
+
+const tag = Astro.props.tag;
+const posts = Astro.props.posts || [];
+const pageNumber = Number(Astro.props.page || Astro.params.page || 1);
+const postPage = paginatePosts(posts, pageNumber);
+---
+
+<BaseLayout
+  title={`标签：${tag} - 第 ${postPage.pagination.currentPage} 页`}
+  description={`标签 ${tag} 下的文章`}
+  bodyClass="archive tag paged"
+>
+  <BlogList
+    posts={postPage.items}
+    title={`标签：${tag}`}
+    titleEn={`Tag: ${tag}`}
+    description={`标签 ${tag} 下的文章。`}
+    descriptionEn={`Posts tagged ${tag}.`}
+    pagination={{ ...postPage.pagination, basePath: tagHref(tag) }}
+  />
+</BaseLayout>

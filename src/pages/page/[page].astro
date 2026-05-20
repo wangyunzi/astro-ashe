@@ -1,0 +1,30 @@
+---
+import { asheConfig } from "../../ashe.config";
+import BlogList from "../../components/BlogList.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPublishedPosts } from "../../lib/content";
+import { paginatePosts, paginatedPageNumbers } from "../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+
+  return paginatedPageNumbers(posts)
+    .filter((page) => page > 1)
+    .map((page) => ({
+      params: { page: String(page) },
+      props: { page }
+    }));
+}
+
+const posts = await getPublishedPosts();
+const pageNumber = Number(Astro.props.page || Astro.params.page || 1);
+const postPage = paginatePosts(posts, pageNumber);
+---
+
+<BaseLayout
+  title={`第 ${postPage.pagination.currentPage} 页`}
+  description={asheConfig.site.description}
+  bodyClass="home blog paged"
+>
+  <BlogList posts={postPage.items} pagination={{ ...postPage.pagination, basePath: "/" }} />
+</BaseLayout>

@@ -1,0 +1,41 @@
+---
+import BlogList from "../../../../components/BlogList.astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getAllCategories, getPublishedPosts } from "../../../../lib/content";
+import { categoryHref, paginatePosts, paginatedPageNumbers, slugify } from "../../../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+
+  return getAllCategories(posts).flatMap((category) => {
+    const categoryPosts = posts.filter((post) => post.data.categories.includes(category));
+
+    return paginatedPageNumbers(categoryPosts)
+      .filter((page) => page > 1)
+      .map((page) => ({
+        params: { slug: slugify(category), page: String(page) },
+        props: { category, posts: categoryPosts, page }
+      }));
+  });
+}
+
+const category = Astro.props.category;
+const posts = Astro.props.posts || [];
+const pageNumber = Number(Astro.props.page || Astro.params.page || 1);
+const postPage = paginatePosts(posts, pageNumber);
+---
+
+<BaseLayout
+  title={`分类：${category} - 第 ${postPage.pagination.currentPage} 页`}
+  description={`分类 ${category} 下的文章`}
+  bodyClass="archive category paged"
+>
+  <BlogList
+    posts={postPage.items}
+    title={`分类：${category}`}
+    titleEn={`Category: ${category}`}
+    description={`分类 ${category} 下的文章。`}
+    descriptionEn={`Posts in ${category}.`}
+    pagination={{ ...postPage.pagination, basePath: categoryHref(category) }}
+  />
+</BaseLayout>

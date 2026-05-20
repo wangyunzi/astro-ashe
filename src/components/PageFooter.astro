@@ -1,0 +1,52 @@
+---
+import { asheConfig } from "../ashe.config";
+import FooterWidgets from "./FooterWidgets.astro";
+import NavMenu from "./NavMenu.astro";
+
+const footerClass = `${asheConfig.layout.footerWidth === "boxed" ? "boxed-wrapper " : ""}clear-fix`;
+const innerClass = `page-footer-inner ${
+  asheConfig.layout.footerWidth === "contained" ? "boxed-wrapper" : ""
+}`.trim();
+const year = new Date().getFullYear().toString();
+const copyright = asheConfig.footer.copyright
+  .replace("$year", year)
+  .replace("$copy", "&copy;");
+const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
+---
+
+<footer id="page-footer" class={footerClass}>
+  {
+    asheConfig.footer.showScrollTop ? (
+      <span class="scrolltop">
+        <i class="fa-solid fa-angle-up"></i>
+      </span>
+    ) : null
+  }
+
+  <div class={innerClass}>
+    <FooterWidgets />
+
+    <div class="footer-copyright">
+      <div
+        class="copyright-info"
+        data-i18n-html-zh-cn={copyright}
+        data-i18n-html-en={copyrightEn}
+        set:html={copyright}
+      ></div>
+
+      <nav class="footer-menu-container" aria-label="页脚菜单" data-i18n-aria-label="ui.footerMenu">
+        <NavMenu id="footer-menu" items={asheConfig.footer.menu} />
+      </nav>
+
+      {
+        asheConfig.footer.showCredit ? (
+          <div class="credit">
+            <span data-i18n="footer.creditBefore">Ashe 主题由</span>{" "}
+            <a href="https://wp-royal-themes.com/">WP Royal</a>{" "}
+            <span data-i18n="footer.creditAfter">提供。Astro 移植版。</span>
+          </div>
+        ) : null
+      }
+    </div>
+  </div>
+</footer>

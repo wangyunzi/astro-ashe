@@ -1,0 +1,114 @@
+---
+import { asheConfig, type HomeLayout } from "../ashe.config";
+import {
+  layoutHasLeftSidebar,
+  layoutHasRightSidebar,
+  layoutIsList,
+  type PaginationState,
+  stripHtml,
+  postSummary,
+  type PostEntry
+} from "../lib/ashe";
+import BlogPagination from "./BlogPagination.astro";
+import PostCard from "./PostCard.astro";
+import Sidebar from "./Sidebar.astro";
+
+interface Props {
+  posts: PostEntry[];
+  title?: string;
+  titleEn?: string;
+  description?: string;
+  descriptionEn?: string;
+  layout?: HomeLayout;
+  pagination?: PaginationState & { basePath: string };
+  search?: boolean;
+}
+
+const {
+  posts,
+  title,
+  titleEn,
+  description,
+  descriptionEn,
+  layout = asheConfig.layout.homeLayout,
+  pagination,
+  search = false
+} = Astro.props;
+const mainClass = `main-content clear-fix${
+  asheConfig.layout.contentWidth === "boxed" ? " boxed-wrapper" : ""
+}`;
+const hasLeftSidebar = layoutHasLeftSidebar(layout);
+const hasRightSidebar = layoutHasRightSidebar(layout);
+const list = layoutIsList(layout);
+---
+
+<div class={mainClass} data-layout={layout} data-sidebar-sticky={String(asheConfig.layout.sidebarSticky)}>
+  {hasLeftSidebar ? <Sidebar side="left" /> : null}
+
+  <div class="main-container">
+    {
+      title || description ? (
+        <div class="category-description">
+          {title ? <h4 data-i18n-en={titleEn}>{title}</h4> : null}
+          {description ? <p data-i18n-en={descriptionEn}>{description}</p> : null}
+          {
+            search ? (
+              <form class="search-page-form" action="/search/" method="get" role="search" data-search-page-form>
+                <input
+                  type="search"
+                  name="q"
+                  placeholder="搜索文章..."
+                  data-i18n-placeholder="search.inputPlaceholder"
+                />
+              </form>
+            ) : null
+          }
+        </div>
+      ) : null
+    }
+
+    <ul class="blog-grid">
+      {
+        posts.length ? (
+          posts.map((post) => (
+            <li
+              data-search-item={stripHtml(
+                [
+                  post.data.title,
+                  postSummary(post),
+                  post.body || "",
+                  post.data.author,
+                  post.data.categories.join(" "),
+                  post.data.tags.join(" ")
+                ].join(" ")
+              )}
+            >
+              <PostCard post={post} list={list} />
+            </li>
+          ))
+        ) : (
+          <li>
+            <div class="no-result-found">
+              <h3 data-i18n="blog.noResultsTitle">没有找到内容</h3>
+              <p data-i18n="blog.noResultsText">没有文章匹配当前搜索条件。</p>
+            </div>
+          </li>
+        )
+      }
+      {
+        search ? (
+          <li class="search-no-results" data-search-empty hidden>
+            <div class="no-result-found">
+              <h3 data-i18n="blog.noResultsTitle">没有找到内容</h3>
+              <p data-i18n="blog.noResultsText">没有文章匹配当前搜索条件。</p>
+            </div>
+          </li>
+        ) : null
+      }
+    </ul>
+
+    {pagination && pagination.totalPages > 1 ? <BlogPagination pagination={pagination} /> : null}
+  </div>
+
+  {hasRightSidebar ? <Sidebar side="right" /> : null}
+</div>

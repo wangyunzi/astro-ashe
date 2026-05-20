@@ -1,0 +1,7 @@
+---
+import { buildDynamicCss } from "../lib/ashe";
+
+const css = buildDynamicCss();
+---
+
+<style id="ashe_dynamic_css" set:html={css}></style>

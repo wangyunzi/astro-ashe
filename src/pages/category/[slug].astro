@@ -1,0 +1,34 @@
+---
+import BlogList from "../../components/BlogList.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAllCategories, getPublishedPosts, findBySlug } from "../../lib/content";
+import { categoryHref, paginatePosts, slugify } from "../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return getAllCategories(posts).map((category) => ({
+    params: { slug: slugify(category) },
+    props: {
+      category,
+      posts: posts.filter((post) => post.data.categories.includes(category))
+    }
+  }));
+}
+
+const allPosts = await getPublishedPosts();
+const { slug } = Astro.params;
+const category = Astro.props.category || findBySlug(getAllCategories(allPosts), slug || "");
+const posts = Astro.props.posts || [];
+const postPage = paginatePosts(posts, 1);
+---
+
+<BaseLayout title={`分类：${category}`} description={`分类 ${category} 下的文章`} bodyClass="archive category">
+  <BlogList
+    posts={postPage.items}
+    title={`分类：${category}`}
+    titleEn={`Category: ${category}`}
+    description={`分类 ${category} 下的文章。`}
+    descriptionEn={`Posts in ${category}.`}
+    pagination={{ ...postPage.pagination, basePath: categoryHref(category) }}
+  />
+</BaseLayout>

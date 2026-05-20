@@ -1,0 +1,25 @@
+---
+import { getPageByPermalink, getPublishedPages } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const pages = await getPublishedPages();
+  return pages
+    .filter((page) => !["about", "links"].includes(page.slug))
+    .map((page) => page.data.permalink)
+    .filter((permalink) => permalink !== "/")
+    .map((permalink) => ({
+      params: {
+        slug: permalink.replace(/^\/+|\/+$/g, "")
+      }
+    }));
+}
+
+const slug = Astro.params.slug || "";
+const page = await getPageByPermalink(`/${slug}/`);
+
+if (!page) {
+  return Astro.redirect("/404");
+}
+
+return Astro.redirect(page.data.permalink, 301);
+---

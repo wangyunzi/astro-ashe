@@ -1,0 +1,29 @@
+---
+import { asheConfig } from "../ashe.config";
+
+const { site } = asheConfig;
+const titleIsHidden = !site.showHeaderText || site.headerTextColor === "blank";
+---
+
+<div class="entry-header">
+  <div class="cv-outer">
+    <div class="cv-inner">
+      <div class="header-logo">
+        {
+          site.logo ? (
+            <a href="/" title={site.title} class="logo-img">
+              <img src={site.logo} alt={site.title} />
+            </a>
+          ) : (
+            <h1 style={titleIsHidden ? "display: none;" : undefined}>
+              <a href="/" class="header-logo-a">
+                {site.title}
+              </a>
+            </h1>
+          )
+        }
+        {site.showTagline ? <p class="site-description" data-i18n-en={site.descriptionEn}>{site.description}</p> : null}
+      </div>
+    </div>
+  </div>
+</div>

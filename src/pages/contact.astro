@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageShell from "../components/PageShell.astro";
+---
+
+<BaseLayout title="联系" description="联系页面" bodyClass="page page-contact">
+  <PageShell title="联系" titleEn="Contact">
+    <p data-i18n-en="Add your contact details here, or replace this with the Astro form integration you prefer.">
+      在这里添加你的联系方式，或替换为你偏好的 Astro 表单集成方案。
+    </p>
+    <p data-i18n-en="The form controls below reuse Ashe's existing input and textarea styles.">
+      下方表单控件会复用 Ashe 已有的输入框和文本域样式。
+    </p>
+    <form class="wpcf7">
+      <p>
+        <label><span data-i18n="contact.name">姓名</span><input type="text" name="name" /></label>
+      </p>
+      <p>
+        <label><span data-i18n="contact.email">邮箱</span><input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label><span data-i18n="contact.message">留言</span><textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button class="submit" type="submit" data-i18n="contact.send">发送</button>
+      </p>
+    </form>
+  </PageShell>
+</BaseLayout>

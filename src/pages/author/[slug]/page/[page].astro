@@ -1,0 +1,41 @@
+---
+import BlogList from "../../../../components/BlogList.astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { getAllAuthors, getPublishedPosts } from "../../../../lib/content";
+import { authorHref, paginatePosts, paginatedPageNumbers, slugify } from "../../../../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+
+  return getAllAuthors(posts).flatMap((author) => {
+    const authorPosts = posts.filter((post) => post.data.author === author);
+
+    return paginatedPageNumbers(authorPosts)
+      .filter((page) => page > 1)
+      .map((page) => ({
+        params: { slug: slugify(author), page: String(page) },
+        props: { author, posts: authorPosts, page }
+      }));
+  });
+}
+
+const author = Astro.props.author;
+const posts = Astro.props.posts || [];
+const pageNumber = Number(Astro.props.page || Astro.params.page || 1);
+const postPage = paginatePosts(posts, pageNumber);
+---
+
+<BaseLayout
+  title={`作者：${author} - 第 ${postPage.pagination.currentPage} 页`}
+  description={`${author} 发布的文章`}
+  bodyClass="archive author paged"
+>
+  <BlogList
+    posts={postPage.items}
+    title={`作者：${author}`}
+    titleEn={`Author: ${author}`}
+    description={`${author} 发布的文章。`}
+    descriptionEn={`Posts published by ${author}.`}
+    pagination={{ ...postPage.pagination, basePath: authorHref(author) }}
+  />
+</BaseLayout>

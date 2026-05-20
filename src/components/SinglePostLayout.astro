@@ -1,0 +1,130 @@
+---
+import { asheConfig } from "../ashe.config";
+import {
+  authorHref,
+  categoryHref,
+  formatDate,
+  postCover,
+  layoutHasLeftSidebar,
+  layoutHasRightSidebar,
+  tagHref,
+  type PostEntry
+} from "../lib/ashe";
+import AuthorDescription from "./AuthorDescription.astro";
+import RelatedPosts from "./RelatedPosts.astro";
+import Sidebar from "./Sidebar.astro";
+import TwikooComments from "./TwikooComments.astro";
+
+interface Props {
+  post: PostEntry;
+  related: PostEntry[];
+}
+
+const { post, related } = Astro.props;
+const mainClass = `main-content clear-fix${
+  asheConfig.layout.singleWidth === "boxed" ? " boxed-wrapper" : ""
+}`;
+const hasLeftSidebar = layoutHasLeftSidebar(asheConfig.layout.homeLayout);
+const hasRightSidebar = layoutHasRightSidebar(asheConfig.layout.homeLayout);
+const cover = postCover(post);
+const articleClass = [
+  "blog-post",
+  "post",
+  cover && "has-post-thumbnail",
+  asheConfig.blog.showDropcaps && "ashe-dropcaps"
+]
+  .filter(Boolean)
+  .join(" ");
+---
+
+<div class={mainClass} data-sidebar-sticky={String(asheConfig.layout.sidebarSticky)}>
+  {hasLeftSidebar ? <Sidebar side="left" /> : null}
+
+  <div class="main-container">
+    <article class={articleClass}>
+      {
+        asheConfig.single.showFeaturedImage && cover ? (
+          <div class="post-media">
+            <img src={cover} alt={post.data.title} />
+          </div>
+        ) : null
+      }
+
+      <header class="post-header">
+        {
+          asheConfig.single.showCategories && post.data.categories.length ? (
+            <div class="post-categories">
+              {post.data.categories.map((category, index) => (
+                <>
+                  <a href={categoryHref(category)}>{category}</a>
+                  {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;</> : null}
+                </>
+              ))}
+            </div>
+          ) : null
+        }
+
+        <h1 class="post-title">{post.data.title}</h1>
+
+        {
+          asheConfig.single.showDate || asheConfig.single.showComments ? (
+            <div class="post-meta clear-fix">
+              {asheConfig.single.showDate ? (
+                <time class="post-date" datetime={post.data.date.toISOString()} data-i18n-date>
+                  {formatDate(post.data.date)}
+                </time>
+              ) : null}
+              {asheConfig.single.showComments ? (
+                <>
+                  <span class="meta-sep">/</span>
+                  <a class="post-comments" href="#comments" data-i18n="post.comments">
+                    评论
+                  </a>
+                </>
+              ) : null}
+            </div>
+          ) : null
+        }
+      </header>
+
+      <div class="post-content">
+        <slot />
+      </div>
+
+      <footer class="post-footer">
+        {
+          post.data.tags.length ? (
+            <div class="post-tags">
+              {post.data.tags.map((tag) => (
+                <a href={tagHref(tag)}>{tag}</a>
+              ))}
+            </div>
+          ) : null
+        }
+
+        {
+          asheConfig.single.showAuthor ? (
+            <span class="post-author">
+              <span data-i18n="post.authorLabel">作者：</span>
+              <a href={authorHref(post.data.author)}>{post.data.author}</a>
+            </span>
+          ) : null
+        }
+
+        {
+          asheConfig.single.showComments ? (
+            <a class="post-comments" href="#comments" data-i18n="post.comments">
+              评论
+            </a>
+          ) : null
+        }
+      </footer>
+    </article>
+
+    {asheConfig.single.showAuthorDescription ? <AuthorDescription post={post} /> : null}
+    <RelatedPosts posts={related} />
+    {asheConfig.single.showComments ? <TwikooComments post={post} /> : null}
+  </div>
+
+  {hasRightSidebar ? <Sidebar side="right" /> : null}
+</div>

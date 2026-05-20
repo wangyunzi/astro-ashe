@@ -1,0 +1,108 @@
+---
+import { asheConfig } from "../ashe.config";
+import { getAllCategories, getAllTags, getPublishedPosts } from "../lib/content";
+import { categoryHref, formatDate, postHref, tagHref } from "../lib/ashe";
+import SocialLinks from "./SocialLinks.astro";
+
+interface Props {
+  variant?: "sidebar" | "alt" | "footer";
+}
+
+const { variant = "sidebar" } = Astro.props;
+const posts = await getPublishedPosts();
+const recentPosts = posts.slice(0, 4);
+const categories = getAllCategories(posts);
+const tags = getAllTags(posts).slice(0, 12);
+const sidebarAbout = asheConfig.sidebar.about;
+const footerAbout = asheConfig.footer.about;
+const footerWidgets = asheConfig.footer.widgets;
+const about = variant === "footer" ? footerAbout : sidebarAbout;
+const aboutImage = variant === "alt" && sidebarAbout.altImage ? sidebarAbout.altImage : about.image;
+const aboutTranslation = about.translations?.en;
+const aboutTitleEn = aboutTranslation?.title;
+const showAbout = about.enabled && (variant !== "footer" || footerWidgets.showAbout);
+const showRecentPosts = variant !== "footer" || footerWidgets.showRecentPosts;
+const showTags = variant !== "footer" || footerWidgets.showTags;
+---
+
+{
+  showAbout ? (
+    <section class="ashe-widget widget_text">
+      <div class="widget-title">
+        <h2 data-i18n-en={aboutTitleEn}>{about.title}</h2>
+      </div>
+      {aboutImage ? (
+        <p>
+          <img src={aboutImage} alt={about.imageAlt} data-i18n-alt-en={aboutTranslation?.imageAlt} />
+        </p>
+      ) : null}
+      {about.paragraphs.map((paragraph, index) => (
+        <p data-i18n-en={aboutTranslation?.paragraphs?.[index]}>{paragraph}</p>
+      ))}
+    </section>
+  ) : null
+}
+
+{
+  variant !== "footer" ? (
+    <section class="ashe-widget ashe_social_widget">
+      <div class="widget-title">
+        <h2 data-i18n="sidebar.follow">关注我</h2>
+      </div>
+      <SocialLinks className="social-icons" />
+    </section>
+  ) : null
+}
+
+{
+  showRecentPosts ? (
+    <section class="ashe-widget widget_recent_entries">
+      <div class="widget-title">
+        <h2 data-i18n="sidebar.recentPosts">最新文章</h2>
+      </div>
+      <ul>
+        {recentPosts.map((post) => (
+          <li>
+            <a class="rpwwt-post-title" href={postHref(post)}>{post.data.title}</a>
+            <span class="rpwwt-post-date">
+              <time datetime={post.data.date.toISOString()} data-i18n-date>
+                {formatDate(post.data.date)}
+              </time>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : null
+}
+
+{
+  variant !== "footer" ? (
+    <section class="ashe-widget widget_categories">
+      <div class="widget-title">
+        <h2 data-i18n="sidebar.categories">分类</h2>
+      </div>
+      <ul>
+        {categories.map((category) => (
+          <li>
+            <a href={categoryHref(category)}>{category}</a>
+            {posts.filter((post) => post.data.categories.includes(category)).length}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : null
+}
+
+{
+  showTags ? (
+    <section class="ashe-widget widget_tag_cloud">
+      <div class="widget-title">
+        <h2 data-i18n="sidebar.tags">标签</h2>
+      </div>
+      <div class="tagcloud">
+        {tags.map((tag) => <a href={tagHref(tag)}>{tag}</a>)}
+      </div>
+    </section>
+  ) : null
+}

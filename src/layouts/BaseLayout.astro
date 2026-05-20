@@ -1,0 +1,77 @@
+---
+import { asheConfig } from "../ashe.config";
+import DynamicAsheStyle from "../components/DynamicAsheStyle.astro";
+import MainNavigation from "../components/MainNavigation.astro";
+import PageFooter from "../components/PageFooter.astro";
+import PageHeader from "../components/PageHeader.astro";
+import SidebarAlt from "../components/SidebarAlt.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  bodyClass?: string;
+}
+
+const {
+  title = asheConfig.site.title,
+  description = asheConfig.site.description,
+  bodyClass = ""
+} = Astro.props;
+const pageTitle = title === asheConfig.site.title ? title : `${title} - ${asheConfig.site.title}`;
+const headerClass = asheConfig.layout.headerWidth === "boxed" ? "boxed-wrapper" : undefined;
+const bodyClasses = [
+  "ashe-astro",
+  asheConfig.site.showHeaderText ? "title-tagline-shown" : "title-tagline-hidden",
+  bodyClass
+]
+  .filter(Boolean)
+  .join(" ");
+const rssUrl = new URL(asheConfig.rss.path, `${asheConfig.site.url.replace(/\/$/, "")}/`).toString();
+---
+
+<!doctype html>
+<html lang={asheConfig.site.language}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+    <link rel="alternate" type="application/rss+xml" title={`${asheConfig.site.title} RSS`} href={rssUrl} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Kalam:wght@400;700&family=Rokkitt:wght@400;600&display=swap"
+    />
+
+    <link rel="stylesheet" href="/ashe/assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/ashe/assets/css/fontello.css" />
+    <link rel="stylesheet" href="/ashe/assets/css/slick.css" />
+    <link rel="stylesheet" href="/ashe/assets/css/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="/ashe/style.css" />
+    <link rel="stylesheet" href="/ashe/assets/css/responsive.css" />
+    <DynamicAsheStyle />
+    <link rel="stylesheet" href="/ashe/ashe-astro.css" />
+    <slot name="head" />
+  </head>
+
+  <body class={bodyClasses}>
+    <div id="page-wrap">
+      <div id="page-header" class={headerClass}>
+        <PageHeader />
+        <MainNavigation />
+      </div>
+
+      <div class="page-content">
+        <SidebarAlt />
+        <slot />
+      </div>
+
+      <PageFooter />
+    </div>
+
+    <script src="/ashe/ashe-astro.js" defer></script>
+    <slot name="scripts" />
+  </body>
+</html>

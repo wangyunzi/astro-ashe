@@ -1,0 +1,17 @@
+---
+import SidebarWidgets from "./SidebarWidgets.astro";
+
+interface Props {
+  side: "left" | "right";
+}
+
+const { side } = Astro.props;
+const wrapClass = side === "left" ? "sidebar-left-wrap" : "sidebar-right-wrap";
+const asideClass = side === "left" ? "sidebar-left" : "sidebar-right";
+---
+
+<div class={wrapClass}>
+  <aside class={asideClass}>
+    <SidebarWidgets side={side} />
+  </aside>
+</div>

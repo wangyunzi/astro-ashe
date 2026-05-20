@@ -1,0 +1,22 @@
+---
+import { asheConfig } from "../ashe.config";
+
+interface Props {
+  className: string;
+}
+
+const { className } = Astro.props;
+const target = asheConfig.social.openInNewWindow ? "_blank" : "_self";
+---
+
+<div class={className}>
+  {
+    asheConfig.social.links
+      .filter((link) => link.url)
+      .map((link) => (
+        <a href={link.url} target={target} rel={target === "_blank" ? "noreferrer" : undefined} aria-label={link.label}>
+          <i class={link.icon}></i>
+        </a>
+      ))
+  }
+</div>

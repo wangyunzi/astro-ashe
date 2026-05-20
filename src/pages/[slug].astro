@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageShell from "../components/PageShell.astro";
+import { getPublishedPages } from "../lib/content";
+
+export async function getStaticPaths() {
+  const pages = await getPublishedPages();
+  return pages
+    .filter((page) => !["about", "links"].includes(page.slug))
+    .map((page) => ({
+      params: { slug: page.slug },
+      props: { page }
+    }));
+}
+
+const { page } = Astro.props;
+const { Content } = await page.render();
+const description = page.data.description || page.data.title;
+---
+
+<BaseLayout title={page.data.title} description={description} bodyClass={`page page-${page.slug}`}>
+  <PageShell title={page.data.title} titleEn={page.data.titleEn}>
+    <Content />
+  </PageShell>
+</BaseLayout>

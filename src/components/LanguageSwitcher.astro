@@ -1,0 +1,53 @@
+---
+import { asheConfig } from "../ashe.config";
+
+const { languageSwitcher } = asheConfig;
+const currentLanguage =
+  languageSwitcher.options.find((option) => option.locale === languageSwitcher.current) ??
+  languageSwitcher.options[0];
+---
+
+{
+  languageSwitcher.options.length ? (
+    <div class="language-switcher" data-language-switcher data-default-language={languageSwitcher.current}>
+      <button
+        class="language-switcher-button"
+        type="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+        aria-label={languageSwitcher.label}
+        title={languageSwitcher.label}
+        data-i18n-aria-label="language.label"
+        data-i18n-title="language.label"
+      >
+        <i class="fa-solid fa-language" aria-hidden="true"></i>
+        <span class="screen-reader-text" data-i18n="language.label">{languageSwitcher.label}</span>
+      </button>
+
+      <div
+        class="language-switcher-menu"
+        role="menu"
+        aria-label={languageSwitcher.label}
+        data-i18n-aria-label="language.label"
+      >
+        {languageSwitcher.options.map((option) => {
+          const isCurrent = option.locale === currentLanguage.locale;
+
+          return (
+            <a
+              href={option.href}
+              hreflang={option.locale}
+              lang={option.locale}
+              role="menuitem"
+              aria-current={isCurrent ? "true" : undefined}
+              data-language-option={option.locale}
+            >
+              <span>{option.label}</span>
+              <i class="fa-solid fa-check language-option-check" aria-hidden="true"></i>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  ) : null
+}

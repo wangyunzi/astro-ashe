@@ -1,0 +1,112 @@
+---
+import { asheConfig } from "../ashe.config";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
+import NavMenu from "./NavMenu.astro";
+
+const enabled = asheConfig.navigation.enabled;
+const innerClass = asheConfig.layout.headerWidth === "contained" ? "boxed-wrapper" : undefined;
+---
+
+{
+  enabled ? (
+    <div id="main-nav" class="clear-fix">
+      <div class={innerClass}>
+        {asheConfig.navigation.showAltSidebar ? (
+          <div
+            class="main-nav-sidebar"
+            role="button"
+            tabindex="0"
+            aria-label="打开侧边栏"
+            data-i18n-aria-label="ui.openSidebar"
+          >
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        ) : null}
+
+        {asheConfig.navigation.miniLogo.src ? (
+          <div class="mini-logo">
+            <a href="/" title={asheConfig.site.title}>
+              <img src={asheConfig.navigation.miniLogo.src} alt={asheConfig.site.title} />
+            </a>
+          </div>
+        ) : null
+        }
+
+        <div class="main-nav-icons">
+          {asheConfig.darkMode.enabled ? (
+            <div
+              class="dark-mode-switcher"
+              role="button"
+              tabindex="0"
+              aria-label="切换明暗模式"
+              data-i18n-aria-label="ui.toggleDarkMode"
+            >
+              <i class="fa-regular fa-moon" aria-hidden="true"></i>
+            </div>
+          ) : null}
+
+          {asheConfig.languageSwitcher.enabled ? <LanguageSwitcher /> : null}
+
+          {asheConfig.navigation.showSearch ? (
+            <div
+              class="main-nav-search"
+              role="button"
+              tabindex="0"
+              aria-label="搜索"
+              data-i18n-aria-label="ui.search"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          ) : null}
+
+          {asheConfig.rss.enabled ? (
+            <a
+              class="main-nav-rss"
+              href={asheConfig.rss.path}
+              aria-label={asheConfig.rss.label}
+              title={asheConfig.rss.label}
+              data-i18n-aria-label="rss.label"
+              data-i18n-title="rss.label"
+            >
+              <i class="fa-solid fa-rss" aria-hidden="true"></i>
+              <span class="screen-reader-text" data-i18n="rss.label">{asheConfig.rss.label}</span>
+            </a>
+          ) : null}
+        </div>
+
+        {asheConfig.navigation.showSearch ? (
+          <form id="searchform" action="/search/" method="get" role="search">
+            <label class="screen-reader-text" for="s" data-i18n="ui.search">
+              搜索
+            </label>
+            <input id="s" type="search" name="q" data-placeholder="搜索..." data-i18n-placeholder="ui.searchPlaceholder" />
+            <button id="searchsubmit" type="submit" data-i18n="ui.search">
+              搜索
+            </button>
+          </form>
+        ) : null}
+
+        <nav class="main-menu-container" aria-label="主菜单" data-i18n-aria-label="ui.mainMenu">
+          <NavMenu id="main-menu" items={asheConfig.navigation.menu} />
+        </nav>
+
+        <span class="mobile-menu-btn">
+          {asheConfig.navigation.mobileIcon === "chevron-down" ? (
+            <i class="fa-solid fa-chevron-down"></i>
+          ) : (
+            <a data-i18n="ui.mobileMenuButton">{asheConfig.navigation.mobileText}</a>
+          )}
+        </span>
+
+        <nav class="mobile-menu-container" aria-label="移动端菜单" data-i18n-aria-label="ui.mobileMenu">
+          <NavMenu id="mobile-menu" items={asheConfig.navigation.menu} mobile />
+        </nav>
+      </div>
+    </div>
+  ) : null
+}

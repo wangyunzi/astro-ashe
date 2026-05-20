@@ -1,0 +1,25 @@
+---
+import { asheConfig } from "../ashe.config";
+
+const links = asheConfig.featuredLinks.items.filter((item) => item.image);
+const className = `${asheConfig.layout.linksWidth === "boxed" ? " boxed-wrapper" : ""} clear-fix`;
+---
+
+{
+  asheConfig.featuredLinks.enabled && links.length ? (
+    <div id="featured-links" class={className}>
+      {links.map((item) => (
+        <div class="featured-link">
+          <img src={item.image} alt={item.title} />
+          <a href={item.href}>
+            <div class="cv-outer">
+              <div class="cv-inner">
+                <h6>{item.title}</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+      ))}
+    </div>
+  ) : null
+}

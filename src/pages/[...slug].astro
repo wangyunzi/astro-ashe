@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SinglePostLayout from "../components/SinglePostLayout.astro";
+import { getPublishedPosts, relatedPosts } from "../lib/content";
+import { excerpt, postRouteParam, postSummary } from "../lib/ashe";
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => ({
+    params: { slug: postRouteParam(post) },
+    props: { post, posts }
+  }));
+}
+
+const { post, posts } = Astro.props;
+const { Content } = await post.render();
+const related = relatedPosts(posts, post);
+const description = excerpt(postSummary(post)) || post.data.title;
+---
+
+<BaseLayout title={post.data.title} description={description} bodyClass="single single-post">
+  <SinglePostLayout post={post} related={related}>
+    <Content />
+  </SinglePostLayout>
+</BaseLayout>

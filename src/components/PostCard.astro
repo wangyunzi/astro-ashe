@@ -1,0 +1,121 @@
+---
+import { asheConfig } from "../ashe.config";
+import {
+  authorHref,
+  categoryHref,
+  excerpt,
+  formatDate,
+  postCover,
+  postHref,
+  postSummary,
+  type PostEntry
+} from "../lib/ashe";
+
+interface Props {
+  post: PostEntry;
+  list?: boolean;
+}
+
+const { post, list = false } = Astro.props;
+const articleClass = [
+  "blog-post",
+  "post",
+  postCover(post) && "has-post-thumbnail",
+  list && "clear-fix",
+  asheConfig.blog.showDropcaps && "ashe-dropcaps"
+]
+  .filter(Boolean)
+  .join(" ");
+const description =
+  asheConfig.blog.postDescription === "excerpt"
+    ? excerpt(postSummary(post), asheConfig.blog.excerptWords)
+    : postSummary(post);
+const cover = postCover(post);
+---
+
+<article class={articleClass}>
+  {
+    cover ? (
+      <div class="post-media">
+        <a href={postHref(post)} aria-label={post.data.title}></a>
+        <img src={cover} alt={post.data.title} />
+      </div>
+    ) : null
+  }
+
+  <div class="post-content-wrap">
+    <header class="post-header">
+      {
+        asheConfig.blog.showCategories && post.data.categories.length ? (
+          <div class="post-categories">
+            {post.data.categories.map((category, index) => (
+              <>
+                <a href={categoryHref(category)}>{category}</a>
+                {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;</> : null}
+              </>
+            ))}
+          </div>
+        ) : null
+      }
+
+      <h2 class="post-title">
+        <a href={postHref(post)}>{post.data.title}</a>
+      </h2>
+
+      {
+        asheConfig.blog.showDate || asheConfig.blog.showComments ? (
+          <div class="post-meta clear-fix">
+            {list && asheConfig.blog.showAuthor ? (
+              <>
+                <span class="post-author">
+                  <a href={authorHref(post.data.author)}>{post.data.author}</a>
+                </span>
+                <span class="meta-sep">/</span>
+              </>
+            ) : null}
+            {asheConfig.blog.showDate ? (
+              <time class="post-date" datetime={post.data.date.toISOString()} data-i18n-date>
+                {formatDate(post.data.date)}
+              </time>
+            ) : null}
+            {asheConfig.blog.showComments ? (
+              <>
+                <span class="meta-sep">/</span>
+                <a class="post-comments" href={`${postHref(post)}#comments`} data-i18n="post.comments">
+                  评论
+                </a>
+              </>
+            ) : null}
+          </div>
+        ) : null
+      }
+    </header>
+
+    {
+      asheConfig.blog.postDescription !== "none" ? (
+        <div class="post-content">
+          <p>{description}</p>
+        </div>
+      ) : null
+    }
+
+    <div class="read-more">
+      <a href={postHref(post)} data-i18n="post.readMore">阅读更多</a>
+    </div>
+  </div>
+
+  {
+    !list ? (
+      <footer class="post-footer">
+        {asheConfig.blog.showAuthor ? (
+          <span class="post-author">
+            <a href={authorHref(post.data.author)}>
+              <img src="/ashe/assets/images/img12.jpg" alt="" width="30" height="30" />
+            </a>
+            <a href={authorHref(post.data.author)}>{post.data.author}</a>
+          </span>
+        ) : null}
+      </footer>
+    ) : null
+  }
+</article>

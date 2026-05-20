@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageShell from "../components/PageShell.astro";
+import { getPageBySlug } from "../lib/content";
+
+const page = await getPageBySlug("about");
+
+if (!page) {
+  throw new Error('Missing content page: about');
+}
+
+const { Content } = await page.render();
+const description = page.data.description || page.data.title;
+---
+
+<BaseLayout title={page.data.title} description={description} bodyClass="page page-about">
+  <PageShell title={page.data.title} titleEn={page.data.titleEn}>
+    <Content />
+  </PageShell>
+</BaseLayout>

@@ -1,0 +1,106 @@
+---
+import { asheConfig } from "../ashe.config";
+import { extractMarkdownImages, formatDate, type AlbumEntry } from "../lib/ashe";
+import { layoutHasLeftSidebar, layoutHasRightSidebar } from "../lib/ashe";
+import Sidebar from "./Sidebar.astro";
+
+interface Props {
+  album: AlbumEntry;
+}
+
+const { album } = Astro.props;
+const images = extractMarkdownImages(album.body);
+const mainClass = `main-content clear-fix${
+  asheConfig.layout.singleWidth === "boxed" ? " boxed-wrapper" : ""
+}`;
+const hasLeftSidebar = layoutHasLeftSidebar(asheConfig.layout.homeLayout);
+const hasRightSidebar = layoutHasRightSidebar(asheConfig.layout.homeLayout);
+
+const thumbnailUrl = (src: string, format?: "avif" | "webp") => {
+  const separator = src.includes("?") ? "&" : "?";
+  const suffix = format ? `/format/${format}` : "";
+  return `${src}${separator}imageMogr2/thumbnail/x400${suffix}`;
+};
+
+const imagePreview = (src: string) => {
+  if (!src.startsWith("http") || src.includes("imageMogr2")) {
+    return {
+      thumbnail: src,
+      avif: "",
+      webp: ""
+    };
+  }
+
+  return {
+    thumbnail: thumbnailUrl(src),
+    avif: thumbnailUrl(src, "avif"),
+    webp: thumbnailUrl(src, "webp")
+  };
+};
+
+const galleryImages = images.map((image) => ({
+  ...image,
+  preview: imagePreview(image.src)
+}));
+---
+
+<div class={mainClass} data-sidebar-sticky={String(asheConfig.layout.sidebarSticky)}>
+  {hasLeftSidebar ? <Sidebar side="left" /> : null}
+
+  <div class="main-container">
+    <section class="page album-page">
+      <header class="post-header">
+        <h1 class="page-title">{album.data.title}</h1>
+        <div class="post-meta clear-fix">
+          <time class="post-date" datetime={album.data.date.toISOString()} data-i18n-date>
+            {formatDate(album.data.date)}
+          </time>
+        </div>
+      </header>
+
+      <div id="main" class="album-main">
+        <div class="inner">
+          {
+            images.length ? (
+              <div class="gallery-container">
+                {galleryImages.map((image) => (
+                  <div class="picture-container">
+                    <a
+                      class="lazy-image-shell"
+                      target="_blank"
+                      rel="noopener"
+                      href={image.src}
+                      data-lightbox={album.data.title}
+                      data-title={image.title || image.alt}
+                    >
+                      <picture>
+                        {image.preview.avif ? <source srcset={image.preview.avif} type="image/avif" /> : null}
+                        {image.preview.webp ? <source srcset={image.preview.webp} type="image/webp" /> : null}
+                        <img
+                          src={image.preview.thumbnail}
+                          alt={image.alt}
+                          class="img-thumbnail js-lazy-image"
+                          loading="lazy"
+                          decoding="async"
+                          width="400"
+                          height="300"
+                        />
+                      </picture>
+                    </a>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div class="no-result-found">
+                <h3>这个相簿还没有图片</h3>
+                <p>请在相册 Markdown 文件中使用图片语法添加照片。</p>
+              </div>
+            )
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+
+  {hasRightSidebar ? <Sidebar side="right" /> : null}
+</div>

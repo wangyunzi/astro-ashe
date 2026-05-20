@@ -1,0 +1,149 @@
+---
+import { asheConfig } from "../ashe.config";
+import { postHref, type PostEntry } from "../lib/ashe";
+
+interface Props {
+  post: PostEntry;
+}
+
+const { post } = Astro.props;
+const comments = asheConfig.comments;
+const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
+---
+
+{
+  comments.enabled ? (
+    <section class="comments-area" id="comments">
+      {!comments.envId ? (
+        <p
+          class="twikoo-config-notice"
+          data-i18n-html-en="Twikoo is ready. Set <code>comments.envId</code> in <code>src/ashe.config.ts</code> to enable the comment box."
+        >
+          Twikoo 已就绪。请在 <code>src/ashe.config.ts</code> 中设置 <code>comments.envId</code> 以启用评论框。
+        </p>
+      ) : null}
+
+      <div id="twikoo">
+        {comments.envId ? <p class="twikoo-config-notice" data-i18n="comments.loading">评论加载中...</p> : null}
+      </div>
+
+      {comments.envId ? (
+        <script
+          define:vars={{
+            twikooCdn: comments.cdn,
+            twikooEnvId: comments.envId,
+            twikooPath: path,
+            twikooLang: comments.lang
+          }}
+        >
+          var twikooRoot = document.querySelector("#twikoo");
+          var twikooTextMap = {
+            "zh-CN": {
+              loadFailed: "评论加载失败：",
+              clientInvalid: "Twikoo 客户端未正确初始化",
+              clientMissingInit: "Twikoo 客户端未提供可用的初始化方法",
+              scriptFailed: "无法加载 Twikoo 客户端脚本",
+              unknownError: "未知错误"
+            },
+            en: {
+              loadFailed: "Failed to load comments: ",
+              clientInvalid: "The Twikoo client did not initialize correctly",
+              clientMissingInit: "The Twikoo client did not provide a usable init method",
+              scriptFailed: "Unable to load the Twikoo client script",
+              unknownError: "Unknown error"
+            }
+          };
+
+          function getTwikooLanguage(defaultLang) {
+            try {
+              var queryLang = new URLSearchParams(window.location.search).get("lang");
+              var storedLang = window.localStorage.getItem("asheLanguage");
+              var lang = queryLang || storedLang || defaultLang || "zh-CN";
+
+              return twikooTextMap[lang] ? lang : "zh-CN";
+            } catch (error) {
+              return defaultLang || "zh-CN";
+            }
+          }
+
+          function twikooText(key) {
+            var lang = getTwikooLanguage(twikooLang);
+            return (twikooTextMap[lang] && twikooTextMap[lang][key]) || twikooTextMap["zh-CN"][key];
+          }
+
+          function showTwikooError(message) {
+            if (!twikooRoot) return;
+            twikooRoot.innerHTML = "";
+            var notice = document.createElement("p");
+            notice.className = "twikoo-config-notice";
+            notice.textContent = twikooText("loadFailed") + message;
+            twikooRoot.appendChild(notice);
+          }
+
+          function loadTwikooClient() {
+            return new Promise(function (resolve, reject) {
+              if (resolveTwikooInit(window.twikoo)) {
+                resolve(window.twikoo);
+                return;
+              }
+
+              var script = document.createElement("script");
+              script.src = twikooCdn;
+              script.async = true;
+              script.onload = function () {
+                if (resolveTwikooInit(window.twikoo)) {
+                  resolve(window.twikoo);
+                } else {
+                  reject(new Error(twikooText("clientInvalid")));
+                }
+              };
+              script.onerror = function () {
+                reject(new Error(twikooText("scriptFailed")));
+              };
+              document.head.appendChild(script);
+            });
+          }
+
+          function resolveTwikooInit(twikoo) {
+            var candidates = [
+              twikoo,
+              twikoo && twikoo.default,
+              twikoo && twikoo.twikoo,
+              twikoo && twikoo.default && twikoo.default.default
+            ];
+
+            for (var index = 0; index < candidates.length; index += 1) {
+              var candidate = candidates[index];
+              if (typeof candidate === "function") {
+                return candidate;
+              }
+              if (candidate && typeof candidate.init === "function") {
+                return candidate.init.bind(candidate);
+              }
+            }
+
+            return null;
+          }
+
+          loadTwikooClient().then(function (twikoo) {
+            var initTwikoo = resolveTwikooInit(twikoo);
+
+            if (!initTwikoo) {
+              throw new Error(twikooText("clientMissingInit"));
+            }
+
+            return initTwikoo({
+              envId: twikooEnvId,
+              el: "#twikoo",
+              path: twikooPath,
+              lang: getTwikooLanguage(twikooLang)
+            });
+          }).catch(function (error) {
+            showTwikooError(error && error.message ? error.message : twikooText("unknownError"));
+            console.error("[Twikoo]", error);
+          });
+        </script>
+      ) : null}
+    </section>
+  ) : null
+}

@@ -1,0 +1,70 @@
+---
+import type { MenuItem } from "../ashe.config";
+import { categoryHref } from "../lib/ashe";
+import { getAllCategories, getPublishedPosts } from "../lib/content";
+
+interface Props {
+  id: string;
+  items: readonly MenuItem[];
+  mobile?: boolean;
+}
+
+const { id, items, mobile = false } = Astro.props;
+const currentPath = Astro.url.pathname;
+const needsCategories = items.some((item) => item.childrenSource === "categories");
+const posts = needsCategories ? await getPublishedPosts() : [];
+const categoryItems: MenuItem[] = needsCategories
+  ? getAllCategories(posts).map((category) => ({
+      label: `${category} (${posts.filter((post) => post.data.categories.includes(category)).length})`,
+      href: categoryHref(category)
+    }))
+  : [];
+
+const normalize = (href: string) => {
+  if (href === "/") return "/";
+  return href.endsWith("/") ? href : `${href}/`;
+};
+
+const isCurrent = (href: string) => normalize(href) === normalize(currentPath);
+const childrenFor = (item: MenuItem) =>
+  item.childrenSource === "categories" ? categoryItems : (item.children ?? []);
+const hrefFor = (item: MenuItem, children: MenuItem[]) => item.href || children[0]?.href || "#";
+const isCurrentItem = (item: MenuItem, children: MenuItem[]) =>
+  isCurrent(hrefFor(item, children)) || children.some((child) => isCurrent(child.href));
+---
+
+<ul id={id}>
+  {
+    items.map((item) => {
+      const children = childrenFor(item);
+      const href = hrefFor(item, children);
+
+      return (
+      <li
+        class:list={[
+          "menu-item",
+          children.length && "menu-item-has-children",
+          isCurrentItem(item, children) && "current-menu-item"
+        ]}
+      >
+        {mobile && children.length ? <div class="sub-menu-btn"></div> : null}
+        <a href={href} data-i18n={item.i18nKey}>{item.label}</a>
+        {mobile && children.length ? (
+          <span class="sub-menu-btn-icon">
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+        ) : null}
+        {children.length ? (
+          <ul class="sub-menu">
+            {children.map((child) => (
+              <li class:list={["menu-item", isCurrent(child.href) && "current-menu-item"]}>
+                <a href={child.href} data-i18n={child.i18nKey}>{child.label}</a>
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </li>
+      );
+    })
+  }
+</ul>
