@@ -82,19 +82,36 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
 
           function keepSingleTwikooEmoji() {
             if (!twikooRoot) return;
-            var emojiButtons = twikooRoot.querySelectorAll(".tk-submit-action-icon.__emoji");
-            var legacyOwo = twikooRoot.querySelectorAll(".OwO, .tk-owo, .tk-icon-emotion, .tk-emotion");
-            var seen = false;
+            var controls = [];
+            var seen = [];
+            var submitAction = twikooRoot.querySelector(".tk-submit-action");
+            var emojiNodes = submitAction
+              ? submitAction.querySelectorAll(
+                  ".tk-submit-action-icon.__emoji, .tk-submit-action-icon .tk-icon-emotion, .tk-submit-action-icon .tk-emotion, .tk-submit-action-icon .OwO-logo, .OwO, .tk-owo, .tk-icon-emotion, .tk-emotion"
+                )
+              : [];
 
-            emojiButtons.forEach(function (item) {
-              if (!seen) {
-                seen = true;
+            emojiNodes.forEach(function (item) {
+              var control =
+                item.closest(".tk-submit-action-icon") || item.closest(".tk-owo") || item.closest(".OwO") || item;
+
+              if (seen.indexOf(control) !== -1) {
                 return;
               }
-              item.remove();
+              seen.push(control);
+              controls.push(control);
             });
 
-            legacyOwo.forEach(function (item) {
+            controls.forEach(function (item, index) {
+              item.classList.remove("ashe-emoji-primary");
+              item.style.removeProperty("display");
+              item.removeAttribute("hidden");
+
+              if (index === 0) {
+                item.classList.add("ashe-emoji-primary");
+                return;
+              }
+
               item.remove();
             });
           }
@@ -108,10 +125,6 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
               timer = window.setTimeout(keepSingleTwikooEmoji, 50);
             });
             observer.observe(twikooRoot, { childList: true, subtree: true });
-            window.setTimeout(function () {
-              observer.disconnect();
-              keepSingleTwikooEmoji();
-            }, 5000);
           }
 
           function loadTwikooClient() {
@@ -184,9 +197,9 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
 
     <style>
       .comments-area {
-        margin-top: 42px;
-        padding-top: 28px;
-        border-top: 1px solid #eeeeee;
+        margin-top: 40px;
+        padding-top: 0;
+        border-top: 0;
       }
 
       .twikoo-config-notice {
@@ -204,13 +217,30 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
       .comments-area :global(.tk-textarea),
       .comments-area :global(.el-input__inner),
       .comments-area :global(.el-textarea__inner) {
-        border-color: #eeeeee;
         border-radius: 8px;
-        background: #ffffff;
+        border: 0 !important;
+        border-color: transparent !important;
+        box-shadow: none !important;
+        outline: 0;
+      }
+
+      .comments-area :global(.el-input__inner:focus),
+      .comments-area :global(.el-textarea__inner:focus) {
+        border: 0 !important;
+        box-shadow: none !important;
+        outline: 0;
+      }
+
+      .comments-area :global(.el-textarea__inner) {
+        background-image: url("/ashe/assets/images/comment-withered-lotus.svg") !important;
+        background-repeat: no-repeat !important;
+        background-position: right 18px bottom 10px !important;
+        background-size: 176px auto !important;
       }
 
       .comments-area :global(.tk-submit-action-icon.__markdown),
       .comments-area :global(.tk-submit-action-icon.__image),
+      .comments-area :global(.tk-submit-action-icon.__emoji),
       .comments-area :global(.tk-submit-action-icon.__emoji ~ .tk-submit-action-icon.__emoji),
       .comments-area :global(.OwO),
       .comments-area :global(.tk-owo),
@@ -219,8 +249,19 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
         display: none !important;
       }
 
+      .comments-area :global(.tk-submit-action-icon.__emoji.ashe-emoji-primary),
+      .comments-area :global(.tk-submit-action .ashe-emoji-primary),
+      .comments-area :global(.ashe-emoji-primary .tk-icon-emotion),
+      .comments-area :global(.ashe-emoji-primary .tk-emotion) {
+        display: inline-flex !important;
+      }
+
       .comments-area :global(.tk-submit) {
         border-radius: 8px;
+      }
+
+      .comments-area :global(.tk-submit-title) {
+        display: none;
       }
     </style>
   ) : null

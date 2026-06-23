@@ -89,6 +89,69 @@ html {
   z-index: 15;
 }
 
+.ashe-astro.single-post .post-content {
+  font-size: 16px;
+  line-height: 1.82;
+}
+
+.ashe-astro.single-post .post-content > p,
+.ashe-astro.single-post .post-content li,
+.ashe-astro.single-post .post-content blockquote {
+  font-size: 16px;
+  line-height: 1.82;
+}
+
+.ashe-astro.single-post .post-content pre,
+.ashe-astro.single-post .post-content code {
+  font-size: 14px;
+}
+
+.ashe-astro.single-post .post-content pre {
+  position: relative;
+}
+
+.ashe-astro.single-post .post-content .ashe-code-block {
+  position: relative;
+  margin: 0 0 25px;
+}
+
+.ashe-astro.single-post .post-content .ashe-code-block pre {
+  margin-bottom: 0;
+  padding-top: 44px;
+}
+
+.ashe-astro .ashe-code-copy {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  z-index: 1;
+  height: 30px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 999px;
+  background: #ca9b52;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(17, 17, 17, 0.18);
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.ashe-astro .ashe-code-copy:hover,
+.ashe-astro .ashe-code-copy:focus {
+  background: #a8742d;
+  color: #ffffff;
+  outline: 0;
+  transform: translateY(-1px);
+}
+
+.ashe-astro .ashe-code-copy.is-copied {
+  background: #333333;
+  color: #ffffff;
+}
+
 .ashe-astro .language-switcher-button {
   padding: 0;
   border: 0;
@@ -400,7 +463,7 @@ html {
 }
 
 .ashe-astro .comments-area {
-  margin-top: 54px;
+  margin-top: 40px;
 }
 
 .ashe-astro .comments-area .tk-power,
@@ -409,6 +472,7 @@ html {
 .ashe-astro .comments-area .tk-replies-title,
 .ashe-astro .comments-area .tk-submit-action-icon.__markdown,
 .ashe-astro .comments-area .tk-submit-action-icon.__image,
+.ashe-astro .comments-area .tk-submit-action-icon.__emoji,
 .ashe-astro .comments-area .tk-submit-action-icon.__emoji ~ .tk-submit-action-icon.__emoji,
 .ashe-astro .comments-area .OwO,
 .ashe-astro .comments-area .OwO-body,
@@ -428,7 +492,10 @@ html {
 }
 
 .ashe-astro .comments-area .tk-inputs {
-  margin-bottom: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
 .ashe-astro .comments-area .tk-row.actions {
@@ -439,14 +506,17 @@ html {
   gap: 10px;
 }
 
-.ashe-astro .comments-area .tk-submit-action-icon.__emoji {
+.ashe-astro .comments-area .tk-submit-action-icon.__emoji.ashe-emoji-primary,
+.ashe-astro .comments-area .tk-submit-action .ashe-emoji-primary,
+.ashe-astro .comments-area .ashe-emoji-primary .tk-icon-emotion,
+.ashe-astro .comments-area .ashe-emoji-primary .tk-emotion {
   display: inline-flex !important;
 }
 
 .ashe-astro #twikoo .tk-comments-title,
 .ashe-astro #twikoo .tk-comments-no,
 .ashe-astro #twikoo .tk-submit-title {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   text-align: left;
   font-family: "Playfair Display";
   font-size: 18px;
@@ -454,6 +524,10 @@ html {
   letter-spacing: 0.5px;
   text-transform: none;
   font-weight: 700;
+}
+
+.ashe-astro #twikoo .tk-submit-title {
+  display: none;
 }
 
 .ashe-astro #twikoo .tk-submit {
@@ -465,26 +539,66 @@ html {
   box-shadow: none;
 }
 
+.ashe-astro #twikoo .tk-meta-input {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+}
+
+.ashe-astro #twikoo .tk-meta-input .el-input-group__prepend {
+  width: 54px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 8px 0 0 8px;
+  background: rgba(17, 17, 17, 0.04);
+  color: #888888;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.ashe-astro #twikoo .tk-meta-input .el-input__inner {
+  width: 100%;
+  height: 42px;
+  border-radius: 0 8px 8px 0;
+}
+
 .ashe-astro #twikoo .el-input__inner,
 .ashe-astro #twikoo .el-textarea__inner {
-  border-radius: 12px;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  padding: 13px 14px;
+  border-radius: 8px;
+  border: 0 !important;
+  padding: 11px 13px;
   font-size: 14px;
-  box-shadow: none;
-  background: rgba(255, 253, 250, 0.7);
-  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  box-shadow: none !important;
+  background: rgba(17, 17, 17, 0.04);
+  outline: 0;
+  transition: background-color 160ms ease;
+}
+
+.ashe-astro #twikoo .el-input__inner::placeholder,
+.ashe-astro #twikoo .el-textarea__inner::placeholder {
+  color: #a4a4a4;
 }
 
 .ashe-astro #twikoo .el-input__inner:focus,
 .ashe-astro #twikoo .el-textarea__inner:focus {
-  border-color: rgba(202, 155, 82, 0.62);
-  box-shadow: 0 0 0 3px rgba(202, 155, 82, 0.08);
-  background: #ffffff;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: 0;
+  background: rgba(17, 17, 17, 0.04);
 }
 
 .ashe-astro #twikoo .el-textarea__inner {
-  min-height: 160px !important;
+  min-height: 112px !important;
+  background-image: url("/ashe/assets/images/comment-withered-lotus.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 18px bottom 10px !important;
+  background-size: 176px auto !important;
+}
+
+.ashe-astro #twikoo .el-textarea__inner:focus {
+  background-image: url("/ashe/assets/images/comment-withered-lotus.svg") !important;
 }
 
 .ashe-astro #twikoo .el-button,
@@ -494,9 +608,9 @@ html {
 
 .ashe-astro #twikoo .el-button--primary {
   border: 0;
-  padding: 11px 18px;
+  padding: 9px 16px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   text-transform: none;
   background: #ca9b52;
   color: #fff;
@@ -504,19 +618,20 @@ html {
 
 .ashe-astro #twikoo .el-button--default,
 .ashe-astro #twikoo .tk-preview {
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  background: transparent;
+  border: 0;
+  background: rgba(17, 17, 17, 0.04);
   color: inherit;
 }
 
 .ashe-astro #twikoo .tk-comments-container {
   display: grid;
   gap: 0;
+  row-gap: 0;
 }
 
 .ashe-astro #twikoo .tk-comment {
   margin-bottom: 0;
-  padding: 3px 0;
+  padding: 1px 0;
   border: 0;
   border-radius: 0;
   background: transparent;
@@ -548,7 +663,7 @@ html {
 }
 
 .ashe-astro #twikoo .tk-replies .tk-comment {
-  padding: 2px 0;
+  padding: 1px 0;
   border-bottom: 0;
 }
 
@@ -608,13 +723,13 @@ html {
 .ashe-astro #twikoo .tk-content {
   margin-top: 0;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.45;
   color: #464646;
 }
 
 .ashe-astro #twikoo .tk-content p {
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .ashe-astro #twikoo .tk-content img {
@@ -648,15 +763,25 @@ body.ashe-dark-mode #twikoo .tk-replies {
 
 body.ashe-dark-mode #twikoo .el-input__inner,
 body.ashe-dark-mode #twikoo .el-textarea__inner {
-  background: rgba(42, 42, 42, 0.82);
+  background: rgba(255, 255, 255, 0.06);
   color: #d0d0d0;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
+
+body.ashe-dark-mode #twikoo .el-input__inner:focus,
+body.ashe-dark-mode #twikoo .el-textarea__inner:focus {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+body.ashe-dark-mode #twikoo .tk-meta-input .el-input-group__prepend {
+  background: rgba(255, 255, 255, 0.06);
+  color: #bbbbbb;
 }
 
 body.ashe-dark-mode #twikoo .el-button--default,
 body.ashe-dark-mode #twikoo .tk-preview {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: transparent;
   color: #d0d0d0;
 }
 

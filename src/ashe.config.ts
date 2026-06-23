@@ -388,9 +388,14 @@ export const asheConfig = {
 
   featuredLinks: {
     // 是否显示特色链接区。
-    enabled: false,
+    enabled: true,
     items: [
-    ]
+        // { label: "旧文", href: "/archives/"},
+        // { label: "影像", href: "/gallery/"},
+        // { label: "友邻", href: "/links/"},
+        // { label: "片刻", href: "/memos/"},
+        // { label: "关于", href: "/about/"}
+      ] 
   },
 
   blog: {
@@ -417,7 +422,7 @@ export const asheConfig = {
     showFeaturedImage: true,
     showCategories: true,
     showDate: true,
-    showAuthor: false,
+    showAuthor: true,
     showComments: true,
     showAuthorDescription: false,
     relatedOrderBy: "related"

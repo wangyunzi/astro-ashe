@@ -639,6 +639,70 @@
     filter();
   }
 
+  function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+
+    return new Promise(function (resolve, reject) {
+      var textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.setAttribute("readonly", "");
+      textarea.style.position = "fixed";
+      textarea.style.top = "-9999px";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+
+      try {
+        document.execCommand("copy");
+        resolve();
+      } catch (error) {
+        reject(error);
+      } finally {
+        textarea.remove();
+      }
+    });
+  }
+
+  function initCodeCopyButtons() {
+    document.querySelectorAll(".single-post .post-content pre").forEach(function (pre) {
+      if (pre.closest(".ashe-code-block")) return;
+
+      var code = pre.querySelector("code");
+      var text = code ? code.innerText : pre.innerText;
+      if (!text.trim()) return;
+
+      var wrapper = document.createElement("div");
+      wrapper.className = "ashe-code-block";
+      var button = document.createElement("button");
+      button.className = "ashe-code-copy";
+      button.type = "button";
+      button.textContent = "复制";
+      button.setAttribute("aria-label", "复制代码");
+
+      pre.parentNode.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+      wrapper.appendChild(button);
+
+      button.addEventListener("click", function () {
+        copyText(text).then(function () {
+          button.classList.add("is-copied");
+          button.textContent = "已复制";
+          window.setTimeout(function () {
+            button.classList.remove("is-copied");
+            button.textContent = "复制";
+          }, 1600);
+        }).catch(function () {
+          button.textContent = "失败";
+          window.setTimeout(function () {
+            button.textContent = "复制";
+          }, 1600);
+        });
+      });
+    });
+  }
+
   ready(function () {
     initDesktopMenus();
     initMobileMenus();
@@ -651,5 +715,6 @@
     initDarkMode();
     initLazyImages();
     initSearchPage();
+    initCodeCopyButtons();
   });
 })();
