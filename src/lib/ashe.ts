@@ -500,6 +500,15 @@ export function buildDynamicCss() {
         color: #c4c4c4;
       }
 
+      body.ashe-dark-mode #page-footer h1,
+      body.ashe-dark-mode #page-footer h2,
+      body.ashe-dark-mode #page-footer h3,
+      body.ashe-dark-mode #page-footer h4,
+      body.ashe-dark-mode #page-footer h5,
+      body.ashe-dark-mode #page-footer h6 {
+        color: #f2f2f2;
+      }
+
       body.ashe-dark-mode .page-content .post-footer,
       body.ashe-dark-mode [data-layout*="list"] .blog-grid > li,
       body.ashe-dark-mode .page-content .author-description,

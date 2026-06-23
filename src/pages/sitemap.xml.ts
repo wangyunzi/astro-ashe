@@ -13,6 +13,7 @@ import {
   getAllCategories,
   getAllTags,
   getPublishedAlbums,
+  getPublishedPages,
   getPublishedPosts
 } from "../lib/content";
 
@@ -51,6 +52,7 @@ function sitemapEntry(path: string, lastmod?: Date) {
 export async function GET() {
   const posts = await getPublishedPosts();
   const albums = await getPublishedAlbums();
+  const pages = await getPublishedPages();
   const allContentDates = [...posts.map((post) => post.data.date), ...albums.map((album) => album.data.date)];
   const siteLastmod = allContentDates.length ? latestDate(allContentDates) : new Date();
 
@@ -60,8 +62,8 @@ export async function GET() {
     sitemapEntry("/archives/", siteLastmod),
     sitemapEntry("/contact/"),
     sitemapEntry("/gallery/", albums.length ? latestDate(albums.map((album) => album.data.date)) : undefined),
-    sitemapEntry("/links/"),
     sitemapEntry("/search/"),
+    ...pages.map((page) => sitemapEntry(page.data.permalink)),
     ...paginatedPageNumbers(posts)
       .filter((page) => page > 1)
       .map((page) => sitemapEntry(paginationHref("/", page), siteLastmod)),

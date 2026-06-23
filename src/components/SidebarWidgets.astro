@@ -24,6 +24,11 @@ const showAbout = about.enabled && (variant !== "footer" || footerWidgets.showAb
 const showFooterLinks = variant === "footer" && footerWidgets.showLinks;
 const showRecentPosts = variant !== "footer" || footerWidgets.showRecentPosts;
 const showTags = variant !== "footer" || footerWidgets.showTags;
+const year = new Date().getFullYear().toString();
+const copyright = asheConfig.footer.copyright
+  .replace("$year", year)
+  .replace("$copy", "&copy;");
+const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
 ---
 
 {
@@ -56,6 +61,40 @@ const showTags = variant !== "footer" || footerWidgets.showTags;
             <a href={item.href} data-i18n={item.i18nKey}>{item.label}</a>
           </li>
         ))}
+      </ul>
+    </section>
+  ) : null
+}
+
+{
+  variant === "footer" ? (
+    <section class="ashe-widget widget_footer_links widget_site_info">
+      <div class="widget-title">
+        <h2>站点信息</h2>
+      </div>
+      <ul>
+        <li>
+          <span
+            class="footer-info-text"
+            data-i18n-html-zh-cn={copyright}
+            data-i18n-html-en={copyrightEn}
+            set:html={copyright}
+          />
+        </li>
+        {asheConfig.footer.menu.map((item) => (
+          <li>
+            <a href={item.href} data-i18n={item.i18nKey}>{item.label}</a>
+          </li>
+        ))}
+        {asheConfig.footer.showCredit ? (
+          <li>
+            <span class="footer-info-text">
+              <span data-i18n="footer.creditBefore">Ashe 主题由</span>{" "}
+              <a href="https://wp-royal-themes.com/">WP Royal</a>{" "}
+              <span data-i18n="footer.creditAfter">提供。Astro 移植版。</span>
+            </span>
+          </li>
+        ) : null}
       </ul>
     </section>
   ) : null

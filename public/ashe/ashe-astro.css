@@ -212,9 +212,7 @@ html {
 
 .ashe-astro .archive-timeline-card {
   position: relative;
-  display: grid;
-  grid-template-columns: 112px minmax(0, 1fr);
-  column-gap: 22px;
+  display: block;
   padding: 0 0 22px;
 }
 
@@ -231,14 +229,21 @@ html {
 }
 
 .ashe-astro .archive-timeline-date {
-  display: block;
+  display: inline-block;
   margin: 0;
-  text-align: right;
   color: #9b9b9b;
   font-size: 12px;
   line-height: 1.75;
   font-style: italic;
   white-space: nowrap;
+}
+
+.ashe-astro .archive-timeline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin-bottom: 7px;
 }
 
 .ashe-astro .archive-timeline-year,
@@ -281,11 +286,14 @@ html {
 
 .ashe-astro .archive-timeline-categories,
 .ashe-astro .archive-timeline-tags {
-  margin-bottom: 7px;
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 1px;
   text-transform: none;
+}
+
+.ashe-astro .archive-timeline-categories {
+  margin-bottom: 0;
 }
 
 .ashe-astro .archive-timeline-tags {
@@ -995,6 +1003,13 @@ body.ashe-dark-mode .lazy-image-shell::before {
   transition: color 180ms ease;
 }
 
+.ashe-astro .widget_footer_links .footer-info-text {
+  display: inline-block;
+  padding: 0 0 3px;
+  color: #777;
+  line-height: 1.8;
+}
+
 .ashe-astro .widget_footer_links a::after {
   content: "";
   position: absolute;
@@ -1025,83 +1040,11 @@ body.ashe-dark-mode .ashe-astro .widget_footer_links a {
   color: #cfcfcf;
 }
 
-body.ashe-dark-mode .ashe-astro .widget_footer_links a:hover {
-  color: #d6b174;
-}
-
-.ashe-astro .footer-copyright {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 14px 18px;
-  text-align: center;
-}
-
-.ashe-astro .footer-menu-container {
-  float: none;
-  order: -1;
-  width: 100%;
-  margin: 0 0 4px;
-  font-size: 13px;
-}
-
-.ashe-astro .footer-menu-container::after {
-  content: none;
-}
-
-.ashe-astro #footer-menu {
-  float: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-}
-
-.ashe-astro #footer-menu > li {
-  display: block;
-  margin: 0;
-}
-
-.ashe-astro #footer-menu a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 34px;
-  padding: 0 15px;
-  border: 1px solid rgba(202, 155, 82, 0.28);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.58);
-  color: #777;
-  letter-spacing: 0.08em;
-  line-height: 34px;
-  text-decoration: none;
-  transition: color 180ms ease, border-color 180ms ease, background 180ms ease, transform 180ms ease;
-}
-
-.ashe-astro #footer-menu a:hover {
-  border-color: rgba(202, 155, 82, 0.56);
-  background: rgba(202, 155, 82, 0.1);
-  color: #ca9b52;
-  transform: translateY(-1px);
-}
-
-.ashe-astro .copyright-info,
-.ashe-astro .credit {
-  float: none;
-}
-
-body.ashe-dark-mode .ashe-astro #footer-menu a {
-  border-color: rgba(202, 155, 82, 0.32);
-  background: rgba(255, 255, 255, 0.05);
+body.ashe-dark-mode .ashe-astro .widget_footer_links .footer-info-text {
   color: #cfcfcf;
 }
 
-body.ashe-dark-mode .ashe-astro #footer-menu a:hover {
-  border-color: rgba(202, 155, 82, 0.62);
-  background: rgba(202, 155, 82, 0.14);
+body.ashe-dark-mode .ashe-astro .widget_footer_links a:hover {
   color: #d6b174;
 }
 
@@ -1154,19 +1097,12 @@ body.ashe-dark-mode .friends-moment-meta {
     transform: translateY(0);
   }
 
-  .ashe-astro .archive-timeline-card {
-    grid-template-columns: 1fr;
-    column-gap: 0;
-  }
-
   .ashe-astro .archive-timeline-card::before {
     left: -24px;
     top: 6px;
   }
 
   .ashe-astro .archive-timeline-date {
-    margin-bottom: 8px;
-    text-align: left;
     white-space: normal;
   }
 

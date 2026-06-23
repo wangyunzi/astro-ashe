@@ -19,22 +19,24 @@ const currentPosts = posts.slice(0, perPage);
         currentPosts.map((post) => (
           <li class="archive-timeline-item">
             <article class="archive-timeline-card">
-              <time class="archive-timeline-date" datetime={post.data.date.toISOString()}>
-                {post.data.date.getFullYear()}年{post.data.date.getMonth() + 1}月{post.data.date.getDate()}日
-              </time>
               <div class="archive-timeline-content">
-                {
-                  post.data.categories.length ? (
-                    <div class="archive-timeline-categories">
-                      {post.data.categories.map((category, index) => (
-                        <>
-                          <span>{category}</span>
-                          {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;,&nbsp;&nbsp;</> : null}
-                        </>
-                      ))}
-                    </div>
-                  ) : null
-                }
+                <div class="archive-timeline-meta">
+                  {
+                    post.data.categories.length ? (
+                      <div class="archive-timeline-categories">
+                        {post.data.categories.map((category, index) => (
+                          <>
+                            <span>{category}</span>
+                            {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;,&nbsp;&nbsp;</> : null}
+                          </>
+                        ))}
+                      </div>
+                    ) : null
+                  }
+                  <time class="archive-timeline-date" datetime={post.data.date.toISOString()}>
+                    {post.data.date.getFullYear()}年{post.data.date.getMonth() + 1}月{post.data.date.getDate()}日
+                  </time>
+                </div>
                 <h2 class="archive-timeline-title">
                   <a href={postHref(post)}>{post.data.title}</a>
                 </h2>
