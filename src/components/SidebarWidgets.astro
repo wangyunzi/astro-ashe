@@ -21,6 +21,7 @@ const aboutImage = variant === "alt" && sidebarAbout.altImage ? sidebarAbout.alt
 const aboutTranslation = about.translations?.en;
 const aboutTitleEn = aboutTranslation?.title;
 const showAbout = about.enabled && (variant !== "footer" || footerWidgets.showAbout);
+const showFooterLinks = variant === "footer" && footerWidgets.showLinks;
 const showRecentPosts = variant !== "footer" || footerWidgets.showRecentPosts;
 const showTags = variant !== "footer" || footerWidgets.showTags;
 ---
@@ -39,6 +40,23 @@ const showTags = variant !== "footer" || footerWidgets.showTags;
       {about.paragraphs.map((paragraph, index) => (
         <p data-i18n-en={aboutTranslation?.paragraphs?.[index]}>{paragraph}</p>
       ))}
+    </section>
+  ) : null
+}
+
+{
+  showFooterLinks ? (
+    <section class="ashe-widget widget_footer_links">
+      <div class="widget-title">
+        <h2>{asheConfig.footer.links.title}</h2>
+      </div>
+      <ul>
+        {asheConfig.footer.links.items.map((item) => (
+          <li>
+            <a href={item.href} data-i18n={item.i18nKey}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
     </section>
   ) : null
 }

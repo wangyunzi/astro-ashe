@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageShell from "../components/PageShell.astro";
+import { getPageBySlug } from "../lib/content";
+
+const page = await getPageBySlug("memos");
+
+if (!page) {
+  throw new Error('Missing content page: memos');
+}
+
+const { Content } = await page.render();
+const description = page.data.description || page.data.title;
+---
+
+<BaseLayout title={page.data.title} description={description} bodyClass="page page-memos">
+  <PageShell title={page.data.title} titleEn={page.data.titleEn}>
+    <Content />
+  </PageShell>
+</BaseLayout>
+
+<style>
+  :global(#bber) {
+    display: grid;
+    gap: 18px;
+    min-height: 120px;
+  }
+
+  :global(.bber-item) {
+    padding: 18px 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+
+  :global(.bber-content > :last-child) {
+    margin-bottom: 0;
+  }
+
+  :global(.bber-date) {
+    display: block;
+    margin-top: 12px;
+    color: #999999;
+    font-size: 13px;
+  }
+
+  :global(.bber-loading),
+  :global(.bber-empty),
+  :global(.bber-error) {
+    margin: 0;
+    color: #888888;
+  }
+</style>

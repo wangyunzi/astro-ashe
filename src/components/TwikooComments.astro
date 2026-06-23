@@ -80,6 +80,40 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
             twikooRoot.appendChild(notice);
           }
 
+          function keepSingleTwikooEmoji() {
+            if (!twikooRoot) return;
+            var emojiButtons = twikooRoot.querySelectorAll(".tk-submit-action-icon.__emoji");
+            var legacyOwo = twikooRoot.querySelectorAll(".OwO, .tk-owo, .tk-icon-emotion, .tk-emotion");
+            var seen = false;
+
+            emojiButtons.forEach(function (item) {
+              if (!seen) {
+                seen = true;
+                return;
+              }
+              item.remove();
+            });
+
+            legacyOwo.forEach(function (item) {
+              item.remove();
+            });
+          }
+
+          function watchTwikooEmoji() {
+            keepSingleTwikooEmoji();
+            if (!twikooRoot || typeof MutationObserver !== "function") return;
+            var timer = null;
+            var observer = new MutationObserver(function () {
+              window.clearTimeout(timer);
+              timer = window.setTimeout(keepSingleTwikooEmoji, 50);
+            });
+            observer.observe(twikooRoot, { childList: true, subtree: true });
+            window.setTimeout(function () {
+              observer.disconnect();
+              keepSingleTwikooEmoji();
+            }, 5000);
+          }
+
           function loadTwikooClient() {
             return new Promise(function (resolve, reject) {
               if (resolveTwikooInit(window.twikoo)) {
@@ -138,6 +172,8 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
               path: twikooPath,
               lang: getTwikooLanguage(twikooLang)
             });
+          }).then(function () {
+            watchTwikooEmoji();
           }).catch(function (error) {
             showTwikooError(error && error.message ? error.message : twikooText("unknownError"));
             console.error("[Twikoo]", error);
@@ -145,5 +181,47 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
         </script>
       ) : null}
     </section>
+
+    <style>
+      .comments-area {
+        margin-top: 42px;
+        padding-top: 28px;
+        border-top: 1px solid #eeeeee;
+      }
+
+      .twikoo-config-notice {
+        margin: 0;
+        color: #888888;
+        text-align: center;
+      }
+
+      .comments-area :global(.tk-comments-title),
+      .comments-area :global(.tk-comments-count) {
+        color: #333333;
+      }
+
+      .comments-area :global(.tk-input),
+      .comments-area :global(.tk-textarea),
+      .comments-area :global(.el-input__inner),
+      .comments-area :global(.el-textarea__inner) {
+        border-color: #eeeeee;
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      .comments-area :global(.tk-submit-action-icon.__markdown),
+      .comments-area :global(.tk-submit-action-icon.__image),
+      .comments-area :global(.tk-submit-action-icon.__emoji ~ .tk-submit-action-icon.__emoji),
+      .comments-area :global(.OwO),
+      .comments-area :global(.tk-owo),
+      .comments-area :global(.tk-icon-emotion),
+      .comments-area :global(.tk-emotion) {
+        display: none !important;
+      }
+
+      .comments-area :global(.tk-submit) {
+        border-radius: 8px;
+      }
+    </style>
   ) : null
 }

@@ -101,16 +101,17 @@ export const asheConfig = {
       //    { label: "美食", href: "/category/food/", i18nKey: "nav.food" }
       //  ]
       //},
-      {
-        label: "分类",
-        href: "/category/lifestyle/",
-        i18nKey: "nav.categories",
-        childrenSource: "categories"
-      },
-      { label: "归档", href: "/archives/", i18nKey: "nav.archives" },
+      // {
+      //   label: "分类",
+      //   href: "/category/lifestyle/",
+      //   i18nKey: "nav.categories",
+      //   childrenSource: "categories"
+      // },
+      // { label: "归档", href: "/archives/", i18nKey: "nav.archives" },
       { label: "相册", href: "/gallery/", i18nKey: "nav.gallery" },
-      { label: "链接", href: "/links/", i18nKey: "nav.links" },    
-      { label: "关于", href: "/about/", i18nKey: "nav.about" },        
+      // { label: "链接", href: "/links/", i18nKey: "nav.links" },    
+      { label: "关于", href: "/about/", i18nKey: "nav.about" },
+      // { label: "瞬间", href: "/memos/", i18nKey: "nav.memos" },         
     ] satisfies MenuItem[]
   },
 
@@ -220,8 +221,9 @@ export const asheConfig = {
     showCredit: true,
 
     widgets: {
-      // 是否显示页脚里的 About、最新文章、标签小组件。
-      showAbout: false,
+      // 是否显示页脚里的 About、链接、最新文章、标签小组件。
+      showAbout: true,
+      showLinks: true,
       showRecentPosts: false,
       showTags: false
     },
@@ -256,11 +258,23 @@ export const asheConfig = {
       }
     },
 
+    links: {
+      // 页脚链接小组件，适合放常用页面、友链入口或订阅入口。
+      title: "站内索引",
+      items: [
+        { label: "旧文", href: "/archives/" },
+        { label: "影像", href: "/gallery/" },
+        { label: "友邻", href: "/links/" },
+        { label: "片刻", href: "/memos/" },
+        { label: "关于", href: "/about/" }
+      ] satisfies MenuItem[]
+    },
+
     // `$year` 和 `$copy` 会在渲染时替换为年份和版权符号。
     copyright: "$copy $year Ashe Astro。保留所有权利。",
     menu: [
-      //{ label: "隐私政策", href: "/#privacy", i18nKey: "footer.privacy" },
-      //{ label: "使用条款", href: "/#terms", i18nKey: "footer.terms" }
+      { label: "隐私政策", href: "/#privacy", i18nKey: "footer.privacy" },
+      { label: "使用条款", href: "/#terms", i18nKey: "footer.terms" }
     ] satisfies MenuItem[]
   },
 
@@ -389,7 +403,7 @@ export const asheConfig = {
       enabled: true,
 
       // 每页显示的文章数量。
-      perPage: 10
+      perPage: 5
     },
     showCategories: true,
     showDate: true,

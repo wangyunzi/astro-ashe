@@ -67,20 +67,12 @@ const articleClass = [
         <h1 class="post-title">{post.data.title}</h1>
 
         {
-          asheConfig.single.showDate || asheConfig.single.showComments ? (
+          asheConfig.single.showDate ? (
             <div class="post-meta clear-fix">
               {asheConfig.single.showDate ? (
                 <time class="post-date" datetime={post.data.date.toISOString()} data-i18n-date>
                   {formatDate(post.data.date)}
                 </time>
-              ) : null}
-              {asheConfig.single.showComments ? (
-                <>
-                  <span class="meta-sep">/</span>
-                  <a class="post-comments" href="#comments" data-i18n="post.comments">
-                    评论
-                  </a>
-                </>
               ) : null}
             </div>
           ) : null
@@ -108,14 +100,6 @@ const articleClass = [
               <span data-i18n="post.authorLabel">作者：</span>
               <a href={authorHref(post.data.author)}>{post.data.author}</a>
             </span>
-          ) : null
-        }
-
-        {
-          asheConfig.single.showComments ? (
-            <a class="post-comments" href="#comments" data-i18n="post.comments">
-              评论
-            </a>
           ) : null
         }
       </footer>

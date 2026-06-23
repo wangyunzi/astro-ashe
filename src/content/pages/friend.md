@@ -1,9 +1,7 @@
 ---
-title: 链接
-titleEn: Links
-description: 整理常用资源、友链和项目入口。
-descriptionEn: A curated list of useful resources, friends, and project links.
-permalink: /links/
+title: 友链
+date: 2024-04-21
+permalink: /friend/
 ---
 
 <div style="text-align:center;color:red;">暂不添加友链</div>

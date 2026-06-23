@@ -79,12 +79,16 @@ export function findBySlug(values: string[], slug: string) {
 
 export function relatedPosts(posts: PostEntry[], post: PostEntry, limit = 3) {
   const categories = new Set(post.data.categories);
+  const tags = new Set(post.data.tags);
   return posts
     .filter((entry) => entry.id !== post.id)
     .map((entry) => ({
       entry,
-      score: entry.data.categories.filter((category) => categories.has(category)).length
+      score:
+        entry.data.categories.filter((category) => categories.has(category)).length * 2 +
+        entry.data.tags.filter((tag) => tags.has(tag)).length
     }))
+    .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score || b.entry.data.date.valueOf() - a.entry.data.date.valueOf())
     .slice(0, limit)
     .map(({ entry }) => entry);

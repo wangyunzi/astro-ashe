@@ -63,7 +63,7 @@ const cover = postCover(post);
       </h2>
 
       {
-        asheConfig.blog.showDate || asheConfig.blog.showComments ? (
+        asheConfig.blog.showDate ? (
           <div class="post-meta clear-fix">
             {list && asheConfig.blog.showAuthor ? (
               <>
@@ -77,14 +77,6 @@ const cover = postCover(post);
               <time class="post-date" datetime={post.data.date.toISOString()} data-i18n-date>
                 {formatDate(post.data.date)}
               </time>
-            ) : null}
-            {asheConfig.blog.showComments ? (
-              <>
-                <span class="meta-sep">/</span>
-                <a class="post-comments" href={`${postHref(post)}#comments`} data-i18n="post.comments">
-                  评论
-                </a>
-              </>
             ) : null}
           </div>
         ) : null
