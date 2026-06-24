@@ -376,7 +376,7 @@ export const asheConfig = {
     path: "/links/",
 
     // 页面展示的动态数量；RSS 缓存总量在 scripts/update-friends-feed-cache.mjs 中控制。
-    limit: 20
+    limit: 8
   } satisfies FriendsFeedConfig,
 
   blog: {
@@ -401,7 +401,7 @@ export const asheConfig = {
     showFeaturedImage: true,
     showCategories: true,
     showDate: true,
-    showAuthor: true,
+    showAuthor: false,
     showComments: true,
     showAuthorDescription: false
   },
