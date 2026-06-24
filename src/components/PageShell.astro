@@ -6,9 +6,11 @@ import Sidebar from "./Sidebar.astro";
 interface Props {
   title: string;
   titleEn?: string;
+  description?: string;
+  descriptionEn?: string;
 }
 
-const { title, titleEn } = Astro.props;
+const { title, titleEn, description, descriptionEn } = Astro.props;
 const mainClass = `main-content clear-fix${
   asheConfig.layout.contentWidth === "boxed" ? " boxed-wrapper" : ""
 }`;
@@ -23,6 +25,7 @@ const hasRightSidebar = layoutHasRightSidebar(asheConfig.layout.homeLayout);
     <article class="page">
       <header class="post-header">
         <h1 class="page-title" data-i18n-en={titleEn}>{title}</h1>
+        {description ? <p class="page-description" data-i18n-en={descriptionEn}>{description}</p> : null}
       </header>
       <div class="post-content">
         <slot />

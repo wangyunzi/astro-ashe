@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  page: CollectionEntry<"pages">;
+}
+
+const { page } = Astro.props;
+const groups = page.data.groups;
+
+const getAvatarInitial = (title: string) => title.trim().slice(0, 1).toUpperCase();
+---
+
+{
+  groups.length ? (
+    <div class="links-page-groups ashe-link-cards" aria-label={page.data.title}>
+      {groups.map((group) => (
+        <section class="links-page-group">
+          <h2 data-i18n-en={group.titleEn}>{group.title}</h2>
+          <div class="links-page-grid">
+            {group.items.map((item) => (
+              <a class="links-page-card" href={item.href} target="_blank" rel="noreferrer">
+                <span class="links-page-card-icon" aria-hidden="true">
+                  {item.avatar ? (
+                    <img src={item.avatar} alt="" loading="lazy" />
+                  ) : (
+                    <span class="links-page-card-initial">{getAvatarInitial(item.title)}</span>
+                  )}
+                </span>
+                <span class="links-page-card-content">
+                  <strong data-i18n-en={item.titleEn}>{item.title}</strong>
+                  <span data-i18n-en={item.descriptionEn}>{item.description}</span>
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  ) : null
+}

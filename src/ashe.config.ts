@@ -6,6 +6,11 @@ export type HomeLayout =
   | "list-fullwidth"
   | "list-lsidebar"
   | "list-rsidebar";
+export type FeaturedSliderLocation = "top" | "before-posts" | "after-posts";
+export type MobileMenuButton = "icon" | "text";
+export type CommentProvider = "twikoo" | "remark42";
+export type CommentPathStrategy = "pathname" | "slug";
+export type Remark42Theme = "light" | "dark";
 
 export type MenuItem = {
   label: string;
@@ -27,20 +32,10 @@ export type LanguageOption = {
   href: string;
 };
 
-export type LinkItem = {
+export type FeaturedLinkItem = {
   title: string;
-  titleEn?: string;
-  description: string;
-  descriptionEn?: string;
   href: string;
-  avatar?: string;
-  icon?: string;
-};
-
-export type LinkGroup = {
-  title: string;
-  titleEn?: string;
-  items: LinkItem[];
+  image: string;
 };
 
 export const asheConfig = {
@@ -79,8 +74,7 @@ export const asheConfig = {
     align: "center",
     showSearch: true,
     showAltSidebar: true,
-    simpleHeader: false,
-    mobileIcon: "chevron-down",
+    mobileButton: "icon" as MobileMenuButton,
     mobileText: "菜单",
 
     // 导航栏中的可选小 Logo。src 留空时不显示。
@@ -109,59 +103,9 @@ export const asheConfig = {
       // },
       // { label: "归档", href: "/archives/", i18nKey: "nav.archives" },
       { label: "相册", href: "/gallery/", i18nKey: "nav.gallery" },
-      // { label: "链接", href: "/links/", i18nKey: "nav.links" },    
       { label: "关于", href: "/about/", i18nKey: "nav.about" },
       // { label: "瞬间", href: "/memos/", i18nKey: "nav.memos" },         
     ] satisfies MenuItem[]
-  },
-
-  linksPage: {
-    // 链接页面的标题和简介。
-    title: "链接",
-    titleEn: "Links",
-    description: "整理常用资源、友链和项目入口。",
-    descriptionEn: "A curated list of useful resources, friends, and project links.",
-
-    // 链接分组。新增或删除链接只需要修改这里。
-    groups: [
-      {
-        title: "推荐资源",
-        titleEn: "Recommended",
-        items: [
-          {
-            title: "Astro",
-            titleEn: "Astro",
-            description: "用于构建内容驱动网站的现代静态站点框架。",
-            descriptionEn: "A modern static site framework for content-driven websites.",
-            href: "https://astro.build/",
-            icon: "fa-solid fa-rocket"
-          },
-          {
-            title: "Twikoo",
-            titleEn: "Twikoo",
-            description: "轻量、可自部署的静态站点评论系统。",
-            descriptionEn: "A lightweight, self-hostable comment system for static sites.",
-            href: "https://twikoo.js.org/",
-            icon: "fa-regular fa-comments"
-          }
-        ]
-      },
-      {
-        title: "友情链接",
-        titleEn: "Friends",
-        items: [
-          {
-            title: "老孙博客",
-            titleEn: "Old Sun's Blog",
-            description: "资深网民。",
-            descriptionEn: "Replace this with your friends, projects, or favorite sites.",
-            href: "https://www.imsun.org/",
-            avatar: "https://img.imsun.org/avatar.jpg",
-            icon: "fa-solid fa-link"
-          }
-        ]
-      }
-    ] satisfies LinkGroup[]
   },
 
   sidebar: {
@@ -264,6 +208,7 @@ export const asheConfig = {
       items: [
         { label: "旧文", href: "/archives/"},
         { label: "影像", href: "/gallery/"},
+        { label: "好友", href: "/friends/" },
         { label: "友邻", href: "/links/"},
         { label: "片刻", href: "/memos/"},
         { label: "关于", href: "/about/"}
@@ -312,19 +257,36 @@ export const asheConfig = {
   },
 
   comments: {
-    // Twikoo 客户端评论。envId 填你的 Twikoo 服务地址或环境 ID。
+    // 评论系统开关。provider 可在 twikoo 和 remark42 之间切换。
     enabled: true,
-    provider: "twikoo",
-    envId: "https://twikoo.wangyunzi.com",
+    provider: "remark42" as CommentProvider,
 
-    // Twikoo 客户端 CDN 地址，可以固定版本或改为自托管地址。
-    cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.min.js",
+    // pathname 按文章 URL 区分评论，slug 按内容 slug 区分评论。
+    pathStrategy: "pathname" as CommentPathStrategy,
 
-    // 通常保持 pathname，让评论和生成后的 Astro 路由一一对应。
-    pathStrategy: "pathname" as "pathname" | "slug",
+    twikoo: {
+      // Twikoo 服务地址或环境 ID。
+      envId: "https://twikoo.wangyunzi.com",
 
-    // 传给 twikoo.init() 的语言参数。
-    lang: "zh-CN"
+      // Twikoo 客户端脚本地址，可以固定版本或改为自托管地址。
+      cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.min.js",
+
+      // 传给 twikoo.init() 的语言参数。
+      lang: "zh-CN"
+    },
+
+    remark42: {
+      // Remark42 服务地址，例如 https://remark42.example.com。留空时不加载。
+      host: "",
+      siteId: "remark",
+      theme: "light" as Remark42Theme,
+      locale: "zh",
+      maxShownComments: 15,
+      showEmailSubscription: true,
+      showRssSubscription: true,
+      simpleView: false,
+      noFooter: false
+    }
   },
 
   colors: {
@@ -376,8 +338,8 @@ export const asheConfig = {
   featuredSlider: {
     enabled: true,
 
-    // 轮播图位置设置。当前 Astro 版本会在首页渲染。
-    location: "both",
+    // 首页轮播图位置：top 在特色链接前，before-posts 在文章列表前，after-posts 在文章列表后。
+    location: "top" as FeaturedSliderLocation,
     amount: 3,
     requireImages: true,
     navigation: true,
@@ -390,12 +352,10 @@ export const asheConfig = {
     // 是否显示特色链接区。
     enabled: true,
     items: [
-        // { label: "旧文", href: "/archives/"},
-        // { label: "影像", href: "/gallery/"},
-        // { label: "友邻", href: "/links/"},
-        // { label: "片刻", href: "/memos/"},
-        // { label: "关于", href: "/about/"}
-      ] 
+      // { title: "旧文", href: "/archives/", image: "/ashe/assets/images/img1.jpg" },
+      // { title: "影像", href: "/gallery/", image: "/ashe/assets/images/img2.jpg" },
+      // { title: "友邻", href: "/links/", image: "/ashe/assets/images/img3.jpg" }
+    ] satisfies FeaturedLinkItem[]
   },
 
   blog: {
@@ -412,10 +372,8 @@ export const asheConfig = {
     },
     showCategories: true,
     showDate: true,
-    showComments: true,
     showDropcaps: false,
-    showAuthor: false,
-    relatedOrderBy: "related"
+    showAuthor: false
   },
 
   single: {
@@ -424,8 +382,7 @@ export const asheConfig = {
     showDate: true,
     showAuthor: true,
     showComments: true,
-    showAuthorDescription: false,
-    relatedOrderBy: "related"
+    showAuthorDescription: false
   },
 
   responsive: {

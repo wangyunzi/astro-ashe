@@ -11,9 +11,9 @@ import {
   type PostEntry
 } from "../lib/ashe";
 import AuthorDescription from "./AuthorDescription.astro";
+import Comments from "./Comments.astro";
 import RelatedPosts from "./RelatedPosts.astro";
 import Sidebar from "./Sidebar.astro";
-import TwikooComments from "./TwikooComments.astro";
 
 interface Props {
   post: PostEntry;
@@ -107,7 +107,7 @@ const articleClass = [
 
     {asheConfig.single.showAuthorDescription ? <AuthorDescription post={post} /> : null}
     <RelatedPosts posts={related} />
-    {asheConfig.single.showComments ? <TwikooComments post={post} /> : null}
+    {asheConfig.single.showComments ? <Comments post={post} /> : null}
   </div>
 
   {hasRightSidebar ? <Sidebar side="right" /> : null}

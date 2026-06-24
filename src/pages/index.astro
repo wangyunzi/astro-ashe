@@ -9,11 +9,14 @@ import { paginatePosts } from "../lib/ashe";
 
 const posts = await getPublishedPosts();
 const featuredPosts = posts.filter((post) => post.data.featured);
+const sliderPosts = featuredPosts.length ? featuredPosts : posts;
 const postPage = paginatePosts(posts, 1);
 ---
 
 <BaseLayout title={asheConfig.site.title} description={asheConfig.site.description} bodyClass="home blog">
-  <FeaturedSlider posts={featuredPosts.length ? featuredPosts : posts} />
+  {asheConfig.featuredSlider.location === "top" ? <FeaturedSlider posts={sliderPosts} /> : null}
   <FeaturedLinks />
+  {asheConfig.featuredSlider.location === "before-posts" ? <FeaturedSlider posts={sliderPosts} /> : null}
   <BlogList posts={postPage.items} pagination={{ ...postPage.pagination, basePath: "/" }} />
+  {asheConfig.featuredSlider.location === "after-posts" ? <FeaturedSlider posts={sliderPosts} /> : null}
 </BaseLayout>

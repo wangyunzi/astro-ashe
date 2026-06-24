@@ -1,6 +1,6 @@
 ---
 import { asheConfig } from "../ashe.config";
-import { postHref, type PostEntry } from "../lib/ashe";
+import { commentPath, type PostEntry } from "../lib/ashe";
 
 interface Props {
   post: PostEntry;
@@ -8,32 +8,33 @@ interface Props {
 
 const { post } = Astro.props;
 const comments = asheConfig.comments;
-const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
+const twikoo = comments.twikoo;
+const path = commentPath(post);
 ---
 
 {
-  comments.enabled ? (
+  (
     <section class="comments-area" id="comments">
-      {!comments.envId ? (
+      {!twikoo.envId ? (
         <p
           class="twikoo-config-notice"
-          data-i18n-html-en="Twikoo is ready. Set <code>comments.envId</code> in <code>src/ashe.config.ts</code> to enable the comment box."
+          data-i18n-html-en="Twikoo is ready. Set <code>comments.twikoo.envId</code> in <code>src/ashe.config.ts</code> to enable the comment box."
         >
-          Twikoo 已就绪。请在 <code>src/ashe.config.ts</code> 中设置 <code>comments.envId</code> 以启用评论框。
+          Twikoo 已就绪。请在 <code>src/ashe.config.ts</code> 中设置 <code>comments.twikoo.envId</code> 以启用评论框。
         </p>
       ) : null}
 
       <div id="twikoo">
-        {comments.envId ? <p class="twikoo-config-notice" data-i18n="comments.loading">评论加载中...</p> : null}
+        {twikoo.envId ? <p class="twikoo-config-notice" data-i18n="comments.loading">评论加载中...</p> : null}
       </div>
 
-      {comments.envId ? (
+      {twikoo.envId ? (
         <script
           define:vars={{
-            twikooCdn: comments.cdn,
-            twikooEnvId: comments.envId,
+            twikooCdn: twikoo.cdn,
+            twikooEnvId: twikoo.envId,
             twikooPath: path,
-            twikooLang: comments.lang
+            twikooLang: twikoo.lang
           }}
         >
           var twikooRoot = document.querySelector("#twikoo");
@@ -264,5 +265,5 @@ const path = comments.pathStrategy === "slug" ? post.slug : postHref(post);
         display: none;
       }
     </style>
-  ) : null
+  )
 }

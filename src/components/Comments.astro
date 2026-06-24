@@ -1,0 +1,21 @@
+---
+import { asheConfig } from "../ashe.config";
+import type { PostEntry } from "../lib/ashe";
+import Remark42Comments from "./Remark42Comments.astro";
+import TwikooComments from "./TwikooComments.astro";
+
+interface Props {
+  post: PostEntry;
+}
+
+const { post } = Astro.props;
+const { comments } = asheConfig;
+---
+
+{
+  comments.enabled && comments.provider === "twikoo" ? <TwikooComments post={post} /> : null
+}
+
+{
+  comments.enabled && comments.provider === "remark42" ? <Remark42Comments post={post} /> : null
+}

@@ -1,0 +1,38 @@
+name: Update Friends Feed Cache
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-friends-feed-cache
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update feed cache
+        run: npm run feeds:update
+
+      - name: Commit feed cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update friends feed cache
+          file_pattern: src/data/friends-feed-cache.json

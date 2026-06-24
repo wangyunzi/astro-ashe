@@ -1,5 +1,4 @@
 import { getCollection, getEntry } from "astro:content";
-import { asheConfig } from "../ashe.config";
 import { slugify, type PostEntry } from "./ashe";
 
 export async function getPublishedPosts() {
@@ -19,28 +18,40 @@ export async function getPublishedPages() {
 
 export async function getFeedLinks() {
   const feeds = await getCollection("feeds", ({ data }) => data.enabled !== false);
-  const friendGroup = asheConfig.linksPage.groups.find(
-    (group) => group.title === (asheConfig.linksPage.friendsGroupTitle || "友情链接")
-  );
+  const friendsPage = await getPageBySlug("friends");
+  const friendsGroupTitle = friendsPage?.data.friendsGroupTitle || "友情链接";
+  const friendGroup = friendsPage?.data.groups.find((group) => group.title === friendsGroupTitle);
   const inlineFeeds = (friendGroup?.items || [])
-    .filter((item) => "feed" in item && typeof item.feed === "string" && item.feed)
-    .map((item) => ({
-      id: `links-${slugify(item.title)}`,
-      data: {
-        title: item.title,
-        titleEn: item.titleEn,
-        site: item.href,
-        feed: item.feed,
-        description: item.description,
-        descriptionEn: item.descriptionEn,
-        avatar: item.avatar,
-        category: "category" in item && typeof item.category === "string" ? item.category : friendGroup?.title,
-        enabled: true,
-        order: Number.MAX_SAFE_INTEGER
-      }
+    .flatMap((item) => {
+      const manualFeed = "feed" in item && typeof item.feed === "string" ? item.feed.trim() : "";
+
+      return manualFeed
+        ? [{
+        id: `links-${slugify(item.title)}`,
+        data: {
+          title: item.title,
+          titleEn: item.titleEn,
+          site: item.href,
+          feed: manualFeed,
+          feedCandidates: [],
+          description: item.description,
+          descriptionEn: item.descriptionEn,
+          avatar: item.avatar,
+          category: "category" in item && typeof item.category === "string" ? item.category : friendGroup?.title,
+          enabled: true,
+          order: Number.MAX_SAFE_INTEGER
+        }
+      }]
+        : [];
+    });
+  const extraFeeds = (friendsPage?.data.extraFeeds || [])
+    .filter((feed) => feed.enabled !== false)
+    .map((feed, index) => ({
+      id: `extra-feed-${index}`,
+      data: feed
     }));
 
-  const merged = [...feeds, ...inlineFeeds];
+  const merged = [...inlineFeeds, ...extraFeeds, ...feeds];
   return merged.filter(
     (feed, index, array) =>
       array.findIndex((entry) => entry.data.feed === feed.data.feed || entry.data.site === feed.data.site) === index

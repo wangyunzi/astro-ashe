@@ -4,7 +4,11 @@ import { getPageByPermalink, getPublishedPages } from "../../lib/content";
 export async function getStaticPaths() {
   const pages = await getPublishedPages();
   return pages
-    .filter((page) => !["about", "links"].includes(page.slug))
+    .filter((page) => !["about", "friends", "links"].includes(page.slug))
+    .filter((page) => {
+      const permalinkSlug = page.data.permalink.replace(/^\/+|\/+$/g, "");
+      return permalinkSlug && permalinkSlug !== page.slug;
+    })
     .map((page) => page.data.permalink)
     .filter((permalink) => permalink !== "/")
     .map((permalink) => ({

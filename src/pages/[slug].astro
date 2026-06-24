@@ -1,15 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import LinksPageGroups from "../components/LinksPageGroups.astro";
 import PageShell from "../components/PageShell.astro";
 import { getPublishedPages } from "../lib/content";
 
 export async function getStaticPaths() {
   const pages = await getPublishedPages();
+  const dedicatedPageSlugs = new Set(["about", "friends", "links", "memos"]);
+
   return pages
-    .filter((page) => !["about", "links"].includes(page.slug))
+    .filter((page) => !dedicatedPageSlugs.has(page.slug))
+    .map((page) => ({
+      page,
+      slug: page.data.permalink.replace(/^\/+|\/+$/g, "")
+    }))
+    .filter((entry) => entry.slug && !entry.slug.includes("/"))
+    .filter((entry): entry is { page: typeof pages[number]; slug: string } => Boolean(entry.slug))
     .map((page) => ({
       params: { slug: page.slug },
-      props: { page }
+      props: { page: page.page }
     }));
 }
 
@@ -19,7 +28,13 @@ const description = page.data.description || page.data.title;
 ---
 
 <BaseLayout title={page.data.title} description={description} bodyClass={`page page-${page.slug}`}>
-  <PageShell title={page.data.title} titleEn={page.data.titleEn}>
+  <PageShell
+    title={page.data.title}
+    titleEn={page.data.titleEn}
+    description={page.data.description}
+    descriptionEn={page.data.descriptionEn}
+  >
+    {page.data.groups.length ? <LinksPageGroups page={page} /> : null}
     <Content />
   </PageShell>
 </BaseLayout>

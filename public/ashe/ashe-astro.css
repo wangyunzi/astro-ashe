@@ -379,43 +379,55 @@ html {
 .ashe-astro .links-page-groups {
   display: grid;
   gap: 38px;
-  margin-top: 34px;
+  margin: 8px 0 36px;
+  clear: both;
 }
 
-.ashe-astro .links-page-group h2 {
-  margin-bottom: 18px;
+.ashe-astro .ashe-link-cards .links-page-group h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #222222;
 }
 
-.ashe-astro .links-page-grid {
+.ashe-astro .ashe-link-cards .links-page-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.ashe-astro .links-page-card {
+.ashe-astro .ashe-link-cards .links-page-card {
   display: flex;
   gap: 14px;
   align-items: flex-start;
   min-height: 112px;
   padding: 20px;
-  border-width: 1px;
-  border-style: solid;
-  text-decoration: none;
+  background: #fffdf9;
+  border: 1px solid rgba(202, 155, 82, 0.22);
+  border-radius: 8px;
+  color: #222222;
+  text-decoration: none !important;
+  box-shadow: 0 8px 22px rgba(17, 17, 17, 0.04);
   transition-duration: 160ms;
-  transition-property: border-color, box-shadow, transform;
+  transition-property: background-color, border-color, box-shadow, transform;
   transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
 }
 
-.ashe-astro .links-page-card:hover {
+.ashe-astro .ashe-link-cards .links-page-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  border-color: rgba(202, 155, 82, 0.45);
+  background: #ffffff;
+  box-shadow: 0 14px 30px rgba(17, 17, 17, 0.08);
 }
 
-.ashe-astro .links-page-card:active {
+.ashe-astro .ashe-link-cards .links-page-card:active {
   transform: scale(0.96);
 }
 
-.ashe-astro .links-page-card-icon {
+.ashe-astro .ashe-link-cards .links-page-card-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -424,9 +436,11 @@ html {
   height: 40px;
   border-radius: 50%;
   background: rgba(202, 155, 82, 0.12);
+  color: #ca9b52;
+  font-size: 16px;
 }
 
-.ashe-astro .links-page-card-icon img {
+.ashe-astro .ashe-link-cards .links-page-card-icon img {
   display: block;
   width: 100%;
   height: 100%;
@@ -434,19 +448,25 @@ html {
   object-fit: cover;
 }
 
-.ashe-astro .links-page-card-content {
+.ashe-astro .ashe-link-cards .links-page-card-initial {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.ashe-astro .ashe-link-cards .links-page-card-content {
   display: grid;
   gap: 6px;
   min-width: 0;
 }
 
-.ashe-astro .links-page-card-content strong {
-  color: inherit;
+.ashe-astro .ashe-link-cards .links-page-card-content strong {
+  color: #222222;
   font-size: 15px;
   line-height: 1.35;
 }
 
-.ashe-astro .links-page-card-content span {
+.ashe-astro .ashe-link-cards .links-page-card-content span {
   color: #777777;
   font-size: 13px;
   line-height: 1.7;
@@ -795,8 +815,26 @@ body.ashe-dark-mode #twikoo .tk-content {
   color: #c4c4c4;
 }
 
-body.ashe-dark-mode .links-page-card-content span {
+body.ashe-dark-mode .ashe-link-cards .links-page-card-content span {
   color: #c4c4c4;
+}
+
+body.ashe-dark-mode .ashe-link-cards .links-page-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: none;
+  color: #f0f0f0;
+}
+
+body.ashe-dark-mode .ashe-link-cards .links-page-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(202, 155, 82, 0.55);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+body.ashe-dark-mode .ashe-link-cards .links-page-card-content strong,
+body.ashe-dark-mode .ashe-link-cards .links-page-group h2 {
+  color: #f0f0f0;
 }
 
 body.ashe-dark-mode .related-posts h4 a {
@@ -1210,7 +1248,7 @@ body.ashe-dark-mode .friends-moment-meta {
 }
 
 @media screen and (max-width: 640px) {
-  .ashe-astro .links-page-grid {
+  .ashe-astro .ashe-link-cards .links-page-grid {
     grid-template-columns: 1fr;
   }
 

@@ -1,0 +1,91 @@
+---
+import { asheConfig } from "../ashe.config";
+import { commentPath, type PostEntry } from "../lib/ashe";
+
+interface Props {
+  post: PostEntry;
+}
+
+const { post } = Astro.props;
+const { comments, site } = asheConfig;
+const remark42 = comments.remark42;
+const siteUrl = site.url.replace(/\/$/, "");
+const path = commentPath(post);
+const commentUrl = new URL(path.startsWith("/") ? path : `/comments/${path}/`, `${siteUrl}/`).toString();
+---
+
+<section class="comments-area remark42-comments" id="comments">
+  {
+    !remark42.host ? (
+      <p class="comment-config-notice">
+        Remark42 已就绪。请在 <code>src/ashe.config.ts</code> 中设置 <code>comments.remark42.host</code>。
+      </p>
+    ) : (
+      <>
+        <div id="remark42">
+          <p class="comment-config-notice" data-i18n="comments.loading">评论加载中...</p>
+        </div>
+
+        <script
+          define:vars={{
+            remark42Host: remark42.host.replace(/\/$/, ""),
+            remark42Config: {
+              host: remark42.host.replace(/\/$/, ""),
+              site_id: remark42.siteId,
+              url: commentUrl,
+              components: ["embed"],
+              max_shown_comments: remark42.maxShownComments,
+              theme: remark42.theme,
+              page_title: post.data.title,
+              locale: remark42.locale,
+              show_email_subscription: remark42.showEmailSubscription,
+              show_rss_subscription: remark42.showRssSubscription,
+              simple_view: remark42.simpleView,
+              no_footer: remark42.noFooter
+            }
+          }}
+        >
+          window.remark_config = remark42Config;
+
+          function loadRemark42() {
+            var script = document.createElement("script");
+            var extension = ".js";
+            var target = document.head || document.body;
+
+            if ("noModule" in script) {
+              script.type = "module";
+              extension = ".mjs";
+            } else {
+              script.async = true;
+              script.defer = true;
+            }
+
+            script.src = remark42Host + "/web/embed" + extension;
+            target.appendChild(script);
+          }
+
+          loadRemark42();
+        </script>
+      </>
+    )
+  }
+</section>
+
+<style>
+  .comments-area {
+    margin-top: 40px;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .comment-config-notice {
+    margin: 0;
+    color: #888888;
+    text-align: center;
+  }
+
+  .remark42-comments :global(.remark42__container) {
+    color: inherit;
+    font-family: inherit;
+  }
+</style>

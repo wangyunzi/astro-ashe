@@ -50,20 +50,23 @@ const albums = defineCollection({
   })
 });
 
-const feeds = defineCollection({
-  type: "data",
-  schema: z.object({
+const feedItemSchema = z.object({
     title: z.string(),
     titleEn: z.string().optional(),
     site: z.string().url(),
     feed: z.string().url(),
+    feedCandidates: z.array(z.string().url()).optional(),
     description: z.string().optional(),
     descriptionEn: z.string().optional(),
     avatar: z.string().optional(),
     category: z.string().optional(),
     enabled: z.boolean().default(true),
     order: z.number().optional()
-  })
+  });
+
+const feeds = defineCollection({
+  type: "data",
+  schema: feedItemSchema
 });
 
 const pages = defineCollection({
@@ -74,6 +77,40 @@ const pages = defineCollection({
     description: z.string().optional(),
     descriptionEn: z.string().optional(),
     permalink: z.string(),
+    groups: z
+      .array(
+        z.object({
+          title: z.string(),
+          titleEn: z.string().optional(),
+          items: z.array(
+            z.object({
+              title: z.string(),
+              titleEn: z.string().optional(),
+              description: z.string(),
+              descriptionEn: z.string().optional(),
+              href: z.string(),
+              avatar: z.string().optional(),
+              icon: z.string().optional(),
+              feed: z.string().optional(),
+              category: z.string().optional()
+            })
+          )
+        })
+      )
+      .optional()
+      .default([]),
+    friendsGroupTitle: z.string().optional(),
+    extraFeeds: z.array(feedItemSchema).optional().default([]),
+    feedPage: z
+      .object({
+        title: z.string(),
+        titleEn: z.string().optional(),
+        description: z.string(),
+        descriptionEn: z.string().optional(),
+        path: z.string().optional(),
+        limit: z.number().optional()
+      })
+      .optional(),
     draft: z.boolean().default(false)
   })
 });

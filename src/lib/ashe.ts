@@ -62,6 +62,10 @@ export function postHref(post: PostEntry) {
   return `/${postRouteParam(post)}/`;
 }
 
+export function commentPath(post: PostEntry) {
+  return asheConfig.comments.pathStrategy === "slug" ? post.slug : postHref(post);
+}
+
 export function albumHref(album: AlbumEntry) {
   return `/gallery/${album.slug}/`;
 }

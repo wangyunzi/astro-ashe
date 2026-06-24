@@ -1,0 +1,90 @@
+name: Sync Obsidian Content
+
+on:
+  repository_dispatch:
+    types:
+      - obsidian-content-updated
+  workflow_dispatch:
+    inputs:
+      obsidian_repo:
+        description: Obsidian repository, for example wangyunzi/obsidian
+        required: true
+        type: string
+      obsidian_ref:
+        description: Branch, tag, or commit to sync
+        required: false
+        default: main
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-obsidian-content
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog
+        uses: actions/checkout@v4
+        with:
+          path: blog
+
+      - name: Read sync source
+        id: source
+        env:
+          EVENT_REPO: ${{ github.event.client_payload.repository }}
+          EVENT_REF: ${{ github.event.client_payload.ref }}
+          INPUT_REPO: ${{ inputs.obsidian_repo }}
+          INPUT_REF: ${{ inputs.obsidian_ref }}
+        run: |
+          repo="${EVENT_REPO:-$INPUT_REPO}"
+          ref="${EVENT_REF:-$INPUT_REF}"
+          if [ -z "$repo" ]; then
+            echo "::error::Missing Obsidian repository. Pass it from repository_dispatch or workflow_dispatch."
+            exit 1
+          fi
+          echo "repo=$repo" >> "$GITHUB_OUTPUT"
+          echo "ref=${ref:-main}" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout Obsidian
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ steps.source.outputs.repo }}
+          ref: ${{ steps.source.outputs.ref }}
+          token: ${{ secrets.OBSIDIAN_SYNC_TOKEN }}
+          path: obsidian
+
+      - name: Sync content folders
+        run: |
+          set -euo pipefail
+          mkdir -p blog/src/content/albums blog/src/content/pages blog/src/content/posts
+
+          if [ -d obsidian/album ]; then
+            rsync -a --delete obsidian/album/ blog/src/content/albums/
+          fi
+
+          if [ -d obsidian/page ]; then
+            rsync -a --delete obsidian/page/ blog/src/content/pages/
+          fi
+
+          if [ -d obsidian/posts ]; then
+            rsync -a --delete obsidian/posts/ blog/src/content/posts/
+          fi
+
+      - name: Commit synced content
+        working-directory: blog
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- src/content/albums src/content/pages src/content/posts; then
+            echo "No content changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/albums src/content/pages src/content/posts
+          git commit -m "Sync Obsidian content"
+          git push
