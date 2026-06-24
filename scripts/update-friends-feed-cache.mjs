@@ -315,7 +315,10 @@ async function main() {
   }
 }
 
-main().catch((error) => {
+try {
+  await main();
+  process.exit(process.exitCode || 0);
+} catch (error) {
   console.error(error);
-  process.exitCode = 1;
-});
+  process.exit(1);
+}

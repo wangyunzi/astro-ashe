@@ -1,6 +1,11 @@
 name: Update Friends Feed Cache
 
 on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "src/data/friends-feed-cache.json"
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
@@ -29,7 +34,7 @@ jobs:
         run: npm ci
 
       - name: Update feed cache
-        timeout-minutes: 5
+        timeout-minutes: 8
         env:
           RSS_FETCH_TIMEOUT_MS: 4000
           RSS_FETCH_CONCURRENCY: 10
