@@ -29,10 +29,23 @@ jobs:
         run: npm ci
 
       - name: Update feed cache
+        timeout-minutes: 5
+        env:
+          RSS_FETCH_TIMEOUT_MS: 4000
+          RSS_FETCH_CONCURRENCY: 10
+          RSS_VERBOSE_ERRORS: 1
         run: npm run feeds:update
 
       - name: Commit feed cache
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update friends feed cache
-          file_pattern: src/data/friends-feed-cache.json
+        timeout-minutes: 3
+        run: |
+          if git diff --quiet -- src/data/friends-feed-cache.json; then
+            echo "No feed cache changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/friends-feed-cache.json
+          git commit -m "Update friends feed cache"
+          git push

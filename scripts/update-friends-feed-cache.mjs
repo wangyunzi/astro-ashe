@@ -15,6 +15,7 @@ const parser = new Parser({
     "User-Agent": userAgent
   }
 });
+const fetchConcurrency = Number(process.env.RSS_FETCH_CONCURRENCY || 8);
 
 function readFrontmatter(markdown) {
   const match = markdown.match(/^---\s*\n([\s\S]*?)\n---/);
@@ -158,6 +159,35 @@ async function fetchFeed(feed, perFeedLimit) {
   });
 }
 
+async function settleWithConcurrency(entries, limit, worker) {
+  const results = Array(entries.length);
+  let nextIndex = 0;
+  const workerCount = Math.max(1, Math.min(limit, entries.length));
+
+  await Promise.all(
+    Array.from({ length: workerCount }, async () => {
+      while (nextIndex < entries.length) {
+        const index = nextIndex;
+        nextIndex += 1;
+
+        try {
+          results[index] = {
+            status: "fulfilled",
+            value: await worker(entries[index], index)
+          };
+        } catch (error) {
+          results[index] = {
+            status: "rejected",
+            reason: error
+          };
+        }
+      }
+    })
+  );
+
+  return results;
+}
+
 function dedupeItems(items) {
   const seen = new Set();
 
@@ -202,7 +232,7 @@ async function main() {
   const cacheItemLimit = Number(process.env.RSS_CACHE_ITEM_LIMIT || 80);
   const maxAgeDays = Number(process.env.RSS_CACHE_MAX_AGE_DAYS || 120);
   const maxAgeMs = maxAgeDays * 24 * 60 * 60 * 1000;
-  const results = await Promise.allSettled(feeds.map((feed) => fetchFeed(feed, perFeedLimit)));
+  const results = await settleWithConcurrency(feeds, fetchConcurrency, (feed) => fetchFeed(feed, perFeedLimit));
   const errors = [];
   const items = [];
   const successes = [];
@@ -230,7 +260,16 @@ async function main() {
   });
 
   if (!items.length && errors.length) {
-    console.warn(`All feed requests failed. Keeping existing cache with ${existingCache.items.length} items.`);
+    const message = `All feed requests failed. Keeping existing cache with ${existingCache.items.length} items.`;
+
+    if (!existingCache.items.length && process.env.RSS_REQUIRE_CACHE === "1") {
+      console.error(message);
+      console.error(`Feeds: ${feeds.length}, errors: ${errors.length}.`);
+      process.exitCode = 1;
+      return;
+    }
+
+    console.warn(message);
     console.warn(`Feeds: ${feeds.length}, errors: ${errors.length}.`);
     return;
   }
@@ -268,6 +307,12 @@ async function main() {
   console.log(
     `Failed sources: ${errors.map((feed) => `${feed.source}(${feed.sourceType})`).join(", ") || "none"}`
   );
+
+  if (errors.length && process.env.RSS_VERBOSE_ERRORS === "1") {
+    console.log(
+      `Failure details: ${errors.map((feed) => `${feed.source}: ${feed.message}`).join(" | ")}`
+    );
+  }
 }
 
 main().catch((error) => {

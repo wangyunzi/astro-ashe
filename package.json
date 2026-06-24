@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "RSS_REQUIRE_CACHE=1 npm run feeds:update && astro build",
+    "build:site": "astro build",
     "feeds:update": "node scripts/update-friends-feed-cache.mjs",
     "preview": "astro preview",
     "astro": "astro"
