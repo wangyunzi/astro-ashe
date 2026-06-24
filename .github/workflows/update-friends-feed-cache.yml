@@ -53,7 +53,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin "$branch"
+          git pull --rebase --autostash origin "$branch"
           git add src/data/friends-feed-cache.json
           git commit -m "Update friends feed cache"
           git push origin "HEAD:$branch"
