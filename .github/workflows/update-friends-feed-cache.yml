@@ -39,6 +39,8 @@ jobs:
       - name: Commit feed cache
         timeout-minutes: 3
         run: |
+          branch="${GITHUB_REF_NAME:-master}"
+
           if git diff --quiet -- src/data/friends-feed-cache.json; then
             echo "No feed cache changes."
             exit 0
@@ -46,6 +48,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin "$branch"
           git add src/data/friends-feed-cache.json
           git commit -m "Update friends feed cache"
-          git push
+          git push origin "HEAD:$branch"
