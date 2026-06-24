@@ -11,9 +11,16 @@ if (!page) {
 
 const { Content } = await page.render();
 const description = page.data.description || page.data.title;
+const descriptionEn = page.data.descriptionEn || page.data.titleEn;
 ---
 
-<BaseLayout title={page.data.title} description={description} bodyClass="page page-memos">
+<BaseLayout
+  title={page.data.title}
+  titleEn={page.data.titleEn}
+  description={description}
+  descriptionEn={descriptionEn}
+  bodyClass="page page-memos"
+>
   <PageShell title={page.data.title} titleEn={page.data.titleEn}>
     <Content />
   </PageShell>

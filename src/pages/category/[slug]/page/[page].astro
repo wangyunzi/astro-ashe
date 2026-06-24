@@ -27,7 +27,9 @@ const postPage = paginatePosts(posts, pageNumber);
 
 <BaseLayout
   title={`分类：${category} - 第 ${postPage.pagination.currentPage} 页`}
+  titleEn={`Category: ${category} - Page ${postPage.pagination.currentPage}`}
   description={`分类 ${category} 下的文章`}
+  descriptionEn={`Posts in ${category}.`}
   bodyClass="archive category paged"
 >
   <BlogList

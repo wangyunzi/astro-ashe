@@ -6,7 +6,7 @@ import { getPublishedPosts } from "../lib/content";
 const posts = await getPublishedPosts();
 ---
 
-<BaseLayout title="搜索" description="搜索文章" bodyClass="search">
+<BaseLayout title="搜索" titleEn="Search" description="搜索文章" descriptionEn="Search posts" bodyClass="search">
   <BlogList
     posts={posts}
     title="搜索"

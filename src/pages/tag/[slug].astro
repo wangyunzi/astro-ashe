@@ -22,7 +22,13 @@ const posts = Astro.props.posts || [];
 const postPage = paginatePosts(posts, 1);
 ---
 
-<BaseLayout title={`标签：${tag}`} description={`标签 ${tag} 下的文章`} bodyClass="archive tag">
+<BaseLayout
+  title={`标签：${tag}`}
+  titleEn={`Tag: ${tag}`}
+  description={`标签 ${tag} 下的文章`}
+  descriptionEn={`Posts tagged ${tag}.`}
+  bodyClass="archive tag"
+>
   <BlogList
     posts={postPage.items}
     title={`标签：${tag}`}

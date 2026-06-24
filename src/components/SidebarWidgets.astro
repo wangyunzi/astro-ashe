@@ -53,7 +53,7 @@ const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
   showFooterLinks ? (
     <section class="ashe-widget widget_footer_links">
       <div class="widget-title">
-        <h2>{asheConfig.footer.links.title}</h2>
+        <h2 data-i18n="footer.siteIndex">{asheConfig.footer.links.title}</h2>
       </div>
       <ul>
         {asheConfig.footer.links.items.map((item) => (
@@ -70,7 +70,7 @@ const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
   variant === "footer" ? (
     <section class="ashe-widget widget_footer_links widget_site_info">
       <div class="widget-title">
-        <h2>站点信息</h2>
+        <h2 data-i18n="footer.siteInfo">站点信息</h2>
       </div>
       <ul>
         <li>

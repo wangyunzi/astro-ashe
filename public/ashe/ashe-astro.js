@@ -23,9 +23,12 @@
       "nav.food": "美食",
       "nav.categories": "分类",
       "nav.links": "链接",
+      "nav.friendLinks": "好友",
       "nav.friends": "友邻动态",
+      "nav.friendsFeed": "友邻",
       "nav.gallery": "相册",
       "nav.archives": "归档",
+      "nav.memos": "片刻",
       "nav.about": "关于",
       "rss.label": "RSS 订阅",
       "language.label": "切换语言",
@@ -55,8 +58,14 @@
       "contact.send": "发送",
       "comments.loading": "评论加载中...",
       "error.notFoundText": "你访问的页面不存在。",
+      "gallery.noAlbumsTitle": "没有找到相册",
+      "gallery.noAlbumsText": "在 src/content/albums 中添加 Markdown 相册后，会显示在这里。",
+      "gallery.noPhotosTitle": "这个相簿还没有图片",
+      "gallery.noPhotosText": "请在相册 Markdown 文件中使用图片语法添加照片。",
       "footer.privacy": "隐私政策",
       "footer.terms": "使用条款",
+      "footer.siteIndex": "站内索引",
+      "footer.siteInfo": "站点信息",
       "footer.creditBefore": "Ashe 主题由",
       "footer.creditAfter": "提供。Astro 移植版。"
     },
@@ -68,9 +77,12 @@
       "nav.food": "Food",
       "nav.categories": "Categories",
       "nav.links": "Links",
+      "nav.friendLinks": "Friends",
       "nav.friends": "Friends Feed",
+      "nav.friendsFeed": "Friends Feed",
       "nav.gallery": "Gallery",
       "nav.archives": "Archives",
+      "nav.memos": "Memos",
       "nav.about": "About",
       "rss.label": "RSS Feed",
       "language.label": "Switch language",
@@ -100,8 +112,14 @@
       "contact.send": "Send",
       "comments.loading": "Loading comments...",
       "error.notFoundText": "The page you requested does not exist.",
+      "gallery.noAlbumsTitle": "No Albums Found",
+      "gallery.noAlbumsText": "Add Markdown albums in src/content/albums to show them here.",
+      "gallery.noPhotosTitle": "This Album Has No Photos Yet",
+      "gallery.noPhotosText": "Add photos with Markdown image syntax in the album file.",
       "footer.privacy": "Privacy Policy",
       "footer.terms": "Terms of Use",
+      "footer.siteIndex": "Site Index",
+      "footer.siteInfo": "Site Info",
       "footer.creditBefore": "Ashe theme by",
       "footer.creditAfter": "Astro port."
     }
@@ -288,6 +306,7 @@
     applyAttributeTranslations(normalized, "aria-label", "data-i18n-aria-label");
     applyAttributeTranslations(normalized, "title", "data-i18n-title");
     applyAttributeTranslations(normalized, "alt", "data-i18n-alt");
+    applyAttributeTranslations(normalized, "content", "data-i18n-content");
     applyDateTranslations(normalized);
     updateLanguageSwitcher(normalized);
 

@@ -27,7 +27,9 @@ const postPage = paginatePosts(posts, pageNumber);
 
 <BaseLayout
   title={`作者：${author} - 第 ${postPage.pagination.currentPage} 页`}
+  titleEn={`Author: ${author} - Page ${postPage.pagination.currentPage}`}
   description={`${author} 发布的文章`}
+  descriptionEn={`Posts published by ${author}.`}
   bodyClass="archive author paged"
 >
   <BlogList

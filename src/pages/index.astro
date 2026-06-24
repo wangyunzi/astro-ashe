@@ -13,7 +13,13 @@ const sliderPosts = featuredPosts.length ? featuredPosts : posts;
 const postPage = paginatePosts(posts, 1);
 ---
 
-<BaseLayout title={asheConfig.site.title} description={asheConfig.site.description} bodyClass="home blog">
+<BaseLayout
+  title={asheConfig.site.title}
+  titleEn={asheConfig.site.title}
+  description={asheConfig.site.description}
+  descriptionEn={asheConfig.site.descriptionEn}
+  bodyClass="home blog"
+>
   {asheConfig.featuredSlider.location === "top" ? <FeaturedSlider posts={sliderPosts} /> : null}
   <FeaturedLinks />
   {asheConfig.featuredSlider.location === "before-posts" ? <FeaturedSlider posts={sliderPosts} /> : null}

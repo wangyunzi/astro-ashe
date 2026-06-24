@@ -123,11 +123,6 @@ groups:
         description: 友邻博客。
         href: https://mclsk888.top
         icon: fa-solid fa-link
-      - title: 上杉九月的博客
-        description: 分享生活，探索未来！
-        href: https://blog.sakurasep.site/
-        feed: https://blog.sakurasep.site/atom.xml
-        icon: fa-solid fa-link
       - title: 一大加贝
         description: 学习技术，热爱生活。
         href: https://tianheg.co/
@@ -146,11 +141,6 @@ groups:
         description: 集中精神，以气御剪。
         href: https://uyoahz.cn/
         feed: https://uyoahz.cn/atom.xml
-        icon: fa-solid fa-link
-      - title: Sulv's Blog
-        description: 一个记录技术、阅读、生活的博客。
-        href: https://www.sulvblog.cn
-        feed: https://www.sulvblog.cn/index.xml
         icon: fa-solid fa-link
       - title: 凡梦星尘空间站
         description: 再平凡的人也有属于他的梦想！
@@ -171,10 +161,6 @@ groups:
         href: https://www.thyuu.com
         feed: https://www.thyuu.com/feed
         icon: fa-solid fa-link
-      - title: DIDCTF-Blog
-        description: 一个爱好网安的法学生。
-        href: https://blog.didctf.com/
-        icon: fa-solid fa-link
       - title: 山岳库博
         description: 开发学习启发性二刺螈。
         href: https://kmar.top/
@@ -182,11 +168,6 @@ groups:
       - title: USTC-茶糜花开
         description: Science lights up the world.
         href: https://blog.starysky.top
-        icon: fa-solid fa-link
-      - title: 西瓜撞地球
-        description: 我在人间贩卖彩虹。
-        href: https://bio-w.cn/
-        feed: https://www.bio-w.cn/feed
         icon: fa-solid fa-link
       - title: 胡涂说
         description: 任抛星汉归园圃，留取乾坤盛酒囊。
@@ -211,11 +192,6 @@ groups:
         description: 竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
         href: https://easyf12.top/
         feed: https://easyf12.top/atom.xml
-        icon: fa-solid fa-link
-      - title: Shixiaocaia
-        description: 去做吧，反正都会后悔。
-        href: https://shixiaocaia.fun
-        feed: https://shixiaocaia.fun/index.xml
         icon: fa-solid fa-link
       - title: 老卢
         description: 个人博客记录日常。
@@ -245,15 +221,6 @@ groups:
         description: 地质、炼丹、编程、GIS、摄影。
         href: https://blog.cuger.cn
         feed: https://blog.cuger.cn/atom.xml
-        icon: fa-solid fa-link
-      - title: wenderfeng
-        description: Step by step.
-        href: https://wenderfeng.top/
-        feed: https://wenderfeng.top/rss/feed.xml
-        icon: fa-solid fa-link
-      - title: KaiQi.Wang
-        description: 未来路远 • 勿忘初心。
-        href: https://kaiqi.wang
         icon: fa-solid fa-link
   - title: 推荐资源
     titleEn: Recommended

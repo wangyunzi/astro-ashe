@@ -12,7 +12,13 @@ const currentPage = 1;
 const currentPosts = posts.slice(0, perPage);
 ---
 
-<BaseLayout title="归档" description="按时间线浏览所有文章" bodyClass="page page-archives archive">
+<BaseLayout
+  title="归档"
+  titleEn="Archives"
+  description="按时间线浏览所有文章"
+  descriptionEn="Browse all posts on a timeline."
+  bodyClass="page page-archives archive"
+>
   <PageShell title="归档" titleEn="Archives">
     <ol class="archive-timeline">
       {
@@ -33,7 +39,7 @@ const currentPosts = posts.slice(0, perPage);
                       </div>
                     ) : null
                   }
-                  <time class="archive-timeline-date" datetime={post.data.date.toISOString()}>
+                  <time class="archive-timeline-date" datetime={post.data.date.toISOString()} data-i18n-date>
                     {post.data.date.getFullYear()}年{post.data.date.getMonth() + 1}月{post.data.date.getDate()}日
                   </time>
                 </div>

@@ -22,7 +22,13 @@ const posts = Astro.props.posts || [];
 const postPage = paginatePosts(posts, 1);
 ---
 
-<BaseLayout title={`分类：${category}`} description={`分类 ${category} 下的文章`} bodyClass="archive category">
+<BaseLayout
+  title={`分类：${category}`}
+  titleEn={`Category: ${category}`}
+  description={`分类 ${category} 下的文章`}
+  descriptionEn={`Posts in ${category}.`}
+  bodyClass="archive category"
+>
   <BlogList
     posts={postPage.items}
     title={`分类：${category}`}

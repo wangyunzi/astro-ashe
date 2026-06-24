@@ -23,7 +23,9 @@ const postPage = paginatePosts(posts, pageNumber);
 
 <BaseLayout
   title={`第 ${postPage.pagination.currentPage} 页`}
+  titleEn={`Page ${postPage.pagination.currentPage}`}
   description={asheConfig.site.description}
+  descriptionEn={asheConfig.site.descriptionEn}
   bodyClass="home blog paged"
 >
   <BlogList posts={postPage.items} pagination={{ ...postPage.pagination, basePath: "/" }} />

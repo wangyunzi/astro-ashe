@@ -38,6 +38,15 @@ export type FeaturedLinkItem = {
   image: string;
 };
 
+export type FriendsFeedConfig = {
+  title: string;
+  titleEn?: string;
+  description: string;
+  descriptionEn?: string;
+  path: string;
+  limit: number;
+};
+
 export const asheConfig = {
   site: {
     // 用于浏览器标题、页头 Logo 文本、订阅源元信息和默认 SEO 文案。
@@ -206,12 +215,12 @@ export const asheConfig = {
       // 页脚链接小组件，适合放常用页面、友链入口或订阅入口。
       title: "站内索引",
       items: [
-        { label: "旧文", href: "/archives/"},
-        { label: "影像", href: "/gallery/"},
-        { label: "好友", href: "/friends/" },
-        { label: "友邻", href: "/links/"},
-        { label: "片刻", href: "/memos/"},
-        { label: "关于", href: "/about/"}
+        { label: "旧文", href: "/archives/", i18nKey: "nav.archives" },
+        { label: "影像", href: "/gallery/", i18nKey: "nav.gallery" },
+        { label: "好友", href: "/friends/", i18nKey: "nav.friendLinks" },
+        { label: "友邻", href: "/links/", i18nKey: "nav.friendsFeed" },
+        { label: "片刻", href: "/memos/", i18nKey: "nav.memos" },
+        { label: "关于", href: "/about/", i18nKey: "nav.about" }
       ] satisfies MenuItem[]
     },
 
@@ -259,7 +268,7 @@ export const asheConfig = {
   comments: {
     // 评论系统开关。provider 可在 twikoo 和 remark42 之间切换。
     enabled: true,
-    provider: "remark42" as CommentProvider,
+    provider: "twikoo" as CommentProvider,
 
     // pathname 按文章 URL 区分评论，slug 按内容 slug 区分评论。
     pathStrategy: "pathname" as CommentPathStrategy,
@@ -357,6 +366,18 @@ export const asheConfig = {
       // { title: "友邻", href: "/links/", image: "/ashe/assets/images/img3.jpg" }
     ] satisfies FeaturedLinkItem[]
   },
+
+  friendsFeed: {
+    // 好友动态页配置，对应 /links/ 页面。
+    title: "好友动态",
+    titleEn: "Friends Feed",
+    description: "通过 RSS 聚合好友博客的最新更新。",
+    descriptionEn: "A live RSS-powered stream of updates from friendly blogs.",
+    path: "/links/",
+
+    // 页面展示的动态数量；RSS 缓存总量在 scripts/update-friends-feed-cache.mjs 中控制。
+    limit: 20
+  } satisfies FriendsFeedConfig,
 
   blog: {
     // 文章详情页路径前缀。"/" 为 /slug/，"/posts/" 为 /posts/slug/，"/archives/" 为 /archives/slug/。

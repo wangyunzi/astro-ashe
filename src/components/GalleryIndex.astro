@@ -22,6 +22,7 @@ const albumCards = albums.map((album) => ({
             class="gallery-album-cover lazy-image-shell"
             href={albumHref(album)}
             aria-label={`打开相簿：${album.data.title}`}
+            data-i18n-aria-label-en={`Open album: ${album.data.title}`}
           >
             {cover ? (
               <img
@@ -40,7 +41,9 @@ const albumCards = albums.map((album) => ({
                 <time datetime={album.data.date.toISOString()} data-i18n-date>
                   {formatDate(album.data.date)}
                 </time>
-                <span>{photoCount} 张照片</span>
+                <span data-i18n-en={`${photoCount} ${photoCount === 1 ? "photo" : "photos"}`}>
+                  {photoCount} 张照片
+                </span>
               </span>
             </span>
           </a>
@@ -49,8 +52,8 @@ const albumCards = albums.map((album) => ({
     </div>
   ) : (
     <div class="no-result-found">
-      <h3>没有找到相册</h3>
-      <p>在 src/content/albums 中添加 Markdown 相册后，会显示在这里。</p>
+      <h3 data-i18n="gallery.noAlbumsTitle">没有找到相册</h3>
+      <p data-i18n="gallery.noAlbumsText">在 src/content/albums 中添加 Markdown 相册后，会显示在这里。</p>
     </div>
   )
 }
