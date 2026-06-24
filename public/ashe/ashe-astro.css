@@ -405,7 +405,7 @@ html {
   align-items: flex-start;
   min-height: 112px;
   padding: 20px;
-  background: #fffdf9;
+  background: #ffffff;
   border: 1px solid rgba(202, 155, 82, 0.22);
   border-radius: 8px;
   color: #222222;
@@ -418,9 +418,10 @@ html {
 
 .ashe-astro .ashe-link-cards .links-page-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(202, 155, 82, 0.45);
-  background: #ffffff;
-  box-shadow: 0 14px 30px rgba(17, 17, 17, 0.08);
+  border-color: rgba(202, 155, 82, 0.4);
+  background: rgba(202, 155, 82, 0.1);
+  color: #222222;
+  box-shadow: 0 14px 30px rgba(202, 155, 82, 0.12);
 }
 
 .ashe-astro .ashe-link-cards .links-page-card:active {
@@ -438,6 +439,14 @@ html {
   background: rgba(202, 155, 82, 0.12);
   color: #ca9b52;
   font-size: 16px;
+  transition-duration: 160ms;
+  transition-property: background-color, color;
+  transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+}
+
+.ashe-astro .ashe-link-cards .links-page-card:hover .links-page-card-icon {
+  background: rgba(202, 155, 82, 0.18);
+  color: #b6863e;
 }
 
 .ashe-astro .ashe-link-cards .links-page-card-icon img {
@@ -464,12 +473,19 @@ html {
   color: #222222;
   font-size: 15px;
   line-height: 1.35;
+  transition: color 160ms cubic-bezier(0.2, 0, 0, 1);
 }
 
 .ashe-astro .ashe-link-cards .links-page-card-content span {
   color: #777777;
   font-size: 13px;
   line-height: 1.7;
+  transition: color 160ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.ashe-astro .ashe-link-cards .links-page-card:hover .links-page-card-content strong,
+.ashe-astro .ashe-link-cards .links-page-card:hover .links-page-card-content span {
+  color: #222222;
 }
 
 .ashe-astro .twikoo-config-notice {
@@ -820,19 +836,29 @@ body.ashe-dark-mode .ashe-link-cards .links-page-card-content span {
 }
 
 body.ashe-dark-mode .ashe-link-cards .links-page-card {
-  background: rgba(255, 255, 255, 0.04);
+  background: #ffffff;
   border-color: rgba(255, 255, 255, 0.12);
   box-shadow: none;
-  color: #f0f0f0;
+  color: #222222;
 }
 
 body.ashe-dark-mode .ashe-link-cards .links-page-card:hover {
-  background: rgba(255, 255, 255, 0.07);
-  border-color: rgba(202, 155, 82, 0.55);
+  background: rgba(202, 155, 82, 0.16);
+  border-color: rgba(202, 155, 82, 0.45);
+  color: #f0f0f0;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
 }
 
 body.ashe-dark-mode .ashe-link-cards .links-page-card-content strong,
+body.ashe-dark-mode .ashe-link-cards .links-page-card-content span {
+  color: #222222;
+}
+
+body.ashe-dark-mode .ashe-link-cards .links-page-card:hover .links-page-card-content strong,
+body.ashe-dark-mode .ashe-link-cards .links-page-card:hover .links-page-card-content span {
+  color: #f0f0f0;
+}
+
 body.ashe-dark-mode .ashe-link-cards .links-page-group h2 {
   color: #f0f0f0;
 }

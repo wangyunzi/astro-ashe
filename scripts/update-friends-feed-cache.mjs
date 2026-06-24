@@ -44,6 +44,7 @@ function normalizeFeed(feed) {
     descriptionEn: feed.descriptionEn ? String(feed.descriptionEn) : undefined,
     avatar: feed.avatar ? String(feed.avatar) : undefined,
     category: feed.category ? String(feed.category) : undefined,
+    sourceType: feed.sourceType ? String(feed.sourceType) : "feed",
     order: Number.isFinite(feed.order) ? feed.order : Number.MAX_SAFE_INTEGER
   };
 }
@@ -106,10 +107,11 @@ async function getConfiguredFeeds() {
       description: item.description,
       descriptionEn: item.descriptionEn,
       avatar: item.avatar,
-      category: item.category || friendGroup?.title
+      category: item.category || friendGroup?.title,
+      sourceType: "friends"
     }));
-  const extraFeeds = asArray(page.extraFeeds);
-  const dataFeeds = await readDataFeeds();
+  const extraFeeds = asArray(page.extraFeeds).map((feed) => ({ ...feed, sourceType: "extraFeeds" }));
+  const dataFeeds = (await readDataFeeds()).map((feed) => ({ ...feed, sourceType: "feeds" }));
 
   return uniqueFeeds([...inlineFeeds, ...extraFeeds, ...dataFeeds].map(normalizeFeed).filter(Boolean));
 }
@@ -146,6 +148,8 @@ async function fetchFeed(feed, perFeedLimit) {
       source: feed.title,
       sourceEn: feed.titleEn,
       sourceUrl: feed.site,
+      feedUrl: feed.feed,
+      sourceType: feed.sourceType,
       avatar: feed.avatar,
       description: feed.description,
       descriptionEn: feed.descriptionEn,
@@ -201,17 +205,24 @@ async function main() {
   const results = await Promise.allSettled(feeds.map((feed) => fetchFeed(feed, perFeedLimit)));
   const errors = [];
   const items = [];
+  const successes = [];
 
   results.forEach((result, index) => {
     const feed = feeds[index];
 
     if (result.status === "fulfilled") {
       items.push(...result.value);
+      successes.push({
+        source: feed.title,
+        sourceType: feed.sourceType,
+        count: result.value.length
+      });
       return;
     }
 
     errors.push({
       source: feed.title,
+      sourceType: feed.sourceType,
       site: feed.site,
       feed: feed.feed,
       message: result.reason?.message || "Unknown RSS fetch error"
@@ -251,6 +262,12 @@ async function main() {
 
   console.log(`Updated ${path.relative(root, cachePath)} with ${freshItems.length} items.`);
   console.log(`Feeds: ${feeds.length}, errors: ${errors.length}.`);
+  console.log(
+    `Success sources: ${successes.map((feed) => `${feed.source}(${feed.sourceType}:${feed.count})`).join(", ") || "none"}`
+  );
+  console.log(
+    `Failed sources: ${errors.map((feed) => `${feed.source}(${feed.sourceType})`).join(", ") || "none"}`
+  );
 }
 
 main().catch((error) => {

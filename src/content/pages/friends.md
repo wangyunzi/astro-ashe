@@ -11,7 +11,7 @@ feedPage:
   description: 通过 RSS 聚合好友博客的最新更新。
   descriptionEn: A live RSS-powered stream of updates from friendly blogs.
   path: /links/
-  limit: 8
+  limit: 20
 extraFeeds:
   - title: "1900"
     site: https://1900.live/
