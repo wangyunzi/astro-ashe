@@ -29,11 +29,7 @@ permalink: /memos/
   // server:'https://artalk.wangyunzi.com' //填入前面artalk的网站域名，没有评论功能可以不管
 }
 </script>
-<!-- js引用路径自己改好 -->
-<link rel="stylesheet" href="https://cdn.staticfile.org/artalk/2.8.3/Artalk.css">
-<script type="text/javascript" src="https://cdn.staticfile.org/artalk/2.8.3/Artalk.js"></script>
 <script src="https://npm.elemecdn.com/marked/marked.min.js"></script>
 <script src="https://jsd.onmicrosoft.cn/gh/Tokinx/Lately/lately.min.js"></script>
 <script src="/assets/js/memos.js"></script>
-
 
