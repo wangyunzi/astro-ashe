@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout blog
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: blog
 
@@ -57,7 +57,7 @@ jobs:
           echo "source_root=$source_root" >> "$GITHUB_OUTPUT"
 
       - name: Checkout Obsidian
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: ${{ steps.source.outputs.repo }}
           ref: ${{ steps.source.outputs.ref }}
