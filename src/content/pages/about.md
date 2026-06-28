@@ -56,6 +56,7 @@ order: 6
 
 
 #### 🌞建站日记
+- 2026年06月28日 实用Astro框架，主题移植自[ASHE](https://wordpress.org/themes/ashe/)
 - 2024年08月03日  使用jekyll框架，主题[Travelogue](https://github.com/SalGnt/Travelogue)
 - 2024年05月01日  转回静态博客，使用框架hugo，主题[ZOZO](https://github.com/varkai/hugo-theme-zozo)
 - 2024年01月22日  尝试主题[MeaWord](https://www.bawge.com/archives/63.html)
