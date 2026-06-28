@@ -3,7 +3,7 @@ import { configuredUserAgent as configuredRuntimeUserAgent } from "../ashe.runti
 import type { CollectionEntry } from "astro:content";
 
 export type PostEntry = CollectionEntry<"posts">;
-export type AlbumEntry = CollectionEntry<"albums">;
+export type AlbumEntry = CollectionEntry<"album">;
 export type FeedEntry = CollectionEntry<"feeds">;
 export type PageEntry = CollectionEntry<"pages">;
 

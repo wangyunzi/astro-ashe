@@ -4,16 +4,23 @@ on:
   repository_dispatch:
     types:
       - obsidian-content-updated
+      - sync_from_obsidian
   workflow_dispatch:
     inputs:
       obsidian_repo:
-        description: Obsidian repository, for example wangyunzi/obsidian
-        required: true
+        description: Obsidian repository, for example wangyunzi/myob
+        required: false
+        default: wangyunzi/myob
         type: string
       obsidian_ref:
         description: Branch, tag, or commit to sync
         required: false
-        default: main
+        default: master
+        type: string
+      source_root:
+        description: Source content root inside the Obsidian repository
+        required: false
+        default: wiki/blog
         type: string
 
 permissions:
@@ -37,17 +44,17 @@ jobs:
         env:
           EVENT_REPO: ${{ github.event.client_payload.repository }}
           EVENT_REF: ${{ github.event.client_payload.ref }}
+          EVENT_SOURCE_ROOT: ${{ github.event.client_payload.source_root }}
           INPUT_REPO: ${{ inputs.obsidian_repo }}
           INPUT_REF: ${{ inputs.obsidian_ref }}
+          INPUT_SOURCE_ROOT: ${{ inputs.source_root }}
         run: |
-          repo="${EVENT_REPO:-$INPUT_REPO}"
-          ref="${EVENT_REF:-$INPUT_REF}"
-          if [ -z "$repo" ]; then
-            echo "::error::Missing Obsidian repository. Pass it from repository_dispatch or workflow_dispatch."
-            exit 1
-          fi
+          repo="${EVENT_REPO:-${INPUT_REPO:-wangyunzi/myob}}"
+          ref="${EVENT_REF:-${INPUT_REF:-master}}"
+          source_root="${EVENT_SOURCE_ROOT:-${INPUT_SOURCE_ROOT:-wiki/blog}}"
           echo "repo=$repo" >> "$GITHUB_OUTPUT"
-          echo "ref=${ref:-main}" >> "$GITHUB_OUTPUT"
+          echo "ref=$ref" >> "$GITHUB_OUTPUT"
+          echo "source_root=$source_root" >> "$GITHUB_OUTPUT"
 
       - name: Checkout Obsidian
         uses: actions/checkout@v4
@@ -58,33 +65,40 @@ jobs:
           path: obsidian
 
       - name: Sync content folders
+        env:
+          SOURCE_ROOT: ${{ steps.source.outputs.source_root }}
         run: |
           set -euo pipefail
-          mkdir -p blog/src/content/albums blog/src/content/pages blog/src/content/posts
+          source_dir="obsidian/${SOURCE_ROOT%/}"
 
-          if [ -d obsidian/album ]; then
-            rsync -a --delete obsidian/album/ blog/src/content/albums/
-          fi
+          for folder in album pages posts; do
+            if [ ! -d "$source_dir/$folder" ]; then
+              echo "::error::Missing source folder: $source_dir/$folder"
+              exit 1
+            fi
+          done
 
-          if [ -d obsidian/page ]; then
-            rsync -a --delete obsidian/page/ blog/src/content/pages/
-          fi
+          mkdir -p blog/src/content/album blog/src/content/pages blog/src/content/posts
 
-          if [ -d obsidian/posts ]; then
-            rsync -a --delete obsidian/posts/ blog/src/content/posts/
+          rsync -a --delete "$source_dir/album/" blog/src/content/album/
+          rsync -a --delete "$source_dir/pages/" blog/src/content/pages/
+          rsync -a --delete "$source_dir/posts/" blog/src/content/posts/
+
+          if [ -d blog/src/content/albums ]; then
+            rm -rf blog/src/content/albums
           fi
 
       - name: Commit synced content
         working-directory: blog
         run: |
           set -euo pipefail
-          if git diff --quiet -- src/content/albums src/content/pages src/content/posts; then
+          if git diff --quiet -- src/content/album src/content/pages src/content/posts src/content/albums; then
             echo "No content changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/content/albums src/content/pages src/content/posts
+          git add -A src/content
           git commit -m "Sync Obsidian content"
           git push

@@ -7,7 +7,7 @@ export async function getPublishedPosts() {
 }
 
 export async function getPublishedAlbums() {
-  const albums = await getCollection("albums", ({ data }) => !data.draft);
+  const albums = await getCollection("album", ({ data }) => !data.draft);
   return albums.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
