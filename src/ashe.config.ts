@@ -65,6 +65,9 @@ export const asheConfig = {
     // 可选图片 Logo。留空时使用 Ashe 的文字 Logo 样式。
     logo: "",
 
+    // 浏览器标签页和收藏夹图标。
+    favicon: "https://blog.wangyunzi.com/avatar.png",
+
     // 页头背景图路径。
     headerImage: "/ashe/assets/images/ashe_bg.jpg",
 

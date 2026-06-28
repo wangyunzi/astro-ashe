@@ -45,6 +45,8 @@ const rssUrl = new URL(asheConfig.rss.path, `${asheConfig.site.url.replace(/\/$/
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} data-i18n-content-en={descriptionEn} />
     <title data-i18n-en={pageTitleEn}>{pageTitle}</title>
+    {asheConfig.site.favicon ? <link rel="icon" href={asheConfig.site.favicon} /> : null}
+    {asheConfig.site.favicon ? <link rel="apple-touch-icon" href={asheConfig.site.favicon} /> : null}
     <link rel="alternate" type="application/rss+xml" title={`${asheConfig.site.title} RSS`} href={rssUrl} />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />

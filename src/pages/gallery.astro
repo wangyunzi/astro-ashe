@@ -9,8 +9,8 @@ const albums = await getPublishedAlbums();
 
 <BaseLayout title="相册" titleEn="Gallery" description="照片相簿集合" descriptionEn="Photo album collection" bodyClass="page page-gallery">
   <PageShell title="相册" titleEn="Gallery">
-    <p data-i18n-en="Open an album cover to browse its photos. Each album is written as Markdown images.">
-      点击封面进入相簿。每个相册都是独立 Markdown 文件，正文只需要写图片语法。
+    <p data-i18n-en="Light, seasons, streets, and ordinary days are kept here as quiet proof that life once passed by beautifully.">
+      光影、四季、街巷与寻常日子，都被安静地收在这里，作为生活曾经经过的痕迹。
     </p>
 
     <GalleryIndex albums={albums} />

@@ -28,33 +28,130 @@ const descriptionEn = page.data.descriptionEn || page.data.titleEn;
 
 <style>
   :global(#bber) {
-    display: grid;
-    gap: 18px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 760px;
+    margin: 0 auto;
+    padding-left: 22px;
     min-height: 120px;
   }
 
+  :global(#bber::before) {
+    content: "";
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 4px;
+    width: 1px;
+    background: linear-gradient(to bottom, rgba(202, 155, 82, 0), rgba(202, 155, 82, 0.34), rgba(202, 155, 82, 0));
+  }
+
   :global(.bber-item) {
-    padding: 18px 20px;
-    border: 1px solid #eeeeee;
-    border-radius: 10px;
-    background: #ffffff;
+    position: relative;
+    padding: 0 0 24px 18px;
+    background: transparent;
+  }
+
+  :global(.bber-item::before) {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -22px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #ca9b52;
+    box-shadow: 0 0 0 5px rgba(202, 155, 82, 0.12);
+  }
+
+  :global(.bber-content) {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    padding: 14px 17px;
+    border-radius: 6px;
+    background: #fbfaf7;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.85;
   }
 
   :global(.bber-content > :last-child) {
     margin-bottom: 0;
   }
 
+  :global(.bber-content p) {
+    margin-bottom: 0.8em;
+  }
+
+  :global(.bber-content a) {
+    color: #9b6b29;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(155, 107, 41, 0.28);
+  }
+
+  :global(.bber-content a:hover) {
+    color: #ca9b52;
+  }
+
+  :global(.bber-content img) {
+    display: block;
+    max-width: min(100%, 420px);
+    height: auto;
+    margin-top: 10px;
+    border-radius: 6px;
+  }
+
   :global(.bber-date) {
     display: block;
-    margin-top: 12px;
+    margin-top: 8px;
     color: #999999;
-    font-size: 13px;
+    font-size: 12px;
+    letter-spacing: 0;
   }
 
   :global(.bber-loading),
   :global(.bber-empty),
   :global(.bber-error) {
     margin: 0;
+    padding: 14px 0;
     color: #888888;
+  }
+
+  :global(body.ashe-dark-mode #bber::before) {
+    background: linear-gradient(to bottom, rgba(202, 155, 82, 0), rgba(202, 155, 82, 0.4), rgba(202, 155, 82, 0));
+  }
+
+  :global(body.ashe-dark-mode .bber-content) {
+    background: #2a2a2a;
+    color: #d7d7d7;
+  }
+
+  :global(body.ashe-dark-mode .bber-date) {
+    color: #9e9e9e;
+  }
+
+  @media (max-width: 640px) {
+    :global(#bber) {
+      padding-left: 18px;
+    }
+
+    :global(.bber-item) {
+      padding-left: 14px;
+      padding-bottom: 22px;
+    }
+
+    :global(.bber-item::before) {
+      left: -18px;
+    }
+
+    :global(.bber-content) {
+      width: auto;
+      padding: 13px 15px;
+      font-size: 14px;
+      line-height: 1.8;
+    }
   }
 </style>
