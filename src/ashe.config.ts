@@ -217,7 +217,11 @@ export const asheConfig = {
       title: "关于 RAE",
 
       // 页脚小组件使用的图片。
-      image: "/ashe/assets/images/rae.jpeg",
+      image: "/ashe/assets/images/rae.jpg",
+
+      // 页脚 About 图片尺寸，单位 px。宽度调小、高度不变时会保持竖向长度。
+      imageWidth: 160,
+      imageHeight: 130,
 
       // 页脚 About 图片的替代文本。
       imageAlt: "RAE",
@@ -322,7 +326,7 @@ export const asheConfig = {
       envId: "https://twikoo.wangyunzi.com",
 
       // Twikoo 客户端脚本地址，可以固定版本或改为自托管地址。
-      cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.min.js",
+      cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.13/dist/twikoo.min.js",
 
       // 传给 twikoo.init() 的语言参数。
       lang: "zh-CN"
@@ -403,6 +407,7 @@ export const asheConfig = {
 
   colors: {
     // 主题强调色。链接、分类、选中文本和悬停状态会使用它。
+    // accent: "#9A6A2F",
     accent: "#ca9b52",
 
     // 主内容区背景色。保留白色会更接近原 Ashe 免费主题。

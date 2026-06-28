@@ -81,53 +81,6 @@ const path = commentPath(post);
             twikooRoot.appendChild(notice);
           }
 
-          function keepSingleTwikooEmoji() {
-            if (!twikooRoot) return;
-            var controls = [];
-            var seen = [];
-            var submitAction = twikooRoot.querySelector(".tk-submit-action");
-            var emojiNodes = submitAction
-              ? submitAction.querySelectorAll(
-                  ".tk-submit-action-icon.__emoji, .tk-submit-action-icon .tk-icon-emotion, .tk-submit-action-icon .tk-emotion, .tk-submit-action-icon .OwO-logo, .OwO, .tk-owo, .tk-icon-emotion, .tk-emotion"
-                )
-              : [];
-
-            emojiNodes.forEach(function (item) {
-              var control =
-                item.closest(".tk-submit-action-icon") || item.closest(".tk-owo") || item.closest(".OwO") || item;
-
-              if (seen.indexOf(control) !== -1) {
-                return;
-              }
-              seen.push(control);
-              controls.push(control);
-            });
-
-            controls.forEach(function (item, index) {
-              item.classList.remove("ashe-emoji-primary");
-              item.style.removeProperty("display");
-              item.removeAttribute("hidden");
-
-              if (index === 0) {
-                item.classList.add("ashe-emoji-primary");
-                return;
-              }
-
-              item.remove();
-            });
-          }
-
-          function watchTwikooEmoji() {
-            keepSingleTwikooEmoji();
-            if (!twikooRoot || typeof MutationObserver !== "function") return;
-            var timer = null;
-            var observer = new MutationObserver(function () {
-              window.clearTimeout(timer);
-              timer = window.setTimeout(keepSingleTwikooEmoji, 50);
-            });
-            observer.observe(twikooRoot, { childList: true, subtree: true });
-          }
-
           function loadTwikooClient() {
             return new Promise(function (resolve, reject) {
               if (resolveTwikooInit(window.twikoo)) {
@@ -186,8 +139,6 @@ const path = commentPath(post);
               path: twikooPath,
               lang: getTwikooLanguage(twikooLang)
             });
-          }).then(function () {
-            watchTwikooEmoji();
           }).catch(function (error) {
             showTwikooError(error && error.message ? error.message : twikooText("unknownError"));
             console.error("[Twikoo]", error);
@@ -196,74 +147,5 @@ const path = commentPath(post);
       ) : null}
     </section>
 
-    <style>
-      .comments-area {
-        margin-top: 40px;
-        padding-top: 0;
-        border-top: 0;
-      }
-
-      .twikoo-config-notice {
-        margin: 0;
-        color: #888888;
-        text-align: center;
-      }
-
-      .comments-area :global(.tk-comments-title),
-      .comments-area :global(.tk-comments-count) {
-        color: #333333;
-      }
-
-      .comments-area :global(.tk-input),
-      .comments-area :global(.tk-textarea),
-      .comments-area :global(.el-input__inner),
-      .comments-area :global(.el-textarea__inner) {
-        border-radius: 8px;
-        border: 0 !important;
-        border-color: transparent !important;
-        box-shadow: none !important;
-        outline: 0;
-      }
-
-      .comments-area :global(.el-input__inner:focus),
-      .comments-area :global(.el-textarea__inner:focus) {
-        border: 0 !important;
-        box-shadow: none !important;
-        outline: 0;
-      }
-
-      .comments-area :global(.el-textarea__inner) {
-        background-image: var(--ashe-comment-textarea-image) !important;
-        background-repeat: no-repeat !important;
-        background-position: right 18px bottom 10px !important;
-        background-size: 176px auto !important;
-      }
-
-      .comments-area :global(.tk-submit-action-icon.__markdown),
-      .comments-area :global(.tk-submit-action-icon.__image),
-      .comments-area :global(.tk-submit-action-icon.__emoji),
-      .comments-area :global(.tk-submit-action-icon.__emoji ~ .tk-submit-action-icon.__emoji),
-      .comments-area :global(.OwO),
-      .comments-area :global(.tk-owo),
-      .comments-area :global(.tk-icon-emotion),
-      .comments-area :global(.tk-emotion) {
-        display: none !important;
-      }
-
-      .comments-area :global(.tk-submit-action-icon.__emoji.ashe-emoji-primary),
-      .comments-area :global(.tk-submit-action .ashe-emoji-primary),
-      .comments-area :global(.ashe-emoji-primary .tk-icon-emotion),
-      .comments-area :global(.ashe-emoji-primary .tk-emotion) {
-        display: inline-flex !important;
-      }
-
-      .comments-area :global(.tk-submit) {
-        border-radius: 8px;
-      }
-
-      .comments-area :global(.tk-submit-title) {
-        display: none;
-      }
-    </style>
   )
 }

@@ -20,6 +20,20 @@ const about = variant === "footer" ? footerAbout : sidebarAbout;
 const aboutImage = variant === "alt" && sidebarAbout.altImage ? sidebarAbout.altImage : about.image;
 const aboutTranslation = about.translations?.en;
 const aboutTitleEn = aboutTranslation?.title;
+const aboutImageWidth =
+  variant === "footer" && "imageWidth" in about && typeof about.imageWidth === "number"
+    ? about.imageWidth
+    : undefined;
+const aboutImageHeight =
+  variant === "footer" && "imageHeight" in about && typeof about.imageHeight === "number"
+    ? about.imageHeight
+    : undefined;
+const aboutStyle = [
+  aboutImageWidth ? `--footer-about-image-width: ${aboutImageWidth}px` : "",
+  aboutImageHeight ? `--footer-about-image-height: ${aboutImageHeight}px` : ""
+]
+  .filter(Boolean)
+  .join("; ");
 const showAbout = about.enabled && (variant !== "footer" || footerWidgets.showAbout);
 const showFooterLinks = variant === "footer" && footerWidgets.showLinks;
 const showRecentPosts =
@@ -35,7 +49,10 @@ const copyright = asheConfig.footer.copyright
 
 {
   showAbout ? (
-    <section class="ashe-widget widget_text">
+    <section
+      class={variant === "footer" ? "ashe-widget widget_text footer-about-widget" : "ashe-widget widget_text"}
+      style={aboutStyle || undefined}
+    >
       <div class="widget-title">
         <h2 data-i18n-en={aboutTitleEn}>{about.title}</h2>
       </div>

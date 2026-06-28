@@ -11,7 +11,7 @@ permalink: /memos/
   // 以下信息改掉
   var bbMemo = {
     memos : 'https://s.dusays.com/', //填入memos网站域名，末尾需带斜杠
-    limit : '20', //填入需要展示的memos数量
+    limit : '8', //填入需要展示的memos数量
     creatorId:'9' , //自己部署的话默认为1，不用修改
     domId: '#bber', //可以不修改
     username:"王云子", //修改为你自己的昵称
@@ -32,4 +32,3 @@ permalink: /memos/
 <script src="https://npm.elemecdn.com/marked/marked.min.js"></script>
 <script src="https://jsd.onmicrosoft.cn/gh/Tokinx/Lately/lately.min.js"></script>
 <script src="/assets/js/memos.js"></script>
-
