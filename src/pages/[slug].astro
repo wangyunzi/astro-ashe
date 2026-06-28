@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import LinksPageGroups from "../components/LinksPageGroups.astro";
 import PageShell from "../components/PageShell.astro";
+import { render } from "astro:content";
+import { entrySlug } from "../lib/ashe";
 import { getPublishedPages } from "../lib/content";
 
 export async function getStaticPaths() {
@@ -9,7 +11,7 @@ export async function getStaticPaths() {
   const dedicatedPageSlugs = new Set(["about", "friends", "links", "memos"]);
 
   return pages
-    .filter((page) => !dedicatedPageSlugs.has(page.slug))
+    .filter((page) => !dedicatedPageSlugs.has(entrySlug(page)))
     .map((page) => ({
       page,
       slug: page.data.permalink.replace(/^\/+|\/+$/g, "")
@@ -23,7 +25,7 @@ export async function getStaticPaths() {
 }
 
 const { page } = Astro.props;
-const { Content } = await page.render();
+const { Content } = await render(page);
 const description = page.data.description || page.data.title;
 const descriptionEn = page.data.descriptionEn || page.data.titleEn;
 ---
@@ -33,7 +35,7 @@ const descriptionEn = page.data.descriptionEn || page.data.titleEn;
   titleEn={page.data.titleEn}
   description={description}
   descriptionEn={descriptionEn}
-  bodyClass={`page page-${page.slug}`}
+  bodyClass={`page page-${entrySlug(page)}`}
 >
   <PageShell
     title={page.data.title}

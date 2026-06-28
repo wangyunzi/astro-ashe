@@ -38,6 +38,10 @@ export function slugify(value: string) {
     .replace(/^-+|-+$/g, "");
 }
 
+export function entrySlug(entry: { id: string; data: { slug?: string | number } }) {
+  return String(entry.data.slug ?? entry.id).replace(/^\/+|\/+$/g, "");
+}
+
 export function categoryHref(category: string) {
   return `/category/${slugify(category)}/`;
 }
@@ -54,7 +58,7 @@ export function postRouteParam(post: PostEntry) {
   const prefix = asheConfig.blog.postPathPrefix.trim();
   const normalizedPrefix =
     !prefix || prefix === "/" ? "" : prefix.replace(/^\/+|\/+$/g, "");
-  const slug = post.slug.replace(/^\/+|\/+$/g, "");
+  const slug = entrySlug(post);
 
   return normalizedPrefix ? `${normalizedPrefix}/${slug}` : slug;
 }
@@ -64,11 +68,11 @@ export function postHref(post: PostEntry) {
 }
 
 export function commentPath(post: PostEntry) {
-  return asheConfig.comments.pathStrategy === "slug" ? post.slug : postHref(post);
+  return asheConfig.comments.pathStrategy === "slug" ? entrySlug(post) : postHref(post);
 }
 
 export function albumHref(album: AlbumEntry) {
-  return `/gallery/${album.slug}/`;
+  return `/gallery/${entrySlug(album)}/`;
 }
 
 export function paginationHref(basePath: string, page: number) {

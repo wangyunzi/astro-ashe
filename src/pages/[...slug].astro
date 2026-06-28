@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SinglePostLayout from "../components/SinglePostLayout.astro";
+import { render } from "astro:content";
 import { getPublishedPosts, relatedPosts } from "../lib/content";
 import { excerpt, postRouteParam, postSummary } from "../lib/ashe";
 
@@ -13,7 +14,7 @@ export async function getStaticPaths() {
 }
 
 const { post, posts } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 const related = relatedPosts(posts, post);
 const description = excerpt(postSummary(post)) || post.data.title;
 ---

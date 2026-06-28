@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import LinksPageGroups from "../components/LinksPageGroups.astro";
 import PageShell from "../components/PageShell.astro";
+import { render } from "astro:content";
 import { getPageBySlug } from "../lib/content";
 
 const friendsPage = await getPageBySlug("friends");
@@ -10,7 +11,7 @@ if (!friendsPage) {
   throw new Error('Missing friends data page: src/content/pages/friends.md');
 }
 
-const { Content } = await friendsPage.render();
+const { Content } = await render(friendsPage);
 const title = friendsPage.data.title;
 const titleEn = friendsPage.data.titleEn;
 const description = friendsPage.data.description || friendsPage.data.title;

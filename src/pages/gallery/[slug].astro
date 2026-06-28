@@ -1,12 +1,13 @@
 ---
 import AlbumLayout from "../../components/AlbumLayout.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { entrySlug } from "../../lib/ashe";
 import { getPublishedAlbums } from "../../lib/content";
 
 export async function getStaticPaths() {
   const albums = await getPublishedAlbums();
   return albums.map((album) => ({
-    params: { slug: album.slug },
+    params: { slug: entrySlug(album) },
     props: { album }
   }));
 }

@@ -1,9 +1,12 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeImageLoading from "./src/lib/rehype-image-loading.mjs";
 
 export default defineConfig({
   markdown: {
-    rehypePlugins: [rehypeImageLoading]
+    processor: unified({
+      rehypePlugins: [rehypeImageLoading]
+    })
   },
   output: "static",
   trailingSlash: "always"

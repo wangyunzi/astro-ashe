@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+import { glob } from "astro/loaders";
 
 const titleSchema = z.union([z.string(), z.array(z.string())]).transform((value) => {
   if (Array.isArray(value)) {
@@ -24,10 +25,11 @@ const stringListSchema = z
   });
 
 const posts = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.md", base: "./src/content/posts" }),
   schema: z.object({
     title: titleSchema,
     description: z.string().optional(),
+    slug: z.union([z.string(), z.number()]).optional(),
     date: z.coerce.date(),
     image: z.string().optional(),
     categories: stringListSchema,
@@ -40,7 +42,7 @@ const posts = defineCollection({
 });
 
 const album = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.md", base: "./src/content/album" }),
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
@@ -51,26 +53,26 @@ const album = defineCollection({
 });
 
 const feedItemSchema = z.object({
-    title: z.string(),
-    titleEn: z.string().optional(),
-    site: z.string().url(),
-    feed: z.string().url(),
-    feedCandidates: z.array(z.string().url()).optional(),
-    description: z.string().optional(),
-    descriptionEn: z.string().optional(),
-    avatar: z.string().optional(),
-    category: z.string().optional(),
-    enabled: z.boolean().default(true),
-    order: z.number().optional()
-  });
+  title: z.string(),
+  titleEn: z.string().optional(),
+  site: z.string().url(),
+  feed: z.string().url(),
+  feedCandidates: z.array(z.string().url()).optional(),
+  description: z.string().optional(),
+  descriptionEn: z.string().optional(),
+  avatar: z.string().optional(),
+  category: z.string().optional(),
+  enabled: z.boolean().default(true),
+  order: z.number().optional()
+});
 
 const feeds = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.{yaml,yml,json}", base: "./src/content/feeds" }),
   schema: feedItemSchema
 });
 
 const pages = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.md", base: "./src/content/pages" }),
   schema: z.object({
     title: z.string(),
     titleEn: z.string().optional(),
