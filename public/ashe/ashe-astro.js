@@ -722,6 +722,341 @@
     });
   }
 
+  function normalizeImageBlockText(value) {
+    return String(value || "").replace(/[\u200B-\u200D\uFEFF]/g, "").replace(/\u00a0/g, " ").trim();
+  }
+
+  function imageFromLinkedElement(element) {
+    if (!element || element.tagName !== "A") return null;
+    var img = null;
+
+    for (var index = 0; index < element.childNodes.length; index += 1) {
+      var child = element.childNodes[index];
+
+      if (child.nodeType === Node.TEXT_NODE && !normalizeImageBlockText(child.textContent)) {
+        continue;
+      }
+
+      if (child.nodeType === Node.ELEMENT_NODE && child.tagName === "IMG" && !img) {
+        img = child;
+        continue;
+      }
+
+      return null;
+    }
+
+    return img;
+  }
+
+  function imageItemFromNode(node) {
+    if (!node || node.nodeType !== Node.ELEMENT_NODE) return null;
+
+    if (node.tagName === "IMG") {
+      return { img: node, href: node.getAttribute("src") || node.src };
+    }
+
+    if (node.tagName === "A") {
+      var linkedImg = imageFromLinkedElement(node);
+      if (linkedImg) {
+        return { img: linkedImg, href: node.getAttribute("href") || linkedImg.getAttribute("src") || linkedImg.src };
+      }
+    }
+
+    return null;
+  }
+
+  function isIgnorableImageSeparator(node) {
+    return (
+      (node.nodeType === Node.TEXT_NODE && !normalizeImageBlockText(node.textContent)) ||
+      (node.nodeType === Node.ELEMENT_NODE && node.tagName === "BR")
+    );
+  }
+
+  function standaloneImagesFromBlock(block) {
+    if (!block || !/^(P|FIGURE)$/i.test(block.tagName || "")) return [];
+    var images = [];
+
+    for (var index = 0; index < block.childNodes.length; index += 1) {
+      var child = block.childNodes[index];
+
+      if (isIgnorableImageSeparator(child)) {
+        continue;
+      }
+
+      var imageItem = imageItemFromNode(child);
+      if (imageItem) {
+        images.push(imageItem);
+        continue;
+      }
+
+      return [];
+    }
+
+    return images;
+  }
+
+  function trailingImagesFromParagraph(block) {
+    if (!block || block.tagName !== "P") return [];
+    var images = [];
+
+    for (var index = block.childNodes.length - 1; index >= 0; index -= 1) {
+      var child = block.childNodes[index];
+
+      if (isIgnorableImageSeparator(child)) {
+        continue;
+      }
+
+      var imageItem = imageItemFromNode(child);
+      if (imageItem) {
+        images.unshift(imageItem);
+        continue;
+      }
+
+      break;
+    }
+
+    return images;
+  }
+
+  function paragraphHasTextBeforeTrailingImages(block, imageCount) {
+    if (!block || !imageCount) return false;
+    var seenImages = 0;
+
+    for (var index = block.childNodes.length - 1; index >= 0; index -= 1) {
+      var child = block.childNodes[index];
+
+      if (isIgnorableImageSeparator(child)) {
+        continue;
+      }
+
+      if (seenImages < imageCount && imageItemFromNode(child)) {
+        seenImages += 1;
+        continue;
+      }
+
+      return true;
+    }
+
+    return false;
+  }
+
+  function splitTrailingImagesFromParagraph(block, imageCount) {
+    var textBlock = block.cloneNode(false);
+    var remainingImages = imageCount;
+    var splitIndex = block.childNodes.length;
+
+    for (var index = block.childNodes.length - 1; index >= 0; index -= 1) {
+      var child = block.childNodes[index];
+
+      if (isIgnorableImageSeparator(child)) {
+        splitIndex = index;
+        continue;
+      }
+
+      if (remainingImages > 0 && imageItemFromNode(child)) {
+        remainingImages -= 1;
+        splitIndex = index;
+        continue;
+      }
+
+      break;
+    }
+
+    Array.prototype.slice.call(block.childNodes, 0, splitIndex).forEach(function (child) {
+      textBlock.appendChild(child.cloneNode(true));
+    });
+
+    return normalizeImageBlockText(textBlock.textContent) || textBlock.querySelector("*") ? textBlock : null;
+  }
+
+  function imageThumbnailSrc(src) {
+    if (!src || src.indexOf("imageMogr2") !== -1) return src;
+
+    try {
+      var url = new URL(src, window.location.href);
+      if (!/^https?:$/i.test(url.protocol)) return src;
+      if (!/(^|\.)wangyunzi\.com$/i.test(url.hostname)) return src;
+    } catch (error) {
+      return src;
+    }
+
+    return src + (src.indexOf("?") === -1 ? "?" : "&") + "imageMogr2/thumbnail/800x/quality/85/format/webp";
+  }
+
+  function createPostImageLightbox() {
+    var overlay = document.querySelector(".ashe-post-lightbox");
+    if (overlay) return overlay;
+
+    overlay = document.createElement("div");
+    overlay.className = "ashe-post-lightbox";
+    overlay.setAttribute("hidden", "");
+    overlay.innerHTML =
+      '<button class="ashe-post-lightbox-close" type="button" aria-label="关闭图片预览">&times;</button>' +
+      '<button class="ashe-post-lightbox-nav ashe-post-lightbox-prev" type="button" aria-label="上一张图片"></button>' +
+      '<figure class="ashe-post-lightbox-figure">' +
+      '<img alt="" />' +
+      '<figcaption></figcaption>' +
+      "</figure>" +
+      '<button class="ashe-post-lightbox-nav ashe-post-lightbox-next" type="button" aria-label="下一张图片"></button>';
+    document.body.appendChild(overlay);
+
+    return overlay;
+  }
+
+  function initPostImageLightbox() {
+    var overlay = createPostImageLightbox();
+    var image = overlay.querySelector("img");
+    var caption = overlay.querySelector("figcaption");
+    var closeButton = overlay.querySelector(".ashe-post-lightbox-close");
+    var previousButton = overlay.querySelector(".ashe-post-lightbox-prev");
+    var nextButton = overlay.querySelector(".ashe-post-lightbox-next");
+    var items = [];
+    var currentIndex = 0;
+
+    function show(index) {
+      if (!items.length) return;
+      currentIndex = (index + items.length) % items.length;
+      var item = items[currentIndex];
+
+      image.src = item.src;
+      image.alt = item.alt || "";
+      caption.textContent = item.title || item.alt || "";
+      caption.hidden = !caption.textContent;
+      previousButton.hidden = items.length < 2;
+      nextButton.hidden = items.length < 2;
+      overlay.removeAttribute("hidden");
+      document.body.classList.add("ashe-post-lightbox-open");
+      closeButton.focus({ preventScroll: true });
+    }
+
+    function close() {
+      overlay.setAttribute("hidden", "");
+      document.body.classList.remove("ashe-post-lightbox-open");
+      image.removeAttribute("src");
+    }
+
+    document.querySelectorAll(".ashe-post-image-grid-button").forEach(function (button) {
+      button.addEventListener("click", function () {
+        var group = button.closest(".ashe-post-image-grid");
+        var buttons = group ? group.querySelectorAll(".ashe-post-image-grid-button") : [button];
+        items = Array.prototype.map.call(buttons, function (item) {
+          return {
+            src: item.getAttribute("data-full-src") || "",
+            alt: item.getAttribute("data-alt") || "",
+            title: item.getAttribute("data-title") || ""
+          };
+        }).filter(function (item) {
+          return item.src;
+        });
+        show(Array.prototype.indexOf.call(buttons, button));
+      });
+    });
+
+    closeButton.addEventListener("click", close);
+    previousButton.addEventListener("click", function () {
+      show(currentIndex - 1);
+    });
+    nextButton.addEventListener("click", function () {
+      show(currentIndex + 1);
+    });
+    overlay.addEventListener("click", function (event) {
+      if (event.target === overlay) close();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (overlay.hasAttribute("hidden")) return;
+      if (event.key === "Escape") close();
+      if (event.key === "ArrowLeft") show(currentIndex - 1);
+      if (event.key === "ArrowRight") show(currentIndex + 1);
+    });
+  }
+
+  function initPostImageGrids() {
+    document.querySelectorAll(".single-post .post-content").forEach(function (content) {
+      var run = [];
+
+      function insertImageGrid(imageItems, beforeNode) {
+        if (imageItems.length < 2 || !beforeNode || !beforeNode.parentNode) {
+          return false;
+        }
+
+        var grid = document.createElement("div");
+        grid.className = "ashe-post-image-grid";
+
+        imageItems.forEach(function (item) {
+          var img = item.img;
+          var button = document.createElement("button");
+          var clone = img.cloneNode(true);
+          var fullSrc = item.href || img.getAttribute("src") || img.src;
+          var title = img.getAttribute("title") || "";
+          var alt = img.getAttribute("alt") || "";
+
+          button.className = "ashe-post-image-grid-button";
+          button.type = "button";
+          button.setAttribute("data-full-src", fullSrc);
+          button.setAttribute("data-alt", alt);
+          button.setAttribute("data-title", title);
+          button.setAttribute("aria-label", alt || title || "打开图片预览");
+          clone.removeAttribute("width");
+          clone.removeAttribute("height");
+          clone.removeAttribute("style");
+          clone.src = imageThumbnailSrc(fullSrc);
+          clone.loading = "lazy";
+          clone.decoding = "async";
+          button.appendChild(clone);
+          grid.appendChild(button);
+        });
+
+        beforeNode.parentNode.insertBefore(grid, beforeNode);
+        return true;
+      }
+
+      function flushRun() {
+        var imageItems = [];
+
+        run.forEach(function (block) {
+          imageItems = imageItems.concat(standaloneImagesFromBlock(block));
+        });
+
+        if (!insertImageGrid(imageItems, run[0])) {
+          run = [];
+          return;
+        }
+
+        run.forEach(function (block) {
+          block.remove();
+        });
+        run = [];
+      }
+
+      Array.prototype.slice.call(content.children).forEach(function (block) {
+        if (standaloneImagesFromBlock(block).length) {
+          run.push(block);
+          return;
+        }
+
+        flushRun();
+
+        var trailingImages = trailingImagesFromParagraph(block);
+        if (trailingImages.length > 1 && paragraphHasTextBeforeTrailingImages(block, trailingImages.length)) {
+          var textBlock = splitTrailingImagesFromParagraph(block, trailingImages.length);
+
+          if (textBlock) {
+            block.parentNode.insertBefore(textBlock, block);
+          }
+
+          if (insertImageGrid(trailingImages, block)) {
+            block.remove();
+          }
+        }
+      });
+
+      flushRun();
+    });
+
+    if (!document.querySelector(".ashe-post-image-grid-button")) return;
+    initPostImageLightbox();
+  }
+
   ready(function () {
     initDesktopMenus();
     initMobileMenus();
@@ -734,6 +1069,7 @@
     initDarkMode();
     initLazyImages();
     initSearchPage();
+    initPostImageGrids();
     initCodeCopyButtons();
   });
 })();

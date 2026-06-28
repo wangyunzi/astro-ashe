@@ -102,7 +102,7 @@ const cover = postCover(post);
         {asheConfig.blog.showAuthor ? (
           <span class="post-author">
             <a href={authorHref(post.data.author)}>
-              <img src="/ashe/assets/images/img12.jpg" alt="" width="30" height="30" />
+              <img src={asheConfig.author.fallbackAvatar} alt="" width="30" height="30" />
             </a>
             <a href={authorHref(post.data.author)}>{post.data.author}</a>
           </span>

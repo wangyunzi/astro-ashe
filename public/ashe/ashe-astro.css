@@ -101,6 +101,58 @@ html {
   line-height: 1.82;
 }
 
+.ashe-astro.single-post .post-content blockquote {
+  position: relative;
+  margin: 0 0 24px;
+  padding: 8px 42px 10px;
+  border-left: 0;
+  color: #666666;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.75;
+}
+
+.ashe-astro.single-post .post-content blockquote::before,
+.ashe-astro.single-post .post-content blockquote::after {
+  position: absolute;
+  color: var(--ashe-accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 44px;
+  font-style: normal;
+  line-height: 1;
+  opacity: 0.35;
+}
+
+.ashe-astro.single-post .post-content blockquote::before {
+  content: "“";
+  top: -2px;
+  left: 8px;
+}
+
+.ashe-astro.single-post .post-content blockquote::after {
+  content: "”";
+  right: 8px;
+  bottom: -14px;
+}
+
+.ashe-astro.single-post .post-content blockquote p {
+  margin-bottom: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+.ashe-astro.single-post .post-content blockquote p + p {
+  margin-top: 10px;
+}
+
+.ashe-astro.single-post .post-content blockquote a {
+  font-style: inherit;
+}
+
 .ashe-astro.single-post .post-content pre,
 .ashe-astro.single-post .post-content code {
   font-size: 14px;
@@ -120,6 +172,157 @@ html {
   padding-top: 44px;
 }
 
+.ashe-astro.single-post .post-content .ashe-post-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0 0 25px;
+}
+
+.ashe-astro.single-post .post-content .ashe-post-image-grid-button {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #f3f3f3;
+  cursor: zoom-in;
+}
+
+.ashe-astro.single-post .post-content .ashe-post-image-grid-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.ashe-astro.single-post .post-content .ashe-post-image-grid-button:hover img,
+.ashe-astro.single-post .post-content .ashe-post-image-grid-button:focus-visible img {
+  transform: scale(1.04);
+}
+
+.ashe-astro.single-post .post-content .ashe-post-image-grid-button:focus-visible {
+  outline: 2px solid var(--ashe-accent);
+  outline-offset: 3px;
+}
+
+body.ashe-post-lightbox-open {
+  overflow: hidden;
+}
+
+.ashe-post-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 64px;
+  background: rgba(0, 0, 0, 0.86);
+}
+
+.ashe-post-lightbox[hidden] {
+  display: none;
+}
+
+.ashe-post-lightbox-figure {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  max-width: min(100%, 1180px);
+  max-height: 100%;
+  margin: 0;
+}
+
+.ashe-post-lightbox-figure img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(100vh - 120px);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 18px 55px rgba(0, 0, 0, 0.35);
+}
+
+.ashe-post-lightbox-figure figcaption {
+  max-width: 820px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.ashe-post-lightbox-close,
+.ashe-post-lightbox-nav {
+  position: fixed;
+  z-index: 1;
+  border: 0;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.ashe-post-lightbox-close:hover,
+.ashe-post-lightbox-close:focus-visible,
+.ashe-post-lightbox-nav:hover,
+.ashe-post-lightbox-nav:focus-visible {
+  background: rgba(255, 255, 255, 0.22);
+  outline: 0;
+}
+
+.ashe-post-lightbox-close {
+  top: 20px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.ashe-post-lightbox-nav {
+  top: 50%;
+  width: 44px;
+  height: 58px;
+  margin-top: -29px;
+  border-radius: 4px;
+}
+
+.ashe-post-lightbox-nav::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+}
+
+.ashe-post-lightbox-prev {
+  left: 18px;
+}
+
+.ashe-post-lightbox-prev::before {
+  left: 17px;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.ashe-post-lightbox-next {
+  right: 18px;
+}
+
+.ashe-post-lightbox-next::before {
+  right: 17px;
+  transform: translateY(-50%) rotate(135deg);
+}
+
 .ashe-astro .ashe-code-copy {
   position: absolute;
   top: 9px;
@@ -129,7 +332,7 @@ html {
   padding: 0 12px;
   border: 0;
   border-radius: 999px;
-  background: #ca9b52;
+  background: var(--ashe-accent);
   color: #ffffff;
   font-size: 12px;
   font-weight: 700;
@@ -141,7 +344,7 @@ html {
 
 .ashe-astro .ashe-code-copy:hover,
 .ashe-astro .ashe-code-copy:focus {
-  background: #a8742d;
+  background: var(--ashe-accent-hover);
   color: #ffffff;
   outline: 0;
   transform: translateY(-1px);
@@ -287,8 +490,8 @@ html {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #ca9b52;
-  box-shadow: 0 0 0 3px rgba(202, 155, 82, 0.13);
+  background: var(--ashe-accent);
+  box-shadow: 0 0 0 3px var(--ashe-accent-timeline);
 }
 
 .ashe-astro .archive-timeline-date {
@@ -376,6 +579,127 @@ html {
   color: inherit;
 }
 
+.ashe-astro .archive-year-groups {
+  display: grid;
+  gap: 12px;
+  margin: 0 0 36px;
+}
+
+.ashe-astro .archive-year-group {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.ashe-astro .archive-year-heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 12px 0;
+  color: #111111;
+  font-family: var(--ashe-heading-font);
+  line-height: 1.2;
+  cursor: pointer;
+  list-style: none;
+  transition: color 160ms ease;
+}
+
+.ashe-astro .archive-year-heading:hover,
+.ashe-astro .archive-year-heading:focus-visible {
+  color: var(--ashe-accent-hover);
+  outline: 0;
+}
+
+.ashe-astro .archive-year-heading::-webkit-details-marker {
+  display: none;
+}
+
+.ashe-astro .archive-year-heading::after {
+  content: "";
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  margin-left: auto;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.ashe-astro .archive-year-group[open] .archive-year-heading::after {
+  transform: rotate(225deg);
+}
+
+.ashe-astro .archive-year-label {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.ashe-astro .archive-year-heading small {
+  color: #9b9b9b;
+  font-family: var(--ashe-body-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.ashe-astro .archive-year-list {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 0 24px;
+}
+
+.ashe-astro .archive-year-list::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  bottom: 24px;
+  left: 3px;
+  width: 1px;
+  background: rgba(17, 17, 17, 0.12);
+}
+
+.ashe-astro .archive-year-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 14px;
+  margin: 0;
+  padding: 0 0 16px;
+}
+
+.ashe-astro .archive-year-item::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -24px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--ashe-accent);
+  box-shadow: 0 0 0 3px var(--ashe-accent-timeline);
+}
+
+.ashe-astro .archive-year-date {
+  color: #9b9b9b;
+  font-size: 12px;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.ashe-astro .archive-year-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.ashe-astro .archive-year-title a {
+  color: inherit;
+}
+
 .ashe-astro .links-page-groups {
   display: grid;
   gap: 38px;
@@ -406,7 +730,7 @@ html {
   min-height: 112px;
   padding: 20px;
   background: #ffffff;
-  border: 1px solid rgba(202, 155, 82, 0.22);
+  border: 1px solid var(--ashe-accent-border);
   border-radius: 8px;
   color: #222222;
   text-decoration: none !important;
@@ -418,10 +742,10 @@ html {
 
 .ashe-astro .ashe-link-cards .links-page-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(202, 155, 82, 0.4);
-  background: rgba(202, 155, 82, 0.1);
+  border-color: var(--ashe-accent-line-strong);
+  background: var(--ashe-accent-soft-light);
   color: #222222;
-  box-shadow: 0 14px 30px rgba(202, 155, 82, 0.12);
+  box-shadow: 0 14px 30px var(--ashe-accent-soft);
 }
 
 .ashe-astro .ashe-link-cards .links-page-card:active {
@@ -436,8 +760,8 @@ html {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgba(202, 155, 82, 0.12);
-  color: #ca9b52;
+  background: var(--ashe-accent-soft);
+  color: var(--ashe-accent);
   font-size: 16px;
   transition-duration: 160ms;
   transition-property: background-color, color;
@@ -445,8 +769,8 @@ html {
 }
 
 .ashe-astro .ashe-link-cards .links-page-card:hover .links-page-card-icon {
-  background: rgba(202, 155, 82, 0.18);
-  color: #b6863e;
+  background: var(--ashe-accent-soft-strong);
+  color: var(--ashe-accent-hover);
 }
 
 .ashe-astro .ashe-link-cards .links-page-card-icon img {
@@ -495,7 +819,7 @@ html {
 }
 
 .ashe-astro #twikoo {
-  font-family: "Open Sans";
+  font-family: var(--ashe-body-font);
 }
 
 .ashe-astro .comments-area {
@@ -554,7 +878,7 @@ html {
 .ashe-astro #twikoo .tk-submit-title {
   margin-bottom: 18px;
   text-align: left;
-  font-family: "Playfair Display";
+  font-family: var(--ashe-heading-font);
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.5px;
@@ -627,14 +951,14 @@ html {
 
 .ashe-astro #twikoo .el-textarea__inner {
   min-height: 112px !important;
-  background-image: url("/ashe/assets/images/comment-withered-lotus.svg") !important;
+  background-image: var(--ashe-comment-textarea-image) !important;
   background-repeat: no-repeat !important;
   background-position: right 18px bottom 10px !important;
   background-size: 176px auto !important;
 }
 
 .ashe-astro #twikoo .el-textarea__inner:focus {
-  background-image: url("/ashe/assets/images/comment-withered-lotus.svg") !important;
+  background-image: var(--ashe-comment-textarea-image) !important;
 }
 
 .ashe-astro #twikoo .el-button,
@@ -648,7 +972,7 @@ html {
   font-weight: 700;
   letter-spacing: 0;
   text-transform: none;
-  background: #ca9b52;
+  background: var(--ashe-accent);
   color: #fff;
 }
 
@@ -695,7 +1019,7 @@ html {
   margin-top: 0;
   margin-left: 22px;
   padding-left: 22px;
-  border-left: 1px solid rgba(202, 155, 82, 0.22);
+  border-left: 1px solid var(--ashe-accent-border);
 }
 
 .ashe-astro #twikoo .tk-replies .tk-comment {
@@ -718,7 +1042,7 @@ html {
 }
 
 .ashe-astro #twikoo .tk-nick {
-  font-family: "Open Sans";
+  font-family: var(--ashe-body-font);
   font-size: 13px;
   line-height: 1.25;
   letter-spacing: 0;
@@ -736,7 +1060,7 @@ html {
 
 .ashe-astro #twikoo a.tk-nick:hover,
 .ashe-astro #twikoo .tk-nick a:hover {
-  color: #ca9b52;
+  color: var(--ashe-accent);
 }
 
 .ashe-astro #twikoo .tk-time,
@@ -753,7 +1077,7 @@ html {
 
 .ashe-astro #twikoo .tk-action-link:hover,
 .ashe-astro #twikoo .tk-action-icon:hover {
-  color: #ca9b52;
+  color: var(--ashe-accent);
 }
 
 .ashe-astro #twikoo .tk-content {
@@ -794,7 +1118,7 @@ body.ashe-dark-mode #twikoo .tk-comment {
 }
 
 body.ashe-dark-mode #twikoo .tk-replies {
-  border-left-color: rgba(202, 155, 82, 0.28);
+  border-left-color: var(--ashe-accent-dark-line);
 }
 
 body.ashe-dark-mode #twikoo .el-input__inner,
@@ -843,8 +1167,8 @@ body.ashe-dark-mode .ashe-link-cards .links-page-card {
 }
 
 body.ashe-dark-mode .ashe-link-cards .links-page-card:hover {
-  background: rgba(202, 155, 82, 0.16);
-  border-color: rgba(202, 155, 82, 0.45);
+  background: var(--ashe-accent-soft-medium);
+  border-color: var(--ashe-accent-border-heavy);
   color: #f0f0f0;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
 }
@@ -875,7 +1199,7 @@ body.ashe-dark-mode .related-post-date {
   position: relative;
   overflow: hidden;
   background-color: #f3f3f3;
-  background-image: url("/ashe/assets/images/gallery-placeholder.svg");
+  background-image: var(--ashe-gallery-placeholder-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 56px 56px;
@@ -982,7 +1306,7 @@ body.ashe-dark-mode .related-post-date {
 .ashe-astro .gallery-album-title {
   overflow: hidden;
   color: #ffffff;
-  font-family: "Playfair Display";
+  font-family: var(--ashe-heading-font);
   font-size: 18px;
   line-height: 1.35;
   text-overflow: ellipsis;
@@ -1085,8 +1409,8 @@ body.ashe-dark-mode .lazy-image-shell::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(202, 155, 82, 0.12);
-  color: #9f7642;
+  background: var(--ashe-accent-soft);
+  color: var(--ashe-accent-hover);
   font-size: 16px;
   font-weight: 700;
 }
@@ -1213,7 +1537,7 @@ body.ashe-dark-mode .lazy-image-shell::before {
 }
 
 .ashe-astro .widget_footer_links a:hover {
-  color: #ca9b52;
+  color: var(--ashe-accent);
 }
 
 .ashe-astro .widget_footer_links a:hover::after {
@@ -1313,6 +1637,40 @@ body.ashe-dark-mode .friends-moment-meta {
     padding-bottom: 18px;
   }
 
+  .ashe-astro .archive-year-groups {
+    gap: 10px;
+  }
+
+  .ashe-astro .archive-year-heading {
+    padding: 11px 0;
+  }
+
+  .ashe-astro .archive-year-label {
+    font-size: 28px;
+  }
+
+  .ashe-astro .archive-year-item {
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 12px;
+    padding-bottom: 15px;
+  }
+
+  .ashe-astro .archive-year-list {
+    padding-left: 24px;
+  }
+
+  .ashe-astro .archive-year-list::before {
+    left: 3px;
+  }
+
+  .ashe-astro .archive-year-item::before {
+    left: -24px;
+  }
+
+  .ashe-astro .archive-year-title {
+    font-size: 17px;
+  }
+
   .ashe-astro .friends-feed-title {
     font-size: 22px;
     line-height: 1.45;
@@ -1326,7 +1684,44 @@ body.ashe-dark-mode .friends-moment-meta {
 }
 
 @media screen and (max-width: 480px) {
+  .ashe-astro.single-post .post-content .ashe-post-image-grid {
+    grid-template-columns: 1fr;
+  }
+
   .ashe-astro #main .inner .gallery-container .picture-container {
     flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ashe-astro.single-post .post-content .ashe-post-image-grid {
+    gap: 8px;
+  }
+
+  .ashe-post-lightbox {
+    padding: 34px 12px;
+  }
+
+  .ashe-post-lightbox-figure img {
+    max-height: calc(100vh - 110px);
+  }
+
+  .ashe-post-lightbox-close {
+    top: 10px;
+    right: 10px;
+  }
+
+  .ashe-post-lightbox-nav {
+    width: 38px;
+    height: 50px;
+    margin-top: -25px;
+  }
+
+  .ashe-post-lightbox-prev {
+    left: 8px;
+  }
+
+  .ashe-post-lightbox-next {
+    right: 8px;
   }
 }

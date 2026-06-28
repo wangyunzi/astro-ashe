@@ -2,16 +2,22 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageShell from "../components/PageShell.astro";
 import GalleryIndex from "../components/GalleryIndex.astro";
+import { asheConfig } from "../ashe.config";
 import { getPublishedAlbums } from "../lib/content";
 
 const albums = await getPublishedAlbums();
+const pageConfig = asheConfig.pages.gallery;
 ---
 
-<BaseLayout title="相册" titleEn="Gallery" description="照片相簿集合" descriptionEn="Photo album collection" bodyClass="page page-gallery">
-  <PageShell title="相册" titleEn="Gallery">
-    <p data-i18n-en="Light, seasons, streets, and ordinary days are kept here as quiet proof that life once passed by beautifully.">
-      光影、四季、街巷与寻常日子，都被安静地收在这里，作为生活曾经经过的痕迹。
-    </p>
+<BaseLayout
+  title={pageConfig.title}
+  titleEn={pageConfig.titleEn}
+  description={pageConfig.description}
+  descriptionEn={pageConfig.descriptionEn}
+  bodyClass="page page-gallery"
+>
+  <PageShell title={pageConfig.title} titleEn={pageConfig.titleEn}>
+    <p data-i18n-en={pageConfig.introEn}>{pageConfig.intro}</p>
 
     <GalleryIndex albums={albums} />
   </PageShell>

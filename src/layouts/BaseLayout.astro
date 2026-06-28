@@ -49,12 +49,13 @@ const rssUrl = new URL(asheConfig.rss.path, `${asheConfig.site.url.replace(/\/$/
     {asheConfig.site.favicon ? <link rel="apple-touch-icon" href={asheConfig.site.favicon} /> : null}
     <link rel="alternate" type="application/rss+xml" title={`${asheConfig.site.title} RSS`} href={rssUrl} />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Kalam:wght@400;700&family=Rokkitt:wght@400;600&display=swap"
-    />
+    {asheConfig.typography.googleFontsHref ? <link rel="preconnect" href="https://fonts.googleapis.com" /> : null}
+    {asheConfig.typography.googleFontsHref ? (
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    ) : null}
+    {asheConfig.typography.googleFontsHref ? (
+      <link rel="stylesheet" href={asheConfig.typography.googleFontsHref} />
+    ) : null}
 
     <link rel="stylesheet" href="/ashe/assets/css/fontawesome.min.css" />
     <link rel="stylesheet" href="/ashe/assets/css/fontello.css" />

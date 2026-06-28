@@ -1,4 +1,5 @@
 import { asheConfig, type HomeLayout } from "../ashe.config";
+import { configuredUserAgent as configuredRuntimeUserAgent } from "../ashe.runtime-config.mjs";
 import type { CollectionEntry } from "astro:content";
 
 export type PostEntry = CollectionEntry<"posts">;
@@ -229,6 +230,14 @@ export function uniqueSorted(values: string[]) {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b));
 }
 
+export function cssUrl(value: string) {
+  return value ? `url("${value.replace(/"/g, '\\"')}")` : "none";
+}
+
+export function configuredUserAgent(template: string) {
+  return configuredRuntimeUserAgent(template);
+}
+
 export function buildDynamicCss() {
   const { colors, layout, site, typography, navigation, featuredLinks, responsive, darkMode } =
     asheConfig;
@@ -282,7 +291,7 @@ export function buildDynamicCss() {
   const dropcapsCss = asheConfig.blog.showDropcaps
     ? `
       .post-content > p:not(.wp-block-tag-cloud):first-of-type:first-letter {
-        font-family: "Playfair Display";
+        font-family: var(--ashe-heading-font);
         font-weight: 400;
         float: left;
         margin: 0px 12px 0 0;
@@ -540,6 +549,27 @@ export function buildDynamicCss() {
     : "";
 
   return `
+    :root {
+      --ashe-accent: ${colors.accent};
+      --ashe-accent-hover: ${accentHover};
+      --ashe-accent-soft: ${hexToRgba(colors.accent, 0.12)};
+      --ashe-accent-soft-light: ${hexToRgba(colors.accent, 0.1)};
+      --ashe-accent-soft-medium: ${hexToRgba(colors.accent, 0.16)};
+      --ashe-accent-soft-strong: ${hexToRgba(colors.accent, 0.18)};
+      --ashe-accent-border: ${hexToRgba(colors.accent, 0.22)};
+      --ashe-accent-border-strong: ${hexToRgba(colors.accent, 0.4)};
+      --ashe-accent-border-heavy: ${hexToRgba(colors.accent, 0.45)};
+      --ashe-accent-shadow: ${hexToRgba(colors.accent, 0.12)};
+      --ashe-accent-timeline: ${hexToRgba(colors.accent, 0.13)};
+      --ashe-accent-line: ${hexToRgba(colors.accent, 0.34)};
+      --ashe-accent-line-strong: ${hexToRgba(colors.accent, 0.4)};
+      --ashe-accent-dark-line: ${hexToRgba(colors.accent, 0.28)};
+      --ashe-body-font: "${fontName(typography.bodyFamily)}";
+      --ashe-heading-font: "${fontName(typography.headingFamily)}";
+      --ashe-comment-textarea-image: ${cssUrl(asheConfig.assets.commentTextareaImage)};
+      --ashe-gallery-placeholder-image: ${cssUrl(asheConfig.assets.galleryPlaceholderImage)};
+    }
+
     body {
       background-color: #ffffff;
       -webkit-font-smoothing: antialiased;
@@ -552,11 +582,48 @@ export function buildDynamicCss() {
     }
 
     .entry-header {
-      height: 500px;
+      height: ${site.headerHeight}px;
       background-color: ${colors.headerBackground};
       background-image: url(${site.headerImage});
-      background-size: cover;
-      background-position: center center;
+      background-size: ${site.headerBackgroundSize};
+      background-position: ${site.headerBackgroundPosition};
+    }
+
+    @media screen and (max-width: 1280px) {
+      .entry-header {
+        height: ${Math.round(site.headerHeight * 0.86)}px;
+      }
+    }
+
+    @media screen and (max-width: 1080px) {
+      .entry-header {
+        height: ${Math.round(site.headerHeight * 0.7)}px;
+      }
+    }
+
+    @media screen and (max-width: 880px) {
+      .entry-header {
+        height: ${Math.round(site.headerHeight * 0.58)}px;
+      }
+    }
+
+    @media screen and (max-width: 750px) {
+      .entry-header {
+        height: ${Math.round(site.headerHeight * 0.5)}px;
+      }
+    }
+
+    @media screen and (max-width: 690px) {
+      .entry-header {
+        height: ${Math.round(site.headerHeight * 0.42)}px;
+      }
+    }
+
+    @media screen and (max-width: 550px) {
+      .entry-header {
+        height: auto;
+        padding: ${Math.round(site.headerHeight * 0.1)}px 0;
+      }
     }
 
     #main-nav {

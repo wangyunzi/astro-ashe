@@ -22,13 +22,15 @@ const aboutTranslation = about.translations?.en;
 const aboutTitleEn = aboutTranslation?.title;
 const showAbout = about.enabled && (variant !== "footer" || footerWidgets.showAbout);
 const showFooterLinks = variant === "footer" && footerWidgets.showLinks;
-const showRecentPosts = variant !== "footer" || footerWidgets.showRecentPosts;
+const showRecentPosts =
+  (variant !== "footer" && asheConfig.sidebar.recentPosts.enabled) ||
+  (variant === "footer" && footerWidgets.showRecentPosts);
 const showTags = variant !== "footer" || footerWidgets.showTags;
+const runtime = asheConfig.footer.runtime;
 const year = new Date().getFullYear().toString();
 const copyright = asheConfig.footer.copyright
   .replace("$year", year)
   .replace("$copy", "&copy;");
-const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
 ---
 
 {
@@ -58,7 +60,7 @@ const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
       <ul>
         {asheConfig.footer.links.items.map((item) => (
           <li>
-            <a href={item.href} data-i18n={item.i18nKey}>{item.label}</a>
+            <a href={item.href}>{item.label}</a>
           </li>
         ))}
       </ul>
@@ -77,31 +79,59 @@ const copyrightEn = `&copy; ${year} Ashe Astro. All rights reserved.`;
           <span
             class="footer-info-text"
             data-i18n-html-zh-cn={copyright}
-            data-i18n-html-en={copyrightEn}
             set:html={copyright}
           />
         </li>
+        {runtime.enabled ? (
+        <li>
+          <span class="footer-info-text site-runtime">
+            <span id="siteRuntime">{runtime.loadingText}</span>
+          </span>
+        </li>
+        ) : null}
         {asheConfig.footer.menu.map((item) => (
           <li>
             <a href={item.href} data-i18n={item.i18nKey}>{item.label}</a>
           </li>
         ))}
-        {asheConfig.footer.showCredit ? (
-          <li>
-            <span class="footer-info-text">
-              <span data-i18n="footer.creditBefore">Ashe 主题由</span>{" "}
-              <a href="https://wp-royal-themes.com/">WP Royal</a>{" "}
-              <span data-i18n="footer.creditAfter">提供。Astro 移植版。</span>
-            </span>
-          </li>
-        ) : null}
       </ul>
     </section>
   ) : null
 }
 
 {
-  variant !== "footer" ? (
+  variant === "footer" && runtime.enabled ? (
+    <script define:vars={{ runtimeStartTime: runtime.startTime, runtimeTemplate: runtime.template }}>
+      function createtime() {
+        var now = new Date();
+        var grt = new Date(runtimeStartTime);
+        var siteRuntime = document.getElementById("siteRuntime");
+
+        if (!siteRuntime || Number.isNaN(grt.getTime())) {
+          return;
+        }
+
+        var diff = now - grt;
+
+        var totalDays = Math.floor(diff / (1000 * 60 * 60 * 24));
+        var years = Math.floor(totalDays / 365);
+        var days = totalDays % 365;
+        var hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+
+        siteRuntime.textContent = runtimeTemplate
+          .replace("$years", years)
+          .replace("$days", days)
+          .replace("$hours", hours);
+      }
+
+      createtime();
+      setInterval(createtime, 1000);
+    </script>
+  ) : null
+}
+
+{
+  variant !== "footer" && asheConfig.social.enabled ? (
     <section class="ashe-widget ashe_social_widget">
       <div class="widget-title">
         <h2 data-i18n="sidebar.follow">关注我</h2>

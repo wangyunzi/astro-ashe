@@ -1,18 +1,26 @@
 ---
 import BlogList from "../components/BlogList.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { asheConfig } from "../ashe.config";
 import { getPublishedPosts } from "../lib/content";
 
 const posts = await getPublishedPosts();
+const pageConfig = asheConfig.pages.search;
 ---
 
-<BaseLayout title="搜索" titleEn="Search" description="搜索文章" descriptionEn="Search posts" bodyClass="search">
+<BaseLayout
+  title={pageConfig.title}
+  titleEn={pageConfig.titleEn}
+  description={pageConfig.description}
+  descriptionEn={pageConfig.descriptionEn}
+  bodyClass="search"
+>
   <BlogList
     posts={posts}
-    title="搜索"
-    titleEn="Search"
-    description="按标题、分类、标签或摘要搜索文章。"
-    descriptionEn="Search posts by title, category, tag, or excerpt."
+    title={pageConfig.title}
+    titleEn={pageConfig.titleEn}
+    description={pageConfig.description}
+    descriptionEn={pageConfig.descriptionEn}
     search
   />
 </BaseLayout>

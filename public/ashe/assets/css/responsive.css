@@ -182,11 +182,6 @@
     width: 100% !important;
   }
 
-  #page-header .entry-header {
-    height: auto;
-    padding: 70px 0;
-  }
-
   .header-logo {
     padding-top: 0 !important;
   }
@@ -467,47 +462,24 @@
 }
 
 
-/* Page Header */
-@media screen and (max-width: 1280px) {
-     .entry-header {
-         height: 430px !important;
-    }
-}
- @media screen and (max-width: 1080px) {
-     .entry-header {
-         height: 350px !important;
-    }
+/* Page header height is generated from src/ashe.config.ts. */
+@media screen and (max-width: 1080px) {
      .logo-img {
          max-width: 400px !important;
     }
 }
- @media screen and (max-width: 880px) {
-     .entry-header {
-         height: 290px !important;
-    }
+@media screen and (max-width: 880px) {
      .logo-img {
          max-width: 300px !important;
     }
 }
- @media screen and (max-width: 750px) {
-     .entry-header {
-         height: 250px !important;
-    }
+@media screen and (max-width: 750px) {
      .logo-img {
          max-width: 250px !important;
     }
 }
- @media screen and (max-width: 690px) {
-     .entry-header {
-         height: 210px !important;
-    }
+@media screen and (max-width: 690px) {
      .logo-img {
          max-width: 200px !important;
-    }
-}
- @media screen and (max-width: 550px) {
-     .entry-header {
-         height: auto !important;
-         padding: 50px 0 !important;
     }
 }

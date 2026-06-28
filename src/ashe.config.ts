@@ -1,3 +1,5 @@
+import { asheRuntimeConfig } from "./ashe.runtime-config.mjs";
+
 export type WidthMode = "boxed" | "contained" | "full";
 export type HomeLayout =
   | "col1-fullwidth"
@@ -47,17 +49,24 @@ export type FriendsFeedConfig = {
   limit: number;
 };
 
+export type PageTextConfig = {
+  title: string;
+  titleEn?: string;
+  description: string;
+  descriptionEn?: string;
+};
+
 export const asheConfig = {
   site: {
     // 用于浏览器标题、页头 Logo 文本、订阅源元信息和默认 SEO 文案。
-    title: "长街短梦",
+    title: "RAE",
 
     // `showTagline` 为 true 时显示在页头大标题下方。
     description: "此行山高路远，我只剩口袋玫瑰一片。",
     descriptionEn: "The road is long and rough, and I only have a pocket rose left.",
 
     // 部署前改成你的正式站点域名。
-    url: "https://asky.0tz.top",
+    url: asheRuntimeConfig.siteUrl,
 
     // Astro 会把它渲染到根元素 <html lang="">。
     language: "zh-CN",
@@ -69,7 +78,16 @@ export const asheConfig = {
     favicon: "https://blog.wangyunzi.com/avatar.png",
 
     // 页头背景图路径。
-    headerImage: "/ashe/assets/images/ashe_bg.jpg",
+    headerImage: "/ashe/assets/images/ashe_bg.png",
+
+    // 页头背景区域高度，单位 px。
+    headerHeight: 500,
+
+    // 页头背景图缩放方式，对应 CSS background-size。
+    headerBackgroundSize: "cover",
+
+    // 页头背景图位置，对应 CSS background-position。
+    headerBackgroundPosition: "center center",
 
     // 对应 WordPress 的页头文字颜色设置。使用 "blank" 可以隐藏文字。
     headerTextColor: "#111111",
@@ -121,9 +139,14 @@ export const asheConfig = {
   },
 
   sidebar: {
+    recentPosts: {
+      // 是否显示侧边栏里的最新文章小组件。
+      enabled: false,
+    },
+
     about: {
       // 是否显示侧边栏里的 About 小组件。
-      enabled: true,
+      enabled: false,
 
       // 普通侧边栏和抽屉侧边栏使用的标题。
       title: "关于我",
@@ -156,17 +179,20 @@ export const asheConfig = {
   },
 
   social: {
+    // 是否显示侧边栏社交小组件。
+    enabled: false,
+
     // 是否在新窗口打开社交链接。
     openInNewWindow: true,
     links: [
-      { label: "Weibo", icon: "fa-brands fa-weibo", url: "#" },
+      // { label: "Weibo", icon: "fa-brands fa-weibo", url: "#" },
       //{ label: "Weixin", icon: "fa-brands fa-weixin", url: "#" },
-      { label: "QQ", icon: "fa-brands fa-qq", url: "#" },
-      { label: "Bilibili", icon: "fa-brands fa-bilibili", url: "#" },
-      { label: "Telegram", icon: "fa-brands fa-telegram", url: "#" },
+      // { label: "QQ", icon: "fa-brands fa-qq", url: "#" },
+      // { label: "Bilibili", icon: "fa-brands fa-bilibili", url: "#" },
+      // { label: "Telegram", icon: "fa-brands fa-telegram", url: "#" },
       //{ label: "Facebook", icon: "fa-brands fa-facebook-f", url: "#" },
-      { label: "Mastodon", icon: "fa-brands fa-mastodon", url: "#" },
-      //{ label: "X", icon: "fa-brands fa-x-twitter", url: "#" },
+      // { label: "Mastodon", icon: "fa-brands fa-mastodon", url: "#" },
+      // { label: "X", icon: "fa-brands fa-x-twitter", url: "#" },
       //{ label: "Instagram", icon: "fa-brands fa-instagram", url: "#" },
       //{ label: "Pinterest", icon: "fa-brands fa-pinterest-p", url: "#" }
     ] satisfies SocialLink[]
@@ -174,7 +200,6 @@ export const asheConfig = {
 
   footer: {
     showScrollTop: true,
-    showCredit: true,
 
     widgets: {
       // 是否显示页脚里的 About、链接、最新文章、标签小组件。
@@ -189,17 +214,17 @@ export const asheConfig = {
       enabled: true,
 
       // 页脚小组件使用的标题。
-      title: "关于 Ashe",
+      title: "关于 RAE",
 
       // 页脚小组件使用的图片。
-      image: "/ashe/assets/images/img11.jpg",
+      image: "/ashe/assets/images/rae.jpeg",
 
       // 页脚 About 图片的替代文本。
-      imageAlt: "Ashe 博客预览图",
+      imageAlt: "RAE",
 
       // 页脚 About 正文。每个字符串会渲染为一个段落。
       paragraphs: [
-        "这是页脚的 About Ashe 内容，可单独介绍主题、站点或版权信息。"
+        "不知道说什么了，就这样吧。"
       ] satisfies string[],
 
       // 可选英文文案。切换到英文时，页脚 About 会优先使用这里的内容。
@@ -227,8 +252,24 @@ export const asheConfig = {
       ] satisfies MenuItem[]
     },
 
-    // `$year` 和 `$copy` 会在渲染时替换为年份和版权符号。
-    copyright: "$copy $year Ashe Astro。保留所有权利。",
+    // `$year` 和 `$copy` 会在渲染时替换为年份和版权符号，支持 HTML 链接。
+    copyright:
+      '$copy $year Ashe Astro。保留所有权利。Ashe 主题由 <a href="https://wp-royal-themes.com/">WP Royal</a> 提供，Astro 移植版。',
+
+    runtime: {
+      // 是否显示建站时长。
+      enabled: true,
+
+      // 建站时间。建议保留 YYYY/MM/DD HH:mm:ss 格式，浏览器兼容性更稳定。
+      startTime: "2022/05/10 17:38:00",
+
+      // 显示模板。支持 $years、$days、$hours 三个占位符。
+      template: "小破站在风雨中飘摇了 $years 年 $days 天 $hours 小时",
+
+      // 页面刚加载、脚本还未完成计算时显示的文字。
+      loadingText: "正在计算..."
+    },
+
     menu: [
       { label: "隐私政策", href: "/privacy/", i18nKey: "footer.privacy" },
       { label: "使用条款", href: "/terms/", i18nKey: "footer.terms" }
@@ -301,6 +342,65 @@ export const asheConfig = {
     }
   },
 
+  pages: {
+    archives: {
+      title: "归档",
+      titleEn: "Archives",
+      description: "按年份浏览所有文章",
+      descriptionEn: "Browse all posts by year.",
+      perPage: 3
+    },
+    search: {
+      title: "搜索",
+      titleEn: "Search",
+      description: "按标题、分类、标签或摘要搜索文章。",
+      descriptionEn: "Search posts by title, category, tag, or excerpt."
+    } satisfies PageTextConfig,
+    gallery: {
+      title: "相册",
+      titleEn: "Gallery",
+      description: "照片相簿集合",
+      descriptionEn: "Photo album collection",
+      intro:
+        "光影、四季、街巷与寻常日子，都被安静地收在这里，作为生活曾经经过的痕迹。",
+      introEn:
+        "Light, seasons, streets, and ordinary days are kept here as quiet proof that life once passed by beautifully."
+    },
+    contact: {
+      title: "联系",
+      titleEn: "Contact",
+      description: "联系页面",
+      descriptionEn: "Contact page",
+      intro: "在这里添加你的联系方式，或替换为你偏好的 Astro 表单集成方案。",
+      introEn: "Add your contact details here, or replace this with the Astro form integration you prefer.",
+      note: "下方表单控件会复用 Ashe 已有的输入框和文本域样式。",
+      noteEn: "The form controls below reuse Ashe's existing input and textarea styles."
+    },
+    notFound: {
+      title: "404",
+      titleEn: "404",
+      description: "页面不存在",
+      descriptionEn: "Page not found"
+    } satisfies PageTextConfig
+  },
+
+  author: {
+    // 文章作者没有单独头像时使用的默认头像。
+    fallbackAvatar: "/ashe/assets/images/img12.jpg",
+
+    // 作者简介组件没有单独 bio 时使用的默认文案。
+    fallbackBio: "这个作者负责维护 Ashe Astro 版本中的内容与编辑说明。",
+    fallbackBioEn: "This author maintains the content and editorial notes in the Ashe Astro version."
+  },
+
+  assets: {
+    // Twikoo 评论输入框右下角装饰图。留空可隐藏。
+    commentTextareaImage: "/ashe/assets/images/comment-withered-lotus.svg",
+
+    // 相册图片懒加载时的占位图。留空可隐藏。
+    galleryPlaceholderImage: "/ashe/assets/images/gallery-placeholder.svg"
+  },
+
   colors: {
     // 主题强调色。链接、分类、选中文本和悬停状态会使用它。
     accent: "#ca9b52",
@@ -338,6 +438,13 @@ export const asheConfig = {
   },
 
   typography: {
+    // Google Fonts 样式地址。若改用系统字体，可以留空。
+    googleFontsHref:
+      "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Kalam:wght@400;700&family=Rokkitt:wght@400;600&display=swap",
+
+    bodyFamily: "Open Sans",
+    headingFamily: "Playfair Display",
+
     // 支持普通 CSS 字体名。Google Fonts 在 BaseLayout 中引入。
     logoFamily: "Open Sans",
     navFamily: "Open Sans",
@@ -381,6 +488,12 @@ export const asheConfig = {
     // 页面展示的动态数量；RSS 缓存总量在 scripts/update-friends-feed-cache.mjs 中控制。
     limit: 8
   } satisfies FriendsFeedConfig,
+
+  feeds: {
+    // 抓取友邻 RSS 时使用的 User-Agent，默认会带上站点地址。
+    cacheUserAgent: asheRuntimeConfig.feeds.cacheUserAgent,
+    discoveryUserAgent: asheRuntimeConfig.feeds.discoveryUserAgent
+  },
 
   blog: {
     // 文章详情页路径前缀。"/" 为 /slug/，"/posts/" 为 /posts/slug/，"/archives/" 为 /archives/slug/。

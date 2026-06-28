@@ -1,16 +1,21 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageShell from "../components/PageShell.astro";
+import { asheConfig } from "../ashe.config";
+
+const pageConfig = asheConfig.pages.contact;
 ---
 
-<BaseLayout title="联系" titleEn="Contact" description="联系页面" descriptionEn="Contact page" bodyClass="page page-contact">
-  <PageShell title="联系" titleEn="Contact">
-    <p data-i18n-en="Add your contact details here, or replace this with the Astro form integration you prefer.">
-      在这里添加你的联系方式，或替换为你偏好的 Astro 表单集成方案。
-    </p>
-    <p data-i18n-en="The form controls below reuse Ashe's existing input and textarea styles.">
-      下方表单控件会复用 Ashe 已有的输入框和文本域样式。
-    </p>
+<BaseLayout
+  title={pageConfig.title}
+  titleEn={pageConfig.titleEn}
+  description={pageConfig.description}
+  descriptionEn={pageConfig.descriptionEn}
+  bodyClass="page page-contact"
+>
+  <PageShell title={pageConfig.title} titleEn={pageConfig.titleEn}>
+    <p data-i18n-en={pageConfig.introEn}>{pageConfig.intro}</p>
+    <p data-i18n-en={pageConfig.noteEn}>{pageConfig.note}</p>
     <form class="wpcf7">
       <p>
         <label><span data-i18n="contact.name">姓名</span><input type="text" name="name" /></label>

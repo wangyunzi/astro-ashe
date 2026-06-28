@@ -1,0 +1,50 @@
+---
+import { postHref, type PostEntry } from "../lib/ashe";
+
+interface Props {
+  posts: PostEntry[];
+}
+
+const { posts } = Astro.props;
+
+const groups = posts.reduce<Array<{ year: number; posts: PostEntry[] }>>((items, post) => {
+  const year = post.data.date.getFullYear();
+  const current = items[items.length - 1];
+
+  if (current?.year === year) {
+    current.posts.push(post);
+  } else {
+    items.push({ year, posts: [post] });
+  }
+
+  return items;
+}, []);
+---
+
+<div class="archive-year-groups">
+  {
+    groups.map((group) => (
+      <details class="archive-year-group">
+        <summary class="archive-year-heading" id={`archive-year-${group.year}`}>
+          <span class="archive-year-label">{group.year}</span>
+          <small>{group.posts.length} 篇</small>
+        </summary>
+
+        <ol class="archive-year-list">
+          {group.posts.map((post) => (
+            <li class="archive-year-item">
+              <time class="archive-year-date" datetime={post.data.date.toISOString()}>
+                {String(post.data.date.getMonth() + 1).padStart(2, "0")}-{String(post.data.date.getDate()).padStart(2, "0")}
+              </time>
+              <div class="archive-year-content">
+                <h3 class="archive-year-title">
+                  <a href={postHref(post)}>{post.data.title}</a>
+                </h3>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </details>
+    ))
+  }
+</div>

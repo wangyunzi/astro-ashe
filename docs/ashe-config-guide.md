@@ -12,6 +12,9 @@
 - `language`：页面 `<html lang="">` 和日期格式语言。
 - `logo`：页头图片 Logo。为空时显示文字标题。
 - `headerImage`：页头背景图。
+- `headerHeight`：页头背景区域高度，单位 px。
+- `headerBackgroundSize`：页头背景图缩放方式，对应 CSS `background-size`。
+- `headerBackgroundPosition`：页头背景图位置，对应 CSS `background-position`。
 - `headerTextColor`：页头标题和描述颜色，设为 `"blank"` 会隐藏页头文字。
 - `showHeaderText`：是否显示页头标题文字。
 - `showTagline`：是否显示页头描述。
@@ -45,6 +48,7 @@
 
 控制普通侧边栏和抽屉侧边栏里的 About 小组件：
 
+- `recentPosts.enabled`：是否显示侧边栏最新文章小组件。
 - `about.enabled`：是否显示。
 - `about.title`：标题。
 - `about.image`：普通侧边栏图片。
@@ -57,6 +61,7 @@
 
 控制侧边栏社交图标：
 
+- `enabled`：是否显示侧边栏社交小组件。
 - `openInNewWindow`：是否新窗口打开。
 - `links`：社交链接。`icon` 使用 Font Awesome 类名。
 
@@ -72,7 +77,11 @@
 - `widgets.showTags`：是否在页脚显示标签云。
 - `about`：页脚 About 小组件，结构和 `sidebar.about` 类似。
 - `links.title` / `links.items`：页脚站内索引标题和链接。
-- `copyright`：版权文字，支持 `$year` 和 `$copy`。
+- `copyright`：版权文字，支持 `$year`、`$copy` 和 HTML 链接。
+- `runtime.enabled`：是否显示建站时长。
+- `runtime.startTime`：建站时间，例如 `"2022/05/10 17:38:00"`。
+- `runtime.template`：建站时长显示模板，支持 `$years`、`$days`、`$hours`。
+- `runtime.loadingText`：页面刚加载、脚本计算前的占位文字。
 - `menu`：页脚站点信息里的链接，如隐私政策、使用条款。
 
 ## rss

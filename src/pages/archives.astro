@@ -2,64 +2,39 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageShell from "../components/PageShell.astro";
 import BlogPagination from "../components/BlogPagination.astro";
-import { excerpt, paginationHref, postHref } from "../lib/ashe";
+import ArchiveYearGroups from "../components/ArchiveYearGroups.astro";
+import { asheConfig } from "../ashe.config";
 import { getPublishedPosts } from "../lib/content";
 
 const posts = await getPublishedPosts();
-const perPage = 20;
-const totalPages = Math.max(1, Math.ceil(posts.length / perPage));
+const pageConfig = asheConfig.pages.archives;
+const perPage = pageConfig.perPage;
+const archiveYearGroups = posts.reduce<Array<{ year: number; posts: typeof posts }>>((items, post) => {
+  const year = post.data.date.getFullYear();
+  const current = items[items.length - 1];
+
+  if (current?.year === year) {
+    current.posts.push(post);
+  } else {
+    items.push({ year, posts: [post] });
+  }
+
+  return items;
+}, []);
+const totalPages = Math.max(1, Math.ceil(archiveYearGroups.length / perPage));
 const currentPage = 1;
-const currentPosts = posts.slice(0, perPage);
+const currentPosts = archiveYearGroups.slice(0, perPage).flatMap((group) => group.posts);
 ---
 
 <BaseLayout
-  title="归档"
-  titleEn="Archives"
-  description="按时间线浏览所有文章"
-  descriptionEn="Browse all posts on a timeline."
+  title={pageConfig.title}
+  titleEn={pageConfig.titleEn}
+  description={pageConfig.description}
+  descriptionEn={pageConfig.descriptionEn}
   bodyClass="page page-archives archive"
 >
-  <PageShell title="归档" titleEn="Archives">
-    <ol class="archive-timeline">
-      {
-        currentPosts.map((post) => (
-          <li class="archive-timeline-item">
-            <article class="archive-timeline-card">
-              <div class="archive-timeline-content">
-                <div class="archive-timeline-meta">
-                  {
-                    post.data.categories.length ? (
-                      <div class="archive-timeline-categories">
-                        {post.data.categories.map((category, index) => (
-                          <>
-                            <span>{category}</span>
-                            {index < post.data.categories.length - 1 ? <>&nbsp;&nbsp;,&nbsp;&nbsp;</> : null}
-                          </>
-                        ))}
-                      </div>
-                    ) : null
-                  }
-                  <time class="archive-timeline-date" datetime={post.data.date.toISOString()} data-i18n-date>
-                    {post.data.date.getFullYear()}年{post.data.date.getMonth() + 1}月{post.data.date.getDate()}日
-                  </time>
-                </div>
-                <h2 class="archive-timeline-title">
-                  <a href={postHref(post)}>{post.data.title}</a>
-                </h2>
-                <p class="archive-timeline-excerpt">{excerpt(post.data.description || post.body || "", 26)}</p>
-                {
-                  post.data.tags.length ? (
-                    <div class="archive-timeline-tags">
-                      {post.data.tags.map((tag) => <span>#{tag}</span>)}
-                    </div>
-                  ) : null
-                }
-              </div>
-            </article>
-          </li>
-        ))
-      }
-    </ol>
-    {totalPages > 1 ? <BlogPagination pagination={{ currentPage, totalPages, perPage, totalItems: posts.length, basePath: "/archives/" }} /> : null}
+  <PageShell title={pageConfig.title} titleEn={pageConfig.titleEn}>
+    <ArchiveYearGroups posts={currentPosts} />
+    {totalPages > 1 ? <BlogPagination pagination={{ currentPage, totalPages, perPage, totalItems: archiveYearGroups.length, basePath: "/archives/" }} /> : null}
   </PageShell>
 </BaseLayout>

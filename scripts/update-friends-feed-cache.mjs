@@ -3,12 +3,13 @@ import path from "node:path";
 import process from "node:process";
 import Parser from "rss-parser";
 import yaml from "js-yaml";
+import { asheRuntimeConfig, configuredUserAgent } from "../src/ashe.runtime-config.mjs";
 
 const root = process.cwd();
 const friendsPath = path.join(root, "src/content/pages/friends.md");
 const feedsDir = path.join(root, "src/content/feeds");
 const cachePath = path.join(root, "src/data/friends-feed-cache.json");
-const userAgent = "Mozilla/5.0 (compatible; Astro Ashe Feed Cache/1.0; +https://asky.0tz.top)";
+const userAgent = configuredUserAgent(asheRuntimeConfig.feeds.cacheUserAgent);
 const parser = new Parser({
   timeout: Number(process.env.RSS_FETCH_TIMEOUT_MS || 8000),
   headers: {

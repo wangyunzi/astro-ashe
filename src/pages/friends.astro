@@ -11,10 +11,10 @@ if (!friendsPage) {
 }
 
 const { Content } = await friendsPage.render();
-const title = "好友链接";
-const titleEn = "Friends";
-const description = "整理博客朋友、常用资源和项目入口。";
-const descriptionEn = "A curated list of friends, resources, and project links.";
+const title = friendsPage.data.title;
+const titleEn = friendsPage.data.titleEn;
+const description = friendsPage.data.description || friendsPage.data.title;
+const descriptionEn = friendsPage.data.descriptionEn || friendsPage.data.titleEn;
 ---
 
 <BaseLayout title={title} titleEn={titleEn} description={description} descriptionEn={descriptionEn} bodyClass="page page-friends">

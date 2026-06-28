@@ -1,4 +1,5 @@
 ---
+import { asheConfig } from "../ashe.config";
 import { authorHref, type PostEntry } from "../lib/ashe";
 
 interface Props {
@@ -6,13 +7,12 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const fallbackBio = "这个作者负责维护 Ashe Astro 版本中的内容与编辑说明。";
-const fallbackBioEn = "This author maintains the content and editorial notes in the Ashe Astro version.";
+const { fallbackAvatar, fallbackBio, fallbackBioEn } = asheConfig.author;
 ---
 
 <div class="author-description">
   <div class="author-avatar">
-    <img src="/ashe/assets/images/img12.jpg" alt="" width="80" height="80" />
+    <img src={fallbackAvatar} alt="" width="80" height="80" />
   </div>
   <h4>
     <a href={authorHref(post.data.author)}>{post.data.author}</a>
