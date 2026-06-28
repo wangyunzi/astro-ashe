@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28T09:16:17.796Z",
-  "expiresAt": "2026-06-28T15:16:17.796Z",
+  "updatedAt": "2026-06-28T09:18:34.480Z",
+  "expiresAt": "2026-06-28T15:18:34.480Z",
   "items": [
     {
       "title": "我思",
@@ -39,6 +39,30 @@
       "category": "额外动态"
     },
     {
+      "title": "Linux 服务器翻墙",
+      "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
+      "date": "2026-06-17T06:38:00.000Z",
+      "summary": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
+      "source": "Lhasa",
+      "sourceUrl": "https://lhasa.icu/",
+      "feedUrl": "https://lhasa.icu/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "订阅新姿势",
+      "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/",
+      "date": "2026-06-17T06:37:00.000Z",
+      "summary": "前几天逛网站发现一个自建订阅器：Miniflux v2...",
+      "source": "Lhasa",
+      "sourceUrl": "https://lhasa.icu/",
+      "feedUrl": "https://lhasa.icu/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
       "title": "Claude Fable 5: 短暂的寓言",
       "link": "https://hutusi.com/flows/2026/06/13",
       "date": "2026-06-13T00:00:00.000Z",
@@ -64,6 +88,30 @@
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
       "category": "友情链接"
+    },
+    {
+      "title": "Astro Lite 6",
+      "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
+      "date": "2026-06-11T16:15:00.000Z",
+      "summary": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
+      "source": "Lhasa",
+      "sourceUrl": "https://lhasa.icu/",
+      "feedUrl": "https://lhasa.icu/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "Photosuite EXIF 优化",
+      "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
+      "date": "2026-06-10T10:39:00.000Z",
+      "summary": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
+      "source": "Lhasa",
+      "sourceUrl": "https://lhasa.icu/",
+      "feedUrl": "https://lhasa.icu/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "当心流量别被 Agent 都吃了",
@@ -124,6 +172,18 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
+    },
+    {
+      "title": "在纷杂的世界里保持专注",
+      "link": "https://blog.lhasa.icu/posts/life/2026-05-28-zhuanzhu/",
+      "date": "2026-05-29T08:11:00.000Z",
+      "summary": "关于专注、留白与冥想的一些思考。从黑白摄影、建筑空间到腹式呼吸，重新理解注意力为何总在被世界悄悄偷走",
+      "source": "Lhasa",
+      "sourceUrl": "https://lhasa.icu/",
+      "feedUrl": "https://lhasa.icu/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "还没用过龙虾的我该焦虑吗",
@@ -437,10 +497,10 @@
       "message": "self-signed certificate"
     },
     {
-      "source": "Lhasa",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
