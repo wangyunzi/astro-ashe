@@ -80,9 +80,9 @@ jobs:
 
           mkdir -p blog/src/content/album blog/src/content/pages blog/src/content/posts
 
-          rsync -a --delete "$source_dir/album/" blog/src/content/album/
-          rsync -a --delete "$source_dir/pages/" blog/src/content/pages/
-          rsync -a --delete "$source_dir/posts/" blog/src/content/posts/
+          rsync -a --delete --exclude=".DS_Store" "$source_dir/album/" blog/src/content/album/
+          rsync -a --delete --exclude=".DS_Store" "$source_dir/pages/" blog/src/content/pages/
+          rsync -a --delete --exclude=".DS_Store" "$source_dir/posts/" blog/src/content/posts/
 
           if [ -d blog/src/content/albums ]; then
             rm -rf blog/src/content/albums

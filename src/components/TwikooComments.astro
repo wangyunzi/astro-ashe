@@ -10,6 +10,11 @@ const { post } = Astro.props;
 const comments = asheConfig.comments;
 const twikoo = comments.twikoo;
 const path = commentPath(post);
+const twikooCdns = [
+  twikoo.cdn,
+  "https://cdn.jsdelivr.net/npm/twikoo@1.7.13/dist/twikoo.all.min.js",
+  "https://unpkg.com/twikoo@1.7.13/dist/twikoo.all.min.js"
+].filter((cdn, index, cdns) => Boolean(cdn) && cdns.indexOf(cdn) === index);
 ---
 
 {
@@ -31,7 +36,7 @@ const path = commentPath(post);
       {twikoo.envId ? (
         <script
           define:vars={{
-            twikooCdn: twikoo.cdn,
+            twikooCdns,
             twikooEnvId: twikoo.envId,
             twikooPath: path,
             twikooLang: twikoo.lang
@@ -81,27 +86,39 @@ const path = commentPath(post);
             twikooRoot.appendChild(notice);
           }
 
-          function loadTwikooClient() {
+          function loadTwikooScript(src) {
             return new Promise(function (resolve, reject) {
-              if (resolveTwikooInit(window.twikoo)) {
-                resolve(window.twikoo);
-                return;
-              }
-
               var script = document.createElement("script");
-              script.src = twikooCdn;
+              script.src = src;
               script.async = true;
               script.onload = function () {
-                if (resolveTwikooInit(window.twikoo)) {
-                  resolve(window.twikoo);
-                } else {
-                  reject(new Error(twikooText("clientInvalid")));
-                }
+                resolve(window.twikoo);
               };
               script.onerror = function () {
-                reject(new Error(twikooText("scriptFailed")));
+                script.remove();
+                reject(new Error(src));
               };
               document.head.appendChild(script);
+            });
+          }
+
+          function loadTwikooClient() {
+            if (resolveTwikooInit(window.twikoo)) {
+              return Promise.resolve(window.twikoo);
+            }
+
+            return twikooCdns.reduce(function (promise, src) {
+              return promise.catch(function () {
+                return loadTwikooScript(src).then(function (twikoo) {
+                  if (resolveTwikooInit(twikoo)) {
+                    return twikoo;
+                  }
+
+                  throw new Error(twikooText("clientInvalid"));
+                });
+              });
+            }, Promise.reject()).catch(function () {
+              throw new Error(twikooText("scriptFailed"));
             });
           }
 

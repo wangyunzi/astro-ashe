@@ -237,7 +237,7 @@ export const asheConfig = {
           title: "About Ashe",
           imageAlt: "Ashe blog preview",
           paragraphs: [
-            "This footer About Ashe block can describe the theme, site, or copyright details separately."
+            "That's all,nothing to say."
           ]
         }
       }
@@ -326,7 +326,7 @@ export const asheConfig = {
       envId: "https://twikoo.wangyunzi.com",
 
       // Twikoo 客户端脚本地址，可以固定版本或改为自托管地址。
-      cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.13/dist/twikoo.min.js",
+      cdn: "https://cdn.jsdelivr.net/npm/twikoo@1.7.13/dist/twikoo.all.min.js",
 
       // 传给 twikoo.init() 的语言参数。
       lang: "zh-CN"

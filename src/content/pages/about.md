@@ -1,111 +1,59 @@
 ---
 title: 关于
-titleEn: About
-description: 关于我的博客和我自己
-descriptionEn: About this blog and its author
 permalink: /about/
+order: 6
 ---
 
 #### 🙈关于我
 
 <div id="test">
-  <div class="about-tags-fallback" aria-label="关于我的标签">
-    <span>社恐玩家</span>
-    <span>拒绝出风头</span>
-    <span>宅到极致</span>
-    <span>简单普通</span>
-    <span>爱自由</span>
-    <span>神经质</span>
-    <span>不喜欢微信</span>
-    <span>没有音乐活不了</span>
-    <span>听歌</span>
-    <span>发呆</span>
-    <span>记录各类博客主题</span>
-    <span>骑车兜风</span>
-    <span>为我的博客安一个家</span>
-    <span>没事瞎折腾</span>
-    <span>无辣不欢</span>
-    <span>辣椒才是灵魂</span>
-    <span>土豆才是世界上最美味的</span>
-    <span>学生党</span>
-    <span>地道贵州人</span>
-    <span>自由且独立</span>
-  </div>
-  <script type="text/plain" id="tags-wall-data">
-社恐玩家/1/性格/
-拒绝出风头/1/性格
-宅到极致/1/性格
-简单普通/1/性格
-爱自由/1/性格
-神经质/1/性格
-不喜欢微信/1/性格
-没有音乐活不了/1/性格/https://open.spotify.com/playlist/66RQ2F6iCvQbOGW66VaEYk?si=dcb7d51b17d04cc1
-听歌/1/爱好
-发呆/1/爱好/
-记录各类博客主题/2/爱好
-骑车兜风/1/爱好
-为我的博客安一个家/1/爱好
-没事瞎折腾/1/生活/
-无辣不欢/1/美食
-辣椒才是灵魂/1/美食
-土豆才是世界上最美味的/1/美食
-学生党/1/身份
-地道贵州人/1/籍贯
-自由且独立/1/未来
-  </script>
+<style>
+#test {
+    width: auto;
+    height: auto;
+    overflow: hidden !important; 
+}
+#my-tags mark {
+    position: initial!important;
+}
+</style>
+<script src="https://blog.wangyunzi.com/json/tags-wall.js"></script>
+<script>
+        Tags({
+          style: {
+            fn: Style1,
+            title: '王云子',
+            animation: 1,
+            scale: 1,
+            randomScoreIfNoSetting: 5 // 如果是1，则如果未设置标签大小那么随机设置一个大小；否则使用默认大小5
+          },
+          text: `
+          社恐玩家/1/性格/
+          拒绝出风头/1/性格
+          宅到极致/1/性格
+          简单普通/1/性格
+          爱自由/1/性格
+          神经质/1/性格
+          不喜欢微信/1/性格
+          没有音乐活不了/1/性格/https://open.spotify.com/playlist/66RQ2F6iCvQbOGW66VaEYk?si=dcb7d51b17d04cc1
+          听歌/1/爱好
+          发呆/1/爱好/
+          记录各类博客主题/1/爱好
+          骑车兜风/1/爱好
+          为我的博客安一个家/1/爱好
+          没事瞎折腾/1/生活/
+          无辣不欢/1/美食
+          辣椒才是灵魂/1/美食
+          土豆才是世界上最美味的/1/美食
+          学生党/1/身份
+          地道贵州人/1/籍贯
+          自由且独立/1/未来
+  `,
+  rootDOM: document.getElementById('test')
+})
+</script>
 </div>
 
-<script src="https://blog.wangyunzi.com/json/tags-wall.js" defer></script>
-<script is:inline>
-  function initAboutTagsWall() {
-    if (typeof window === "undefined" || typeof window.initTagsWall !== "function") {
-      return;
-    }
-
-    const source = document.getElementById("tags-wall-data");
-    const mount = document.getElementById("test");
-
-    if (!source || !mount || mount.dataset.tagsWallReady === "true") {
-      return;
-    }
-
-    mount.dataset.tagsWallReady = "true";
-    window.initTagsWall({
-      root: "#test",
-      dataSelector: "#tags-wall-data"
-    });
-    const fallback = mount.querySelector(".about-tags-fallback");
-    if (fallback) {
-      fallback.hidden = true;
-    }
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initAboutTagsWall, { once: true });
-  } else {
-    initAboutTagsWall();
-  }
-
-  window.addEventListener("load", initAboutTagsWall, { once: true });
-</script>
-
-<style>
-  .about-tags-fallback {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 18px 0 28px;
-  }
-
-  .about-tags-fallback span {
-    padding: 6px 12px;
-    border: 1px solid #eeeeee;
-    border-radius: 999px;
-    background: #ffffff;
-    color: #666666;
-    font-size: 14px;
-  }
-</style>
 
 #### 🌞建站日记
 - 2024年08月03日  使用jekyll框架，主题[Travelogue](https://github.com/SalGnt/Travelogue)
