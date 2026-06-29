@@ -1,5 +1,5 @@
 export const asheRuntimeConfig = {
-  siteUrl: "https://asky.0tz.top",
+  siteUrl: "https://wangyunzi.com",
   feeds: {
     cacheUserAgent: "Mozilla/5.0 (compatible; Astro Ashe Feed Cache/1.0; +$siteUrl)",
     discoveryUserAgent: "Mozilla/5.0 (compatible; Astro Ashe Feed Discovery/1.0; +$siteUrl)"
