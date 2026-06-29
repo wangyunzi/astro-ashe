@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-29T04:25:07.398Z",
-  "expiresAt": "2026-06-29T10:25:07.398Z",
+  "updatedAt": "2026-06-29T11:10:26.444Z",
+  "expiresAt": "2026-06-29T17:10:26.444Z",
   "items": [
     {
       "title": "我思",
@@ -444,6 +444,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -477,6 +484,13 @@
       "site": "https://jingxin18.cn",
       "feed": "https://jingxin18.cn/feed",
       "message": "Hostname/IP does not match certificate's altnames: Host: jingxin18.cn. is not in the cert's altnames: DNS:cloudflare-dns.com, DNS:*.cloudflare-dns.com, IP Address:1.0.0.1, IP Address:1.1.1.1, IP Address:162.159.36.1, IP Address:162.159.46.1, IP Address:2606:4700:4700:0:0:0:0:1001, IP Address:2606:4700:4700:0:0:0:0:1111, IP Address:2606:4700:4700:0:0:0:0:64, IP Address:2606:4700:4700:0:0:0:0:6400, DNS:one.one.one.one"
+    },
+    {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
