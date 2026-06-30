@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-30T13:44:19.240Z",
-  "expiresAt": "2026-06-30T19:44:19.240Z",
+  "updatedAt": "2026-06-30T13:46:42.013Z",
+  "expiresAt": "2026-06-30T19:46:42.013Z",
   "items": [
     {
       "title": "我思",
@@ -444,10 +444,24 @@
       "message": "Status code 404"
     },
     {
+      "source": "荷戟独彷徨",
+      "sourceType": "friends",
+      "site": "https://guanqr.com/",
+      "feed": "https://guanqr.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -462,6 +476,13 @@
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "胡涂说",
+      "sourceType": "friends",
+      "site": "https://hutusi.com/",
+      "feed": "https://hutusi.com/feed.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -511,7 +532,14 @@
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
       "feed": "https://jingxin18.cn/feed",
-      "message": "Hostname/IP does not match certificate's altnames: Host: jingxin18.cn. is not in the cert's altnames: DNS:cloudflare-dns.com, DNS:*.cloudflare-dns.com, IP Address:1.0.0.1, IP Address:1.1.1.1, IP Address:162.159.36.1, IP Address:162.159.46.1, IP Address:2606:4700:4700:0:0:0:0:1001, IP Address:2606:4700:4700:0:0:0:0:1111, IP Address:2606:4700:4700:0:0:0:0:64, IP Address:2606:4700:4700:0:0:0:0:6400, DNS:one.one.one.one"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Dorad",
+      "sourceType": "friends",
+      "site": "https://blog.cuger.cn",
+      "feed": "https://blog.cuger.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "1900",
@@ -525,6 +553,27 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "领先恐",
+      "sourceType": "extraFeeds",
+      "site": "https://lingxiankong.github.io/",
+      "feed": "https://lingxiankong.github.io/pages/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "iMiku",
+      "sourceType": "extraFeeds",
+      "site": "https://imiku.me/",
+      "feed": "https://imiku.me/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -546,13 +595,20 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Hongtao",
+      "sourceType": "extraFeeds",
+      "site": "https://hongtaoh.com/",
+      "feed": "https://hongtaoh.com/cn/blog/index.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
