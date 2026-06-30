@@ -252,7 +252,7 @@ export const asheConfig = {
         { label: "好友", href: "/friends/", i18nKey: "nav.friendLinks" },
         { label: "友邻", href: "/links/", i18nKey: "nav.friendsFeed" },
         { label: "片刻", href: "/memos/", i18nKey: "nav.memos" },
-        { label: "关于", href: "https://iamraya.cc/", i18nKey: "nav.about" }
+        { label: "技术", href: "https://iamraya.cc/", i18nKey: "nav.about" }
       ] satisfies MenuItem[]
     },
 
