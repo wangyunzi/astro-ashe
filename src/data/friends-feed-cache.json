@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-01T09:58:52.616Z",
-  "expiresAt": "2026-07-01T15:58:52.616Z",
+  "updatedAt": "2026-07-01T14:47:31.714Z",
+  "expiresAt": "2026-07-01T20:47:31.714Z",
   "items": [
     {
       "title": "我思",
@@ -471,13 +471,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -497,13 +490,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
