@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-01T20:02:44.145Z",
-  "expiresAt": "2026-07-02T02:02:44.145Z",
+  "updatedAt": "2026-07-02T04:00:19.581Z",
+  "expiresAt": "2026-07-02T10:00:19.581Z",
   "items": [
     {
       "title": "我思",
@@ -477,6 +477,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -509,7 +516,21 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "socket hang up"
+    },
+    {
+      "source": "领先恐",
+      "sourceType": "extraFeeds",
+      "site": "https://lingxiankong.github.io/",
+      "feed": "https://lingxiankong.github.io/pages/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -524,6 +545,13 @@
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
       "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
