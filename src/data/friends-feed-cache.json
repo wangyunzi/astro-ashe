@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-07-02T14:12:36.076Z",
-  "expiresAt": "2026-07-02T20:12:36.076Z",
+  "updatedAt": "2026-07-02T19:39:32.227Z",
+  "expiresAt": "2026-07-03T01:39:32.227Z",
   "items": [
+    {
+      "title": "Fable 5 回归，但是用不起……",
+      "link": "https://hutusi.com/flows/2026/07/02",
+      "date": "2026-07-02T00:00:00.000Z",
+      "summary": "昨天，Anthropic 宣布美国政府解除 Fable 5 的出口管制，今天就恢复了 Fable 5 服务，不过在[ Anthropic 的官宣](https://www.anthropic.com/news/redeploying-fable-5)中，增加了使用期限：7 月 1 日至 7 月 7 日订阅账户可以使用，...",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
     {
       "title": "我思",
       "link": "https://tianheg.co/posts/me-thinking/",
@@ -150,10 +162,10 @@
       "category": "额外动态"
     },
     {
-      "title": "THYUU/星度主题 26.7.0 小暑测试版更新内容：主题地图源引来天地图和 Mapbox、站点特写迎来交互升级，瞬间动态浏览更流畅",
+      "title": "THYUU/星度主题 26.7.0 小暑更新内容：主题地图源引来天地图和 Mapbox、站点特写迎来交互升级，瞬间动态浏览更流畅",
       "link": "https://www.thyuu.com/82351/",
       "date": "2026-06-01T08:47:14.000Z",
-      "summary": "预计测试版测试时间：2026 年 6 月 28日本文内容为测试版内容，正式发布前可能会有所更改，仅供参考 预计 […]",
+      "summary": "预计正式版更新时间：2026 年 7 月 7 日 小暑时节 作为2026年度的第三季度更新，本次更新主要带来了 […]",
       "source": "风记星辰",
       "sourceUrl": "https://www.thyuu.com",
       "feedUrl": "https://www.thyuu.com/feed",
@@ -477,20 +489,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -512,20 +510,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -533,18 +517,11 @@
       "message": "Hostname/IP does not match certificate's altnames: Host: jingxin18.cn. is not in the cert's altnames: DNS:cloudflare-dns.com, DNS:*.cloudflare-dns.com, IP Address:1.0.0.1, IP Address:1.1.1.1, IP Address:162.159.36.1, IP Address:162.159.46.1, IP Address:2606:4700:4700:0:0:0:0:1001, IP Address:2606:4700:4700:0:0:0:0:1111, IP Address:2606:4700:4700:0:0:0:0:64, IP Address:2606:4700:4700:0:0:0:0:6400, DNS:one.one.one.one"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "socket hang up"
+      "message": "Status code 500"
     },
     {
       "source": "Frytea",
@@ -554,25 +531,11 @@
       "message": "self-signed certificate"
     },
     {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "LMS",
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
       "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
