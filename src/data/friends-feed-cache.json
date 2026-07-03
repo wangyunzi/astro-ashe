@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-02T19:39:32.227Z",
-  "expiresAt": "2026-07-03T01:39:32.227Z",
+  "updatedAt": "2026-07-03T03:45:21.950Z",
+  "expiresAt": "2026-07-03T09:45:21.950Z",
   "items": [
     {
       "title": "Fable 5 回归，但是用不起……",
@@ -507,7 +507,7 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "二猫 blog",
@@ -529,13 +529,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
