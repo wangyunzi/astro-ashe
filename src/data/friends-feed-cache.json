@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T03:45:21.950Z",
-  "expiresAt": "2026-07-03T09:45:21.950Z",
+  "updatedAt": "2026-07-03T09:27:03.479Z",
+  "expiresAt": "2026-07-03T15:27:03.479Z",
   "items": [
     {
       "title": "Fable 5 回归，但是用不起……",
@@ -489,6 +489,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -507,7 +514,14 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Leonus",
+      "sourceType": "friends",
+      "site": "https://blog.leonus.cn",
+      "feed": "https://blog.leonus.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "二猫 blog",
@@ -529,6 +543,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
