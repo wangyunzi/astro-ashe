@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04T03:37:28.521Z",
-  "expiresAt": "2026-07-04T09:37:28.521Z",
+  "updatedAt": "2026-07-04T08:44:28.780Z",
+  "expiresAt": "2026-07-04T14:44:28.780Z",
   "items": [
     {
       "title": "Fable 5 回归，但是用不起……",
@@ -496,13 +496,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -531,13 +524,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -557,13 +543,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
