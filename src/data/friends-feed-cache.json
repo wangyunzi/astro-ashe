@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T19:36:52.503Z",
-  "expiresAt": "2026-07-04T01:36:52.503Z",
+  "updatedAt": "2026-07-04T03:37:28.521Z",
+  "expiresAt": "2026-07-04T09:37:28.521Z",
   "items": [
     {
       "title": "Fable 5 回归，但是用不起……",
@@ -489,10 +489,24 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
+      "source": "凡梦星尘空间站",
       "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -514,7 +528,14 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "二猫 blog",
@@ -538,11 +559,11 @@
       "message": "self-signed certificate"
     },
     {
-      "source": "LMS",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
