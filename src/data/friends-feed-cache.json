@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-07-05T03:56:11.134Z",
-  "expiresAt": "2026-07-05T09:56:11.134Z",
+  "updatedAt": "2026-07-05T09:12:43.378Z",
+  "expiresAt": "2026-07-05T15:12:43.378Z",
   "items": [
+    {
+      "title": "片刻・Jdeal 发布了一条新动态~",
+      "link": "https://www.jdeal.cn/cross.html#5252",
+      "date": "2026-07-05T04:40:08.000Z",
+      "summary": "刚刚在拼夕夕买了个 ESP32C3 PRO MINI 开发板，超小的自带WiFi+蓝牙的开发板，准备玩点改装的小玩意 😊 敬请期待，哈哈",
+      "source": "Jdeal",
+      "sourceUrl": "https://www.jdeal.cn",
+      "feedUrl": "https://www.jdeal.cn/feed",
+      "sourceType": "friends",
+      "description": "Life is like a Design.",
+      "category": "友情链接"
+    },
     {
       "title": "夏雨",
       "link": "https://tianheg.co/posts/summer-rain/",
@@ -468,6 +480,18 @@
       "category": "额外动态"
     },
     {
+      "title": "夏季骑行通勤的 3 个小习惯",
+      "link": "https://dusays.com/archives/859/",
+      "date": "2026-03-26T16:00:00.000Z",
+      "summary": "最近几周杜老师几乎每天都在骑，骑行已经成了天气不糟糕时的首选通勤方式。夏天骑其实跟春秋不太一样，有些小习惯一旦形成，会让整段路舒服不少。今天杜老师就来讲一下，夏季骑行通勤中杜老师自己养成的 3 个小习惯！ 一、出门前 30 秒检查气压 很多人觉得通勤车不用讲究，但气压这事不注意，骑上去真的会累。 前轮气压不足：起步时方向偏沉，过坑时容易打滑 后轮气压不足：明",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "片刻・Jdeal 发布了一条新动态~",
       "link": "https://www.jdeal.cn/cross.html#5165",
       "date": "2026-03-24T02:50:51.000Z",
@@ -549,6 +573,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -556,18 +587,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "二猫 blog",
@@ -589,13 +613,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
