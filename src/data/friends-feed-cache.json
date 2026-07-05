@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-05T09:12:43.378Z",
-  "expiresAt": "2026-07-05T15:12:43.378Z",
+  "updatedAt": "2026-07-05T13:50:49.793Z",
+  "expiresAt": "2026-07-05T19:50:49.793Z",
   "items": [
     {
       "title": "片刻・Jdeal 发布了一条新动态~",
@@ -580,6 +580,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -587,11 +594,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "二猫 blog",
@@ -605,7 +626,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -613,6 +634,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
