@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-05T19:25:19.387Z",
-  "expiresAt": "2026-07-06T01:25:19.387Z",
+  "updatedAt": "2026-07-06T04:02:46.115Z",
+  "expiresAt": "2026-07-06T10:02:46.115Z",
   "items": [
     {
       "title": "片刻・Jdeal 发布了一条新动态~",
@@ -550,18 +550,6 @@
       "sourceType": "friends",
       "description": "Life is like a Design.",
       "category": "友情链接"
-    },
-    {
-      "title": "近日随想",
-      "link": "https://www.yyyzyyyz.cn/posts/a58b6ba9d0a9/",
-      "date": "2026-03-08T02:10:57.000Z",
-      "summary": "",
-      "source": "Black Flies",
-      "sourceUrl": "https://www.yyyzyyyz.cn/",
-      "feedUrl": "https://www.yyyzyyyz.cn/atom.xml",
-      "sourceType": "friends",
-      "description": "When nothing goes right, just go left.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -580,11 +568,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "二猫 blog",
@@ -606,6 +601,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
