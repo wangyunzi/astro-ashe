@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-07T09:51:30.685Z",
-  "expiresAt": "2026-07-07T15:51:30.685Z",
+  "updatedAt": "2026-07-07T14:48:25.639Z",
+  "expiresAt": "2026-07-07T20:48:25.639Z",
   "items": [
     {
       "title": "荐《给阿嬷的情书》",
@@ -609,6 +609,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -627,13 +634,13 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -641,7 +648,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
