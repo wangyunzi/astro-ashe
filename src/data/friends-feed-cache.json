@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T14:26:32.282Z",
-  "expiresAt": "2026-07-08T20:26:32.282Z",
+  "updatedAt": "2026-07-08T15:00:47.764Z",
+  "expiresAt": "2026-07-08T21:00:47.764Z",
   "items": [
     {
       "title": "287、小暑",
@@ -677,11 +677,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Frytea",
       "sourceType": "extraFeeds",
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
