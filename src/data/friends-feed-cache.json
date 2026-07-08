@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-07T20:03:15.771Z",
-  "expiresAt": "2026-07-08T02:03:15.771Z",
+  "updatedAt": "2026-07-08T03:20:12.448Z",
+  "expiresAt": "2026-07-08T09:20:12.448Z",
   "items": [
     {
       "title": "287、小暑",
@@ -642,11 +642,25 @@
       "message": "Status code 404"
     },
     {
+      "source": "Leonus",
+      "sourceType": "friends",
+      "site": "https://blog.leonus.cn",
+      "feed": "https://blog.leonus.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -654,6 +668,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
