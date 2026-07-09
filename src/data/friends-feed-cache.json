@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T03:47:02.750Z",
-  "expiresAt": "2026-07-09T09:47:02.750Z",
+  "updatedAt": "2026-07-09T09:54:23.760Z",
+  "expiresAt": "2026-07-09T15:54:23.760Z",
   "items": [
     {
       "title": "287、小暑",
@@ -234,10 +234,10 @@
       "category": "额外动态"
     },
     {
-      "title": "THYUU/星度主题 26.7.0 小暑更新内容：主题地图源引来天地图和 Mapbox、站点特写迎来交互升级，瞬间动态浏览更流畅",
+      "title": "THYUU/星度主题 26.7.0 小暑版本更新内容：主题地图源引来天地图和 Mapbox、站点特写迎来交互升级，瞬间动态浏览更流畅",
       "link": "https://www.thyuu.com/82351/",
       "date": "2026-06-01T08:47:14.000Z",
-      "summary": "预计正式版更新时间：2026 年 7 月 7 日 小暑时节 作为2026年度的第三季度更新，本次更新主要带来了 […]",
+      "summary": "更新时间：2026 年 7 月 7 日 小暑时节 作为2026年度的第三季度更新，本次更新主要带来了支持天地图 […]",
       "source": "风记星辰",
       "sourceUrl": "https://www.thyuu.com",
       "feedUrl": "https://www.thyuu.com/feed",
@@ -657,6 +657,20 @@
       "message": "Status code 404"
     },
     {
+      "source": "Echo's blog",
+      "sourceType": "friends",
+      "site": "https://www.liveout.cn/",
+      "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
@@ -671,11 +685,25 @@
       "message": "Status code 500"
     },
     {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Frytea",
       "sourceType": "extraFeeds",
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
