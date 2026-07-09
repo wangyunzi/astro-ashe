@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T19:40:55.042Z",
-  "expiresAt": "2026-07-09T01:40:55.042Z",
+  "updatedAt": "2026-07-09T03:47:02.750Z",
+  "expiresAt": "2026-07-09T09:47:02.750Z",
   "items": [
     {
       "title": "287、小暑",
@@ -405,6 +405,18 @@
       "category": "友情链接"
     },
     {
+      "title": "Codex 自制宠物",
+      "link": "https://liveout.cn/archives/40.html",
+      "date": "2026-05-08T05:06:00.000Z",
+      "summary": "codex—pet自从上次 cluadecode 源码泄露后，大家发现还有未发布的 pet 宠物功能，然后没过几天 cc 就上线这个功能了。就在几天前，codex app 也上线宠物功能，不过比...",
+      "source": "Echo's blog",
+      "sourceUrl": "https://www.liveout.cn/",
+      "feedUrl": "https://www.liveout.cn/feed",
+      "sourceType": "friends",
+      "description": "韶华不为少年留 恨悠悠 几时休。",
+      "category": "友情链接"
+    },
+    {
       "title": "从 1Password 迁移到 Bitwarden：一次涨价引发的“搬家”",
       "link": "https://inkss.cn/post/5a013cf6/",
       "date": "2026-05-08T03:55:00.000Z",
@@ -516,6 +528,18 @@
       "category": "额外动态"
     },
     {
+      "title": "U-Boot、内核移植与根文件系统构建（BeagleBone Green Gateway&amp;AM335X）",
+      "link": "https://liveout.cn/archives/39.html",
+      "date": "2026-04-25T14:36:00.000Z",
+      "summary": "前言本文档记录基于 BeagleBone Green Gateway 开发板（核心芯片为 TI AM3358）的 U-Boot、Linux 内核移植与根文件系统构建流程。内容包括 Ubuntu ...",
+      "source": "Echo's blog",
+      "sourceUrl": "https://www.liveout.cn/",
+      "feedUrl": "https://www.liveout.cn/feed",
+      "sourceType": "friends",
+      "description": "韶华不为少年留 恨悠悠 几时休。",
+      "category": "友情链接"
+    },
+    {
       "title": "THYUU/星度主题 26.4.0 正式版更新内容：全新首页及瞬间动态登场",
       "link": "https://www.thyuu.com/82028/",
       "date": "2026-04-18T11:06:03.000Z",
@@ -537,6 +561,18 @@
       "feedUrl": "https://www.jdeal.cn/feed",
       "sourceType": "friends",
       "description": "Life is like a Design.",
+      "category": "友情链接"
+    },
+    {
+      "title": "你们搞大模型的就是？",
+      "link": "https://liveout.cn/archives/38.html",
+      "date": "2026-04-11T06:11:00.000Z",
+      "summary": "博客迁移 & codex随着 ai 的不断进化，claudecode、codex 等爆火，vibecodig 这个概念传播的越来越广了。现在一个不懂代码的人，通过 agent 工具也能实现自己想...",
+      "source": "Echo's blog",
+      "sourceUrl": "https://www.liveout.cn/",
+      "feedUrl": "https://www.liveout.cn/feed",
+      "sourceType": "friends",
+      "description": "韶华不为少年留 恨悠悠 几时休。",
       "category": "友情链接"
     },
     {
@@ -619,20 +655,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "老卢",
