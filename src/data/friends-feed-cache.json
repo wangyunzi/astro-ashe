@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T19:39:32.149Z",
-  "expiresAt": "2026-07-11T01:39:32.149Z",
+  "updatedAt": "2026-07-11T03:15:14.715Z",
+  "expiresAt": "2026-07-11T09:15:14.715Z",
   "items": [
     {
       "title": "287、小暑",
@@ -682,7 +682,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -690,6 +690,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
