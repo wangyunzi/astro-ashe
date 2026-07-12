@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-07-12T08:24:45.788Z",
-  "expiresAt": "2026-07-12T14:24:45.788Z",
+  "updatedAt": "2026-07-12T13:38:01.798Z",
+  "expiresAt": "2026-07-12T19:38:01.798Z",
   "items": [
+    {
+      "title": "一些琐事",
+      "link": "https://www.imsun.org/archives/1791.html",
+      "date": "2026-07-12T12:32:00.000Z",
+      "summary": "面包云的 vps 突然更换了新的IP 也没有通知 只是某天早上起床发现梯子不能用了才去查看 探针于是发现 IP 更改了。 vipcloud 的vps在线率果然不是很理想，但是无所谓了，就部署了 hermes 和一个博客。 能用就行吧 薅谷歌空间的羊毛注册了一个 7 元的 com 域名 薅 chatgpt plus 花了十块钱弄了个 1 刀卡 结果没用两天就封",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "《认知觉醒》",
       "link": "https://hutusi.com/flows/2026/07/11",
@@ -417,6 +432,18 @@
       "category": "额外动态"
     },
     {
+      "title": "培训笔记只记关键字的 3 个好处",
+      "link": "https://dusays.com/archives/867/",
+      "date": "2026-05-13T16:00:00.000Z",
+      "summary": "杜老师参加过几次技术培训，最早一次是全抄命令，抄完基本记不住。后来改成”只记关键字”，反而效果好得多。今天杜老师就把这个方法分享给大家。 一、为什么不全抄 杜老师一开始的笔记是这样的： 1 2 3 4 5 6 # CentOS 7 链路聚合 nmcli connection add type team con-name team0 ifname team0 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "风记得的音乐：《行将近》—— Soon to Leave",
       "link": "https://www.thyuu.com/82442/",
       "date": "2026-05-09T10:26:24.000Z",
@@ -451,6 +478,18 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
+    },
+    {
+      "title": "通勤最后 10 分钟的\"减速\"技巧",
+      "link": "https://dusays.com/archives/866/",
+      "date": "2026-05-07T16:00:00.000Z",
+      "summary": "杜老师最近养成了一个习惯：下班通勤的最后 10 分钟，不再骑完，而是推着车走完。听起来挺奇怪，但这几个月下来，杜老师自己感觉整个人的状态明显好了。今天就跟大家讲讲这个事。 一、为什么要”减速” 表面看，通勤最后 10 分钟推车走似乎浪费时间。 杜老师自己的观察： 整天屏幕下来，肩颈已经僵了 一路骑行到家门口，立刻坐下吃饭，节奏太硬 突然停下来反而容易”压不住",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
     },
     {
       "title": "增加一個「影集」欄目",
@@ -513,6 +552,18 @@
       "category": "友情链接"
     },
     {
+      "title": "两人吃外卖的 2 个小默契",
+      "link": "https://dusays.com/archives/865/",
+      "date": "2026-05-01T16:00:00.000Z",
+      "summary": "杜老师跟伴侣经常一起吃外卖，磨合了一年多，慢慢形成了一些小默契。今天杜老师就把自己觉得特别管用的 2 个分享给大家。 一、为什么需要”默契” 杜老师一开始觉得点外卖是件小事，但磨合下来发现： 口味不一样，每次都要协调 一个人随便点，另一个人可能不爱吃 反复商量，反而比做饭还累 后来形成一套小默契之后，整个过程轻松了很多。 二、2 个小默契 默契 1：一周挑一",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "又一款Typecho 主题Timellow",
       "link": "https://www.imsun.org/archives/1783.html",
       "date": "2026-04-27T10:13:00.000Z",
@@ -552,6 +603,18 @@
       "category": "额外动态"
     },
     {
+      "title": "深夜吃夜宵的 3 个节制技巧",
+      "link": "https://dusays.com/archives/864/",
+      "date": "2026-04-25T16:00:00.000Z",
+      "summary": "杜老师以前深夜吃夜宵的频率挺高的，泡面、辣条、肉干样样都来。最近一段时间杜老师调整了一下，发现只要方法对，节制夜宵并不是什么难事。今天杜老师就把自己用过的 3 个技巧分享给大家。 一、为什么之前总戒不掉 杜老师自己复盘下来，原因有 3 个： 晚饭吃太早，睡前确实饿 桌面上随手就能拿到零食 没有任何替代方案，饿了就只能吃 节制夜宵的关键不是”忍”，是提前把饿感",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "U-Boot、内核移植与根文件系统构建（BeagleBone Green Gateway&amp;AM335X）",
       "link": "https://liveout.cn/archives/39.html",
       "date": "2026-04-25T14:36:00.000Z",
@@ -561,6 +624,18 @@
       "feedUrl": "https://www.liveout.cn/feed",
       "sourceType": "friends",
       "description": "韶华不为少年留 恨悠悠 几时休。",
+      "category": "友情链接"
+    },
+    {
+      "title": "橘猫经常跳上书桌的 3 个应对",
+      "link": "https://dusays.com/archives/863/",
+      "date": "2026-04-19T16:00:00.000Z",
+      "summary": "杜老师家里有一只橘白相间的猫，平时最爱跳上书桌”监工”。一开始杜老师挺困扰的，后来摸索出一套应对方案，今天就跟大家分享一下。 一、为什么不让猫上桌 杜老师一开始试过”坚决不让它上来”，但很快就放弃了： 猫的好奇心比任何训练都强 关上门它就在门口叫，更影响工作 把它赶下去 3 次，第四次它又跳上来 后来杜老师换了个思路：让它上来，但让它上来之后没危险。 二、3",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -723,10 +798,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Leonus",
+      "source": "二猫 blog",
       "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -749,6 +824,13 @@
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
       "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "No valid RSS feed found for https://lhasa.icu/"
     }
   ]
 }
