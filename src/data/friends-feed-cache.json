@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-07-13T14:45:41.272Z",
-  "expiresAt": "2026-07-13T20:45:41.272Z",
+  "updatedAt": "2026-07-13T19:35:28.157Z",
+  "expiresAt": "2026-07-14T01:35:28.157Z",
   "items": [
+    {
+      "title": "说说：#2026-07-13 20:24",
+      "link": "https://blog.el9.cn/memos/6a54d8f886c72.html",
+      "date": "2026-07-13T12:24:00.000Z",
+      "summary": "测试微信发说说",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "一些琐事",
       "link": "https://www.imsun.org/archives/1791.html",
@@ -39,6 +51,18 @@
       "feedUrl": "https://www.jdeal.cn/feed",
       "sourceType": "friends",
       "description": "Life is like a Design.",
+      "category": "友情链接"
+    },
+    {
+      "title": "欢迎使用 Typecho",
+      "link": "https://blog.el9.cn/notes/start.html",
+      "date": "2026-07-09T09:09:00.000Z",
+      "summary": "[1]如果您看到这篇文章,表示您的 blog 已经安装成功.",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
       "category": "友情链接"
     },
     {
@@ -99,6 +123,30 @@
       "feedUrl": "https://hutusi.com/feed.xml",
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
+    {
+      "title": "说说：#2026-06-28 22:13",
+      "link": "https://blog.el9.cn/memos/a4a85127.html",
+      "date": "2026-06-28T14:13:00.000Z",
+      "summary": "双人成行(It Takes Two) 和朋友完了三天终于算是通关了😄{cat_gallery}{/cat_gallery}",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Vmware未能启动虚拟机",
+      "link": "https://blog.el9.cn/notes/vmware-fix-01.html",
+      "date": "2026-06-25T04:44:00.000Z",
+      "summary": "今天找到了个70版的DNF需要用Vmware当服务端结果在运行的时候报错\"未能启动虚拟机\"，这问题我懂啊，当年用08sec的虚拟机时候遇到过😄很简单的只要更改一下虚拟机配置文件就能解决，首先我们...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
       "category": "友情链接"
     },
     {
@@ -306,6 +354,18 @@
       "feedUrl": "https://www.thyuu.com/feed",
       "sourceType": "friends",
       "description": "分享生活 · 留下感动。",
+      "category": "友情链接"
+    },
+    {
+      "title": "PDF解密",
+      "link": "https://blog.el9.cn/appgo/pdf-unlock.html",
+      "date": "2026-06-01T01:49:00.000Z",
+      "summary": "✅ 状态|老卢亲测可用🔄 最后更新时间|2026-06-01刚才朋友说他的PDf文件被加密了不能编辑，去网上搜了一下找到了两款小工具PDF Decrypter Pro 4.50 汉化版PDF解密...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
       "category": "友情链接"
     },
     {
@@ -792,34 +852,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "荷戟独彷徨",
-      "sourceType": "friends",
-      "site": "https://guanqr.com/",
-      "feed": "https://guanqr.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -834,25 +866,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 500"
     },
     {
       "source": "Frytea",
@@ -860,20 +878,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
