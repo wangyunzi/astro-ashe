@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T03:29:32.632Z",
-  "expiresAt": "2026-07-13T09:29:32.632Z",
+  "updatedAt": "2026-07-13T09:36:52.812Z",
+  "expiresAt": "2026-07-13T15:36:52.812Z",
   "items": [
     {
       "title": "一些琐事",
@@ -186,6 +186,18 @@
       "category": "友情链接"
     },
     {
+      "title": "雨天出差的 3 件必备",
+      "link": "https://dusays.com/archives/872/",
+      "date": "2026-06-12T16:00:00.000Z",
+      "summary": "杜老师前几个月有一次出差正好赶上下雨，从酒店门口走到网约车上短短 5 分钟，整个包都湿透了。后来杜老师专门整理了一份”雨天出差必备”，今天就跟大家分享一下。 一、为什么雨天出差需要单独准备 杜老师一开始觉得雨天出差没什么大不了： 反正打车 反正有伞 包湿就湿吧 直到那次包湿透，回酒店才发现笔记本也进了点水。 二、3 件必备 必备 1：防水电脑包 杜老师的解决",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "搬家 & 测试",
       "link": "https://www.imsun.org/archives/1786.html",
       "date": "2026-06-12T08:41:00.000Z",
@@ -237,6 +249,18 @@
       "category": "友情链接"
     },
     {
+      "title": "桌面零食收纳的 2 个分区",
+      "link": "https://dusays.com/archives/871/",
+      "date": "2026-06-06T16:00:00.000Z",
+      "summary": "杜老师以前桌面零食是随手放，吃的时候一通翻。后来摸索出一套”零食分区”的方法，整整一年没再为找零食浪费时间。今天杜老师就把自己用了 1 年的 2 个分区分享给大家。 一、为什么要分区 杜老师一开始的桌面是这样的： 零食散在桌面左侧 想吃的时候不知道哪袋在哪 工作到一半想拿点吃的，要翻好几个抽屉 看起来都是小事，但累积下来挺影响专注。 二、2 个分区 分区 1",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "当 AI 构建自己",
       "link": "https://hutusi.com/flows/2026/06/06",
       "date": "2026-06-06T00:00:00.000Z",
@@ -282,6 +306,18 @@
       "feedUrl": "https://www.thyuu.com/feed",
       "sourceType": "friends",
       "description": "分享生活 · 留下感动。",
+      "category": "友情链接"
+    },
+    {
+      "title": "演示前一晚的 2 个检查清单",
+      "link": "https://dusays.com/archives/870/",
+      "date": "2026-05-31T16:00:00.000Z",
+      "summary": "杜老师前几年经常需要给同事、客户做演示，踩过几次坑后，摸索出一套”演示前一晚”的检查清单。今天杜老师就把自己用了 2 年的 2 个清单分享给大家。 一、演示前一晚最容易踩的坑 杜老师自己碰到过几次挺尴尬的情况： 演示当天早上才发现，演示用的 PDF 没同步到本地 到了会议室才发现，HDMI 线没带 演示到一半，电脑突然休眠 这些坑杜老师基本都踩过。 二、2 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -757,18 +793,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "家家争唱饮水词，纳兰心事几人知",
-      "link": "https://www.yyyzyyyz.cn/posts/f4e612b681c0/",
-      "date": "2026-03-15T06:23:22.000Z",
-      "summary": "",
-      "source": "Black Flies",
-      "sourceUrl": "https://www.yyyzyyyz.cn/",
-      "feedUrl": "https://www.yyyzyyyz.cn/atom.xml",
-      "sourceType": "friends",
-      "description": "When nothing goes right, just go left.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -780,13 +804,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -794,24 +811,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -819,14 +822,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Eallion",
-      "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 500"
     },
     {
       "source": "Frytea",
@@ -834,13 +830,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "No valid RSS feed found for https://lhasa.icu/"
     }
   ]
 }
