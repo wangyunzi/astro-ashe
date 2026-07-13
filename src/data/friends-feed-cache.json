@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-12T19:12:15.695Z",
-  "expiresAt": "2026-07-13T01:12:15.695Z",
+  "updatedAt": "2026-07-13T03:29:32.632Z",
+  "expiresAt": "2026-07-13T09:29:32.632Z",
   "items": [
     {
       "title": "一些琐事",
@@ -360,6 +360,18 @@
       "category": "友情链接"
     },
     {
+      "title": "培训讲师的 PPT 怎么\"听完\"",
+      "link": "https://dusays.com/archives/869/",
+      "date": "2026-05-25T16:00:00.000Z",
+      "summary": "杜老师参加过几次技术培训，最早一次听 PPT 是死盯屏幕，结果一节课下来什么都没记住。后来杜老师摸索出一套”听完 PPT”的方法，今天跟大家分享一下。 一、为什么死盯屏幕没用 杜老师一开始的听课方式是： 眼睛紧盯 PPT 上的每行字 讲师说一句，就抄一句笔记 一节课下来，笔记本比 PPT 还多 复盘的时候发现： 抄笔记的速度跟不上讲师 抄完根本不会回去看 真",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "花園",
       "link": "https://guanqr.com/life/ideas/garden/",
       "date": "2026-05-24T14:33:22.000Z",
@@ -430,6 +442,18 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
+    },
+    {
+      "title": "出差住酒店插座的 3 个用法",
+      "link": "https://dusays.com/archives/868/",
+      "date": "2026-05-19T16:00:00.000Z",
+      "summary": "杜老师经常出差，住过几十家酒店。酒店插座这件事看着不起眼，但用不好挺耽误事的。今天杜老师就把自己这两年总结出来的 3 个用法分享给大家。 一、酒店插座的常见坑 杜老师自己碰到过几次： 床头插座被柜子挡住，根本插不进去 只有一个三孔插座，充电器是两孔的 插座通电了但笔记本充不上 注意：杜老师建议办完入住第一件事，就是检查房间插座位置。 二、3 个用法 用法 1",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
     },
     {
       "title": "培训笔记只记关键字的 3 个好处",
@@ -756,6 +780,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -777,11 +808,25 @@
       "message": "Status code 404"
     },
     {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -791,11 +836,11 @@
       "message": "self-signed certificate"
     },
     {
-      "source": "LMS",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "No valid RSS feed found for https://lhasa.icu/"
     }
   ]
 }
