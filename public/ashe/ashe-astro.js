@@ -977,12 +977,12 @@
       var run = [];
 
       function insertImageGrid(imageItems, beforeNode) {
-        if (imageItems.length < 2 || !beforeNode || !beforeNode.parentNode) {
+        if (!imageItems.length || !beforeNode || !beforeNode.parentNode) {
           return false;
         }
 
         var grid = document.createElement("div");
-        grid.className = "ashe-post-image-grid";
+        grid.className = "ashe-post-image-grid ashe-post-image-grid--count-" + Math.min(imageItems.length, 3);
 
         imageItems.forEach(function (item) {
           var img = item.img;
@@ -1039,7 +1039,7 @@
         flushRun();
 
         var trailingImages = trailingImagesFromParagraph(block);
-        if (trailingImages.length > 1 && paragraphHasTextBeforeTrailingImages(block, trailingImages.length)) {
+        if (trailingImages.length && paragraphHasTextBeforeTrailingImages(block, trailingImages.length)) {
           var textBlock = splitTrailingImagesFromParagraph(block, trailingImages.length);
 
           if (textBlock) {

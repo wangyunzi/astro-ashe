@@ -519,7 +519,8 @@ export const asheConfig = {
   },
 
   single: {
-    showFeaturedImage: true,
+    // 是否在文章详情页顶部显示文章封面图；不影响首页列表、轮播和正文内图片。
+    showFeaturedImage: false,
     showCategories: true,
     showDate: true,
     showAuthor: false,

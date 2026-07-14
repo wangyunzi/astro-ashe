@@ -209,7 +209,7 @@ comments: {
 
 控制文章详情页：
 
-- `showFeaturedImage`：是否显示文章封面。
+- `showFeaturedImage`：是否在文章详情页顶部显示文章封面图；不影响首页列表、轮播和正文内图片。
 - `showCategories`：是否显示分类。
 - `showDate`：是否显示日期。
 - `showAuthor`：是否显示作者。
