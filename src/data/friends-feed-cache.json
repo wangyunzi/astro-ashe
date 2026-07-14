@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-14T02:51:56.067Z",
-  "expiresAt": "2026-07-14T08:51:56.067Z",
+  "updatedAt": "2026-07-14T08:16:55.900Z",
+  "expiresAt": "2026-07-14T14:16:55.900Z",
   "items": [
     {
       "title": "说说：#2026-07-13 20:24",
@@ -866,6 +866,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -873,11 +880,25 @@
       "message": "socket hang up"
     },
     {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Frytea",
       "sourceType": "extraFeeds",
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
