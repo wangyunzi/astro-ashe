@@ -1002,6 +1002,11 @@
           clone.removeAttribute("height");
           clone.removeAttribute("style");
           clone.src = imageThumbnailSrc(fullSrc);
+          clone.addEventListener("error", function handleImageError() {
+            if (clone.src === fullSrc) return;
+            clone.removeEventListener("error", handleImageError);
+            clone.src = fullSrc;
+          });
           clone.loading = "lazy";
           clone.decoding = "async";
           button.appendChild(clone);
