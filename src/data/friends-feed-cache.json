@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-15T13:52:34.224Z",
-  "expiresAt": "2026-07-15T19:52:34.224Z",
+  "updatedAt": "2026-07-15T19:19:01.992Z",
+  "expiresAt": "2026-07-16T01:19:01.992Z",
   "items": [
     {
       "title": "说说：#2026-07-13 20:24",
@@ -165,7 +165,7 @@
       "title": "钢铁与荣耀：当骑士来到成都",
       "link": "https://jingxin18.cn/3064.html",
       "date": "2026-06-22T16:20:39.000Z",
-      "summary": "刚回成都那阵，去了一趟成都博物馆。那时候逛得散漫，也拍了一些照片，后来也没整理，就一直那么搁着。前几天偶然在抖 […]",
+      "summary": "刚回成都那阵，去了一趟成都博物馆。那时候逛得散漫，也拍了一些照片，后来也没整理，就一直那么搁着。前几天偶然在抖音刷到了成都博物馆的特展———「钢铁与荣耀」，看着几张现场的照片十分有趣，于是想着得再去一趟。 展览门票五十，略贵。犹豫了一会儿，还是约了周末下午的场次。那天去得晚，到博物馆已经三点半，就直接去了特展展馆。 一、展览概述 「钢铁与荣耀」是以欧洲骑士文",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -324,7 +324,7 @@
       "title": "换个样子，还是那只猫",
       "link": "https://jingxin18.cn/3043.html",
       "date": "2026-06-05T15:18:05.000Z",
-      "summary": "博客的logo换了。 旧的logo已经用了挺久，久到自己看着都觉得有点乏味。不是不好看，是太”安全 […]",
+      "summary": "博客的logo换了。 旧的logo已经用了挺久，久到自己看着都觉得有点乏味。不是不好看，是太”安全”了。一只规规矩矩的猫头图标配上”二猫blog”几个字，像一张没怎么上色的草图，放在哪儿都不会出错，但也没什么好记住的。 换掉它的念头其实早就有了，只是一直没动。原因简单：我不够专业，也不懂logo设计，找人做又觉得犯不着折腾那么多。于是就一直拖着。 前段时间 ",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -519,7 +519,7 @@
       "title": "凤凰山的第一场雨",
       "link": "https://jingxin18.cn/3004.html",
       "date": "2026-05-21T15:30:38.000Z",
-      "summary": "偶然得了一张球票，去看球赛。 五月的成都，天刚擦黑。凤凰山的渐渐的灯亮起来。 满眼红色。旗子举了一片，黑底白字 […]",
+      "summary": "偶然得了一张球票，去看球赛。 五月的成都，天刚擦黑。凤凰山的渐渐的灯亮起来。 满眼红色。旗子举了一片，黑底白字，红底黑字，”成都””蓉城””RED BLADE”。横幅从上层看台垂下来。有人站在椅子上挥双臂，有人光着膀子。看台像一面摇晃的海。大屏幕亮了，红屏白字，四万四千五百二十。我在vip区，能看得到整片场。 恰逢中国旅游日，开赛前，大熊猫”花花”的玩偶在凤",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -663,7 +663,7 @@
       "title": "五一出游小记",
       "link": "https://jingxin18.cn/2978.html",
       "date": "2026-05-03T19:29:03.000Z",
-      "summary": "很久没更新状态了，上次记录还在躺在手机的记事本里。 如下： 再次提笔已是2026年5月，又是一年。 很久没写了 […]",
+      "summary": "很久没更新状态了，上次记录还在躺在手机的记事本里。 如下： 再次提笔已是2026年5月，又是一年。 很久没写了。生活仍未走上正轨——忙碌的工作、单休的日常，回到家连电脑都不想打开。心态在不知不觉中改变，我像掉进一个深不见底的漩涡，挣扎着想逃出来，却又不知能逃往何处。或许生活就这样吧。 去年五月，我和阿玉去了兰州和西昌。今年没能走远，中间单位还要安排出差，便留",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -866,13 +866,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -885,13 +878,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "self-signed certificate"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
