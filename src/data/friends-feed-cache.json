@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T08:18:17.990Z",
-  "expiresAt": "2026-07-17T14:18:17.990Z",
+  "updatedAt": "2026-07-17T13:49:09.793Z",
+  "expiresAt": "2026-07-17T19:49:09.793Z",
   "items": [
     {
       "title": "叮，智能桌面灯牌系统已完工！",
@@ -931,6 +931,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -945,24 +952,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
