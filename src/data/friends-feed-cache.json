@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T03:14:24.988Z",
-  "expiresAt": "2026-07-17T09:14:24.988Z",
+  "updatedAt": "2026-07-17T08:18:17.990Z",
+  "expiresAt": "2026-07-17T14:18:17.990Z",
   "items": [
     {
       "title": "叮，智能桌面灯牌系统已完工！",
@@ -441,6 +441,18 @@
       "category": "额外动态"
     },
     {
+      "title": "解决 Linux Wayland 环境下 Joplin 使用 fcitx5 中文输入漏字问题",
+      "link": "https://frytea.com/archives/1670/",
+      "date": "2026-05-29T07:20:00.000Z",
+      "summary": "在 Linux + Wayland 环境下使用 Joplin 时，如果配合 fcitx5 输入中文，可能会遇到输入漏字的问题。 下面这份配置可作为参考： ➜ Downloads cat /usr/share/applications/joplin-desktop.desktop [Desktop Entry] Name=Joplin Comment=Jopl",
+      "source": "Frytea",
+      "sourceUrl": "https://www.frytea.com/",
+      "feedUrl": "https://www.frytea.com/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
       "title": "还没用过龙虾的我该焦虑吗",
       "link": "https://hongtaoh.com/cn/2026/05/27/openclaw/",
       "date": "2026-05-27T18:41:13.000Z",
@@ -588,6 +600,18 @@
       "category": "友情链接"
     },
     {
+      "title": "修复 Joplin on KDE 菜单栏显示问题",
+      "link": "https://frytea.com/archives/1666/",
+      "date": "2026-05-11T21:56:06.000Z",
+      "summary": "在 KDE 桌面下默认使用全局菜单显示应用程序的菜单栏，但是唯独 Joplin 无法显示。 最后在这里找到了解决方案，下面简单记录： sudo vim /usr/share/applications/joplin-desktop.desktop --Exec=/usr/bin/joplin-desktop ++Exec=/usr/bin/joplin-des",
+      "source": "Frytea",
+      "sourceUrl": "https://www.frytea.com/",
+      "feedUrl": "https://www.frytea.com/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
       "title": "风记得的音乐：《行将近》—— Soon to Leave",
       "link": "https://www.thyuu.com/82442/",
       "date": "2026-05-09T10:26:24.000Z",
@@ -646,6 +670,18 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
+    },
+    {
+      "title": "极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）",
+      "link": "https://frytea.com/archives/1664/",
+      "date": "2026-05-07T14:00:00.000Z",
+      "summary": "从开始工作，就一直想开发一款面向个人的财务管理软件，用来直观的分析自己的财务状况，对个人财务情况提供直观的反馈，帮助自己更好的存钱、消费和投资。获取正向反馈，激励自己更好的存钱。",
+      "source": "Frytea",
+      "sourceUrl": "https://www.frytea.com/",
+      "feedUrl": "https://www.frytea.com/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "AI后时代的感情收割：影视飓风39分钟短片《再见亲人》",
@@ -708,6 +744,18 @@
       "category": "友情链接"
     },
     {
+      "title": "Copy Fail：Linux 内核 2017 年至今的高危漏洞（附临时缓解方案） | CVE-2026-31431",
+      "link": "https://frytea.com/archives/1663/",
+      "date": "2026-04-30T00:00:00.000Z",
+      "summary": "最近爆出一个 Linux 内核存在近10年的漏洞，随便找了一台最近在用的机器试了一下，直接成功提权： ~$ whoami songtianlun ~$ python3 test.py # whoami root 临时解决方案如下： 由于 SSH/OpenSSL 等安全基建库几乎都在使用自行维护的用户态加密库, 所以 AF_ALG 可以直接禁用, 为临时缓解措",
+      "source": "Frytea",
+      "sourceUrl": "https://www.frytea.com/",
+      "feedUrl": "https://www.frytea.com/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
       "title": "又一款Typecho 主题Timellow",
       "link": "https://www.imsun.org/archives/1783.html",
       "date": "2026-04-27T10:13:00.000Z",
@@ -721,6 +769,18 @@
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
       "category": "友情链接"
+    },
+    {
+      "title": "Hermes Agent — 在 K3s / K8s 中运行指南",
+      "link": "https://frytea.com/archives/1662/",
+      "date": "2026-04-27T08:00:00.000Z",
+      "summary": "本文基于官方 Docker 文档，将 Hermes Agent 迁移到 Kubernetes / K3s 环境，使用 StatefulSet 管理持久化工作负载。 1. 前置准备 K3s 或 K8s 集群已就绪（本文以 K3s 为例） 节点上已有 containerd（K3s 默认内置） 推荐安装 nerdctl 作为容器管理工具（参考：在 K3s 节点上安",
+      "source": "Frytea",
+      "sourceUrl": "https://www.frytea.com/",
+      "feedUrl": "https://www.frytea.com/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "鳥窩",
@@ -864,6 +924,48 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Echo's blog",
+      "sourceType": "friends",
+      "site": "https://www.liveout.cn/",
+      "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -871,11 +973,11 @@
       "message": "socket hang up"
     },
     {
-      "source": "Frytea",
+      "source": "Eallion",
       "sourceType": "extraFeeds",
-      "site": "https://www.frytea.com/",
-      "feed": "https://www.frytea.com/atom.xml",
-      "message": "self-signed certificate"
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
