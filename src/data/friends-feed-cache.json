@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T07:59:54.138Z",
-  "expiresAt": "2026-07-18T13:59:54.138Z",
+  "updatedAt": "2026-07-18T13:26:06.768Z",
+  "expiresAt": "2026-07-18T19:26:06.768Z",
   "items": [
     {
       "title": "叮，智能桌面灯牌系统已完工！",
@@ -1000,46 +1000,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "socket hang up"
-    },
-    {
-      "source": "Eallion",
-      "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
