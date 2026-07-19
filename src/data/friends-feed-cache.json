@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-19T08:26:19.699Z",
-  "expiresAt": "2026-07-19T14:26:19.699Z",
+  "updatedAt": "2026-07-19T13:35:10.547Z",
+  "expiresAt": "2026-07-19T19:35:10.547Z",
   "items": [
     {
       "title": "叮，智能桌面灯牌系统已完工！",
@@ -972,13 +972,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1018,20 +1011,6 @@
       "sourceType": "extraFeeds",
       "site": "https://www.eallion.com/",
       "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
