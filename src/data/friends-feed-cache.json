@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-07-20T09:24:10.784Z",
-  "expiresAt": "2026-07-20T15:24:10.784Z",
+  "updatedAt": "2026-07-20T14:17:53.835Z",
+  "expiresAt": "2026-07-20T20:17:53.835Z",
   "items": [
+    {
+      "title": "听风就是雨与先射箭后画靶",
+      "link": "https://www.imsun.org/archives/1795.html",
+      "date": "2026-07-20T10:29:17.000Z",
+      "summary": "俗话说 听风就是雨 ,用来比喻一听到一点风声或消息，就不加核实地信以为真，并轻率地做出反应或盲目附和。这个词在日常生活中常用于形容一个人缺乏独立判断能力，容易被谣言或未经证实的言论所左右。 今天就遇到了这类人. 有人在ns论坛发帖声称pdd有监听人手机屏幕的功能,用来精准投放广告,起因是x上的一篇贴文 https://x.com/giantcutie666/",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "叮，智能桌面灯牌系统已完工！",
       "link": "https://www.jdeal.cn/562.html",
@@ -90,18 +105,6 @@
       "category": "额外动态"
     },
     {
-      "title": "居家办公 5 个减少分心的动作",
-      "link": "https://dusays.com/archives/876/",
-      "date": "2026-07-06T16:00:00.000Z",
-      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "荐《给阿嬷的情书》",
       "link": "https://tianheg.co/posts/recommend-dear-you/",
       "date": "2026-07-06T16:00:00.000Z",
@@ -111,6 +114,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "居家办公 5 个减少分心的动作",
+      "link": "https://dusays.com/archives/876/",
+      "date": "2026-07-06T16:00:00.000Z",
+      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -972,10 +987,24 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "凡梦星尘空间站",
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1007,6 +1036,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1014,10 +1050,24 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Status code 500"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
