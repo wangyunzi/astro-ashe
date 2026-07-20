@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-19T19:12:40.946Z",
-  "expiresAt": "2026-07-20T01:12:40.946Z",
+  "updatedAt": "2026-07-20T03:36:44.109Z",
+  "expiresAt": "2026-07-20T09:36:44.109Z",
   "items": [
     {
       "title": "叮，智能桌面灯牌系统已完工！",
@@ -979,25 +979,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 500"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
