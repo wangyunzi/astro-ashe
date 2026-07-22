@@ -92,13 +92,14 @@ jobs:
         working-directory: blog
         run: |
           set -euo pipefail
-          if git diff --quiet -- src/content/album src/content/pages src/content/posts src/content/albums; then
+          git add -A src/content
+
+          if git diff --cached --quiet; then
             echo "No content changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A src/content
           git commit -m "Sync Obsidian content"
           git push
