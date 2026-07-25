@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-07-25T08:13:08.450Z",
-  "expiresAt": "2026-07-25T14:13:08.450Z",
+  "updatedAt": "2026-07-25T13:45:06.028Z",
+  "expiresAt": "2026-07-25T19:45:06.028Z",
   "items": [
+    {
+      "title": "288、大暑",
+      "link": "https://1900.live/288-da-shu/",
+      "date": "2026-07-23T07:55:00.000Z",
+      "summary": "滴水观音也裹起叶片避暑 蝉声已烈，热浪如熔，天地在沸腾与锻造之间，拉满了一张无形的烈火之弓。 太阳行至黄经120°，大暑——夏之第六序，亦为夏之绝唱。 骄阳似火，万物如煮。腐草在溽热中化萤，点亮暗夜的长空；土润生溽，大地的每一寸肌肤都在蒸腾着湿热的气息；大雨时行，雷暴如倒悬之海，砸向滚烫的路面，激起的白烟里带着水与火交锋的惨烈——这是一年中最极致的炎熟，极热",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "威斯康星五年沉浮录",
       "link": "https://hongtaoh.com/cn/2026/07/22/5-years-phd/",
@@ -153,18 +165,6 @@
       "category": "额外动态"
     },
     {
-      "title": "居家办公 5 个减少分心的动作",
-      "link": "https://dusays.com/archives/876/",
-      "date": "2026-07-06T16:00:00.000Z",
-      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "荐《给阿嬷的情书》",
       "link": "https://tianheg.co/posts/recommend-dear-you/",
       "date": "2026-07-06T16:00:00.000Z",
@@ -174,6 +174,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "居家办公 5 个减少分心的动作",
+      "link": "https://dusays.com/archives/876/",
+      "date": "2026-07-06T16:00:00.000Z",
+      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "分享生活 · 留下感动。",
       "category": "友情链接"
-    },
-    {
-      "title": "片刻・Jdeal 发布了一条新动态~",
-      "link": "https://www.jdeal.cn/cross.html#5229",
-      "date": "2026-04-17T08:32:35.000Z",
-      "summary": "准备开始在 Typecho1.3 的基础上重新做一个暗色系的主题，目前进度0.01%，预计不知道什么时候完成，哈哈 😎 样式都还没想好..",
-      "source": "Jdeal",
-      "sourceUrl": "https://www.jdeal.cn",
-      "feedUrl": "https://www.jdeal.cn/feed",
-      "sourceType": "friends",
-      "description": "Life is like a Design.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -987,10 +987,10 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
+      "source": "杜老师说",
       "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1022,13 +1022,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -1036,17 +1029,24 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Frytea",
+      "sourceType": "extraFeeds",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1061,13 +1061,20 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Hongtao",
+      "sourceType": "extraFeeds",
+      "site": "https://hongtaoh.com/",
+      "feed": "https://hongtaoh.com/cn/blog/index.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
