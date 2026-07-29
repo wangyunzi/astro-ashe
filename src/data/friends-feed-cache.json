@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-28T19:39:27.039Z",
-  "expiresAt": "2026-07-29T01:39:27.039Z",
+  "updatedAt": "2026-07-29T03:12:34.424Z",
+  "expiresAt": "2026-07-29T09:12:34.424Z",
   "items": [
     {
       "title": "288、大暑",
@@ -1001,11 +1001,39 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 500"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
