@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T02:45:06.257Z",
-  "expiresAt": "2026-07-30T08:45:06.257Z",
+  "updatedAt": "2026-07-30T08:35:19.433Z",
+  "expiresAt": "2026-07-30T14:35:19.433Z",
   "items": [
     {
       "title": "288、大暑",
@@ -1001,17 +1001,24 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
-    },
-    {
-      "source": "Eallion",
-      "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1019,13 +1026,6 @@
       "sourceType": "extraFeeds",
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
