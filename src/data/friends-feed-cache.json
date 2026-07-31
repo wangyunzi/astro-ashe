@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T03:27:18.677Z",
-  "expiresAt": "2026-07-31T09:27:18.677Z",
+  "updatedAt": "2026-07-31T08:56:04.886Z",
+  "expiresAt": "2026-07-31T14:56:04.886Z",
   "items": [
     {
       "title": "288、大暑",
@@ -987,6 +987,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1008,10 +1015,31 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
+      "source": "老卢",
       "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Dorad",
+      "sourceType": "friends",
+      "site": "https://blog.cuger.cn",
+      "feed": "https://blog.cuger.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1019,7 +1047,21 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Frytea",
+      "sourceType": "extraFeeds",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Inks",
@@ -1033,7 +1075,14 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
