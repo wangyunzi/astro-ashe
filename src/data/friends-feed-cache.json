@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-01T08:27:14.967Z",
-  "expiresAt": "2026-08-01T14:27:14.967Z",
+  "updatedAt": "2026-08-01T13:38:18.564Z",
+  "expiresAt": "2026-08-01T19:38:18.564Z",
   "items": [
     {
       "title": "永乐宫美学：观妙入真",
@@ -1001,24 +1001,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
+      "source": "二猫 blog",
       "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1034,6 +1020,13 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
