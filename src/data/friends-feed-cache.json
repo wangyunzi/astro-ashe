@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-02T13:38:38.092Z",
-  "expiresAt": "2026-08-02T19:38:38.092Z",
+  "updatedAt": "2026-08-02T19:17:34.150Z",
+  "expiresAt": "2026-08-03T01:17:34.150Z",
   "items": [
+    {
+      "title": "Master of Puppets",
+      "link": "https://hutusi.com/flows/2026/08/02",
+      "date": "2026-08-02T00:00:00.000Z",
+      "summary": "读《资治通鉴·唐纪》，看到唐文宗李昂恭俭勤政，一心想振作有为，却在后期大权被宦官把持，最后无力回天、郁郁而终。临终前几个月，唐文宗问学士他可以与前代哪位君主相比，学士为了拍马屁，就说唐文宗是尧舜一类的君主。唐文宗苦笑说：我哪里比得上尧舜，我连周赧王、汉献帝都不如啊。“赧、献受制于强诸侯，今朕受制于家奴，以此言之，朕殆不...",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
     {
       "title": "永乐宫美学：观妙入真",
       "link": "https://jingxin18.cn/3411.html",
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "U-Boot、内核移植与根文件系统构建（BeagleBone Green Gateway&amp;AM335X）",
-      "link": "https://liveout.cn/archives/39.html",
-      "date": "2026-04-25T14:36:00.000Z",
-      "summary": "前言本文档记录基于 BeagleBone Green Gateway 开发板（核心芯片为 TI AM3358）的 U-Boot、Linux 内核移植与根文件系统构建流程。内容包括 Ubuntu ...",
-      "source": "Echo's blog",
-      "sourceUrl": "https://www.liveout.cn/",
-      "feedUrl": "https://www.liveout.cn/feed",
-      "sourceType": "friends",
-      "description": "韶华不为少年留 恨悠悠 几时休。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -985,6 +985,13 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1008,11 +1015,46 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
