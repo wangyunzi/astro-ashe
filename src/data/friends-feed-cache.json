@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T14:50:03.204Z",
-  "expiresAt": "2026-08-03T20:50:03.204Z",
+  "updatedAt": "2026-08-03T19:44:23.003Z",
+  "expiresAt": "2026-08-04T01:44:23.003Z",
   "items": [
     {
       "title": "Master of Puppets",
@@ -336,7 +336,7 @@
       "title": "钢铁与荣耀：当骑士来到成都",
       "link": "https://jingxin18.cn/3064.html",
       "date": "2026-06-22T16:20:39.000Z",
-      "summary": "刚回成都那阵，去了一趟成都博物馆。那时候逛得散漫，也拍了一些照片，后来也没整理，就一直那么搁着。前几天偶然在抖 […]",
+      "summary": "刚回成都那阵，去了一趟成都博物馆。那时候逛得散漫，也拍了一些照片，后来也没整理，就一直那么搁着。前几天偶然在抖音刷到了成都博物馆的特展———「钢铁与荣耀」，看着几张现场的照片十分有趣，于是想着得再去一趟。 展览门票五十，略贵。犹豫了一会儿，还是约了周末下午的场次。那天去得晚，到博物馆已经三点半，就直接去了特展展馆。 一、展览概述 「钢铁与荣耀」是以欧洲骑士文",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -507,7 +507,7 @@
       "title": "换个样子，还是那只猫",
       "link": "https://jingxin18.cn/3043.html",
       "date": "2026-06-05T15:18:05.000Z",
-      "summary": "博客的logo换了。 旧的logo已经用了挺久，久到自己看着都觉得有点乏味。不是不好看，是太”安全 […]",
+      "summary": "博客的logo换了。 旧的logo已经用了挺久，久到自己看着都觉得有点乏味。不是不好看，是太”安全”了。一只规规矩矩的猫头图标配上”二猫blog”几个字，像一张没怎么上色的草图，放在哪儿都不会出错，但也没什么好记住的。 换掉它的念头其实早就有了，只是一直没动。原因简单：我不够专业，也不懂logo设计，找人做又觉得犯不着折腾那么多。于是就一直拖着。 前段时间 ",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -894,7 +894,7 @@
       "title": "五一出游小记",
       "link": "https://jingxin18.cn/2978.html",
       "date": "2026-05-03T19:29:03.000Z",
-      "summary": "很久没更新状态了，上次记录还在躺在手机的记事本里。 如下： “银杏黄了，冬天也就快到了下班后，又看 […]",
+      "summary": "很久没更新状态了，上次记录还在躺在手机的记事本里。 如下： “银杏黄了，冬天也就快到了下班后，又看到单位路旁的银杏树。于是我坐在树下，吹着徐徐的寒风。时许，有树叶从我身旁落下，看着将要黄透的树叶，思绪迁伴着近期的回忆缓缓落地。想着，银杏黄了，冬天也就快到了，也是该写点什么了。再次动笔又是几天过后，写点什么呢?其实我有很多想写，有大一未完成的作业，有重度鼾症手",
       "source": "二猫 blog",
       "sourceUrl": "https://jingxin18.cn",
       "feedUrl": "https://jingxin18.cn/feed",
@@ -1022,10 +1022,10 @@
       "message": "Status code 500"
     },
     {
-      "source": "Inks",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
