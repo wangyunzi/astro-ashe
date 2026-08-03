@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-02T19:17:34.150Z",
-  "expiresAt": "2026-08-03T01:17:34.150Z",
+  "updatedAt": "2026-08-03T03:28:12.256Z",
+  "expiresAt": "2026-08-03T09:28:12.256Z",
   "items": [
     {
       "title": "Master of Puppets",
@@ -24,6 +24,18 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
+    {
+      "title": "确定性的忧伤",
+      "link": "https://tianheg.co/posts/melancholy-of-certainty/",
+      "date": "2026-07-23T16:00:00.000Z",
+      "summary": "And God said, Let there be light: and there was light. 神说：\"要有光\"，就有了光。 ——圣经·创世记 早晨上班时，我见过无数次自然——起床后来到阳台看到鸟儿从低处滑翔、远处的林叶在晨光的照射下显得湿润晶莹、下楼抬头看向天空云彩镶着金边像一件首饰佩戴在天空的身上。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -964,18 +976,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "深夜吃夜宵的 3 个节制技巧",
-      "link": "https://dusays.com/archives/864/",
-      "date": "2026-04-25T16:00:00.000Z",
-      "summary": "杜老师以前深夜吃夜宵的频率挺高的，泡面、辣条、肉干样样都来。最近一段时间杜老师调整了一下，发现只要方法对，节制夜宵并不是什么难事。今天杜老师就把自己用过的 3 个技巧分享给大家。 一、为什么之前总戒不掉 杜老师自己复盘下来，原因有 3 个： 晚饭吃太早，睡前确实饿 桌面上随手就能拿到零食 没有任何替代方案，饿了就只能吃 节制夜宵的关键不是”忍”，是提前把饿感",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -985,13 +985,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1022,20 +1015,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1047,20 +1026,6 @@
       "sourceType": "extraFeeds",
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
