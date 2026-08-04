@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T19:44:23.003Z",
-  "expiresAt": "2026-08-04T01:44:23.003Z",
+  "updatedAt": "2026-08-04T02:56:32.654Z",
+  "expiresAt": "2026-08-04T08:56:32.654Z",
   "items": [
     {
       "title": "Master of Puppets",
@@ -987,6 +987,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1020,13 +1027,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 500"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
