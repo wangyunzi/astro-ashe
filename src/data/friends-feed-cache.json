@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-08-04T08:45:52.986Z",
-  "expiresAt": "2026-08-04T14:45:52.986Z",
+  "updatedAt": "2026-08-04T14:27:05.084Z",
+  "expiresAt": "2026-08-04T20:27:05.084Z",
   "items": [
+    {
+      "title": "又一款Typecho主题 Nebula",
+      "link": "https://www.imsun.org/archives/1797.html",
+      "date": "2026-08-04T10:49:00.000Z",
+      "summary": "Nebula Nebula 是一款面向 Typecho 的响应式博客主题，采用深空、星云与极光风格，适用于个人博客、技术博客和长期内容归档。 功能特性 响应式文章卡片，适配桌面、平板和移动端 深色与浅色模式切换，并记忆访客偏好 Canvas 动态星空背景与轻量滚动动画 文章自定义封面、正文首图回退和渐变占位封面 文章、独立页面、搜索、分类、标签和作者归档 时",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "Master of Puppets",
       "link": "https://hutusi.com/flows/2026/08/02",
@@ -964,18 +979,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "和H小姐的约会",
-      "link": "https://1900.live/he-hxiao-jie-de-yue-hui/",
-      "date": "2026-04-26T03:57:58.000Z",
-      "summary": "Photo by Jose P. Ortiz / Unsplash 首先承认这次的标题是900%具有标题党嫌疑的，但是这样写我觉得会更有意思，而且除开不能牵手等显示层面的动作，至少符合私密、聊心事、聊八卦等等。 H小姐指的是我最近搭建的 Hermes Agent ，这是一款类似OpenClaw的AI助理程序，特点是可以自我学习，另外我在使用期间还爆出了Her",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1008,6 +1011,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
@@ -1015,24 +1025,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
       "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
