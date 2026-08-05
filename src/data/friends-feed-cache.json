@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T02:52:50.546Z",
-  "expiresAt": "2026-08-05T08:52:50.546Z",
+  "updatedAt": "2026-08-05T08:43:01.013Z",
+  "expiresAt": "2026-08-05T14:43:01.013Z",
   "items": [
     {
       "title": "又一款Typecho主题 Nebula",
@@ -1011,17 +1011,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "一蓑烟雨的博客",
+      "source": "Jdeal",
       "sourceType": "friends",
-      "site": "https://easyf12.top/",
-      "feed": "https://easyf12.top/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1036,6 +1029,13 @@
       "sourceType": "extraFeeds",
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
