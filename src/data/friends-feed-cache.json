@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-05T08:43:01.013Z",
-  "expiresAt": "2026-08-05T14:43:01.013Z",
+  "updatedAt": "2026-08-05T14:19:55.220Z",
+  "expiresAt": "2026-08-05T20:19:55.220Z",
   "items": [
     {
       "title": "又一款Typecho主题 Nebula",
@@ -1018,11 +1018,39 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Frytea",
+      "sourceType": "extraFeeds",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Inks",
@@ -1032,10 +1060,24 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Hongtao",
+      "sourceType": "extraFeeds",
+      "site": "https://hongtaoh.com/",
+      "feed": "https://hongtaoh.com/cn/blog/index.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
