@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T08:44:46.554Z",
-  "expiresAt": "2026-08-06T14:44:46.554Z",
+  "updatedAt": "2026-08-06T14:23:47.193Z",
+  "expiresAt": "2026-08-06T20:23:47.193Z",
   "items": [
     {
       "title": "延段地面",
@@ -1011,11 +1011,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 500"
     },
     {
       "source": "Inks",
@@ -1023,6 +1030,13 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
