@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-07T13:14:21.342Z",
-  "expiresAt": "2026-08-07T19:14:21.342Z",
+  "updatedAt": "2026-08-07T19:03:27.654Z",
+  "expiresAt": "2026-08-08T01:03:27.654Z",
   "items": [
+    {
+      "title": "为博客添加404页面",
+      "link": "https://blog.el9.cn/notes/blog-new404.html",
+      "date": "2026-08-07T16:10:00.000Z",
+      "summary": "前阵子不是给博客搬家了么，导致好多链接无法访问，我就想着弄一个404页面但不想太单调了，就把52破解的404搬过来改了下玩法提高了难度还挺好玩😂优化后玩法点击格子放围墙，把小丑围住即胜利；小丑跑...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "289、立秋",
       "link": "https://1900.live/289-li-qiu/",
@@ -964,21 +976,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "又一款Typecho 主题Timellow",
-      "link": "https://www.imsun.org/archives/1783.html",
-      "date": "2026-04-27T10:13:00.000Z",
-      "summary": "简介 老孙从刚开始研究主题到现在也移植了不少主题 这次真的是自己慢慢手搓出来的主题 纯原创 主打的就是一个简洁无太多功能专注于写作本身(我本身不爱写作) 预览 开源地址 https://github.com/jkjoy/typecho-theme-timellow 希望多多点点star,谢谢~ 演示地址 https://www.imsun.org/",
-      "source": "老孙博客",
-      "sourceEn": "Old Sun's Blog",
-      "sourceUrl": "https://www.imsun.org/",
-      "feedUrl": "https://www.imsun.org/feed/",
-      "sourceType": "friends",
-      "avatar": "https://img.imsun.org/avatar.jpg",
-      "description": "资深网民。",
-      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1004,18 +1001,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
