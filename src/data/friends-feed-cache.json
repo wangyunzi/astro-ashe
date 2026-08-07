@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-07T00:06:20.698Z",
-  "expiresAt": "2026-08-07T06:06:20.698Z",
+  "updatedAt": "2026-08-07T07:23:19.684Z",
+  "expiresAt": "2026-08-07T13:23:19.684Z",
   "items": [
+    {
+      "title": "289、立秋",
+      "link": "https://1900.live/289-li-qiu/",
+      "date": "2026-08-07T04:20:17.000Z",
+      "summary": "null 蝉声渐稀，暑气未退，天地仍在长夏的余烬里蒸腾，却已有一缕不易察觉的清意，悄然穿过浓荫与晚风。 太阳行至黄经135°，立秋——秋之初序，亦是盛夏向深秋缓缓转身的门槛。 梧桐将落未落，叶尖先染微黄；鹰始击，长空之上，暑云渐散，风的骨骼开始变得清峻；禾乃登，田野里的谷穗低下头颅，在烈日与暴雨共同锻造过的土地上，悄然蓄满沉甸甸的金色。此时虽名为“秋”，暑意",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "延段地面",
       "link": "https://jingxin18.cn/3473.html",
@@ -967,18 +979,6 @@
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
       "category": "友情链接"
-    },
-    {
-      "title": "Hermes Agent — 在 K3s / K8s 中运行指南",
-      "link": "https://frytea.com/archives/1662/",
-      "date": "2026-04-27T08:00:00.000Z",
-      "summary": "本文基于官方 Docker 文档，将 Hermes Agent 迁移到 Kubernetes / K3s 环境，使用 StatefulSet 管理持久化工作负载。 1. 前置准备 K3s 或 K8s 集群已就绪（本文以 K3s 为例） 节点上已有 containerd（K3s 默认内置） 推荐安装 nerdctl 作为容器管理工具（参考：在 K3s 节点上安",
-      "source": "Frytea",
-      "sourceUrl": "https://www.frytea.com/",
-      "feedUrl": "https://www.frytea.com/atom.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -988,6 +988,20 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1018,17 +1032,45 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Inks",
       "sourceType": "extraFeeds",
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
