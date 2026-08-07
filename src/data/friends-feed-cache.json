@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-06T14:23:47.193Z",
-  "expiresAt": "2026-08-06T20:23:47.193Z",
+  "updatedAt": "2026-08-07T00:06:20.698Z",
+  "expiresAt": "2026-08-07T06:06:20.698Z",
   "items": [
     {
       "title": "延段地面",
@@ -1030,13 +1030,6 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
