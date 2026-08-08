@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T01:56:42.690Z",
-  "expiresAt": "2026-08-08T07:56:42.690Z",
+  "updatedAt": "2026-08-08T07:01:00.307Z",
+  "expiresAt": "2026-08-08T13:01:00.307Z",
   "items": [
     {
       "title": "为博客添加404页面",
@@ -994,10 +994,17 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Echo's blog",
+      "source": "Jdeal",
       "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     }
   ]
