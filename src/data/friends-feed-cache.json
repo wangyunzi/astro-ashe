@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-08T07:01:00.307Z",
-  "expiresAt": "2026-08-08T13:01:00.307Z",
+  "updatedAt": "2026-08-08T12:57:30.444Z",
+  "expiresAt": "2026-08-08T18:57:30.444Z",
   "items": [
+    {
+      "title": "Adobe Photoshop 27.9.1 更新解读：AI 工作流终于「顺手」了",
+      "link": "https://www.shephe.com/post/photoshop-279-update/",
+      "date": "2026-08-08T11:56:12.000Z",
+      "summary": "从 27.8 到 27.9.1，Photoshop 的 AI 工作流终于没那么「割裂」了。Firefly Boards 多图层发送、Remove 工具直调、提示词建议、收藏字体恢复——本文逐一梳理这些变化，并给出升级建议。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "Jeff Dean 离开 Google，以及关于他的传说",
+      "link": "https://hutusi.com/flows/2026/08/08",
+      "date": "2026-08-08T00:00:00.000Z",
+      "summary": "几日前，Google DeepMind 人事震动，哈萨比斯卸任 CEO，而更重磅的新闻是： [[Jeff Dean]] 从 Google 离职了。 Jeff Dean 是 Google 的元老之一，他与 1999 年作为第 20 为员工加入 Google, 在效力了 27 年之后离职并创立 AI 初创公司 Discov...",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
     {
       "title": "为博客添加404页面",
       "link": "https://blog.el9.cn/notes/blog-new404.html",
@@ -952,30 +976,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "极简但强大的个人财务管理软件 —— 溪流记账（Rivulet）",
-      "link": "https://frytea.com/archives/1664/",
-      "date": "2026-05-07T14:00:00.000Z",
-      "summary": "从开始工作，就一直想开发一款面向个人的财务管理软件，用来直观的分析自己的财务状况，对个人财务情况提供直观的反馈，帮助自己更好的存钱、消费和投资。获取正向反馈，激励自己更好的存钱。",
-      "source": "Frytea",
-      "sourceUrl": "https://www.frytea.com/",
-      "feedUrl": "https://www.frytea.com/atom.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "AI后时代的感情收割：影视飓风39分钟短片《再见亲人》",
-      "link": "https://www.thyuu.com/82376/",
-      "date": "2026-05-06T04:00:05.000Z",
-      "summary": "如果逝去的女儿以 AI 形象出现，她的存在会给父母带来怎样的触动？ 短片《再见亲人App》以细腻的镜头语言，探索科技与亲情交织下的伦理冲突.",
-      "source": "风记星辰",
-      "sourceUrl": "https://www.thyuu.com",
-      "feedUrl": "https://www.thyuu.com/feed",
-      "sourceType": "friends",
-      "description": "分享生活 · 留下感动。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -994,6 +994,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Echo's blog",
+      "sourceType": "friends",
+      "site": "https://www.liveout.cn/",
+      "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
@@ -1005,6 +1012,13 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
