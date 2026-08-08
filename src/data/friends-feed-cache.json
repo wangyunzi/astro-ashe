@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T19:03:27.654Z",
-  "expiresAt": "2026-08-08T01:03:27.654Z",
+  "updatedAt": "2026-08-08T01:56:42.690Z",
+  "expiresAt": "2026-08-08T07:56:42.690Z",
   "items": [
     {
       "title": "为博客添加404页面",
@@ -15,6 +15,30 @@
       "category": "友情链接"
     },
     {
+      "title": "摄影新手拍不锐？照片清晰度完全自查清单 📸",
+      "link": "https://www.shephe.com/post/sharp-photos-beginners-checklist/",
+      "date": "2026-08-07T13:08:21.000Z",
+      "summary": "照片模糊这件事，说复杂很复杂——什么镜头跑焦、手抖、快门不够、主体在动、对焦没对上，排除起来好像得一个个试。但 […]",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "重庆英仙座流星雨 2026 观测指南：近郊当天往返，还是深山露营追星？",
+      "link": "https://www.shephe.com/post/chongqing-perseid-meteor-shower-2026-guide/",
+      "date": "2026-08-07T12:48:45.000Z",
+      "summary": "2026年英仙座流星雨峰值正值新月，2045年前最后一次无月光干扰——重庆主城周边10个实地推荐观星点位，从巴南1小时到城口4.5小时，附拍摄器材设置与后期合成指南。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
       "title": "289、立秋",
       "link": "https://1900.live/289-li-qiu/",
       "date": "2026-08-07T04:20:17.000Z",
@@ -22,6 +46,42 @@
       "source": "1900",
       "sourceUrl": "https://1900.live/",
       "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "Topaz Gigapixel 1.3.3 更新：JXL 支持、崩溃修复、NeuroStream 持续进化",
+      "link": "https://www.shephe.com/post/topaz-gigapixel-133-update/",
+      "date": "2026-08-06T12:42:00.000Z",
+      "summary": "Topaz Gigapixel 推送 1.3.3，修复了导出文件夹丢失、随机崩溃和裁剪崩溃等 bug，Mac 安装器模型验证卡死问题也得到解决。1.3.2 还新增了 JXL 文件支持，让这款 AI 放大工具在 Adobe 收购后持续进化。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "Luminar Neo 1.28.0 更新解读：界面大改、性能飙升、还悄悄改了名",
+      "link": "https://www.shephe.com/post/luminar-neo-128-update/",
+      "date": "2026-08-06T12:18:17.000Z",
+      "summary": "Skylum 在 2026 年 8 月推送了 Luminar Neo 1.28.0，这是近年来最重磅的一次界面更新——Catalog 和 Edit 合二为一，导出速度提升 27%，预设预览快 3.8 倍。更重要的是，Skylum 开始去掉\"Neo\"这个名字，为品牌统一铺路。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "Lightroom Classic 15.5 更新：AI 蒙版羽化、裁剪遮罩透明度、渲染 DNG 来了",
+      "link": "https://www.shephe.com/post/lightroom-classic-15-5-update/",
+      "date": "2026-08-05T15:06:13.000Z",
+      "summary": "Lightroom Classic 15.5 新增 AI 蒙版羽化与边缘控制、裁剪遮罩透明度调节、渲染为 DNG 三大功能，同步修复多项社区反馈问题，附完整更新解读与升级建议。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
@@ -916,66 +976,6 @@
       "sourceType": "friends",
       "description": "分享生活 · 留下感动。",
       "category": "友情链接"
-    },
-    {
-      "title": "Bun 要从 Zig 迁移到 Rust ？",
-      "link": "https://hutusi.com/flows/2026/05/06",
-      "date": "2026-05-06T00:00:00.000Z",
-      "summary": "今天看到新闻说：[Bun 要从 Zig 迁移到 Rust](https://news.ycombinator.com/item?id=48016880) ，大家讨论的比较热烈，一个可能的原因猜测是 [Zig 社区拒绝 AI 的政策](https://simonwillison.net/2026/Apr/30/zig-a...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
-    },
-    {
-      "title": "283、立夏",
-      "link": "https://1900.live/283-li-xia/",
-      "date": "2026-05-05T08:28:00.000Z",
-      "summary": "null 立夏 槐荫初密，蝉翼未鸣，天地悄然换了一袭青衫。 今日5月5日，太阳行至黄经45°，岁次乙巳，夏序第一叩。 麦浪暗涌于郊野，而春衣渐收进箱底；蔷薇攀满东墙，而青梅正煮着新酸。 天地以“立”为誓，见“夏”如晤，人间自此有了蓬勃的伏笔。 此刻，不妨： 把倦意留给暮春的尾梢，向第一声蝉鸣借一份清醒； 把黑白分明的昼夜，熬成浓淡相宜的绿荫； 把时钟拨快半拍",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "五一出游小记",
-      "link": "https://jingxin18.cn/2978.html",
-      "date": "2026-05-03T19:29:03.000Z",
-      "summary": "很久没更新状态了，上次记录还在躺在手机的记事本里。 如下： “银杏黄了，冬天也就快到了下班后，又看到单位路旁的银杏树。于是我坐在树下，吹着徐徐的寒风。时许，有树叶从我身旁落下，看着将要黄透的树叶，思绪迁伴着近期的回忆缓缓落地。想着，银杏黄了，冬天也就快到了，也是该写点什么了。再次动笔又是几天过后，写点什么呢?其实我有很多想写，有大一未完成的作业，有重度鼾症手",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "两人吃外卖的 2 个小默契",
-      "link": "https://dusays.com/archives/865/",
-      "date": "2026-05-01T16:00:00.000Z",
-      "summary": "杜老师跟伴侣经常一起吃外卖，磨合了一年多，慢慢形成了一些小默契。今天杜老师就把自己觉得特别管用的 2 个分享给大家。 一、为什么需要”默契” 杜老师一开始觉得点外卖是件小事，但磨合下来发现： 口味不一样，每次都要协调 一个人随便点，另一个人可能不爱吃 反复商量，反而比做饭还累 后来形成一套小默契之后，整个过程轻松了很多。 二、2 个小默契 默契 1：一周挑一",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
-      "title": "Copy Fail：Linux 内核 2017 年至今的高危漏洞（附临时缓解方案） | CVE-2026-31431",
-      "link": "https://frytea.com/archives/1663/",
-      "date": "2026-04-30T00:00:00.000Z",
-      "summary": "最近爆出一个 Linux 内核存在近10年的漏洞，随便找了一台最近在用的机器试了一下，直接成功提权： ~$ whoami songtianlun ~$ python3 test.py # whoami root 临时解决方案如下： 由于 SSH/OpenSSL 等安全基建库几乎都在使用自行维护的用户态加密库, 所以 AF_ALG 可以直接禁用, 为临时缓解措",
-      "source": "Frytea",
-      "sourceUrl": "https://www.frytea.com/",
-      "feedUrl": "https://www.frytea.com/atom.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -998,27 +998,6 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Shephe",
-      "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
