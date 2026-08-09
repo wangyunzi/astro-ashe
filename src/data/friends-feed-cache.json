@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-09T13:00:11.959Z",
-  "expiresAt": "2026-08-09T19:00:11.959Z",
+  "updatedAt": "2026-08-09T18:48:27.605Z",
+  "expiresAt": "2026-08-10T00:48:27.605Z",
   "items": [
+    {
+      "title": "荐《欢迎来龙餐馆》",
+      "link": "https://tianheg.co/posts/dragon-restaurant/",
+      "date": "2026-08-08T16:00:00.000Z",
+      "summary": "刚看完电影不久，那些场景还留在脑海。电影途中我无声啜泣，泪珠顺着脸颊流下，这巨大的情感冲击让我的头开始痛了起来。我有些后悔此时看了这部电影，今天本来计划好好整理一下我的相册，我基于它做了一个私人相册站，有些地方需要改，在 Hermes agent 的帮助下慢慢推进。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "Adobe Photoshop 27.9.1 更新解读：AI 工作流终于「顺手」了",
       "link": "https://www.shephe.com/post/photoshop-279-update/",
@@ -13,6 +25,18 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
+    },
+    {
+      "title": "说说：#2026-08-08 11:51",
+      "link": "https://blog.el9.cn/memos/2ca37008.html",
+      "date": "2026-08-08T03:50:00.000Z",
+      "summary": "上午出去走走结果发现一家很便宜的盒饭😂是真没想到{cat_gallery}{/cat_gallery}",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
     },
     {
       "title": "Jeff Dean 离开 Google，以及关于他的传说",
@@ -952,30 +976,6 @@
       "sourceType": "friends",
       "description": "韶华不为少年留 恨悠悠 几时休。",
       "category": "友情链接"
-    },
-    {
-      "title": "从 1Password 迁移到 Bitwarden：一次涨价引发的“搬家”",
-      "link": "https://inkss.cn/post/5a013cf6/",
-      "date": "2026-05-08T03:55:00.000Z",
-      "summary": "2026 年 2 月 25 日，1Password 发来一封涨价通知邮件，个人订阅从 $35.88/年 涨到 $47.88/年，涨幅达 33%。果断取消订阅，慢走不送~ 一、涨价风波 我是在二月下旬收到 1Password 的涨价邮件的。大概意思就是：我们加了很多新功能、好多年没涨价了、还要继续投入研发和安全基础设施。但其中那句“AI 驱动”怎么看都更像是借",
-      "source": "Inks",
-      "sourceUrl": "https://inkss.cn/",
-      "feedUrl": "https://inkss.cn/atom.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "通勤最后 10 分钟的\"减速\"技巧",
-      "link": "https://dusays.com/archives/866/",
-      "date": "2026-05-07T16:00:00.000Z",
-      "summary": "杜老师最近养成了一个习惯：下班通勤的最后 10 分钟，不再骑完，而是推着车走完。听起来挺奇怪，但这几个月下来，杜老师自己感觉整个人的状态明显好了。今天就跟大家讲讲这个事。 一、为什么要”减速” 表面看，通勤最后 10 分钟推车走似乎浪费时间。 杜老师自己的观察： 整天屏幕下来，肩颈已经僵了 一路骑行到家门口，立刻坐下吃饭，节奏太硬 突然停下来反而容易”压不住",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1008,45 +1008,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Dorad",
-      "sourceType": "friends",
-      "site": "https://blog.cuger.cn",
-      "feed": "https://blog.cuger.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Eallion",
-      "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Frytea",
-      "sourceType": "extraFeeds",
-      "site": "https://www.frytea.com/",
-      "feed": "https://www.frytea.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
