@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-09T07:03:30.943Z",
-  "expiresAt": "2026-08-09T13:03:30.943Z",
+  "updatedAt": "2026-08-09T13:00:11.959Z",
+  "expiresAt": "2026-08-09T19:00:11.959Z",
   "items": [
     {
       "title": "Adobe Photoshop 27.9.1 更新解读：AI 工作流终于「顺手」了",
@@ -135,6 +135,18 @@
       "avatar": "https://img.imsun.org/avatar.jpg",
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
+    {
+      "title": "滑坡",
+      "link": "https://guanqr.com/life/ideas/landslide/",
+      "date": "2026-08-02T04:18:00.000Z",
+      "summary": "端午過後，公司的一個新規定打亂了我原本趨近穩定的生活節奏——每個月加班至少 16 個小時。起初，公司在郵件裡說的是，現在智駕產品迭代的速度很快，以前的產品設計節奏已經無法滿足客戶的需求，所以需要投入更多時間來奮鬥，提倡每個月加班至少 16 小時。但在後來的管理層會議上，領導說了，這並非是「提倡」，而是「必須」。 我們的加班時長是這樣計算的。下班的打卡時間減去",
+      "source": "荷戟独彷徨",
+      "sourceUrl": "https://guanqr.com/",
+      "feedUrl": "https://guanqr.com/atom.xml",
+      "sourceType": "friends",
+      "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
     },
     {
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "增加一個「影集」欄目",
-      "link": "https://guanqr.com/tech/website/add-photo-gallery/",
-      "date": "2026-05-07T14:24:51.000Z",
-      "summary": "身為一個光學專業的人，我的本職工作是設計鏡頭，那自然不能缺少攝影這一愛好。近幾年我才入手了一台微單相機，每到假期就到附近的城市、鄉村轉一轉，摸索著相機的各種拍攝模式，拍下了不少素材。我選取了一些還算看得過去的照片，展示在這裡。 數碼相機和手機拍攝的照片不同，手機會通過算法自動優化拍攝的圖像，甚至直接通過 AI 潤色。但數碼相機拍攝的 RAW 照片，僅僅記錄了",
-      "source": "荷戟独彷徨",
-      "sourceUrl": "https://guanqr.com/",
-      "feedUrl": "https://guanqr.com/atom.xml",
-      "sourceType": "friends",
-      "description": "爱光学，爱生活，爱创造。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1015,6 +1015,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Dorad",
+      "sourceType": "friends",
+      "site": "https://blog.cuger.cn",
+      "feed": "https://blog.cuger.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1029,10 +1036,17 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Inks",
+      "source": "Frytea",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
