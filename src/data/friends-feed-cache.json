@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-10T02:08:48.446Z",
-  "expiresAt": "2026-08-10T08:08:48.446Z",
+  "updatedAt": "2026-08-10T07:49:55.719Z",
+  "expiresAt": "2026-08-10T13:49:55.719Z",
   "items": [
+    {
+      "title": "Camera Raw 18.5 AI 祛痘教程：自动识别痘痘瑕疵，保留皮肤纹理",
+      "link": "https://www.shephe.com/tutorial/acr-blemish/",
+      "date": "2026-08-10T06:53:51.000Z",
+      "summary": "ACR 18.5 AI 祛痘功能实测教程：三步清除面部瑕疵，Amount/Fade 滑块精细控制，Refine 手动修复，两个实测案例告诉你它到底能祛到什么程度。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "Premiere Pro 26.3.2 更新解读：修复 MKV 导入崩溃",
       "link": "https://www.shephe.com/post/premiere-pro-2632-update/",
@@ -39,10 +51,10 @@
       "category": "友情链接"
     },
     {
-      "title": "Adobe Photoshop 27.9.1 更新解读：AI 工作流终于「顺手」了",
+      "title": "Photoshop 27.9 实测：移除工具一步到位，AI 工作流终于顺手了",
       "link": "https://www.shephe.com/post/photoshop-279-update/",
       "date": "2026-08-08T11:56:12.000Z",
-      "summary": "从 27.8 到 27.9.1，Photoshop 的 AI 工作流终于没那么「割裂」了。Firefly Boards 多图层发送、Remove 工具直调、提示词建议、收藏字体恢复——本文逐一梳理这些变化，并给出升级建议。",
+      "summary": "Photoshop 27.9.1 实测：移除工具参数集成到上下文任务栏，电线杂草一键移除；多图层直发 Firefly Boards；收藏字体 bug 修复。附 AI 功能全景与升级建议。",
       "source": "Shephe",
       "sourceUrl": "https://www.shephe.com/",
       "feedUrl": "https://www.shephe.com/feed",
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "修复 Joplin on KDE 菜单栏显示问题",
-      "link": "https://frytea.com/archives/1666/",
-      "date": "2026-05-11T21:56:06.000Z",
-      "summary": "在 KDE 桌面下默认使用全局菜单显示应用程序的菜单栏，但是唯独 Joplin 无法显示。 最后在这里找到了解决方案，下面简单记录： sudo vim /usr/share/applications/joplin-desktop.desktop --Exec=/usr/bin/joplin-desktop ++Exec=/usr/bin/joplin-des",
-      "source": "Frytea",
-      "sourceUrl": "https://www.frytea.com/",
-      "feedUrl": "https://www.frytea.com/atom.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1001,17 +1001,24 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
+      "source": "老卢",
       "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Inks",
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
