@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-09T18:48:27.605Z",
-  "expiresAt": "2026-08-10T00:48:27.605Z",
+  "updatedAt": "2026-08-10T02:08:48.446Z",
+  "expiresAt": "2026-08-10T08:08:48.446Z",
   "items": [
+    {
+      "title": "Premiere Pro 26.3.2 更新解读：修复 MKV 导入崩溃",
+      "link": "https://www.shephe.com/post/premiere-pro-2632-update/",
+      "date": "2026-08-10T00:44:27.000Z",
+      "summary": "Adobe Premiere Pro 发布 26.3.2.2 补丁，修复导入 MKV 文件崩溃、手机视频方向异常等问题。26.3 系列新功能回顾与升级建议，附 PR 中文优化版下载。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "必应每日一图合集：身份认同的建筑表达、迈向无限、指引船只穿越历史… | 2026 第 32 周",
+      "link": "https://www.shephe.com/post/bing-wallpaper-collection-2026-week-32/",
+      "date": "2026-08-09T13:19:17.000Z",
+      "summary": "必应每日一图第 32 周合集（2026.08.03 ~ 2026.08.09），共 7 张精选壁纸。本周带你探 […]",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "荐《欢迎来龙餐馆》",
       "link": "https://tianheg.co/posts/dragon-restaurant/",
@@ -952,30 +976,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "风记得的音乐：《行将近》—— Soon to Leave",
-      "link": "https://www.thyuu.com/82442/",
-      "date": "2026-05-09T10:26:24.000Z",
-      "summary": "初听时，平静。 再听时，细品。 4分23秒开始，惊起。",
-      "source": "风记星辰",
-      "sourceUrl": "https://www.thyuu.com",
-      "feedUrl": "https://www.thyuu.com/feed",
-      "sourceType": "friends",
-      "description": "分享生活 · 留下感动。",
-      "category": "友情链接"
-    },
-    {
-      "title": "Codex 自制宠物",
-      "link": "https://liveout.cn/archives/40.html",
-      "date": "2026-05-08T05:06:00.000Z",
-      "summary": "codex—pet自从上次 cluadecode 源码泄露后，大家发现还有未发布的 pet 宠物功能，然后没过几天 cc 就上线这个功能了。就在几天前，codex app 也上线宠物功能，不过比...",
-      "source": "Echo's blog",
-      "sourceUrl": "https://www.liveout.cn/",
-      "feedUrl": "https://www.liveout.cn/feed",
-      "sourceType": "friends",
-      "description": "韶华不为少年留 恨悠悠 几时休。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1008,10 +1008,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Shephe",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
