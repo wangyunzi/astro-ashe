@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-10T19:03:10.596Z",
-  "expiresAt": "2026-08-11T01:03:10.596Z",
+  "updatedAt": "2026-08-11T02:03:41.516Z",
+  "expiresAt": "2026-08-11T08:03:41.516Z",
   "items": [
     {
       "title": "Camera Raw 18.5 AI 祛痘教程：自动识别痘痘瑕疵，保留皮肤纹理",
@@ -1005,20 +1005,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Shephe",
-      "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
