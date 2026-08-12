@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-12T13:19:40.272Z",
-  "expiresAt": "2026-08-12T19:19:40.272Z",
+  "updatedAt": "2026-08-12T19:06:52.421Z",
+  "expiresAt": "2026-08-13T01:06:52.421Z",
   "items": [
+    {
+      "title": "干饭",
+      "link": "https://jingxin18.cn/3504.html",
+      "date": "2026-08-12T18:20:32.000Z",
+      "summary": "去吃烤肉",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "雷",
       "link": "https://jingxin18.cn/3495.html",
@@ -12,6 +24,18 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
+    {
+      "title": "说说：#2026-08-11 10:12",
+      "link": "https://blog.el9.cn/memos/3048c69e.html",
+      "date": "2026-08-11T02:12:00.000Z",
+      "summary": "2015年的时候就关注IT天空了 前几天看他们还活着充个永V支持一下，又买了个U盘 以后大佬们需要装系统可以找我哈，不过这年头应该没人需要装系统了吧😄{cat_gallery}{/cat_gal...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
       "category": "友情链接"
     },
     {
@@ -420,18 +444,6 @@
       "category": "额外动态"
     },
     {
-      "title": "荐《给阿嬷的情书》",
-      "link": "https://tianheg.co/posts/recommend-dear-you/",
-      "date": "2026-07-06T16:00:00.000Z",
-      "summary": "看过电影，时间已经临近十二点，我走在回家的路上，不禁思绪万千。我要说些什么？说与谁听呢？不知道从哪里听来的：表达是有对象的。当我在写这篇文章时，我希望写给谁？",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
       "title": "居家办公 5 个减少分心的动作",
       "link": "https://dusays.com/archives/876/",
       "date": "2026-07-06T16:00:00.000Z",
@@ -441,6 +453,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "荐《给阿嬷的情书》",
+      "link": "https://tianheg.co/posts/recommend-dear-you/",
+      "date": "2026-07-06T16:00:00.000Z",
+      "summary": "看过电影，时间已经临近十二点，我走在回家的路上，不禁思绪万千。我要说些什么？说与谁听呢？不知道从哪里听来的：表达是有对象的。当我在写这篇文章时，我希望写给谁？",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -952,30 +976,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "284、小满",
-      "link": "https://1900.live/284-xiao-man/",
-      "date": "2026-05-21T06:50:00.000Z",
-      "summary": "null 麦浪初黄，蚕事正忙，天地在丰盈与克制之间，悄悄按下了一个逗号。 今日5月20（或21）日，太阳行至黄经60°，小满——夏之第二序。 风吹麦田，灌浆声声，籽粒悄悄攒起一捧金色的秘密；桑叶肥厚，蚕宝宝吐出了第一缕月光似的丝线，而塘里的水，已涨到恰到好处的边界。 天地以\"小\"为戒，以\"满\"为信，盈而未满，方得长久。 此刻，不妨： 把脚步放慢一寸，听麦芒与",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "出差住酒店插座的 3 个用法",
-      "link": "https://dusays.com/archives/868/",
-      "date": "2026-05-19T16:00:00.000Z",
-      "summary": "杜老师经常出差，住过几十家酒店。酒店插座这件事看着不起眼，但用不好挺耽误事的。今天杜老师就把自己这两年总结出来的 3 个用法分享给大家。 一、酒店插座的常见坑 杜老师自己碰到过几次： 床头插座被柜子挡住，根本插不进去 只有一个三孔插座，充电器是两孔的 插座通电了但笔记本充不上 注意：杜老师建议办完入住第一件事，就是检查房间插座位置。 二、3 个用法 用法 1",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -985,13 +985,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1008,45 +1001,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Shephe",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
