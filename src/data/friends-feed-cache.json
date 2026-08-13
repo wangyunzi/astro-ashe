@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-13T13:21:44.133Z",
-  "expiresAt": "2026-08-13T19:21:44.133Z",
+  "updatedAt": "2026-08-13T19:07:39.613Z",
+  "expiresAt": "2026-08-14T01:07:39.613Z",
   "items": [
+    {
+      "title": "SU练习建模文档",
+      "link": "https://jingxin18.cn/3510.html",
+      "date": "2026-08-13T17:29:20.000Z",
+      "summary": "前言 朋友最近因为工作要学 SU 建模，问到了我。 说来也巧，SU 这东西我大学时自己摸过一阵。老师不教，作业 […]",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "干饭",
       "link": "https://jingxin18.cn/3504.html",
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "凤凰山的第一场雨",
-      "link": "https://jingxin18.cn/3004.html",
-      "date": "2026-05-21T15:30:38.000Z",
-      "summary": "偶然得了一张球票，去看球赛。",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -994,52 +994,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Shephe",
-      "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
