@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T19:06:52.421Z",
-  "expiresAt": "2026-08-13T01:06:52.421Z",
+  "updatedAt": "2026-08-13T02:22:36.136Z",
+  "expiresAt": "2026-08-13T08:22:36.136Z",
   "items": [
     {
       "title": "干饭",
@@ -1001,10 +1001,66 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Shephe",
+      "sourceType": "extraFeeds",
+      "site": "https://www.shephe.com/",
+      "feed": "https://www.shephe.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Frytea",
+      "sourceType": "extraFeeds",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Inks",
       "sourceType": "extraFeeds",
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
