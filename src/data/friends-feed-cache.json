@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-14T02:20:54.841Z",
-  "expiresAt": "2026-08-14T08:20:54.841Z",
+  "updatedAt": "2026-08-14T07:38:44.224Z",
+  "expiresAt": "2026-08-14T13:38:44.224Z",
   "items": [
     {
       "title": "SU练习建模文档",
@@ -987,6 +987,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1015,10 +1022,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Shephe",
-      "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
