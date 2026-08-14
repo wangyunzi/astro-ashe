@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-14T13:16:28.272Z",
-  "expiresAt": "2026-08-14T19:16:28.272Z",
+  "updatedAt": "2026-08-14T19:00:04.443Z",
+  "expiresAt": "2026-08-15T01:00:04.443Z",
   "items": [
+    {
+      "title": "川内伦子风格 Lightroom 预设，9 款日系诗意梦幻色调一键套用",
+      "link": "https://www.shephe.com/preset/rinko-kawauchi-lightroom-presets/",
+      "date": "2026-08-14T13:32:28.000Z",
+      "summary": "日本摄影师川内伦子风格 Lightroom 预设，9 款 XMP/lrtemplate/DNG/LUT 全格式，覆盖桌面 LR、手机版和视频剪辑软件，复现标志性的柔焦过曝梦幻色调，适合生活随拍与旅行记录。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "高木慎平（Shimpei Takagi）PS / LR 预设：12 款日系时尚杂志风",
+      "link": "https://www.shephe.com/preset/shimpei-takagi-lightroom-presets/",
+      "date": "2026-08-14T13:17:00.000Z",
+      "summary": "日本摄影师高木慎平风格 Lightroom 预设，12 款 XMP 格式含配置文件，一键套用标志性的日系时尚杂志色调，适合人像、街拍、旅行记录。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "SU练习建模文档",
       "link": "https://jingxin18.cn/3510.html",
@@ -952,30 +976,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "阿嬷 ā mó",
-      "link": "https://hutusi.com/flows/2026/05/24",
-      "date": "2026-05-24T00:00:00.000Z",
-      "summary": "阿嬷也是隋炀帝杨广的小名，更确切的说，是一个上面是“麻”下面是“女”的生僻字，读音 mó, Unicode 编码 U+21849. 杨广和他的哥哥杨勇出生在北周时期，由于北周皇帝是鲜卑族，那时达官贵族子嗣都会起个鲜卑语的小名。杨坚家族也被赐与鲜卑姓“普六茹”，因此杨坚在北周时一直被人呼作“普六茹坚”。杨坚和独孤伽罗给他...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
-    },
-    {
-      "title": "Evening Run",
-      "link": "https://tianheg.co/posts/evening-run-en/",
-      "date": "2026-05-22T16:00:00.000Z",
-      "summary": "I got off work at 5:30, went home, changed into a sleeveless shirt, shorts, and running shoes, and headed out for a run on Phoenix Mountain across the street. Walking there, I coul",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1005,27 +1005,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Shephe",
-      "sourceType": "extraFeeds",
-      "site": "https://www.shephe.com/",
-      "feed": "https://www.shephe.com/feed",
       "message": "Request timed out after 4000ms"
     },
     {
