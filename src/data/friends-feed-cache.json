@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-17T12:52:56.931Z",
-  "expiresAt": "2026-08-17T18:52:56.931Z",
+  "updatedAt": "2026-08-17T18:45:57.074Z",
+  "expiresAt": "2026-08-18T00:45:57.074Z",
   "items": [
     {
       "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
@@ -989,34 +989,6 @@
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
