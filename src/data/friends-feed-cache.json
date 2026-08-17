@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-17T07:04:14.864Z",
-  "expiresAt": "2026-08-17T13:04:14.864Z",
+  "updatedAt": "2026-08-17T12:52:56.931Z",
+  "expiresAt": "2026-08-17T18:52:56.931Z",
   "items": [
+    {
+      "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
+      "link": "https://www.shephe.com/photography/bad-weather-landscape-photography-guide/",
+      "date": "2026-08-17T08:18:21.000Z",
+      "summary": "阴天、雨雾、大风和雨后放晴并不等于拍摄失败。本文从预报判断、曝光、滤镜、镜头选择到器材防护，讲清楚怎样把变化的天气变成风光照片里的光线、层次和情绪。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
+    {
+      "title": "2026 欧洲摄影奖作品赏：好照片不只靠拍得漂亮",
+      "link": "https://www.shephe.com/post/european-photography-awards-2026-winners/",
+      "date": "2026-08-17T07:31:31.000Z",
+      "summary": "2026 欧洲摄影奖从 40 多个国家的 3000 余件投稿中选出年度摄影师与类别冠军。本文带你看完 11 幅重点作品，也聊聊这个奖项的定位，以及好照片为什么总能让人停下来多看一眼。",
+      "source": "Shephe",
+      "sourceUrl": "https://www.shephe.com/",
+      "feedUrl": "https://www.shephe.com/feed",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "索尼创意外观 FL/IN/NT/SH/VV 配置文件，老机型也能用上 A7M5 的直出色彩",
       "link": "https://www.shephe.com/preset/sony-creative-look-profiles/",
@@ -949,30 +973,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "演示前一晚的 2 个检查清单",
-      "link": "https://dusays.com/archives/870/",
-      "date": "2026-05-31T16:00:00.000Z",
-      "summary": "杜老师前几年经常需要给同事、客户做演示，踩过几次坑后，摸索出一套”演示前一晚”的检查清单。今天杜老师就把自己用了 2 年的 2 个清单分享给大家。 一、演示前一晚最容易踩的坑 杜老师自己碰到过几次挺尴尬的情况： 演示当天早上才发现，演示用的 PDF 没同步到本地 到了会议室才发现，HDMI 线没带 演示到一半，电脑突然休眠 这些坑杜老师基本都踩过。 二、2 ",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
-      "title": "知识焦虑",
-      "link": "https://hongtaoh.com/cn/2026/05/30/info-fomo/",
-      "date": "2026-05-30T19:43:04.000Z",
-      "summary": "我最近听了几期播客，说实话我觉得特别好。有一期讲到「多巴胺」，让我对它的认识加深了很多，对指导生活和人生是有正向作用的。也听了一个高敏感博主的几期播客，也很受益。但是，一开始的兴奋（发现了知识新大陆）马上在之后的几天变成了焦虑和抗拒。我觉得我听的那些播客对我来说信息密度太高了，貌似每一句话都可以让我受益，导致我压力非常大，生怕错过什么，也激发了我的贪欲，想把",
-      "source": "Hongtao",
-      "sourceUrl": "https://hongtaoh.com/",
-      "feedUrl": "https://hongtaoh.com/cn/blog/index.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1005,18 +1005,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Frytea",
-      "sourceType": "extraFeeds",
-      "site": "https://www.frytea.com/",
-      "feed": "https://www.frytea.com/atom.xml",
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Inks",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
