@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-17T18:45:57.074Z",
-  "expiresAt": "2026-08-18T00:45:57.074Z",
+  "updatedAt": "2026-08-18T01:27:04.692Z",
+  "expiresAt": "2026-08-18T07:27:04.692Z",
   "items": [
     {
       "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
@@ -989,6 +989,34 @@
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Echo's blog",
+      "sourceType": "friends",
+      "site": "https://www.liveout.cn/",
+      "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Shephe",
+      "sourceType": "extraFeeds",
+      "site": "https://www.shephe.com/",
+      "feed": "https://www.shephe.com/feed",
+      "message": "Status code 500"
     }
   ]
 }
