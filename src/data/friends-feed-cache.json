@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T01:27:04.692Z",
-  "expiresAt": "2026-08-18T07:27:04.692Z",
+  "updatedAt": "2026-08-18T06:51:09.629Z",
+  "expiresAt": "2026-08-18T12:51:09.629Z",
   "items": [
     {
       "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
@@ -984,6 +984,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1005,10 +1012,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
