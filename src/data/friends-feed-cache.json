@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T06:52:02.318Z",
-  "expiresAt": "2026-08-19T12:52:02.318Z",
+  "updatedAt": "2026-08-19T12:55:25.161Z",
+  "expiresAt": "2026-08-19T18:55:25.161Z",
   "items": [
     {
       "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
@@ -991,13 +991,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
@@ -1005,32 +998,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
