@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-20T12:57:15.666Z",
-  "expiresAt": "2026-08-20T18:57:15.666Z",
+  "updatedAt": "2026-08-20T18:46:28.861Z",
+  "expiresAt": "2026-08-21T00:46:28.861Z",
   "items": [
     {
       "title": "说说：#2026-08-20 10:12",
@@ -984,13 +984,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1005,18 +998,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 500"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
