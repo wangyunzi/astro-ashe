@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-20T06:53:49.017Z",
-  "expiresAt": "2026-08-20T12:53:49.017Z",
+  "updatedAt": "2026-08-20T12:57:15.666Z",
+  "expiresAt": "2026-08-20T18:57:15.666Z",
   "items": [
+    {
+      "title": "说说：#2026-08-20 10:12",
+      "link": "https://blog.el9.cn/memos/18b0cac9.html",
+      "date": "2026-08-20T02:12:00.000Z",
+      "summary": "昨天上头了买了个Switch2,本来我想等lite2的结果没忍住😄估计等发布了又要消费一波了，重新体验了下野炊，不过该说不说优化后的确实清晰{cat_gallery}{/cat_gallery}",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "Odyssey",
       "link": "https://guanqr.com/life/films/odyssey/",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "THYUU/星度主题 26.7.0 小暑版本更新内容：主题地图源引来天地图和 Mapbox、站点特写迎来交互升级，瞬间动态浏览更流畅",
-      "link": "https://www.thyuu.com/82351/",
-      "date": "2026-06-01T08:47:14.000Z",
-      "summary": "更新时间：2026 年 7 月 7 日 小暑时节 作为2026年度的第三季度更新，本次更新主要带来了支持天地图 […]",
-      "source": "风记星辰",
-      "sourceUrl": "https://www.thyuu.com",
-      "feedUrl": "https://www.thyuu.com/feed",
-      "sourceType": "friends",
-      "description": "分享生活 · 留下感动。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1005,25 +1005,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 500"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
