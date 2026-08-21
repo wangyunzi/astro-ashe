@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T12:56:26.148Z",
-  "expiresAt": "2026-08-21T18:56:26.148Z",
+  "updatedAt": "2026-08-21T18:42:26.113Z",
+  "expiresAt": "2026-08-22T00:42:26.113Z",
   "items": [
     {
       "title": "昂贵的科研",
@@ -648,18 +648,6 @@
       "category": "额外动态"
     },
     {
-      "title": "居家办公 5 个减少分心的动作",
-      "link": "https://dusays.com/archives/876/",
-      "date": "2026-07-06T16:00:00.000Z",
-      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "荐《给阿嬷的情书》",
       "link": "https://tianheg.co/posts/recommend-dear-you/",
       "date": "2026-07-06T16:00:00.000Z",
@@ -669,6 +657,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "居家办公 5 个减少分心的动作",
+      "link": "https://dusays.com/archives/876/",
+      "date": "2026-07-06T16:00:00.000Z",
+      "summary": "杜老师居家办公一年多，最大的感受是”分心比想象中容易得多”。今天杜老师就把自己用了一年多、一直稳定在用的 5 个减少分心的动作分享给大家。 一、居家办公为什么容易分心 杜老师一开始觉得居家办公应该很专注： 没有同事打扰 没有会议中断 想几点起就几点起 结果发现： 家里随便一件小事都能让注意力飘走 手机一响就想看 伴侣喊一声就下楼了 居家办公的”分心源”比办公",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -984,6 +984,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1012,18 +1019,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 500"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
