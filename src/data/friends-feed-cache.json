@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-23T01:41:49.776Z",
-  "expiresAt": "2026-08-23T07:41:49.776Z",
+  "updatedAt": "2026-08-23T06:48:54.379Z",
+  "expiresAt": "2026-08-23T12:48:54.379Z",
   "items": [
     {
       "title": "昂贵的科研",
@@ -995,6 +995,27 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Leonus",
+      "sourceType": "friends",
+      "site": "https://blog.leonus.cn",
+      "feed": "https://blog.leonus.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
