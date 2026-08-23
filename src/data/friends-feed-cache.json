@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-23T06:48:54.379Z",
-  "expiresAt": "2026-08-23T12:48:54.379Z",
+  "updatedAt": "2026-08-23T12:49:15.813Z",
+  "expiresAt": "2026-08-23T18:49:15.813Z",
   "items": [
+    {
+      "title": "永远的新裤子——新裤子30周年演唱会",
+      "link": "https://tianheg.co/posts/new-pants-30th-anniversary/",
+      "date": "2026-08-23T10:59:00.000Z",
+      "summary": "新裤子乐队成立于1996年，是现今仍存世的历史最悠久的乐队之一。今年的演唱会是在纪念他们成立30周年。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "又一場夢",
+      "link": "https://guanqr.com/life/ideas/another-nightmare/",
+      "date": "2026-08-22T15:55:34.000Z",
+      "summary": "醒來的時候，我的呼吸很急促，淚水順著眼角滴落在枕頭上。我看了下時間，剛剛一點多。恍惚了片刻，我才意識到，剛剛發生的一切都只是夢。這場夢由幾個場景交織在一起，我無法梳理清晰整個故事，只拾起了一些記憶碎片。 片段一： 一個不知道是哪裡的大都市，公園裡蕩漾著孩童嬉戲的歡聲笑語。我穿梭在灌木叢中的小路上，有個人從背後拍了拍我的肩。回頭看，居然是 X。X 和我是高中同",
+      "source": "荷戟独彷徨",
+      "sourceUrl": "https://guanqr.com/",
+      "feedUrl": "https://guanqr.com/atom.xml",
+      "sourceType": "friends",
+      "description": "爱光学，爱生活，爱创造。",
+      "category": "友情链接"
+    },
     {
       "title": "昂贵的科研",
       "link": "https://hongtaoh.com/cn/2026/08/20/expensive-research/",
@@ -949,30 +973,6 @@
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
-    },
-    {
-      "title": "换个样子，还是那只猫",
-      "link": "https://jingxin18.cn/3043.html",
-      "date": "2026-06-05T15:18:05.000Z",
-      "summary": "博客的logo换了。 旧的logo已经用了挺久，久到自己看着都觉得有点乏味。不是不好看，是太”安全 […]",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "285、芒种",
-      "link": "https://1900.live/285-mang-chong/",
-      "date": "2026-06-05T02:52:00.000Z",
-      "summary": "null 麦浪翻黄，梅雨初酿，天地在收获与播种之间，悄悄拉开了芒种的大幕。 太阳行至黄经75°，芒种——夏之第三序。 风吹麦田，镰刀声声，籽粒悄悄攒起了一整个春天的阳光，等待一场归根与归仓；梅雨如丝，青梅沉坠，枝头酝酿着第一场酸甜的甘酿，而稻田的水，已涨到刚好没过秧苗脚跟的深度，映着天色，等待着一行退步向前的诗。 天地以“芒”督“忙”，以“种”求“实”；忙而",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -984,10 +984,24 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "胡涂说",
+      "sourceType": "friends",
+      "site": "https://hutusi.com/",
+      "feed": "https://hutusi.com/feed.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1012,6 +1026,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1019,11 +1040,39 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 500"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Eallion",
+      "sourceType": "extraFeeds",
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
