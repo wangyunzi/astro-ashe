@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-23T18:35:36.877Z",
-  "expiresAt": "2026-08-24T00:35:36.877Z",
+  "updatedAt": "2026-08-24T01:39:27.895Z",
+  "expiresAt": "2026-08-24T07:39:27.895Z",
   "items": [
     {
       "title": "永远的新裤子——新裤子30周年演唱会",
@@ -984,10 +984,10 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
+      "source": "凡梦星尘空间站",
       "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1002,6 +1002,27 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Leonus",
+      "sourceType": "friends",
+      "site": "https://blog.leonus.cn",
+      "feed": "https://blog.leonus.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
