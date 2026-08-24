@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-24T01:39:27.895Z",
-  "expiresAt": "2026-08-24T07:39:27.895Z",
+  "updatedAt": "2026-08-24T07:07:20.385Z",
+  "expiresAt": "2026-08-24T13:07:20.385Z",
   "items": [
+    {
+      "title": "荐《奥德赛》电影――十年苦难让奥德修斯更具人性",
+      "link": "https://tianheg.co/posts/odyssey-movie/",
+      "date": "2026-08-24T02:59:00.000Z",
+      "summary": "《奥德赛》电影看完了，IMAX的大宽屏确实不错。 《奥德赛》原著作者并不确定，比较可信的说法是荷马和他同时代的人一同写就（参考：《奥德赛（张秋子导读版）》），讲述的是奥德修斯在特洛伊战争结束后十年漂泊异乡被众神阻挠不得返乡，经历重重磨难才最终返回故乡伊萨卡的故事。诺兰拍摄的电影按照原著进行了故事的讲述。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "永远的新裤子——新裤子30周年演唱会",
       "link": "https://tianheg.co/posts/new-pants-30th-anniversary/",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "当 AI 构建自己",
-      "link": "https://hutusi.com/flows/2026/06/06",
-      "date": "2026-06-06T00:00:00.000Z",
-      "summary": "Anthropic 官方博客日前发表了一篇文章 [When AI builds itself](https://www.anthropic.com/institute/recursive-self-improvement)，回顾了历代 Claude 的开发时间线，并借由内部员工的现身说法，道出了一个事实：Anthrop...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1023,6 +1023,20 @@
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
