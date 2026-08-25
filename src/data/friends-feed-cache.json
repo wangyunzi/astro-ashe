@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-25T12:55:03.365Z",
-  "expiresAt": "2026-08-25T18:55:03.365Z",
+  "updatedAt": "2026-08-25T18:45:32.990Z",
+  "expiresAt": "2026-08-26T00:45:32.990Z",
   "items": [
     {
       "title": "荐《奥德赛》电影――十年苦难让奥德修斯更具人性",
@@ -984,10 +984,10 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
+      "source": "杜老师说",
       "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1012,34 +1012,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Dorad",
       "sourceType": "friends",
       "site": "https://blog.cuger.cn",
@@ -1052,13 +1024,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "socket hang up"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
