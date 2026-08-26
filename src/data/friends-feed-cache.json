@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-25T18:45:32.990Z",
-  "expiresAt": "2026-08-26T00:45:32.990Z",
+  "updatedAt": "2026-08-26T01:39:33.982Z",
+  "expiresAt": "2026-08-26T07:39:33.982Z",
   "items": [
     {
       "title": "荐《奥德赛》电影――十年苦难让奥德修斯更具人性",
@@ -988,7 +988,7 @@
       "sourceType": "friends",
       "site": "https://dusays.com",
       "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 403"
     },
     {
       "source": "风记星辰",
@@ -1009,13 +1009,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Dorad",
-      "sourceType": "friends",
-      "site": "https://blog.cuger.cn",
-      "feed": "https://blog.cuger.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
