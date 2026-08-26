@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26T01:39:33.982Z",
-  "expiresAt": "2026-08-26T07:39:33.982Z",
+  "updatedAt": "2026-08-26T06:56:23.094Z",
+  "expiresAt": "2026-08-26T12:56:23.094Z",
   "items": [
     {
       "title": "荐《奥德赛》电影――十年苦难让奥德修斯更具人性",
@@ -984,11 +984,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
+      "source": "凡梦星尘空间站",
       "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Status code 403"
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1012,11 +1012,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "socket hang up"
+      "message": "Status code 500"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
