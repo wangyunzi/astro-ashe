@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-29T16:30:17.363Z",
-  "expiresAt": "2026-08-29T22:30:17.363Z",
+  "updatedAt": "2026-08-29T20:44:20.477Z",
+  "expiresAt": "2026-08-30T02:44:20.477Z",
   "items": [
     {
       "title": "说说：#2026-08-27 10:10",
@@ -984,13 +984,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1005,31 +998,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
+      "source": "Jdeal",
       "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Leonus",
-      "sourceType": "friends",
-      "site": "https://blog.leonus.cn",
-      "feed": "https://blog.leonus.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1038,6 +1010,13 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "socket hang up"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
