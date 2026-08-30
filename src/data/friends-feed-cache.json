@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-29T20:44:20.477Z",
-  "expiresAt": "2026-08-30T02:44:20.477Z",
+  "updatedAt": "2026-08-30T04:45:25.980Z",
+  "expiresAt": "2026-08-30T10:45:25.980Z",
   "items": [
+    {
+      "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
+      "link": "https://jingxin18.cn/3550.html",
+      "date": "2026-08-30T04:11:29.000Z",
+      "summary": "园林，不能简单的看作风格和样式，也不仅仅是某一种空间营造的形式。园林是带着生活情趣的思想方法，是带着审美观的自 […]",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-08-27 10:10",
       "link": "https://blog.el9.cn/memos/3319956b.html",
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "Photosuite EXIF 优化",
-      "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
-      "date": "2026-06-10T10:39:00.000Z",
-      "summary": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
-      "source": "Lhasa",
-      "sourceUrl": "https://lhasa.icu/",
-      "feedUrl": "https://lhasa.icu/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1010,13 +1010,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "socket hang up"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
