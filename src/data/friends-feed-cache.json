@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T11:37:36.377Z",
-  "expiresAt": "2026-08-30T17:37:36.377Z",
+  "updatedAt": "2026-08-30T16:24:08.100Z",
+  "expiresAt": "2026-08-30T22:24:08.100Z",
   "items": [
     {
       "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
@@ -12,6 +12,18 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
+    {
+      "title": "AI Naive: 用 AI 做“无用之用”的独立软件作品集",
+      "link": "https://hutusi.com/flows/2026/08/30",
+      "date": "2026-08-30T00:00:00.000Z",
+      "summary": "从去年下半年开始 AI Coding, 从 Claude Code 到 Codex, 从 Opus 4 到 Fable 5，我用 AI 给自己做了一系列的工具软件，主要是自己用自己玩，有少部分运行在公司的环境中。 - Amytis: 一个优雅的数字花园框架，可以做个人的静态博客，也可以做团队的知识库，目前我自己的[博客...",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
     },
     {
@@ -390,7 +402,7 @@
       "title": "Jeff Dean 离开 Google，以及关于他的传说",
       "link": "https://hutusi.com/flows/2026/08/08",
       "date": "2026-08-08T00:00:00.000Z",
-      "summary": "几日前，Google DeepMind 人事震动，哈萨比斯卸任 CEO，而更重磅的新闻是： [[Jeff Dean]] 从 Google 离职了。 Jeff Dean 是 Google 的元老之一，他与 1999 年作为第 20 为员工加入 Google, 在效力了 27 年之后离职并创立 AI 初创公司 Discov...",
+      "summary": "几日前，Google DeepMind 人事震动，哈萨比斯卸任 CEO，而更重磅的新闻是： [[Jeff Dean]] 从 Google 离职了。 Jeff Dean 是 Google 的元老之一，他与 1999 年作为第 20 位员工加入 Google, 在效力了 27 年之后离职并创立 AI 初创公司 Discov...",
       "source": "胡涂说",
       "sourceUrl": "https://hutusi.com/",
       "feedUrl": "https://hutusi.com/feed.xml",
@@ -958,21 +970,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "搬家 & 测试",
-      "link": "https://www.imsun.org/archives/1786.html",
-      "date": "2026-06-12T08:41:00.000Z",
-      "summary": "七牛云的新加坡机房 线路差到了极点 于是换到了 vipcloud 三网各自优化2c3g10M带宽,国内访问感觉好多了 推荐链接 https://cloud.vipcloud.cc/recommend/FGArW5epNdl0 💻基本信息 🎬IP质量 🌐网络质量 📍回程路由 NodeQuality链接",
-      "source": "老孙博客",
-      "sourceEn": "Old Sun's Blog",
-      "sourceUrl": "https://www.imsun.org/",
-      "feedUrl": "https://www.imsun.org/feed/",
-      "sourceType": "friends",
-      "avatar": "https://img.imsun.org/avatar.jpg",
-      "description": "资深网民。",
-      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -998,18 +995,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "socket hang up"
+      "message": "Status code 500"
     },
     {
-      "source": "LMS",
+      "source": "Eallion",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
