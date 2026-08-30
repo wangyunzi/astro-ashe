@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T04:45:25.980Z",
-  "expiresAt": "2026-08-30T10:45:25.980Z",
+  "updatedAt": "2026-08-30T11:37:36.377Z",
+  "expiresAt": "2026-08-30T17:37:36.377Z",
   "items": [
     {
       "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
@@ -84,6 +84,18 @@
       "feedUrl": "https://blog.el9.cn/feed",
       "sourceType": "friends",
       "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
+    {
+      "title": "奧德賽",
+      "link": "https://guanqr.com/life/films/the-odyssey/",
+      "date": "2026-08-18T14:24:41.000Z",
+      "summary": "諾蘭導演在電影《奧德賽》中，很巧妙地塑造了一個看似充滿神明的世界。沒有一個神以明確的形象展示給觀眾。你可以把故事中的狂風巨浪和電閃雷鳴看作是波塞冬和宙斯對主人公的懲罰，亦可以當作是單純的自然現象，古時候的人，難以抵抗自然之力，只能對它充滿敬畏，把它當作神。在奧德修斯身旁時常現身的雅典娜，她的形象也只是來自於進攻特洛伊城的那個夜晚，在雅典娜的雕塑前，奧德修斯親",
+      "source": "荷戟独彷徨",
+      "sourceUrl": "https://guanqr.com/",
+      "feedUrl": "https://guanqr.com/atom.xml",
+      "sourceType": "friends",
+      "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
     },
     {
@@ -961,18 +973,6 @@
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
       "category": "友情链接"
-    },
-    {
-      "title": "Astro Lite 6",
-      "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
-      "date": "2026-06-11T16:15:00.000Z",
-      "summary": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
-      "source": "Lhasa",
-      "sourceUrl": "https://lhasa.icu/",
-      "feedUrl": "https://lhasa.icu/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -998,18 +998,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "socket hang up"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
