@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-31T13:13:26.628Z",
-  "expiresAt": "2026-08-31T19:13:26.628Z",
+  "updatedAt": "2026-08-31T22:40:41.678Z",
+  "expiresAt": "2026-09-01T04:40:41.678Z",
   "items": [
     {
       "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
@@ -981,13 +981,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1009,13 +1002,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -1027,7 +1013,14 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "No valid RSS feed found for https://lhasa.icu/"
     }
   ]
 }
