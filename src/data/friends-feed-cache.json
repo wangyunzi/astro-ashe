@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-31T22:40:41.678Z",
-  "expiresAt": "2026-09-01T04:40:41.678Z",
+  "updatedAt": "2026-09-01T04:28:10.949Z",
+  "expiresAt": "2026-09-01T10:28:10.949Z",
   "items": [
+    {
+      "title": "给林夕",
+      "link": "https://tianheg.co/posts/to-linxi/",
+      "date": "2026-08-31T23:40:00.000Z",
+      "summary": "给林夕（一）：喜爱你 写于 26/07/14 你的声音，让我怦然心动 你的话语，让我心生雀跃 你的样貌，让我好奇不已",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
       "link": "https://jingxin18.cn/3550.html",
@@ -958,18 +970,6 @@
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
-    },
-    {
-      "title": "雨天出差的 3 件必备",
-      "link": "https://dusays.com/archives/872/",
-      "date": "2026-06-12T16:00:00.000Z",
-      "summary": "杜老师前几个月有一次出差正好赶上下雨，从酒店门口走到网约车上短短 5 分钟，整个包都湿透了。后来杜老师专门整理了一份”雨天出差必备”，今天就跟大家分享一下。 一、为什么雨天出差需要单独准备 杜老师一开始觉得雨天出差没什么大不了： 反正打车 反正有伞 包湿就湿吧 直到那次包湿透，回酒店才发现笔记本也进了点水。 二、3 件必备 必备 1：防水电脑包 杜老师的解决",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1002,6 +1002,20 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "二猫 blog",
       "sourceType": "friends",
       "site": "https://jingxin18.cn",
@@ -1013,14 +1027,28 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
-      "message": "No valid RSS feed found for https://lhasa.icu/"
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
