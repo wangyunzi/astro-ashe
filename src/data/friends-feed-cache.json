@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T16:18:58.032Z",
-  "expiresAt": "2026-09-02T22:18:58.032Z",
+  "updatedAt": "2026-09-02T20:50:01.742Z",
+  "expiresAt": "2026-09-03T02:50:01.742Z",
   "items": [
     {
       "title": "给林夕",
@@ -981,11 +981,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
+      "source": "杜老师说",
       "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Status code 403"
     },
     {
       "source": "风记星辰",
@@ -1023,46 +1023,18 @@
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Status code 410"
     },
     {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Hostname/IP does not match certificate's altnames: Host: blog.lhasa.icu. is not in the cert's altnames: DNS:*.cdn.myqcloud.com, DNS:*.2144.cn, DNS:*.2144.com, DNS:*.4399.com, DNS:*.5054399.com, DNS:*.58cdn.com.cn, DNS:*.bldimg.com, DNS:*.cdn-go.cn, DNS:*.cntv.qcloudcdn.com, DNS:*.danmu.com, DNS:*.dd.cdntips.net, DNS:*.dd.qq.com, DNS:*.dianping.com, DNS:*.dl.txcdns.com, DNS:*.dlied1.cdntips.net, DNS:*.dpfile.com, DNS:*.ffnews.cn, DNS:*.file.myqcloud.com, DNS:*.flash.2144.com, DNS:*.flash.cn, DNS:*.geetest.com, DNS:*.gtimg.cn, DNS:*.gtimg.com, DNS:*.hls.cdn.myqcloud.com, DNS:*.image.myqcloud.com, DNS:*.img4399.com, DNS:*.jsbchina.cn, DNS:*.lof3.xyz, DNS:*.meituan.net, DNS:*.myapp.com, DNS:*.mykeeta.net, DNS:*.qcloudcdn.com, DNS:*.qpic.cn, DNS:*.sogoucdn.com, DNS:*.suyinwealth.com, DNS:*.ugdtimg.com, DNS:*.uniqlo.cn, DNS:*.vda.v.qcloudcdn.com, DNS:*.video.myqcloud.com, DNS:*.vip.cdngot.com, DNS:*.vod-qcloud.com, DNS:*.vod.cdn.myqcloud.com, DNS:*.vod.myqcloud.com, DNS:*.vod2.myqcloud.com, DNS:*.wanyabox.com, DNS:*.weishi.qq.com, DNS:*.wx.qq.com, DNS:*.zhongcheng818.com, DNS:*.zservey.net, DNS:cdn.myqcloud.com, DNS:flash.cn, DNS:nitrome.com.4399.com, DNS:www.miniclip.com.4399pk.com, DNS:www.tencentwm.com, DNS:www.txfund.com, DNS:xpdl999.aiwan4399.com"
     }
   ]
 }
