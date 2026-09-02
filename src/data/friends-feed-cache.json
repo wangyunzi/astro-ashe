@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T20:50:26.976Z",
-  "expiresAt": "2026-09-02T02:50:26.976Z",
+  "updatedAt": "2026-09-02T03:51:19.467Z",
+  "expiresAt": "2026-09-02T09:51:19.467Z",
   "items": [
     {
       "title": "给林夕",
@@ -995,11 +995,32 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Leonus",
+      "sourceType": "friends",
+      "site": "https://blog.leonus.cn",
+      "feed": "https://blog.leonus.cn/atom.xml",
+      "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
