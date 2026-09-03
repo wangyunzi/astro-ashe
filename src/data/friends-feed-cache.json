@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T20:50:01.742Z",
-  "expiresAt": "2026-09-03T02:50:01.742Z",
+  "updatedAt": "2026-09-03T03:50:25.910Z",
+  "expiresAt": "2026-09-03T09:50:25.910Z",
   "items": [
     {
       "title": "给林夕",
@@ -981,11 +981,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
+      "source": "凡梦星尘空间站",
       "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Status code 403"
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1028,6 +1028,13 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Lhasa",
