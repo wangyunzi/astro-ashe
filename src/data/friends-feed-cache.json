@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-03T03:50:25.910Z",
-  "expiresAt": "2026-09-03T09:50:25.910Z",
+  "updatedAt": "2026-09-03T10:57:17.779Z",
+  "expiresAt": "2026-09-03T16:57:17.779Z",
   "items": [
     {
       "title": "给林夕",
@@ -1023,6 +1023,13 @@
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1030,11 +1037,11 @@
       "message": "Status code 410"
     },
     {
-      "source": "Inks",
+      "source": "Eallion",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "getaddrinfo ENOTFOUND www.eallion.com"
     },
     {
       "source": "Lhasa",
