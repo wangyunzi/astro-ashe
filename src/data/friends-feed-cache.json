@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-03T20:47:02.878Z",
-  "expiresAt": "2026-09-04T02:47:02.878Z",
+  "updatedAt": "2026-09-04T03:55:03.041Z",
+  "expiresAt": "2026-09-04T09:55:03.041Z",
   "items": [
     {
       "title": "给林夕",
@@ -999,20 +999,6 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
