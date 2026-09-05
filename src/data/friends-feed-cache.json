@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-04T20:34:29.923Z",
-  "expiresAt": "2026-09-05T02:34:29.923Z",
+  "updatedAt": "2026-09-05T03:50:13.529Z",
+  "expiresAt": "2026-09-05T09:50:13.529Z",
   "items": [
     {
       "title": "给林夕",
@@ -1020,7 +1020,21 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Status code 410"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
