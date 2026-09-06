@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-05T20:09:03.699Z",
-  "expiresAt": "2026-09-06T02:09:03.699Z",
+  "updatedAt": "2026-09-06T03:54:32.328Z",
+  "expiresAt": "2026-09-06T09:54:32.328Z",
   "items": [
     {
       "title": "给林夕",
@@ -985,7 +985,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1009,25 +1009,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
