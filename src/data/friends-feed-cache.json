@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-06T10:38:01.876Z",
-  "expiresAt": "2026-09-06T16:38:01.876Z",
+  "updatedAt": "2026-09-06T15:14:36.550Z",
+  "expiresAt": "2026-09-06T21:14:36.550Z",
   "items": [
     {
       "title": "给林夕",
@@ -985,7 +985,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1020,7 +1020,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     }
   ]
 }
