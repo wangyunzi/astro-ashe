@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-07T12:04:02.652Z",
-  "expiresAt": "2026-09-07T18:04:02.652Z",
+  "updatedAt": "2026-09-07T21:21:25.159Z",
+  "expiresAt": "2026-09-08T03:21:25.159Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -24,6 +24,18 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Web 应用常见漏洞与防御:OWASP Top 10 实战讲解",
+      "link": "https://dusays.com/archives/886/",
+      "date": "2026-09-04T16:00:00.000Z",
+      "summary": "据 Akamai 报告,2026 年 Web 应用攻击同比增长 40%,其中注入攻击和身份认证失效占比最高。无论你是开发者还是运维,了解 Web 应用常见漏洞都是必修课。本文基于 OWASP Top 10(2021 版),通过真实案例 + 代码讲解,带你建立完整的 Web 安全防护意识。 一、什么是 OWASP OWASP(Open Worldwide Ap",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -63,6 +75,18 @@
       "category": "友情链接"
     },
     {
+      "title": "Home Assistant 智能家居搭建:从零打造自动化生活",
+      "link": "https://dusays.com/archives/885/",
+      "date": "2026-08-29T16:00:00.000Z",
+      "summary": "早上起床,窗帘自动拉开、咖啡机开始煮咖啡;下班回家,空调提前打开、灯光自动亮起;晚上睡觉,所有电器自动关闭、安防系统启动。这不是科幻电影,这是 Home Assistant 能给你的真实生活。本文手把手教你搭建一套稳定、强大的智能家居系统。 一、Home Assistant 是什么 Home Assistant(简称 HA)是一个开源、本地优先的智能家居平台",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "说说：#2026-08-27 10:10",
       "link": "https://blog.el9.cn/memos/3319956b.html",
       "date": "2026-08-27T02:10:00.000Z",
@@ -84,6 +108,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "从零理解 TCP/IP 协议栈:网络世界的通用语言",
+      "link": "https://dusays.com/archives/884/",
+      "date": "2026-08-23T16:00:00.000Z",
+      "summary": "每天我们都在和 TCP/IP 打交道:刷网页、看视频、聊微信。但当 HTTP 请求到达服务器时,数据是怎么一层层”剥洋葱”传递的? 本文从最基础的概念讲起,带你穿透协议栈,理解每一次网络通信背后的原理。 一、为什么需要协议 想象一个没有协议的世界:你写的数据,对方根本看不懂。就像两个人说话如果语言不通,只能鸡同鸭讲。 协议就是通信双方约定的规则: 数据格式 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -168,6 +204,18 @@
       "feedUrl": "https://guanqr.com/atom.xml",
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
+      "category": "友情链接"
+    },
+    {
+      "title": "运维工程师面试全攻略:从简历到 Offer 的完整指南",
+      "link": "https://dusays.com/archives/883/",
+      "date": "2026-08-17T16:00:00.000Z",
+      "summary": "运维岗位竞争激烈,如何从众多候选人中脱颖而出?本文基于我多年招聘运维工程师的经验,从简历优化、技术准备、面试技巧、谈薪策略四个维度,系统讲解如何拿到心仪的 Offer。同时附上 50 道高频面试题,帮你全面备战。 一、运维岗位现状 行业趋势 DevOps 化:传统运维向 SRE/DevOps 转型,要求更高 云原生:K8s、Docker 几乎成为必备技能 自",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -348,6 +396,18 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
+    {
+      "title": "免费学习平台精选:这 15 个网站让你省下几万培训费",
+      "link": "https://dusays.com/archives/882/",
+      "date": "2026-08-11T16:00:00.000Z",
+      "summary": "自学能力的强弱,基本决定了一个程序员能走多远。在这个知识付费的时代,其实互联网上有大量优质、免费的学习资源。本文整理了 15 个我亲身使用、强烈推荐的学习平台,涵盖编程、数据、AI、设计等多个方向。无论你是初学者还是想进阶,都能找到适合的资源。 一、官方文档(永远的第一选择) 1. MDN Web Docs developer.mozilla.org 前端开",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -910,66 +970,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "我思",
-      "link": "https://tianheg.co/posts/me-thinking/",
-      "date": "2026-06-24T14:40:00.000Z",
-      "summary": "思考不必局限于形式。我开始写下心中所想。 病痛往往会让人思考自己的处境，我的处境让我有些麻木和难受。咳嗽的毛病到今天已经六天，当拖到无可再拖时，我终于选择去医院看看。挂号，医生问了情况，让去拍CT、抽血化验。拍CT的仪器以前从未见过，好像一个甜甜圈。抽血时当针头刺进血管那一刻，我感受到轻微的刺痛，好在这痛很快就结束了。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
-      "title": "钢铁与荣耀：当骑士来到成都",
-      "link": "https://jingxin18.cn/3064.html",
-      "date": "2026-06-22T16:20:39.000Z",
-      "summary": "刚回成都那阵，去了一趟成都博物馆。那时候逛得散漫，也拍了一些照片，后来也没整理，就一直那么搁着。前几天偶然在抖 […]",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "园区的猫",
-      "link": "https://tianheg.co/posts/park-cat/",
-      "date": "2026-06-21T16:00:00.000Z",
-      "summary": "时常见到工业区里的一只猫 猫在园区里游荡 一会儿在宿舍楼下 一会儿在工厂楼下 四处游荡并不怕人 曾经她来到我五楼的家",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
-      "title": "286、夏至",
-      "link": "https://1900.live/286-xia-zhi/",
-      "date": "2026-06-21T02:54:25.000Z",
-      "summary": "null 蝉声初沸，白昼始极，天地在极致与转折之间，悄悄按下了一个惊叹号。 太阳行至黄经90°，夏至——夏之第四序。 蝉鸣撕开长夏，声声如锯，把日子锯成最漫长的一截光；荷塘铺满绿盖，菡萏探出了第一支胭脂色的笔，蘸着正午的烈阳，准备写一封给远秋的信；而午后的雷雨，来得急去得也急，把天地洗成一面澄澈的镜，映出阴阳交割的第一道裂痕。 天地以\"极\"为警，以\"至\"为界",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "会议室投影仪连不上的 3 个排查",
-      "link": "https://dusays.com/archives/873/",
-      "date": "2026-06-18T16:00:00.000Z",
-      "summary": "杜老师参加培训时，经常碰到投影仪连不上的情况。早期杜老师是干瞪眼，现在能 30 秒内搞定。今天杜老师就把自己的 3 个排查步骤分享给大家。 一、为什么投影仪容易出问题 杜老师自己复盘下来，常见原因有 3 个： 笔记本和投影仪分辨率不匹配 投影仪只支持 VGA，但笔记本只有 HDMI 信号源选错了（投影仪默认是 HDMI2，但笔记本接的是 HDMI1） 注意：",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -981,18 +981,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "凡梦星尘空间站",
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1044,11 +1037,11 @@
       "message": "getaddrinfo ENOTFOUND www.eallion.com"
     },
     {
-      "source": "Inks",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
