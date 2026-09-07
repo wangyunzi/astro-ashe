@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-07T03:53:28.577Z",
-  "expiresAt": "2026-09-07T09:53:28.577Z",
+  "updatedAt": "2026-09-07T12:04:02.652Z",
+  "expiresAt": "2026-09-07T18:04:02.652Z",
   "items": [
+    {
+      "title": "第一次去佛山，看王菀之演唱会",
+      "link": "https://tianheg.co/posts/first-time-in-foshan/",
+      "date": "2026-09-07T07:00:00.000Z",
+      "summary": "和上次看新裤子一样，从深圳北到广州南坐高铁去，然后坐佛山地铁2号线去到目的地。到了地方，一开始没搞明白什么是北活一区、北下一区，导致我的座位在北下却坐到北活，还好最后还是发现了，坐到了正确的位置。这个体育馆的座位没有广州宝能的舒服，看起来蛮破旧的。VIP区的座位竟然就只是草草地摆了很多排椅子。当时觉得：买VIP不见得就好哈。 座位两侧都有人，左边的一个姐很爱",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "爷爷",
       "link": "https://jingxin18.cn/3553.html",
@@ -958,18 +970,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "Linux 服务器翻墙",
-      "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
-      "date": "2026-06-17T06:38:00.000Z",
-      "summary": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
-      "source": "Lhasa",
-      "sourceUrl": "https://lhasa.icu/",
-      "feedUrl": "https://lhasa.icu/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -981,11 +981,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "凡梦星尘空间站",
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1027,14 +1034,21 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
-      "source": "LMS",
+      "source": "Eallion",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://www.eallion.com/",
+      "feed": "https://www.eallion.com/index.xml",
+      "message": "getaddrinfo ENOTFOUND www.eallion.com"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
