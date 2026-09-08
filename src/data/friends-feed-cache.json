@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T10:57:18.963Z",
-  "expiresAt": "2026-09-08T16:57:18.963Z",
+  "updatedAt": "2026-09-08T16:22:25.719Z",
+  "expiresAt": "2026-09-08T22:22:25.719Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -1009,6 +1009,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "一蓑烟雨的博客",
+      "sourceType": "friends",
+      "site": "https://easyf12.top/",
+      "feed": "https://easyf12.top/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
@@ -1021,6 +1028,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
@@ -1042,13 +1056,6 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
