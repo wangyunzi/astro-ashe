@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T03:56:19.735Z",
-  "expiresAt": "2026-09-08T09:56:19.735Z",
+  "updatedAt": "2026-09-08T10:57:18.963Z",
+  "expiresAt": "2026-09-08T16:57:18.963Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -1013,7 +1013,7 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
@@ -1027,7 +1027,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Eallion",
@@ -1035,6 +1035,20 @@
       "site": "https://www.eallion.com/",
       "feed": "https://www.eallion.com/index.xml",
       "message": "getaddrinfo ENOTFOUND www.eallion.com"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
