@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T11:01:53.093Z",
-  "expiresAt": "2026-09-09T17:01:53.093Z",
+  "updatedAt": "2026-09-09T16:17:27.282Z",
+  "expiresAt": "2026-09-09T22:17:27.282Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -985,7 +985,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1013,7 +1013,7 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
@@ -1037,18 +1037,11 @@
       "message": "getaddrinfo ENOTFOUND www.eallion.com"
     },
     {
-      "source": "LMS",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Status code 502"
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
