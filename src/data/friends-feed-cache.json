@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T04:01:41.803Z",
-  "expiresAt": "2026-09-09T10:01:41.803Z",
+  "updatedAt": "2026-09-09T11:01:53.093Z",
+  "expiresAt": "2026-09-09T17:01:53.093Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -985,7 +985,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1013,7 +1013,7 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1021,13 +1021,6 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
@@ -1044,11 +1037,11 @@
       "message": "getaddrinfo ENOTFOUND www.eallion.com"
     },
     {
-      "source": "Frytea",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://www.frytea.com/",
-      "feed": "https://www.frytea.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
