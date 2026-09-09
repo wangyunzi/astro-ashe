@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T20:56:53.960Z",
-  "expiresAt": "2026-09-09T02:56:53.960Z",
+  "updatedAt": "2026-09-09T04:01:41.803Z",
+  "expiresAt": "2026-09-09T10:01:41.803Z",
   "items": [
     {
       "title": "第一次去佛山，看王菀之演唱会",
@@ -985,7 +985,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1023,11 +1023,18 @@
       "message": "Unexpected close tag\nLine: 25\nColumn: 7\nChar: >"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Eallion",
@@ -1037,11 +1044,18 @@
       "message": "getaddrinfo ENOTFOUND www.eallion.com"
     },
     {
+      "source": "Frytea",
+      "sourceType": "extraFeeds",
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 502"
     }
   ]
 }
