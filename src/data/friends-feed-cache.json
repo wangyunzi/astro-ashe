@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-10T10:58:33.028Z",
-  "expiresAt": "2026-09-10T16:58:33.028Z",
+  "updatedAt": "2026-09-10T16:08:54.043Z",
+  "expiresAt": "2026-09-10T22:08:54.043Z",
   "items": [
+    {
+      "title": "Python 脚本自动化实战:让重复工作一键完成",
+      "link": "https://dusays.com/archives/887/",
+      "date": "2026-09-10T16:00:00.000Z",
+      "summary": "每天有大量重复工作占用我们的时间:批量重命名文件、爬取数据、发送邮件、操作 Excel、自动部署……学会用 Python 把这些重复任务自动化,每天节省 2-3 小时不是梦。本文通过 12 个真实案例,带你入门 Python 自动化。 一、Python 自动化的优势 易学易用:语法简洁,几天就能上手 生态丰富:50 万+ 第三方包,几乎所有场景都有现成工具 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-09-07 20:15",
       "link": "https://cis.el9.cn/memos/a9347777.html",
@@ -958,18 +970,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "片刻・Jdeal 发布了一条新动态~",
-      "link": "https://www.jdeal.cn/cross.html#5252",
-      "date": "2026-07-05T04:40:08.000Z",
-      "summary": "刚刚在拼夕夕买了个 ESP32C3 PRO MINI 开发板，超小的自带WiFi+蓝牙的开发板，准备玩点改装的小玩意 😊 敬请期待，哈哈",
-      "source": "Jdeal",
-      "sourceUrl": "https://www.jdeal.cn",
-      "feedUrl": "https://www.jdeal.cn/feed",
-      "sourceType": "friends",
-      "description": "Life is like a Design.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1027,13 +1027,6 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
