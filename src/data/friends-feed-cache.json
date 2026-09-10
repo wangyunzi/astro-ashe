@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T04:00:30.047Z",
-  "expiresAt": "2026-09-10T10:00:30.047Z",
+  "updatedAt": "2026-09-10T10:58:33.028Z",
+  "expiresAt": "2026-09-10T16:58:33.028Z",
   "items": [
     {
       "title": "说说：#2026-09-07 20:15",
@@ -25,6 +25,18 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
+    },
+    {
+      "title": "290、白露",
+      "link": "https://1900.live/290-bai-lu/",
+      "date": "2026-09-07T01:18:00.000Z",
+      "summary": "null 露从今夜白，暑气在一场场渐凉的晨风里，终于褪去最后的锋芒。长夏的余温尚未完全散尽，草叶之间却已先一步凝起清莹的水光——白露，便是在这样的静默里到来。 太阳行至黄经165°，白露——秋意由“可感”走向“可见”的时节。夜间地面温度下降，空气中的水汽遇冷凝结，附在草木之上，清晨看去，仿佛天地一夜之间撒落了细碎的白玉。 鸿雁来，北雁循着渐冷的风向南而行，长",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "爷爷",
@@ -651,6 +663,18 @@
       "category": "额外动态"
     },
     {
+      "title": "开发者必备工具集:这 30 个工具让我的效率提升了 300%",
+      "link": "https://dusays.com/archives/881/",
+      "date": "2026-08-05T16:00:00.000Z",
+      "summary": "工欲善其事,必先利其器。这句话在程序员身上体现得淋漓尽致:选对工具,一天能干完别人三天的活。本文整理了 30 个我日常使用、亲测好用的开发者工具,涵盖代码编辑、终端增强、API 调试、效率提升等方方面面。无论你是前端、后端还是运维,都能从中找到适合自己的工具。 一、代码编辑器与 IDE 1. Visual Studio Code(免费) code.visua",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
       "title": "Lightroom Classic 15.5 更新：AI 蒙版羽化、裁剪遮罩透明度、渲染 DNG 来了",
       "link": "https://www.shephe.com/post/lightroom-classic-15-5-update/",
       "date": "2026-08-05T15:06:13.000Z",
@@ -946,30 +970,6 @@
       "sourceType": "friends",
       "description": "Life is like a Design.",
       "category": "友情链接"
-    },
-    {
-      "title": "夏雨",
-      "link": "https://tianheg.co/posts/summer-rain/",
-      "date": "2026-07-04T16:00:00.000Z",
-      "summary": "七点十一起床，七点二十六开始跑步，跑了四十分钟，7.02 公里。和上周日比起来，这次跑前二十分钟要轻松一些，后二十分钟有些突破极限了，因为我的腰部开始有痛的感觉，这不是病痛，而是当跑步没有成为习惯时的一种身体反应。当我继续跑时，那种痛感自然消退了。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
-      "title": "Fable 5 回归，但是用不起……",
-      "link": "https://hutusi.com/flows/2026/07/02",
-      "date": "2026-07-02T00:00:00.000Z",
-      "summary": "昨天，Anthropic 宣布美国政府解除 Fable 5 的出口管制，今天就恢复了 Fable 5 服务，不过在[ Anthropic 的官宣](https://www.anthropic.com/news/redeploying-fable-5)中，增加了使用期限：7 月 1 日至 7 月 7 日订阅账户可以使用，...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1030,11 +1030,11 @@
       "message": "Status code 410"
     },
     {
-      "source": "Eallion",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
-      "message": "getaddrinfo ENOTFOUND www.eallion.com"
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Lhasa",
