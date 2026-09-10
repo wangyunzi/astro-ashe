@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T20:44:54.592Z",
-  "expiresAt": "2026-09-10T02:44:54.592Z",
+  "updatedAt": "2026-09-10T04:00:30.047Z",
+  "expiresAt": "2026-09-10T10:00:30.047Z",
   "items": [
     {
       "title": "说说：#2026-09-07 20:15",
@@ -1007,6 +1007,13 @@
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
