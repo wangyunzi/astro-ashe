@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T16:08:54.043Z",
-  "expiresAt": "2026-09-10T22:08:54.043Z",
+  "updatedAt": "2026-09-10T20:40:06.024Z",
+  "expiresAt": "2026-09-11T02:40:06.024Z",
   "items": [
     {
       "title": "Python 脚本自动化实战:让重复工作一键完成",
@@ -30,7 +30,7 @@
       "title": "第一次去佛山，看王菀之演唱会",
       "link": "https://tianheg.co/posts/first-time-in-foshan/",
       "date": "2026-09-07T07:00:00.000Z",
-      "summary": "和上次看新裤子一样，从深圳北到广州南坐高铁去，然后坐佛山地铁2号线去到目的地。到了地方，一开始没搞明白什么是北活一区、北下一区，导致我的座位在北下却坐到北活，还好最后还是发现了，坐到了正确的位置。这个体育馆的座位没有广州宝能的舒服，看起来蛮破旧的。VIP区的座位竟然就只是草草地摆了很多排椅子。当时觉得：买VIP不见得就好哈。 座位两侧都有人，左边的一个姐很爱",
+      "summary": "和上次看[[new-pants-30th-anniversary|新裤子]]一样，从深圳北到广州南坐高铁去，然后坐佛山地铁2号线去到目的地。到了地方，一开始没搞明白什么是北活一区、北下一区，导致我的座位在北下却坐到北活，还好最后还是发现了，坐到了正确的位置。这个体育馆的座位没有广州宝能的舒服，看起来蛮破旧的。VIP区的座位竟然就只是草草地摆了很多排椅子。当时",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -375,6 +375,18 @@
       "category": "额外动态"
     },
     {
+      "title": "听艾怡良深圳演唱会",
+      "link": "https://tianheg.co/posts/eve-ai-shenzhen-2026/",
+      "date": "2026-08-15T15:30:00.000Z",
+      "summary": "今天虽然是周六，但是也上了八小时班。到了晚上还有工作的事情找来，让人不胜其烦。本来看演唱会是很开心的事情，因为工作这种喜悦的情绪被削弱了。应援棒的灯光让我担心自己的眼睛会被闪瞎，实际也的确让我的眼睛不舒服。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
       "title": "聊聊郭刚",
       "link": "https://blog.lhasa.icu/posts/life/2026-08-15-cultural-revolution-2/",
       "date": "2026-08-15T06:20:00.000Z",
@@ -385,18 +397,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "听艾怡良深圳演唱会",
-      "link": "https://tianheg.co/posts/eve-ai-shenzhen-2026/",
-      "date": "2026-08-14T16:00:00.000Z",
-      "summary": "今天虽然是周六，但是也上了八小时班。到了晚上还有工作的事情找来，让人不胜其烦。本来看演唱会是很开心的事情，因为工作这种喜悦的情绪被削弱了。应援棒的灯光让我担心自己的眼睛会被闪瞎，实际也的确让我的眼睛不舒服。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
     },
     {
       "title": "川内伦子风格 Lightroom 预设，9 款日系诗意梦幻色调一键套用",
@@ -423,6 +423,18 @@
       "category": "额外动态"
     },
     {
+      "title": "一把开不了门的钥匙",
+      "link": "https://tianheg.co/posts/locked-out/",
+      "date": "2026-08-14T01:05:00.000Z",
+      "summary": "我住的地方比较特殊，是工业园区内部的宿舍楼，3 和 4 楼是公司宿舍，5 楼对外出租。我就住 5 楼。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
       "title": "SU练习建模文档",
       "link": "https://jingxin18.cn/3510.html",
       "date": "2026-08-13T17:29:20.000Z",
@@ -432,18 +444,6 @@
       "feedUrl": "https://jingxin18.cn/feed",
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "一把开不了门的钥匙",
-      "link": "https://tianheg.co/posts/locked-out/",
-      "date": "2026-08-13T16:00:00.000Z",
-      "summary": "我住的地方比较特殊，是工业园区内部的宿舍楼，3 和 4 楼是公司宿舍，5 楼对外出租。我就住 5 楼。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -1013,7 +1013,7 @@
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
       "feed": "https://blog.el9.cn/feed",
-      "message": "Status code 404"
+      "message": "Hostname/IP does not match certificate's altnames: Host: blog.el9.cn. is not in the cert's altnames: DNS:cis.el9.cn"
     },
     {
       "source": "Leonus",
@@ -1027,7 +1027,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Lhasa",
