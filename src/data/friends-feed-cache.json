@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-12T03:59:27.883Z",
-  "expiresAt": "2026-09-12T09:59:27.883Z",
+  "updatedAt": "2026-09-12T10:24:19.033Z",
+  "expiresAt": "2026-09-12T16:24:19.033Z",
   "items": [
     {
       "title": "未成年人保护法究竟保护了谁",
@@ -988,7 +988,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1009,6 +1009,13 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
