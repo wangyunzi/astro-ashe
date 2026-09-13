@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-12T20:22:59.223Z",
-  "expiresAt": "2026-09-13T02:22:59.223Z",
+  "updatedAt": "2026-09-13T11:27:08.023Z",
+  "expiresAt": "2026-09-13T17:27:08.023Z",
   "items": [
     {
       "title": "未成年人保护法究竟保护了谁",
@@ -1012,6 +1012,20 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "connect ECONNREFUSED 1.13.179.24:443"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1024,6 +1038,13 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     },
     {
       "source": "Lhasa",
