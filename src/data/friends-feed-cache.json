@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-13T20:33:31.146Z",
-  "expiresAt": "2026-09-14T02:33:31.146Z",
+  "updatedAt": "2026-09-14T04:17:02.955Z",
+  "expiresAt": "2026-09-14T10:17:02.955Z",
   "items": [
+    {
+      "title": "文本编辑器Notepad--",
+      "link": "https://blog.el9.cn/appgo/Notepad.html",
+      "date": "2026-09-13T03:17:00.000Z",
+      "summary": "✅ 状态|老卢亲测可用🔄 最后更新时间|2026-09-13notepad–是一个国产跨平台、简单的文本编辑器，是替换notepad++的一种选择。其内置强大的代码对比功能，让你丢掉付费的bey...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "未成年人保护法究竟保护了谁",
       "link": "https://www.imsun.org/archives/1798.html",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "287、小暑",
-      "link": "https://1900.live/287-xiao-shu/",
-      "date": "2026-07-07T09:00:01.000Z",
-      "summary": "null 蝉声正炽，热风初凝，天地在攀升与酝酿之间，悬起一柄颤动的火旗。 太阳行至黄经105°，小暑——夏之第五序。 温风拂过大地，不再带一丝清凉，而是推着热浪一浪高过一浪；蟋蟀躲进屋檐，把鸣声收进砖缝的暗处，不敢与正午的日光硬碰；鹰隼振翅高飞，在灼热的气流中练习更锋利的俯冲——它们都知道，真正的暑热还在后面，此刻不过是序曲。 荷塘已满，花褪残红结出青绿的莲",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1012,13 +1012,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1026,25 +1019,39 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
-      "source": "LMS",
+      "source": "Frytea",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://www.frytea.com/",
+      "feed": "https://www.frytea.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Lhasa",
       "sourceType": "extraFeeds",
       "site": "https://lhasa.icu/",
       "feed": "https://lhasa.icu/rss.xml",
-      "message": "No valid RSS feed found for https://lhasa.icu/"
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
