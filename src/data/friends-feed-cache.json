@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T04:16:59.324Z",
-  "expiresAt": "2026-09-15T10:16:59.324Z",
+  "updatedAt": "2026-09-15T11:26:50.176Z",
+  "expiresAt": "2026-09-15T17:26:50.176Z",
   "items": [
     {
       "title": "文本编辑器Notepad--",
@@ -1026,18 +1026,11 @@
       "message": "Status code 410"
     },
     {
-      "source": "Inks",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
