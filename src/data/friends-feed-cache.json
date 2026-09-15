@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15T11:26:50.176Z",
-  "expiresAt": "2026-09-15T17:26:50.176Z",
+  "updatedAt": "2026-09-15T16:39:06.735Z",
+  "expiresAt": "2026-09-15T22:39:06.735Z",
   "items": [
     {
       "title": "文本编辑器Notepad--",
@@ -1012,6 +1012,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1023,13 +1030,6 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
