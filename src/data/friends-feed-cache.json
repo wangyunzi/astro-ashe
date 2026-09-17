@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-09-17T04:19:48.066Z",
-  "expiresAt": "2026-09-17T10:19:48.066Z",
+  "updatedAt": "2026-09-17T11:20:45.872Z",
+  "expiresAt": "2026-09-17T17:20:45.872Z",
   "items": [
     {
-      "title": "未命名动态",
+      "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
       "link": "https://dusays.com/archives/888/",
       "date": "2026-09-16T16:00:00.000Z",
-      "summary": "",
+      "summary": "这两周杜老师做技术选型时接连被两件事扎到：MinIO 在 5 月悄悄砍掉了社区版的 Web Console，11 万行代码删除；Mattermost v11 给免费版加了”消息历史最多 1 万条”的限制——旧消息还躺在数据库里，但 UI 看不见了。摆在一起看，“屠龙的少年长出了龙鳞” 这事好像不再是个比喻。写篇文章，把这两年”开源变收费”的剧本翻出来聊聊。 ",
       "source": "杜老师说",
       "sourceUrl": "https://dusays.com",
       "feedUrl": "https://dusays.com/atom.xml",
@@ -984,18 +984,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "凡梦星尘空间站",
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1051,20 +1044,6 @@
       "sourceType": "extraFeeds",
       "site": "https://www.eallion.com/",
       "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Frytea",
-      "sourceType": "extraFeeds",
-      "site": "https://www.frytea.com/",
-      "feed": "https://www.frytea.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
