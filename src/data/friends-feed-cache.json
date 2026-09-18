@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-17T21:08:42.661Z",
-  "expiresAt": "2026-09-18T03:08:42.661Z",
+  "updatedAt": "2026-09-18T04:03:25.014Z",
+  "expiresAt": "2026-09-18T10:03:25.014Z",
   "items": [
     {
       "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
@@ -984,13 +984,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "凡梦星尘空间站",
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
@@ -1038,6 +1031,13 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
