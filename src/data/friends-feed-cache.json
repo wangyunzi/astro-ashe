@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-18T04:03:25.014Z",
-  "expiresAt": "2026-09-18T10:03:25.014Z",
+  "updatedAt": "2026-09-18T10:54:38.466Z",
+  "expiresAt": "2026-09-18T16:54:38.466Z",
   "items": [
     {
       "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
@@ -988,7 +988,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1030,14 +1030,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
