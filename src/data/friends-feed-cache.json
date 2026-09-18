@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-18T10:54:38.466Z",
-  "expiresAt": "2026-09-18T16:54:38.466Z",
+  "updatedAt": "2026-09-18T16:09:02.229Z",
+  "expiresAt": "2026-09-18T22:09:02.229Z",
   "items": [
+    {
+      "title": "远方",
+      "link": "https://easyf12.top/posts/161d7333/",
+      "date": "2026-09-18T23:05:36.000Z",
+      "summary": "生命或许总在奔赴一个又一个远方中度过。 高考对幼小的我而言一直算是一个遥不可及的远方，但是自从上了高三，这个远方似乎离我越来越近了。在这个时间节点，所谓的排名、分数充斥着我的生活。现在，学习似乎快要成为我的一切了。 近两次考试连续失利，我已经不太能接受眼前的学习生活。日复一日的奋进，一个又一个燃灯的深夜，我离我的梦想似乎越来越近，但是一次又一次的发挥失常似乎",
+      "source": "一蓑烟雨的博客",
+      "sourceUrl": "https://easyf12.top/",
+      "feedUrl": "https://easyf12.top/atom.xml",
+      "sourceType": "friends",
+      "description": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。",
+      "category": "友情链接"
+    },
     {
       "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
       "link": "https://dusays.com/archives/888/",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
-    },
-    {
-      "title": "我的工位专属红绿灯",
-      "link": "https://www.jdeal.cn/561.html",
-      "date": "2026-07-10T02:00:00.000Z",
-      "summary": "真的太久太久没安安静静写点东西和捣鼓小玩意了！日常被工作和生活的琐事填满，好久没有沉浸式折腾硬件、调试代码的纯粹快乐了。前几天蹲拼夕夕入手的 ESP32C3 PRO MINI 开发板终于到货，闲...",
-      "source": "Jdeal",
-      "sourceUrl": "https://www.jdeal.cn",
-      "feedUrl": "https://www.jdeal.cn/feed",
-      "sourceType": "friends",
-      "description": "Life is like a Design.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -982,6 +982,13 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "凡梦星尘空间站",
@@ -1019,6 +1026,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1026,10 +1040,38 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
