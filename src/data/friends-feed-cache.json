@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-19T15:41:01.956Z",
-  "expiresAt": "2026-09-19T21:41:01.956Z",
+  "updatedAt": "2026-09-19T20:20:38.862Z",
+  "expiresAt": "2026-09-20T02:20:38.862Z",
   "items": [
     {
       "title": "远方",
@@ -998,27 +998,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1031,13 +1010,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
