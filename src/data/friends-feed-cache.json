@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-18T20:41:21.105Z",
-  "expiresAt": "2026-09-19T02:41:21.105Z",
+  "updatedAt": "2026-09-19T04:00:20.708Z",
+  "expiresAt": "2026-09-19T10:00:20.708Z",
   "items": [
     {
       "title": "远方",
@@ -982,6 +982,13 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "凡梦星尘空间站",
