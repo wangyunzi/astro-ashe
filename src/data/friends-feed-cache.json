@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-20T20:34:18.763Z",
-  "expiresAt": "2026-09-21T02:34:18.763Z",
+  "updatedAt": "2026-09-21T04:17:04.484Z",
+  "expiresAt": "2026-09-21T10:17:04.484Z",
   "items": [
     {
       "title": "No More Blind Dates; Dating Is Fine, Marriage Is Not",
@@ -1009,11 +1009,25 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
@@ -1023,10 +1037,10 @@
       "message": "Status code 410"
     },
     {
-      "source": "Inks",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
       "message": "Request timed out after 4000ms"
     }
   ]
