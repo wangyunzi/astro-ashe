@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-21T21:51:13.305Z",
-  "expiresAt": "2026-09-22T03:51:13.305Z",
+  "updatedAt": "2026-09-22T04:13:30.234Z",
+  "expiresAt": "2026-09-22T10:13:30.234Z",
   "items": [
+    {
+      "title": "说说：#2026-09-21 15:21",
+      "link": "https://blog.el9.cn/memos/d4ff5808.html",
+      "date": "2026-09-21T07:25:00.000Z",
+      "summary": "不知道从什么时候起运营商的短信基本上一天一条，比骚扰短信还勤😂{cat_gallery}{/cat_gallery}",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "No More Blind Dates; Dating Is Fine, Marriage Is Not",
       "link": "https://tianheg.co/posts/no-more-blind-dates-en/",
@@ -89,7 +101,7 @@
     {
       "title": "说说：#2026-09-17 13:42",
       "link": "https://blog.el9.cn/memos/d398c331.html",
-      "date": "2026-09-17T05:51:00.000Z",
+      "date": "2026-09-17T13:51:00.000Z",
       "summary": "又要到中秋国庆了，我现在对任何需要补班调休的节假日都很讨厌，身为基础劳动力的我祝提出者仙福永享早登极乐",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
@@ -955,21 +967,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "听风就是雨与先射箭后画靶",
-      "link": "https://www.imsun.org/archives/1795.html",
-      "date": "2026-07-20T10:29:17.000Z",
-      "summary": "俗话说 听风就是雨 ,用来比喻一听到一点风声或消息，就不加核实地信以为真，并轻率地做出反应或盲目附和。这个词在日常生活中常用于形容一个人缺乏独立判断能力，容易被谣言或未经证实的言论所左右。 今天就遇到了这类人. 有人在ns论坛发帖声称pdd有监听人手机屏幕的功能,用来精准投放广告,起因是x上的一篇贴文 https://x.com/giantcutie666/",
-      "source": "老孙博客",
-      "sourceEn": "Old Sun's Blog",
-      "sourceUrl": "https://www.imsun.org/",
-      "feedUrl": "https://www.imsun.org/feed/",
-      "sourceType": "friends",
-      "avatar": "https://img.imsun.org/avatar.jpg",
-      "description": "资深网民。",
-      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1009,13 +1006,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1023,11 +1013,32 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
