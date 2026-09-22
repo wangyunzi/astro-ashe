@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-22T11:16:51.076Z",
-  "expiresAt": "2026-09-22T17:16:51.076Z",
+  "updatedAt": "2026-09-22T16:39:05.699Z",
+  "expiresAt": "2026-09-22T22:39:05.699Z",
   "items": [
+    {
+      "title": "一份中秋月饼，一封感谢信：小小 API 一年后再推",
+      "link": "https://dusays.com/posts/889/",
+      "date": "2026-09-22T16:00:00.000Z",
+      "summary": "前几天回家，门口放着一个快递盒子，面单上写的是小小 API 站长寄来的中秋礼物。借着这份人情，把一年前写的那篇小小 API 推荐文拿出来再聊一次：一年过去了，又用了两个月，结论没变——依然值得推荐。 一盒意料之外的中秋礼 前几天回家，门口放着一个快递盒子，扫了一眼面单才发现——寄件人是小小 API 站长，备注栏写着”中秋快乐”四个字。 快递盒子拆开，里面是个",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-09-21 15:21",
       "link": "https://blog.el9.cn/memos/d4ff5808.html",
@@ -955,18 +967,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "Master of Puppets",
-      "link": "https://hutusi.com/flows/2026/08/02",
-      "date": "2026-08-02T00:00:00.000Z",
-      "summary": "读《资治通鉴·唐纪》，看到唐文宗李昂恭俭勤政，一心想振作有为，却在后期大权被宦官把持，最后无力回天、郁郁而终。临终前几个月，唐文宗问学士他可以与前代哪位君主相比，学士为了拍马屁，就说唐文宗是尧舜一类的君主。唐文宗苦笑说：我哪里比得上尧舜，我连周赧王、汉献帝都不如啊。“赧、献受制于强诸侯，今朕受制于家奴，以此言之，朕殆不...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1020,13 +1020,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "记忆一隅",
-      "sourceType": "friends",
-      "site": "https://vlieo.com/",
-      "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1034,18 +1027,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Inks",
@@ -1053,13 +1039,6 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
