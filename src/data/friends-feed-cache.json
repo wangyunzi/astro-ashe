@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T16:39:05.699Z",
-  "expiresAt": "2026-09-22T22:39:05.699Z",
+  "updatedAt": "2026-09-22T21:05:14.240Z",
+  "expiresAt": "2026-09-23T03:05:14.240Z",
   "items": [
     {
       "title": "一份中秋月饼，一封感谢信：小小 API 一年后再推",
@@ -985,13 +985,6 @@
       "message": "certificate has expired"
     },
     {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1032,13 +1025,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
