@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-22T04:13:30.234Z",
-  "expiresAt": "2026-09-22T10:13:30.234Z",
+  "updatedAt": "2026-09-22T11:16:51.076Z",
+  "expiresAt": "2026-09-22T17:16:51.076Z",
   "items": [
     {
       "title": "说说：#2026-09-21 15:21",
@@ -112,6 +112,18 @@
     },
     {
       "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
+      "link": "https://dusays.com/posts/888/",
+      "date": "2026-09-16T16:00:00.000Z",
+      "summary": "这两周杜老师做技术选型时接连被两件事扎到：MinIO 在 5 月悄悄砍掉了社区版的 Web Console，11 万行代码删除；Mattermost v11 给免费版加了”消息历史最多 1 万条”的限制——旧消息还躺在数据库里，但 UI 看不见了。摆在一起看，“屠龙的少年长出了龙鳞” 这事好像不再是个比喻。写篇文章，把这两年”开源变收费”的剧本翻出来聊聊。 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "开源的终点是收费：MinIO 砍掉 WebUI，Mattermost 限制聊天数量",
       "link": "https://dusays.com/archives/888/",
       "date": "2026-09-16T16:00:00.000Z",
       "summary": "这两周杜老师做技术选型时接连被两件事扎到：MinIO 在 5 月悄悄砍掉了社区版的 Web Console，11 万行代码删除；Mattermost v11 给免费版加了”消息历史最多 1 万条”的限制——旧消息还躺在数据库里，但 UI 看不见了。摆在一起看，“屠龙的少年长出了龙鳞” 这事好像不再是个比喻。写篇文章，把这两年”开源变收费”的剧本翻出来聊聊。 ",
@@ -147,6 +159,18 @@
       "avatar": "https://img.imsun.org/avatar.jpg",
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
+    {
+      "title": "Python 脚本自动化实战:让重复工作一键完成",
+      "link": "https://dusays.com/posts/887/",
+      "date": "2026-09-10T16:00:00.000Z",
+      "summary": "每天有大量重复工作占用我们的时间:批量重命名文件、爬取数据、发送邮件、操作 Excel、自动部署……学会用 Python 把这些重复任务自动化,每天节省 2-3 小时不是梦。本文通过 12 个真实案例,带你入门 Python 自动化。 一、Python 自动化的优势 易学易用:语法简洁,几天就能上手 生态丰富:50 万+ 第三方包,几乎所有场景都有现成工具 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -223,6 +247,18 @@
     },
     {
       "title": "Web 应用常见漏洞与防御:OWASP Top 10 实战讲解",
+      "link": "https://dusays.com/posts/886/",
+      "date": "2026-09-04T16:00:00.000Z",
+      "summary": "据 Akamai 报告,2026 年 Web 应用攻击同比增长 40%,其中注入攻击和身份认证失效占比最高。无论你是开发者还是运维,了解 Web 应用常见漏洞都是必修课。本文基于 OWASP Top 10(2021 版),通过真实案例 + 代码讲解,带你建立完整的 Web 安全防护意识。 一、什么是 OWASP OWASP(Open Worldwide Ap",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Web 应用常见漏洞与防御:OWASP Top 10 实战讲解",
       "link": "https://dusays.com/archives/886/",
       "date": "2026-09-04T16:00:00.000Z",
       "summary": "据 Akamai 报告,2026 年 Web 应用攻击同比增长 40%,其中注入攻击和身份认证失效占比最高。无论你是开发者还是运维,了解 Web 应用常见漏洞都是必修课。本文基于 OWASP Top 10(2021 版),通过真实案例 + 代码讲解,带你建立完整的 Web 安全防护意识。 一、什么是 OWASP OWASP(Open Worldwide Ap",
@@ -271,6 +307,18 @@
     },
     {
       "title": "Home Assistant 智能家居搭建:从零打造自动化生活",
+      "link": "https://dusays.com/posts/885/",
+      "date": "2026-08-29T16:00:00.000Z",
+      "summary": "早上起床,窗帘自动拉开、咖啡机开始煮咖啡;下班回家,空调提前打开、灯光自动亮起;晚上睡觉,所有电器自动关闭、安防系统启动。这不是科幻电影,这是 Home Assistant 能给你的真实生活。本文手把手教你搭建一套稳定、强大的智能家居系统。 一、Home Assistant 是什么 Home Assistant(简称 HA)是一个开源、本地优先的智能家居平台",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Home Assistant 智能家居搭建:从零打造自动化生活",
       "link": "https://dusays.com/archives/885/",
       "date": "2026-08-29T16:00:00.000Z",
       "summary": "早上起床,窗帘自动拉开、咖啡机开始煮咖啡;下班回家,空调提前打开、灯光自动亮起;晚上睡觉,所有电器自动关闭、安防系统启动。这不是科幻电影,这是 Home Assistant 能给你的真实生活。本文手把手教你搭建一套稳定、强大的智能家居系统。 一、Home Assistant 是什么 Home Assistant(简称 HA)是一个开源、本地优先的智能家居平台",
@@ -315,6 +363,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "从零理解 TCP/IP 协议栈:网络世界的通用语言",
+      "link": "https://dusays.com/posts/884/",
+      "date": "2026-08-23T16:00:00.000Z",
+      "summary": "每天我们都在和 TCP/IP 打交道:刷网页、看视频、聊微信。但当 HTTP 请求到达服务器时,数据是怎么一层层”剥洋葱”传递的? 本文从最基础的概念讲起,带你穿透协议栈,理解每一次网络通信背后的原理。 一、为什么需要协议 想象一个没有协议的世界:你写的数据,对方根本看不懂。就像两个人说话如果语言不通,只能鸡同鸭讲。 协议就是通信双方约定的规则: 数据格式 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -907,66 +967,6 @@
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
-    },
-    {
-      "title": "永乐宫美学：观妙入真",
-      "link": "https://jingxin18.cn/3411.html",
-      "date": "2026-07-31T18:22:34.000Z",
-      "summary": "我回身望向整座展厅，七百年的宫观历史拆成了一个展馆，一层层铺在这里。永乐宫自己还在芮城，但它的一截脊、一面墙、一块砖，已经走到了成都。剩下的，留待下次。",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "确定性的忧伤",
-      "link": "https://tianheg.co/posts/melancholy-of-certainty/",
-      "date": "2026-07-23T16:00:00.000Z",
-      "summary": "And God said, Let there be light: and there was light. 神说：\"要有光\"，就有了光。 ——圣经·创世记 早晨上班时，我见过无数次自然——起床后来到阳台看到鸟儿从低处滑翔、远处的林叶在晨光的照射下显得湿润晶莹、下楼抬头看向天空云彩镶着金边像一件首饰佩戴在天空的身上。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
-      "title": "288、大暑",
-      "link": "https://1900.live/288-da-shu/",
-      "date": "2026-07-23T07:55:00.000Z",
-      "summary": "滴水观音也裹起叶片避暑 蝉声已烈，热浪如熔，天地在沸腾与锻造之间，拉满了一张无形的烈火之弓。 太阳行至黄经120°，大暑——夏之第六序，亦为夏之绝唱。 骄阳似火，万物如煮。腐草在溽热中化萤，点亮暗夜的长空；土润生溽，大地的每一寸肌肤都在蒸腾着湿热的气息；大雨时行，雷暴如倒悬之海，砸向滚烫的路面，激起的白烟里带着水与火交锋的惨烈——这是一年中最极致的炎熟，极热",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "威斯康星五年沉浮录",
-      "link": "https://hongtaoh.com/cn/2026/07/22/5-years-phd/",
-      "date": "2026-07-22T21:19:44.000Z",
-      "summary": "无数次想过写这篇文章的场景。博客的题目是我好多年前就想好的。我也想过也许就不写了，一来有太多的隐私，二来也觉得自己的经历别人也不一定会有兴趣。最后决定还是写下来，算是给自己五年的博士生涯画一个句号。",
-      "source": "Hongtao",
-      "sourceUrl": "https://hongtaoh.com/",
-      "feedUrl": "https://hongtaoh.com/cn/blog/index.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "说说：#2026-07-22 15:17",
-      "link": "https://blog.el9.cn/memos/6a606ea3382b7.html",
-      "date": "2026-07-22T07:17:00.000Z",
-      "summary": "Blender_No7,最近很懒散，好久没做练习了,四个月之做了三个简单模型练习都快忘了怎么用blender了😄估计我又又又要放弃了吧{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -983,6 +983,13 @@
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
       "message": "certificate has expired"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1006,6 +1013,20 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "记忆一隅",
+      "sourceType": "friends",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1013,10 +1034,10 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1024,7 +1045,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Inks",
