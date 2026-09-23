@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-23T04:10:02.163Z",
-  "expiresAt": "2026-09-23T10:10:02.163Z",
+  "updatedAt": "2026-09-23T11:10:01.980Z",
+  "expiresAt": "2026-09-23T17:10:01.980Z",
   "items": [
+    {
+      "title": "Typecho时间偏移修复(1Panel实操版)",
+      "link": "https://blog.el9.cn/notes/Typecho-8hfix.html",
+      "date": "2026-09-23T05:28:00.000Z",
+      "summary": "踩坑实录：前阵子我把面板换成了1Panel，发现水友评论时发现，发布时间都会偏8小时。这问题困扰了我好几天就很难受😂后来我把typecho后台时区改成了GMT标准时间结果前台显示是正常的，但是无...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "一份中秋月饼，一封感谢信：小小 API 一年后再推",
       "link": "https://dusays.com/posts/889/",
@@ -279,6 +291,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "风记得的音乐：以三首钢琴曲告别这个夏天吧",
+      "link": "https://www.thyuu.com/82051/",
+      "date": "2026-09-03T02:06:10.000Z",
+      "summary": "祝福你夏安秋绥",
+      "source": "风记星辰",
+      "sourceUrl": "https://www.thyuu.com",
+      "feedUrl": "https://www.thyuu.com/feed",
+      "sourceType": "friends",
+      "description": "分享生活 · 留下感动。",
       "category": "友情链接"
     },
     {
@@ -940,33 +964,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "又一款Typecho主题 Nebula",
-      "link": "https://www.imsun.org/archives/1797.html",
-      "date": "2026-08-04T10:49:00.000Z",
-      "summary": "Nebula Nebula 是一款面向 Typecho 的响应式博客主题，采用深空、星云与极光风格，适用于个人博客、技术博客和长期内容归档。 功能特性 响应式文章卡片，适配桌面、平板和移动端 深色与浅色模式切换，并记忆访客偏好 Canvas 动态星空背景与轻量滚动动画 文章自定义封面、正文首图回退和渐变占位封面 文章、独立页面、搜索、分类、标签和作者归档 时",
-      "source": "老孙博客",
-      "sourceEn": "Old Sun's Blog",
-      "sourceUrl": "https://www.imsun.org/",
-      "feedUrl": "https://www.imsun.org/feed/",
-      "sourceType": "friends",
-      "avatar": "https://img.imsun.org/avatar.jpg",
-      "description": "资深网民。",
-      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
-      "category": "友情链接"
-    },
-    {
-      "title": "滑坡",
-      "link": "https://guanqr.com/life/ideas/landslide/",
-      "date": "2026-08-02T04:18:00.000Z",
-      "summary": "端午過後，公司的一個新規定打亂了我原本趨近穩定的生活節奏——每個月加班至少 16 個小時。起初，公司在郵件裡說的是，現在智駕產品迭代的速度很快，以前的產品設計節奏已經無法滿足客戶的需求，所以需要投入更多時間來奮鬥，提倡每個月加班至少 16 小時。但在後來的管理層會議上，領導說了，這並非是「提倡」，而是「必須」。 我們的加班時長是這樣計算的。下班的打卡時間減去",
-      "source": "荷戟独彷徨",
-      "sourceUrl": "https://guanqr.com/",
-      "feedUrl": "https://guanqr.com/atom.xml",
-      "sourceType": "friends",
-      "description": "爱光学，爱生活，爱创造。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -985,17 +982,17 @@
       "message": "certificate has expired"
     },
     {
-      "source": "风记星辰",
+      "source": "Jdeal",
       "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Echo's blog",
+      "source": "记忆一隅",
       "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
+      "site": "https://vlieo.com/",
+      "feed": "https://vlieo.com/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1011,13 +1008,6 @@
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
       "message": "Status code 410"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
