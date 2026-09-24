@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-23T21:19:22.870Z",
-  "expiresAt": "2026-09-24T03:19:22.870Z",
+  "updatedAt": "2026-09-24T04:05:19.409Z",
+  "expiresAt": "2026-09-24T10:05:19.409Z",
   "items": [
     {
       "title": "Typecho时间偏移修复(1Panel实操版)",
@@ -15,10 +15,10 @@
       "category": "友情链接"
     },
     {
-      "title": "一份中秋月饼，一封感谢信：小小 API 一年后再推",
+      "title": "一份中秋礼盒",
       "link": "https://dusays.com/posts/889/",
       "date": "2026-09-22T16:00:00.000Z",
-      "summary": "前几天回家，门口放着一个快递盒子，面单上写的是小小 API 站长寄来的中秋礼物。借着这份人情，把一年前写的那篇小小 API 推荐文拿出来再聊一次：一年过去了，又用了两个月，结论没变——依然值得推荐。 一盒意料之外的中秋礼 前几天回家，门口放着一个快递盒子，扫了一眼面单才发现——寄件人是小小 API 站长，备注栏写着”中秋快乐”四个字。 快递盒子拆开，里面是个",
+      "summary": "晚上回家，门口放着一个快递盒子——面单上没写是谁寄来的，只是个普通的纸箱。拆开才知道是礼盒，我猜是小小 API 站长寄来的中秋礼物。 门口那个纸箱 那天我回家，门口放着一个快递盒子——面单上没写是谁寄的，所以我拆开之前还以为就是个普通快递。外箱上能看到”小心开拆 勿用刀划”、”稻香村集团旗下品牌”这样的字样。 之后问了站长，才确认这是小小 API 那边寄来的",
       "source": "杜老师说",
       "sourceUrl": "https://dusays.com",
       "feedUrl": "https://dusays.com/atom.xml",
@@ -996,6 +996,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Leonus",
       "sourceType": "friends",
       "site": "https://blog.leonus.cn",
@@ -1007,7 +1014,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
