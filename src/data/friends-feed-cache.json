@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-24T21:21:01.583Z",
-  "expiresAt": "2026-09-25T03:21:01.583Z",
+  "updatedAt": "2026-09-25T04:19:07.979Z",
+  "expiresAt": "2026-09-25T10:19:07.979Z",
   "items": [
     {
       "title": "Typecho时间偏移修复(1Panel实操版)",
@@ -982,24 +982,10 @@
       "message": "certificate has expired"
     },
     {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1014,7 +1000,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     }
   ]
 }
