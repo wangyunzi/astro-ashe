@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-25T21:20:14.188Z",
-  "expiresAt": "2026-09-26T03:20:14.188Z",
+  "updatedAt": "2026-09-26T04:23:27.619Z",
+  "expiresAt": "2026-09-26T10:23:27.619Z",
   "items": [
     {
       "title": "Windows镜像合集",
@@ -993,20 +993,6 @@
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Echo's blog",
-      "sourceType": "friends",
-      "site": "https://www.liveout.cn/",
-      "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
