@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-09-28T13:25:07.182Z",
-  "expiresAt": "2026-09-28T19:25:07.182Z",
+  "updatedAt": "2026-09-28T23:05:15.840Z",
+  "expiresAt": "2026-09-29T05:05:15.840Z",
   "items": [
+    {
+      "title": "我家猫叫西瓜",
+      "link": "https://dusays.com/posts/890/",
+      "date": "2026-09-28T16:00:00.000Z",
+      "summary": "我家那只橘白猫叫「西瓜」。从 Looki 这两年的 DIARY 里我筛出 5 张他直接入镜的图。算是给西瓜的「日常 5 张」。 她抱着橘猫站在粉色窗帘前 Looki 那天的 DIARY 只留了一句： 她抱着橘猫站在粉色窗帘前。 「她」是爱人，「橘猫」是西瓜。 我家那只猫一旦被抱超过 30 秒就要挣扎——唯独爱人抱他能坚持一分钟以上。我没问过原因，大概是角度：",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Wind and Limits",
+      "link": "https://tianheg.co/posts/sport-wind-limit-en/",
+      "date": "2026-09-27T12:30:00.000Z",
+      "summary": "I worked overtime today, and went for a run in the evening. According to Zepp's plan, today's run was 11km. The last time I ran more than 10km was back in August. Out the door, wal",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "【运动记】风与极限",
+      "link": "https://tianheg.co/posts/sport-wind-limit/",
+      "date": "2026-09-27T12:13:34.000Z",
+      "summary": "今天加班，晚上去跑步了，按照Zepp的计划，今天要跑11km。上次跑超过10km，还是八月的事情。",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "Windows镜像合集",
       "link": "https://blog.el9.cn/appgo/Windows-iso.html",
@@ -928,42 +964,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "Topaz Gigapixel 1.3.3 更新：JXL 支持、崩溃修复、NeuroStream 持续进化",
-      "link": "https://www.shephe.com/post/topaz-gigapixel-133-update/",
-      "date": "2026-08-06T12:42:00.000Z",
-      "summary": "Topaz Gigapixel 推送 1.3.3，修复了导出文件夹丢失、随机崩溃和裁剪崩溃等 bug，Mac 安装器模型验证卡死问题也得到解决。1.3.2 还新增了 JXL 文件支持，让这款 AI 放大工具在 Adobe 收购后持续进化。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "Luminar Neo 1.28.0 更新解读：界面大改、性能飙升、还悄悄改了名",
-      "link": "https://www.shephe.com/post/luminar-neo-128-update/",
-      "date": "2026-08-06T12:18:17.000Z",
-      "summary": "Skylum 在 2026 年 8 月推送了 Luminar Neo 1.28.0，这是近年来最重磅的一次界面更新——Catalog 和 Edit 合二为一，导出速度提升 27%，预设预览快 3.8 倍。更重要的是，Skylum 开始去掉\"Neo\"这个名字，为品牌统一铺路。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "开发者必备工具集:这 30 个工具让我的效率提升了 300%",
-      "link": "https://dusays.com/archives/881/",
-      "date": "2026-08-05T16:00:00.000Z",
-      "summary": "工欲善其事,必先利其器。这句话在程序员身上体现得淋漓尽致:选对工具,一天能干完别人三天的活。本文整理了 30 个我日常使用、亲测好用的开发者工具,涵盖代码编辑、终端增强、API 调试、效率提升等方方面面。无论你是前端、后端还是运维,都能从中找到适合自己的工具。 一、代码编辑器与 IDE 1. Visual Studio Code(免费) code.visua",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -973,13 +973,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -1035,14 +1028,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     }
   ]
 }
