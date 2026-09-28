@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-27T21:08:47.513Z",
-  "expiresAt": "2026-09-28T03:08:47.513Z",
+  "updatedAt": "2026-09-28T04:42:21.395Z",
+  "expiresAt": "2026-09-28T10:42:21.395Z",
   "items": [
     {
       "title": "Windows镜像合集",
@@ -25,6 +25,18 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
+    },
+    {
+      "title": "291、秋分",
+      "link": "https://1900.live/290-bai-lu-2/",
+      "date": "2026-09-23T03:52:00.000Z",
+      "summary": "null 秋分至，昼夜在这一日重新分庭而立，暑气退到季节的背面，秋意则在晨昏交替之间，显出清晰而从容的轮廓。田野里的风不再带着盛夏的急促，穿过渐黄的稻穗与渐疏的枝叶，携来一阵阵成熟的气息——秋分，便是在这样的平衡里到来。 太阳行至黄经180°，秋分——一年之中，昼夜再次等长的时节。太阳直射赤道，南北半球所受的光照趋于均衡；此后，北半球的白昼渐短，夜晚渐长，天",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "一份中秋礼盒",
@@ -952,18 +964,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "Lightroom Classic 15.5 更新：AI 蒙版羽化、裁剪遮罩透明度、渲染 DNG 来了",
-      "link": "https://www.shephe.com/post/lightroom-classic-15-5-update/",
-      "date": "2026-08-05T15:06:13.000Z",
-      "summary": "Lightroom Classic 15.5 新增 AI 蒙版羽化与边缘控制、裁剪遮罩透明度调节、渲染为 DNG 三大功能，同步修复多项社区反馈问题，附完整更新解读与升级建议。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -973,13 +973,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -1029,6 +1022,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
