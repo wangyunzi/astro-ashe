@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-29T05:09:06.277Z",
-  "expiresAt": "2026-09-29T11:09:06.277Z",
+  "updatedAt": "2026-09-29T12:29:15.446Z",
+  "expiresAt": "2026-09-29T18:29:15.446Z",
   "items": [
     {
       "title": "我家猫叫西瓜",
@@ -1021,14 +1021,21 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
+      "message": "Status code 410"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "LMS",
+      "source": "Lhasa",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
