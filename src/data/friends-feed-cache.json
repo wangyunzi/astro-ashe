@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-01T12:48:47.523Z",
-  "expiresAt": "2026-10-01T18:48:47.523Z",
+  "updatedAt": "2026-10-01T22:30:46.707Z",
+  "expiresAt": "2026-10-02T04:30:46.707Z",
   "items": [
+    {
+      "title": "猫",
+      "link": "https://jingxin18.cn/3579.html",
+      "date": "2026-10-01T17:15:54.000Z",
+      "summary": "李来福一岁了！一大波图片来袭。",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "我家猫叫西瓜",
       "link": "https://dusays.com/posts/890/",
@@ -952,18 +964,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "重庆英仙座流星雨 2026 观测指南：近郊当天往返，还是深山露营追星？",
-      "link": "https://www.shephe.com/post/chongqing-perseid-meteor-shower-2026-guide/",
-      "date": "2026-08-07T12:48:45.000Z",
-      "summary": "2026年英仙座流星雨峰值正值新月，2045年前最后一次无月光干扰——重庆主城周边10个实地推荐观星点位，从巴南1小时到城口4.5小时，附拍摄器材设置与后期合成指南。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -973,6 +973,13 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -986,7 +993,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1010,13 +1017,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1031,25 +1031,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1057,20 +1043,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
