@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-30T22:03:23.251Z",
-  "expiresAt": "2026-10-01T04:03:23.251Z",
+  "updatedAt": "2026-10-01T05:09:41.934Z",
+  "expiresAt": "2026-10-01T11:09:41.934Z",
   "items": [
     {
       "title": "我家猫叫西瓜",
@@ -975,13 +975,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1010,10 +1003,10 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
+      "source": "Jdeal",
       "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
