@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-01T22:30:46.707Z",
-  "expiresAt": "2026-10-02T04:30:46.707Z",
+  "updatedAt": "2026-10-02T04:58:31.187Z",
+  "expiresAt": "2026-10-02T10:58:31.187Z",
   "items": [
     {
       "title": "猫",
@@ -975,13 +975,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1017,6 +1010,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1035,7 +1035,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
