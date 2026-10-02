@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T04:58:31.187Z",
-  "expiresAt": "2026-10-02T10:58:31.187Z",
+  "updatedAt": "2026-10-02T12:12:16.142Z",
+  "expiresAt": "2026-10-02T18:12:16.142Z",
   "items": [
     {
       "title": "猫",
@@ -1035,7 +1035,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
