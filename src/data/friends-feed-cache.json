@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-02T12:12:16.142Z",
-  "expiresAt": "2026-10-02T18:12:16.142Z",
+  "updatedAt": "2026-10-02T22:00:08.890Z",
+  "expiresAt": "2026-10-03T04:00:08.890Z",
   "items": [
     {
       "title": "猫",
@@ -975,6 +975,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -987,6 +994,13 @@
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
       "message": "certificate has expired"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1043,6 +1057,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
