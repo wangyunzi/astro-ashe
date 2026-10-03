@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T11:23:18.351Z",
-  "expiresAt": "2026-10-03T17:23:18.351Z",
+  "updatedAt": "2026-10-03T16:00:09.734Z",
+  "expiresAt": "2026-10-03T22:00:09.734Z",
   "items": [
     {
       "title": "猫",
@@ -968,11 +968,25 @@
   ],
   "errors": [
     {
+      "source": "老孙博客",
+      "sourceType": "friends",
+      "site": "https://www.imsun.org/",
+      "feed": "https://www.imsun.org/feed/",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "是非题",
       "sourceType": "friends",
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -987,6 +1001,13 @@
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
       "message": "certificate has expired"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1035,7 +1056,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1045,11 +1066,18 @@
       "message": "Status code 404"
     },
     {
-      "source": "LMS",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
