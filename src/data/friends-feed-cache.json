@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-03T04:42:02.457Z",
-  "expiresAt": "2026-10-03T10:42:02.457Z",
+  "updatedAt": "2026-10-03T11:23:18.351Z",
+  "expiresAt": "2026-10-03T17:23:18.351Z",
   "items": [
     {
       "title": "猫",
@@ -986,7 +986,7 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "certificate has expired"
     },
     {
       "source": "风记星辰",
@@ -1045,11 +1045,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
