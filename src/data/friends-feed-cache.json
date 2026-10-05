@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T14:08:14.876Z",
-  "expiresAt": "2026-10-05T20:08:14.876Z",
+  "updatedAt": "2026-10-05T23:54:23.516Z",
+  "expiresAt": "2026-10-06T05:54:23.516Z",
   "items": [
     {
       "title": "论坛 SEO 实战：从零散帖子到权重跃升的 5 个动作",
@@ -975,25 +975,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1017,13 +1003,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1042,7 +1021,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1052,18 +1031,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
