@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-04T21:05:47.704Z",
-  "expiresAt": "2026-10-05T03:05:47.704Z",
+  "updatedAt": "2026-10-05T04:57:25.000Z",
+  "expiresAt": "2026-10-05T10:57:25.000Z",
   "items": [
+    {
+      "title": "论坛 SEO 实战：从零散帖子到权重跃升的 5 个动作",
+      "link": "https://dusays.com/posts/891/",
+      "date": "2026-10-04T16:00:00.000Z",
+      "summary": "小伙伴最近在做论坛 SEO，来找我聊过一次。论坛这种产品不同于博客——博客可以靠一篇文章把一个关键词顶到首页，论坛必须靠主题集群才能形成权重。这次就把思路整理出来，给同样处境的朋友当参考。 聊下来朋友的论坛大概是这样：仓库里攒了几百到几千量级的帖子，看着挺多，但实际上一查收录——一半都没进索引，剩下进索引的长尾流量也散得像沙子。一篇帖子一个关键词，标题互不相",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "猫",
       "link": "https://jingxin18.cn/3579.html",
@@ -952,18 +964,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "摄影新手拍不锐？照片清晰度完全自查清单 📸",
-      "link": "https://www.shephe.com/post/sharp-photos-beginners-checklist/",
-      "date": "2026-08-07T13:08:21.000Z",
-      "summary": "照片模糊这件事，说复杂很复杂——什么镜头跑焦、手抖、快门不够、主体在动、对焦没对上，排除起来好像得一个个试。但 […]",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -973,13 +973,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -993,13 +986,34 @@
       "sourceType": "friends",
       "site": "https://lisenhui.cn",
       "feed": "https://lisenhui.cn/rss.xml",
-      "message": "certificate has expired"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
