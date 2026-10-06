@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-06T13:05:32.485Z",
-  "expiresAt": "2026-10-06T19:05:32.485Z",
+  "updatedAt": "2026-10-06T22:31:53.699Z",
+  "expiresAt": "2026-10-07T04:31:53.699Z",
   "items": [
     {
       "title": "论坛 SEO 实战：从零散帖子到权重跃升的 5 个动作",
@@ -982,13 +982,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1010,13 +1003,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "一蓑烟雨的博客",
-      "sourceType": "friends",
-      "site": "https://easyf12.top/",
-      "feed": "https://easyf12.top/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "老卢",
       "sourceType": "friends",
       "site": "https://blog.el9.cn/",
@@ -1028,7 +1014,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1038,32 +1024,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Dorad",
-      "sourceType": "friends",
-      "site": "https://blog.cuger.cn",
-      "feed": "https://blog.cuger.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1071,20 +1036,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
