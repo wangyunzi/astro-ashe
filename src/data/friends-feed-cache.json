@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-10-08T05:26:14.931Z",
-  "expiresAt": "2026-10-08T11:26:14.931Z",
+  "updatedAt": "2026-10-08T13:07:51.794Z",
+  "expiresAt": "2026-10-08T19:07:51.794Z",
   "items": [
+    {
+      "title": "评论抽奖测试",
+      "link": "https://www.imsun.org/archives/1799.html",
+      "date": "2026-10-08T11:35:48.000Z",
+      "summary": "由于这个月开了4个GPT的team和2个plus感觉额度用不完 想跟朋友们一起分享 于是让codex写了一个评论抽奖的插件 顺便测试一下GPT 6.1 sol到底是不是弱智 在评论中先抽取一名幸运的朋友分享我自建的sub2API的账号邀请码 初始额度500刀 看使用情况再决定是否增加额度 [comment-lottery]",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "292、寒露",
       "link": "https://1900.live/292-han-lu/",
@@ -952,18 +967,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "Jeff Dean 离开 Google，以及关于他的传说",
-      "link": "https://hutusi.com/flows/2026/08/08",
-      "date": "2026-08-08T00:00:00.000Z",
-      "summary": "几日前，Google DeepMind 人事震动，哈萨比斯卸任 CEO，而更重磅的新闻是： [[Jeff Dean]] 从 Google 离职了。 Jeff Dean 是 Google 的元老之一，他与 1999 年作为第 20 位员工加入 Google, 在效力了 27 年之后离职并创立 AI 初创公司 Discov...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -982,10 +985,38 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
       "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Echo's blog",
+      "sourceType": "friends",
+      "site": "https://www.liveout.cn/",
+      "feed": "https://www.liveout.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1003,11 +1034,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
