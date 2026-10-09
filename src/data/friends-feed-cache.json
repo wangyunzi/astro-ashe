@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-09T12:54:03.626Z",
-  "expiresAt": "2026-10-09T18:54:03.626Z",
+  "updatedAt": "2026-10-09T22:27:53.467Z",
+  "expiresAt": "2026-10-10T04:27:53.467Z",
   "items": [
     {
       "title": "评论抽奖测试",
@@ -39,6 +39,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "【运动记】骑行60km",
+      "link": "https://tianheg.co/posts/sport-60km/",
+      "date": "2026-10-01T19:36:09.000Z",
+      "summary": "1号那天凌晨一点睡的，八点多醒来。整个白天都在电脑前。干什么呢？用AI写项目。主要是两个：forgejo-sidetree、org-web。第一个是一个浏览器插件，给Forgejo添加文件树的，我用了几个月感觉不错，心血来潮又完善了一下就放到Reddit上推广。第二个项目本来已经死掉被归档了，最近觉得还有点利用价值就又重启了。起因是我不想继续用Orgzly写",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -955,18 +967,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-08-08 11:51",
-      "link": "https://cis.el9.cn/memos/2ca37008.html",
-      "date": "2026-08-08T03:50:00.000Z",
-      "summary": "上午出去走走结果发现一家很便宜的盒饭😂是真没想到{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -978,25 +978,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1041,13 +1027,6 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1060,20 +1039,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
