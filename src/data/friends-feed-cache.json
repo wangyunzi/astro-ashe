@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-09T05:29:54.946Z",
-  "expiresAt": "2026-10-09T11:29:54.946Z",
+  "updatedAt": "2026-10-09T12:54:03.626Z",
+  "expiresAt": "2026-10-09T18:54:03.626Z",
   "items": [
     {
       "title": "评论抽奖测试",
       "link": "https://www.imsun.org/archives/1799.html",
-      "date": "2026-10-08T11:35:48.000Z",
+      "date": "2026-10-08T11:35:00.000Z",
       "summary": "由于这个月开了4个GPT的team和2个plus感觉额度用不完 想跟朋友们一起分享 于是让codex写了一个评论抽奖的插件 顺便测试一下GPT 6.1 sol到底是不是弱智 在评论中先抽取一名幸运的朋友分享我自建的sub2API的账号邀请码 初始额度500刀 看使用情况再决定是否增加额度 [comment-lottery]",
       "source": "老孙博客",
       "sourceEn": "Old Sun's Blog",
@@ -978,6 +978,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1034,10 +1041,10 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1045,7 +1052,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1067,13 +1074,6 @@
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
       "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
