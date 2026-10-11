@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T05:04:26.065Z",
-  "expiresAt": "2026-10-11T11:04:26.065Z",
+  "updatedAt": "2026-10-11T12:26:29.303Z",
+  "expiresAt": "2026-10-11T18:26:29.303Z",
   "items": [
     {
       "title": "Redis vs Valkey：性能实测对比 + 无缝迁移指南",
@@ -996,35 +996,14 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "一蓑烟雨的博客",
-      "sourceType": "friends",
-      "site": "https://easyf12.top/",
-      "feed": "https://easyf12.top/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1034,81 +1013,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Dorad",
-      "sourceType": "friends",
-      "site": "https://blog.cuger.cn",
-      "feed": "https://blog.cuger.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "领先恐",
-      "sourceType": "extraFeeds",
-      "site": "https://lingxiankong.github.io/",
-      "feed": "https://lingxiankong.github.io/pages/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "iMiku",
-      "sourceType": "extraFeeds",
-      "site": "https://imiku.me/",
-      "feed": "https://imiku.me/index.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Eallion",
-      "sourceType": "extraFeeds",
-      "site": "https://www.eallion.com/",
-      "feed": "https://www.eallion.com/index.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
       "sourceType": "extraFeeds",
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     }
   ]
 }
