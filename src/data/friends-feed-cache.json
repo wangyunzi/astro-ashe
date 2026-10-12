@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-12T05:18:24.255Z",
-  "expiresAt": "2026-10-12T11:18:24.255Z",
+  "updatedAt": "2026-10-12T14:56:55.769Z",
+  "expiresAt": "2026-10-12T20:56:55.769Z",
   "items": [
     {
       "title": "Redis vs Valkey：性能实测对比 + 无缝迁移指南",
@@ -985,13 +985,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1010,13 +1003,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1046,6 +1032,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
