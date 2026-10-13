@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-10-13T00:24:17.721Z",
-  "expiresAt": "2026-10-13T06:24:17.721Z",
+  "updatedAt": "2026-10-13T13:54:04.677Z",
+  "expiresAt": "2026-10-13T19:54:04.677Z",
   "items": [
+    {
+      "title": "Typecho评论抽奖插件",
+      "link": "https://www.imsun.org/archives/1800.html",
+      "date": "2026-10-13T07:26:00.000Z",
+      "summary": "插件说明 在同一篇文章中创建多个限时抽奖活动，支持一轮结束后继续新增活动，也支持多个活动同时进行。每个活动截止后独立从本文符合其时间范围的顶层评论者中随机抽取 1 人，公示中奖昵称；无合格参与者则流局。支持实体和虚拟奖品：实体奖品邮件邀请中奖者填写收货地址，虚拟奖品将预设的兑换码、下载地址或说明直接发送到中奖邮箱。 安装与使用 下载仓库，将文件夹命名为 Co",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
       "link": "https://dusays.com/posts/893/",
@@ -955,18 +970,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "必应每日一图合集：身份认同的建筑表达、迈向无限、指引船只穿越历史… | 2026 第 32 周",
-      "link": "https://www.shephe.com/post/bing-wallpaper-collection-2026-week-32/",
-      "date": "2026-08-09T13:19:17.000Z",
-      "summary": "必应每日一图第 32 周合集（2026.08.03 ~ 2026.08.09），共 7 张精选壁纸。本周带你探 […]",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -983,6 +986,13 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1027,11 +1037,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1039,6 +1056,20 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
