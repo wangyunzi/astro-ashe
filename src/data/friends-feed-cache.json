@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-12T14:56:55.769Z",
-  "expiresAt": "2026-10-12T20:56:55.769Z",
+  "updatedAt": "2026-10-13T00:24:17.721Z",
+  "expiresAt": "2026-10-13T06:24:17.721Z",
   "items": [
+    {
+      "title": "说说广场 API 0.31.0 版的调用代码说明",
+      "link": "https://dusays.com/posts/893/",
+      "date": "2026-10-12T16:00:00.000Z",
+      "summary": "前段时间把说说平台从 0.29.x 升到了 Memos 0.31.0，接口几乎全换了一遍。旧代码直接跑不通，最典型的就是列表接口的 parent 参数没了、附件字段从 resources 改名成 attachments。这篇就把升级后实际能用的调用方式逐个拆开讲，示例全部对着线上实例跑过，附接口路径、字段说明、返回结构和错误码，文末还有这次踩到的两个坑——其",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "Redis vs Valkey：性能实测对比 + 无缝迁移指南",
       "link": "https://dusays.com/posts/892/",
@@ -955,18 +967,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "荐《欢迎来龙餐馆》",
-      "link": "https://tianheg.co/posts/dragon-restaurant/",
-      "date": "2026-08-08T16:00:00.000Z",
-      "summary": "刚看完电影不久，那些场景还留在脑海。电影途中我无声啜泣，泪珠顺着脸颊流下，这巨大的情感冲击让我的头开始痛了起来。我有些后悔此时看了这部电影，今天本来计划好好整理一下我的相册，我基于它做了一个私人相册站，有些地方需要改，在 Hermes agent 的帮助下慢慢推进。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1006,6 +1006,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1032,13 +1039,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
