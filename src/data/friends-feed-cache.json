@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-13T22:27:47.319Z",
-  "expiresAt": "2026-10-14T04:27:47.319Z",
+  "updatedAt": "2026-10-14T04:18:52.476Z",
+  "expiresAt": "2026-10-14T10:18:52.476Z",
   "items": [
+    {
+      "title": "说说广场 API 0.31.0 版的调用代码说明",
+      "link": "https://dusays.com/posts/893/",
+      "date": "2026-10-13T16:00:00.000Z",
+      "summary": "前段时间把说说平台从 0.29.x 升到了 Memos 0.31.0，接口几乎全换了一遍。旧代码直接跑不通，最典型的就是列表接口的 parent 参数没了、附件字段从 resources 改名成 attachments。这篇就把升级后实际能用的调用方式逐个拆开讲，示例全部对着线上实例跑过，附接口路径、字段说明、返回结构和错误码，文末还有这次踩到的两个坑——其",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "Typecho评论抽奖插件",
       "link": "https://www.imsun.org/archives/1800.html",
@@ -15,18 +27,6 @@
       "avatar": "https://img.imsun.org/avatar.jpg",
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
-      "category": "友情链接"
-    },
-    {
-      "title": "说说广场 API 0.31.0 版的调用代码说明",
-      "link": "https://dusays.com/posts/893/",
-      "date": "2026-10-12T16:00:00.000Z",
-      "summary": "前段时间把说说平台从 0.29.x 升到了 Memos 0.31.0，接口几乎全换了一遍。旧代码直接跑不通，最典型的就是列表接口的 parent 参数没了、附件字段从 resources 改名成 attachments。这篇就把升级后实际能用的调用方式逐个拆开讲，示例全部对着线上实例跑过，附接口路径、字段说明、返回结构和错误码，文末还有这次踩到的两个坑——其",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -988,6 +988,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1042,6 +1049,13 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
