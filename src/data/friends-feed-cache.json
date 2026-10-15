@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T21:27:07.614Z",
-  "expiresAt": "2026-10-15T03:27:07.614Z",
+  "updatedAt": "2026-10-15T04:01:02.412Z",
+  "expiresAt": "2026-10-15T10:01:02.412Z",
   "items": [
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
@@ -988,6 +988,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -999,7 +1006,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "老卢",
@@ -1027,7 +1034,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1035,13 +1042,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
