@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-10-15T11:09:08.495Z",
-  "expiresAt": "2026-10-15T17:09:08.495Z",
+  "updatedAt": "2026-10-15T16:40:13.740Z",
+  "expiresAt": "2026-10-15T22:40:13.740Z",
   "items": [
+    {
+      "title": "人生切割",
+      "link": "https://tianheg.co/posts/life-severance/",
+      "date": "2026-10-15T14:24:47.000Z",
+      "summary": "下班，洗澡，坐到电脑前 回想今天，我疲惫的一天 早八晚十，这是我的工作时段 晚十早八，这是我的生活时段",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "Ubuntu 配置多宽带",
+      "link": "https://www.eallion.com/ubuntu-dual-wan/",
+      "date": "2026-10-15T12:18:44.000Z",
+      "summary": "本文介绍在 Linux 多宽带接入场景下，利用 NetworkManager 配置路由跃点（Metric）与禁用 DHCP 冗余默认路由，实现主备线路自动故障切换。通过公网 204 探针检测链路状态，确保流量平稳转移，并提供了出口验证与断网模拟测试方法。",
+      "source": "Eallion",
+      "sourceUrl": "https://www.eallion.com/",
+      "feedUrl": "https://www.eallion.com/index.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
       "link": "https://dusays.com/posts/893/",
@@ -105,10 +129,10 @@
       "category": "友情链接"
     },
     {
-      "title": "Ubuntu 安装 Fcitx5 中州韵 Rime 及优化",
+      "title": "Ubuntu 安装 Fcitx5 中州韵 Rime",
       "link": "https://www.eallion.com/ubuntu-fcitx5-rime/",
       "date": "2026-10-01T02:01:00.000Z",
-      "summary": "该指南详细记录了在 Ubuntu 桌面环境中安装、调优 Fcitx5-Rime 五笔拼音输入法并实现工程化备份与同步的完整流程。",
+      "summary": "本文为多年之前的草稿笔记，经过 AI 润色发布。详细介绍了在 Ubuntu 上安装 Fcitx5 Rime（中州韵）输入法并深度调优的完整流程，涵盖一键脚本部署、方案锁定、五笔拼音优化、终端默认英文模式、全局状态记忆、自定义符号表和短语词库，以及多设备备份规范等，旨在解决默认安装的常见问题并提供工程化配置方案。",
       "source": "Eallion",
       "sourceUrl": "https://www.eallion.com/",
       "feedUrl": "https://www.eallion.com/index.xml",
@@ -946,30 +970,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "Camera Raw 18.5 AI 祛痘教程：自动识别痘痘瑕疵，保留皮肤纹理",
-      "link": "https://www.shephe.com/tutorial/acr-blemish/",
-      "date": "2026-08-10T06:53:51.000Z",
-      "summary": "ACR 18.5 AI 祛痘功能实测教程：三步清除面部瑕疵，Amount/Fade 滑块精细控制，Refine 手动修复，两个实测案例告诉你它到底能祛到什么程度。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "Premiere Pro 26.3.2 更新解读：修复 MKV 导入崩溃",
-      "link": "https://www.shephe.com/post/premiere-pro-2632-update/",
-      "date": "2026-08-10T00:44:27.000Z",
-      "summary": "Adobe Premiere Pro 发布 26.3.2.2 补丁，修复导入 MKV 文件崩溃、手机视频方向异常等问题。26.3 系列新功能回顾与升级建议，附 PR 中文优化版下载。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -979,13 +979,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -1009,13 +1002,6 @@
       "message": "Status code 503"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1034,7 +1020,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
