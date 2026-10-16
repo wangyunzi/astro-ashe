@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-15T21:08:56.683Z",
-  "expiresAt": "2026-10-16T03:08:56.683Z",
+  "updatedAt": "2026-10-16T03:58:01.595Z",
+  "expiresAt": "2026-10-16T09:58:01.595Z",
   "items": [
     {
       "title": "人生切割",
@@ -1009,6 +1009,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1042,6 +1049,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
