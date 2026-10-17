@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T10:23:58.086Z",
-  "expiresAt": "2026-10-17T16:23:58.086Z",
+  "updatedAt": "2026-10-17T15:17:38.844Z",
+  "expiresAt": "2026-10-17T21:17:38.844Z",
   "items": [
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
@@ -988,6 +988,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -999,7 +1006,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
@@ -1020,7 +1027,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
@@ -1030,11 +1037,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1044,11 +1058,18 @@
       "message": "Status code 404"
     },
     {
-      "source": "Lhasa",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
