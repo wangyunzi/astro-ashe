@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T03:48:04.562Z",
-  "expiresAt": "2026-10-17T09:48:04.562Z",
+  "updatedAt": "2026-10-17T10:23:58.086Z",
+  "expiresAt": "2026-10-17T16:23:58.086Z",
   "items": [
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
@@ -974,13 +974,6 @@
   ],
   "errors": [
     {
-      "source": "老孙博客",
-      "sourceType": "friends",
-      "site": "https://www.imsun.org/",
-      "feed": "https://www.imsun.org/feed/",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "是非题",
       "sourceType": "friends",
       "site": "https://www.shifeiti.com",
@@ -1016,6 +1009,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1034,7 +1034,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1042,6 +1042,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
