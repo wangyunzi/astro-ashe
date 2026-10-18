@@ -1,7 +1,22 @@
 {
-  "updatedAt": "2026-10-18T03:54:31.633Z",
-  "expiresAt": "2026-10-18T09:54:31.633Z",
+  "updatedAt": "2026-10-18T10:42:13.682Z",
+  "expiresAt": "2026-10-18T16:42:13.682Z",
   "items": [
+    {
+      "title": "贵有贵的道理,何况还不算贵",
+      "link": "https://www.imsun.org/archives/1801.html",
+      "date": "2026-10-18T08:31:11.000Z",
+      "summary": "昨天vipcloud停机维护,导致了 博客无法访问,Sub2api也无法访问,AI也使用不了. 所以连夜把博客和其它项目迁移回腾讯云的日本轻量服务器. 目前线路看上去还可以,就是不知道晚高峰的情况如何了. 大厂还是可靠很多的,小厂的机子真就是玩具 这是MJJ的\"不可能三角\",稳定,价格,线路只能三选其二",
+      "source": "老孙博客",
+      "sourceEn": "Old Sun's Blog",
+      "sourceUrl": "https://www.imsun.org/",
+      "feedUrl": "https://www.imsun.org/feed/",
+      "sourceType": "friends",
+      "avatar": "https://img.imsun.org/avatar.jpg",
+      "description": "资深网民。",
+      "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
       "link": "https://dusays.com/posts/893/",
@@ -30,7 +45,7 @@
       "title": "人生切割",
       "link": "https://tianheg.co/posts/life-severance/",
       "date": "2026-10-15T14:24:47.000Z",
-      "summary": "下班，洗澡，坐到电脑前 回想今天，我疲惫的一天 早八晚十，这是我的工作时段 晚十早八，这是我的生活时段",
+      "summary": "人生切割 15 Oct, 2026 下班，洗澡，坐到电脑前 回想今天，我疲惫的一天 早八晚十，这是我的工作时段 晚十早八，这是我的生活时段 工作让我的脑袋迷糊、消耗着我的精力 下班后的时间，我无法让自己学习、改变自己 我希望生活与工作分割 生活的我是一个全新的我 工作的我是一个全新的我 工作的劳累不会影响我的生活 生活的琐事不会干扰我的工作 我希望自己能在工",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -120,7 +135,7 @@
       "title": "【运动记】骑行60km",
       "link": "https://tianheg.co/posts/sport-60km/",
       "date": "2026-10-01T19:36:09.000Z",
-      "summary": "1号那天凌晨一点睡的，八点多醒来。整个白天都在电脑前。干什么呢？用AI写项目。主要是两个：forgejo-sidetree、org-web。第一个是一个浏览器插件，给Forgejo添加文件树的，我用了几个月感觉不错，心血来潮又完善了一下就放到Reddit上推广。第二个项目本来已经死掉被归档了，最近觉得还有点利用价值就又重启了。起因是我不想继续用Orgzly写",
+      "summary": "【运动记】骑行60km 02 Oct, 2026 1号那天凌晨一点睡的，八点多醒来。整个白天都在电脑前。干什么呢？用AI写项目。主要是两个：forgejo-sidetree、org-web。第一个是一个浏览器插件，给Forgejo添加文件树的，我用了几个月感觉不错，心血来潮又完善了一下就放到Reddit上推广。第二个项目本来已经死掉被归档了，最近觉得还有点利",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -180,7 +195,7 @@
       "title": "Wind and Limits",
       "link": "https://tianheg.co/posts/sport-wind-limit-en/",
       "date": "2026-09-27T12:30:00.000Z",
-      "summary": "I worked overtime today, and went for a run in the evening. According to Zepp's plan, today's run was 11km. The last time I ran more than 10km was back in August. Out the door, wal",
+      "summary": "Wind and Limits 27 Sep, 2026 I worked overtime today, and went for a run in the evening. According to Zepp's plan, today's run was 11km. The last time I ran more than 10km was back",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -192,7 +207,7 @@
       "title": "【运动记】风与极限",
       "link": "https://tianheg.co/posts/sport-wind-limit/",
       "date": "2026-09-27T12:13:34.000Z",
-      "summary": "今天加班，晚上去跑步了，按照Zepp的计划，今天要跑11km。上次跑超过10km，还是八月的事情。",
+      "summary": "【运动记】风与极限 27 Sep, 2026 今天加班，晚上去跑步了，按照Zepp的计划，今天要跑11km。上次跑超过10km，还是八月的事情。 出门，走一段路，伸展双臂，扭腰，活动脚。为长跑准备。耳边混着音乐和路人的声音，来公园散步的人很多，我不喜欢人多。开始跑了，跑的时候脑袋很清晰，我都在惊讶自己为什么会这么清醒，我关注着自己的身体变化，看到手臂流汗，感",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -264,7 +279,7 @@
       "title": "No More Blind Dates; Dating Is Fine, Marriage Is Not",
       "link": "https://tianheg.co/posts/no-more-blind-dates-en/",
       "date": "2026-09-20T14:57:43.000Z",
-      "summary": "If she hadn't sent me a text today, I wouldn't have written this piece, because I want to forget that stretch of my life, even though it did teach me something. She said she wanted",
+      "summary": "No More Blind Dates; Dating Is Fine, Marriage Is Not 20 Sep, 2026 If she hadn't sent me a text today, I wouldn't have written this piece, because I want to forget that stretch of m",
       "source": "一大加贝",
       "sourceUrl": "https://tianheg.co/",
       "feedUrl": "https://tianheg.co/index.xml",
@@ -958,18 +973,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-08-11 10:12",
-      "link": "https://blog.el9.cn/memos/3048c69e.html",
-      "date": "2026-08-11T02:12:00.000Z",
-      "summary": "2015年的时候就关注IT天空了 前几天看他们还活着充个永V支持一下，又买了个U盘 以后大佬们需要装系统可以找我哈，不过这年头应该没人需要装系统了吧😄{cat_gallery}{/cat_gal...",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -979,13 +982,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Status code 403"
     },
     {
       "source": "UyoAhz",
@@ -1009,13 +1005,6 @@
       "message": "Status code 503"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1034,7 +1023,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1042,6 +1031,20 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
