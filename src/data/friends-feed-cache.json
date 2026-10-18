@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-18T10:42:13.682Z",
-  "expiresAt": "2026-10-18T16:42:13.682Z",
+  "updatedAt": "2026-10-18T15:39:04.377Z",
+  "expiresAt": "2026-10-18T21:39:04.377Z",
   "items": [
     {
       "title": "贵有贵的道理,何况还不算贵",
@@ -15,6 +15,18 @@
       "avatar": "https://img.imsun.org/avatar.jpg",
       "description": "资深网民。",
       "descriptionEn": "Replace this with your friends, projects, or favorite sites.",
+      "category": "友情链接"
+    },
+    {
+      "title": "烏蘭布統的秋",
+      "link": "https://guanqr.com/life/travels/autumn-in-wulanbutong/",
+      "date": "2026-10-18T02:09:47.000Z",
+      "summary": "今年的中秋假期，我從北京出發，穿過河北承德，來到了內蒙古的烏蘭布統草原。考慮到草原地廣人稀，交通不便，一個人單獨行動很難應對突發事件，我就選擇了跟團出行。團裡總共二十多人，加上我卻只有三個年輕人，其餘大多是已經退休的老法師——可能是因為出發時間是在假期前吧，大部分人還在上班，我是提前一個月跟領導請了三天假才趕過來的。老年人多的最大的好處是，每次一起吃飯的時候",
+      "source": "荷戟独彷徨",
+      "sourceUrl": "https://guanqr.com/",
+      "feedUrl": "https://guanqr.com/atom.xml",
+      "sourceType": "friends",
+      "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
     },
     {
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "雷",
-      "link": "https://jingxin18.cn/3495.html",
-      "date": "2026-08-11T14:35:37.000Z",
-      "summary": "成都接连几日断断续续的雷阵雨，来去匆匆，雨势凶猛。 今天武侯区中午还是蓝天白云，下午就一场大雨让人有些猝不及防 […]",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -982,6 +982,13 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
@@ -1003,6 +1010,20 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1038,13 +1059,6 @@
       "site": "https://inkss.cn/",
       "feed": "https://inkss.cn/atom.xml",
       "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
