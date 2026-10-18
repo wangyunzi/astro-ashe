@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-17T20:21:47.424Z",
-  "expiresAt": "2026-10-18T02:21:47.424Z",
+  "updatedAt": "2026-10-18T03:54:31.633Z",
+  "expiresAt": "2026-10-18T09:54:31.633Z",
   "items": [
     {
       "title": "说说广场 API 0.31.0 版的调用代码说明",
@@ -981,6 +981,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Status code 403"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1002,10 +1009,10 @@
       "message": "Status code 503"
     },
     {
-      "source": "Jdeal",
+      "source": "老卢",
       "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1027,7 +1034,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1035,13 +1042,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
