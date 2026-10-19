@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T12:41:07.940Z",
-  "expiresAt": "2026-10-19T18:41:07.940Z",
+  "updatedAt": "2026-10-19T22:10:19.780Z",
+  "expiresAt": "2026-10-20T04:10:19.780Z",
   "items": [
     {
       "title": "贵有贵的道理,何况还不算贵",
@@ -1012,13 +1012,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1045,6 +1038,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "LMS",
