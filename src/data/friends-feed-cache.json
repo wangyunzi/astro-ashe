@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-19T04:03:06.138Z",
-  "expiresAt": "2026-10-19T10:03:06.138Z",
+  "updatedAt": "2026-10-19T12:41:07.940Z",
+  "expiresAt": "2026-10-19T18:41:07.940Z",
   "items": [
     {
       "title": "贵有贵的道理,何况还不算贵",
@@ -1045,6 +1045,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
