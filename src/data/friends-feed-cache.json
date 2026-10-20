@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-20T16:37:10.883Z",
-  "expiresAt": "2026-10-20T22:37:10.883Z",
+  "updatedAt": "2026-10-20T21:25:31.455Z",
+  "expiresAt": "2026-10-21T03:25:31.455Z",
   "items": [
+    {
+      "title": "说说：#2026-10-20 16:01",
+      "link": "https://blog.el9.cn/memos/6f906ada.html",
+      "date": "2026-10-20T08:01:00.000Z",
+      "summary": "周末重开了下王国之泪存档，感觉普尔亚也很御啊😄",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "贵有贵的道理,何况还不算贵",
       "link": "https://www.imsun.org/archives/1801.html",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "免费学习平台精选:这 15 个网站让你省下几万培训费",
-      "link": "https://dusays.com/archives/882/",
-      "date": "2026-08-11T16:00:00.000Z",
-      "summary": "自学能力的强弱,基本决定了一个程序员能走多远。在这个知识付费的时代,其实互联网上有大量优质、免费的学习资源。本文整理了 15 个我亲身使用、强烈推荐的学习平台,涵盖编程、数据、AI、设计等多个方向。无论你是初学者还是想进阶,都能找到适合的资源。 一、官方文档(永远的第一选择) 1. MDN Web Docs developer.mozilla.org 前端开",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -991,13 +991,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1009,21 +1002,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "记忆一隅",
@@ -1044,7 +1023,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1052,20 +1031,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
