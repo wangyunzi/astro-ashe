@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T04:16:22.500Z",
-  "expiresAt": "2026-10-20T10:16:22.500Z",
+  "updatedAt": "2026-10-20T11:12:35.427Z",
+  "expiresAt": "2026-10-20T17:12:35.427Z",
   "items": [
     {
       "title": "贵有贵的道理,何况还不算贵",
@@ -1019,11 +1019,18 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
