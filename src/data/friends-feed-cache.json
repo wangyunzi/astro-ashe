@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-20T21:25:31.455Z",
-  "expiresAt": "2026-10-21T03:25:31.455Z",
+  "updatedAt": "2026-10-21T04:04:27.488Z",
+  "expiresAt": "2026-10-21T10:04:27.488Z",
   "items": [
     {
       "title": "说说：#2026-10-20 16:01",
@@ -1017,6 +1017,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
