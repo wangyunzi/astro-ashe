@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-22T04:05:25.178Z",
-  "expiresAt": "2026-10-22T10:05:25.178Z",
+  "updatedAt": "2026-10-22T11:28:45.418Z",
+  "expiresAt": "2026-10-22T17:28:45.418Z",
   "items": [
+    {
+      "title": "走大朝台我在想啥？一",
+      "link": "https://1900.live/zou-da-zhao-tai-wo-zai-xiang-sha-yi/",
+      "date": "2026-10-22T04:40:14.000Z",
+      "summary": "null 规划 国庆假期前夕，琢磨着走川西方向安排个一两天的行程看看秋景彩林，候选的地方也定了好几个，奈何那段时间四川天气多以雨天为主，想来去了也是大雾弥漫或者湿答答的，全然不会是我预想中的体验。 而且还联想起上次去龙华山雨天徒步，凌晨3点出发进山，淅沥的小雨让陡峭的徒步路线泥泞非常，几乎走两步就滑一下，一路上几乎都是驴友「哎哟」不断的叫声，登顶后天气转晴，",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "说说：#2026-10-20 16:01",
       "link": "https://blog.el9.cn/memos/6f906ada.html",
@@ -961,18 +973,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "干饭",
-      "link": "https://jingxin18.cn/3504.html",
-      "date": "2026-08-12T18:20:32.000Z",
-      "summary": "去吃烤肉",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1040,11 +1040,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "LMS",
+      "source": "Inks",
       "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
