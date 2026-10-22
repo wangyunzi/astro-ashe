@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-21T21:26:50.156Z",
-  "expiresAt": "2026-10-22T03:26:50.156Z",
+  "updatedAt": "2026-10-22T04:05:25.178Z",
+  "expiresAt": "2026-10-22T10:05:25.178Z",
   "items": [
     {
       "title": "说说：#2026-10-20 16:01",
@@ -984,13 +984,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1010,6 +1003,13 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1038,6 +1038,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
