@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-23T16:47:17.196Z",
-  "expiresAt": "2026-10-23T22:47:17.196Z",
+  "updatedAt": "2026-10-23T21:12:59.724Z",
+  "expiresAt": "2026-10-24T03:12:59.724Z",
   "items": [
     {
       "title": "走大朝台我在想啥？二",
@@ -1005,6 +1005,13 @@
       "message": "Status code 503"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1031,6 +1038,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
