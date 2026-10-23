@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-23T04:08:52.549Z",
-  "expiresAt": "2026-10-23T10:08:52.549Z",
+  "updatedAt": "2026-10-23T11:18:27.370Z",
+  "expiresAt": "2026-10-23T17:18:27.370Z",
   "items": [
+    {
+      "title": "TypechoCosPro:Typecho 的 COS 存储插件",
+      "link": "https://blog.el9.cn/notes/TypechoCosPro.html",
+      "date": "2026-10-23T06:14:00.000Z",
+      "summary": "TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。基于苏苏（susu）开源的 TypechoCosPlugin搭配WorkB...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-10-23 11:07",
       "link": "https://blog.el9.cn/memos/2accedcb.html",
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "高木慎平（Shimpei Takagi）PS / LR 预设：12 款日系时尚杂志风",
-      "link": "https://www.shephe.com/preset/shimpei-takagi-lightroom-presets/",
-      "date": "2026-08-14T13:17:00.000Z",
-      "summary": "日本摄影师高木慎平风格 Lightroom 预设，12 款 XMP 格式含配置文件，一键套用标志性的日系时尚杂志色调，适合人像、街拍、旅行记录。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -991,6 +991,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1003,13 +1010,6 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1038,13 +1038,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
