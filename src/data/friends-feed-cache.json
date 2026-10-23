@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-23T11:18:27.370Z",
-  "expiresAt": "2026-10-23T17:18:27.370Z",
+  "updatedAt": "2026-10-23T16:47:17.196Z",
+  "expiresAt": "2026-10-23T22:47:17.196Z",
   "items": [
+    {
+      "title": "走大朝台我在想啥？二",
+      "link": "https://1900.live/zou-da-zhao-tai-wo-zai-xiang-sha-er/",
+      "date": "2026-10-23T12:40:31.000Z",
+      "summary": "null 昨天更新了前一篇没多久就有四五条博友的评论，这么久没更新这些博友们都在默默关注着我这个小小的孤岛让我有些感动，在这里诚恳的感谢大家，让我感受到了互联网、博客圈的温度。 所以趁着这股劲有还在索性今天把第二篇也写了，接回上文。 刚下车被山上的冷风一吹我差点没绷住哕了出来，为了保住面子，在路边排水槽边上站定了好几秒，借着拿背包整理装备的由头，狠狠做了深呼",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "TypechoCosPro:Typecho 的 COS 存储插件",
       "link": "https://blog.el9.cn/notes/TypechoCosPro.html",
@@ -36,6 +48,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "我留起了胡子",
+      "link": "https://tianheg.co/posts/growing-a-beard/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "我留起了胡子 23 Oct, 2026 我留起了胡子 让它野蛮生长 在鼻子与嘴唇之间的上唇区 有了一撇一捺 我拍了胡子的照片 人中的位置没有胡子 从那里到两边嘴角处胡子是浓密的 我看起来不一样了 以前的我 尽可能刮干净胡子 觉得这代表了我对生活的态度 时间久了 干净的脸庞似乎代表了我的状态 可是，我想看看自己留胡子的样子 想看看自己成熟的样子 于是，我留起了",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -949,30 +973,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "聊聊郭刚",
-      "link": "https://blog.lhasa.icu/posts/life/2026-08-15-cultural-revolution-2/",
-      "date": "2026-08-15T06:20:00.000Z",
-      "summary": "欲加之罪，何患无辞",
-      "source": "Lhasa",
-      "sourceUrl": "https://lhasa.icu/",
-      "feedUrl": "https://lhasa.icu/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "川内伦子风格 Lightroom 预设，9 款日系诗意梦幻色调一键套用",
-      "link": "https://www.shephe.com/preset/rinko-kawauchi-lightroom-presets/",
-      "date": "2026-08-14T13:32:28.000Z",
-      "summary": "日本摄影师川内伦子风格 Lightroom 预设，9 款 XMP/lrtemplate/DNG/LUT 全格式，覆盖桌面 LR、手机版和视频剪辑软件，复现标志性的柔焦过曝梦幻色调，适合生活随拍与旅行记录。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -989,13 +989,6 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
