@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-23T21:12:59.724Z",
-  "expiresAt": "2026-10-24T03:12:59.724Z",
+  "updatedAt": "2026-10-24T04:01:18.256Z",
+  "expiresAt": "2026-10-24T10:01:18.256Z",
   "items": [
+    {
+      "title": "片刻・Jdeal 发布了一条新动态~",
+      "link": "https://www.jdeal.cn/cross.html#5324",
+      "date": "2026-10-24T01:54:58.000Z",
+      "summary": "嗯，各位记得更新 😂 哈哈，不过真的好久没有玩网站了。<p></p>",
+      "source": "Jdeal",
+      "sourceUrl": "https://www.jdeal.cn",
+      "feedUrl": "https://www.jdeal.cn/feed",
+      "sourceType": "friends",
+      "description": "Life is like a Design.",
+      "category": "友情链接"
+    },
     {
       "title": "走大朝台我在想啥？二",
       "link": "https://1900.live/zou-da-zhao-tai-wo-zai-xiang-sha-er/",
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "听艾怡良深圳演唱会",
-      "link": "https://tianheg.co/posts/eve-ai-shenzhen-2026/",
-      "date": "2026-08-15T15:30:00.000Z",
-      "summary": "今天虽然是周六，但是也上了八小时班。到了晚上还有工作的事情找来，让人不胜其烦。本来看演唱会是很开心的事情，因为工作这种喜悦的情绪被削弱了。应援棒的灯光让我担心自己的眼睛会被闪瞎，实际也的确让我的眼睛不舒服。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1005,13 +1005,6 @@
       "message": "Status code 503"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1038,13 +1031,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
