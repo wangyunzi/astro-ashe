@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-25T15:51:01.833Z",
-  "expiresAt": "2026-10-25T21:51:01.833Z",
+  "updatedAt": "2026-10-25T20:37:58.826Z",
+  "expiresAt": "2026-10-26T02:37:58.826Z",
   "items": [
+    {
+      "title": "太阳照在我手上—中秋记",
+      "link": "https://jingxin18.cn/3598.html",
+      "date": "2026-10-25T16:53:05.000Z",
+      "summary": "前段时间看到汪曾祺的散文集，其中一本就叫《太阳照在我手上》，书里正好写到了他在昆明的时光。于是这次记录，也取了 […]",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "个人主页 hutu.si 上线",
       "link": "https://hutusi.com/flows/2026/10/25",
@@ -75,18 +87,6 @@
       "category": "友情链接"
     },
     {
-      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
-      "link": "https://dusays.com/posts/894/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "我留起了胡子",
       "link": "https://tianheg.co/posts/growing-a-beard/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -96,6 +96,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
+      "link": "https://dusays.com/posts/894/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "泽村洋兵风格 PS / LR 预设，10 款日系清新胶片色调一键套用",
-      "link": "https://www.shephe.com/preset/yohei-sawamura-lightroom-presets/",
-      "date": "2026-08-16T03:08:40.000Z",
-      "summary": "日系调色最难把握的，是那个「度」。太淡了像没调，太重了就不日系了；想要胶片氛围，又舍不得数码照片那种干净利落的 […]",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -984,18 +984,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1012,25 +1012,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1040,25 +1026,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "Dorad",
-      "sourceType": "friends",
-      "site": "https://blog.cuger.cn",
-      "feed": "https://blog.cuger.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1066,20 +1038,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
