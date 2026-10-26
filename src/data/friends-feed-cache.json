@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T04:06:32.615Z",
-  "expiresAt": "2026-10-26T10:06:32.615Z",
+  "updatedAt": "2026-10-26T12:35:05.801Z",
+  "expiresAt": "2026-10-26T18:35:05.801Z",
   "items": [
     {
       "title": "太阳照在我手上—中秋记",
@@ -66,7 +66,7 @@
       "title": "TypechoCosPro:Typecho 的 COS 存储插件",
       "link": "https://blog.el9.cn/notes/TypechoCosPro.html",
       "date": "2026-10-23T06:14:00.000Z",
-      "summary": "TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。基于苏苏（susu）开源的 TypechoCosPlugin搭配WorkB...",
+      "summary": "目前最新版本为V1.1.6 更新时间为2026.10.26TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。基于苏苏（sus...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -87,18 +87,6 @@
       "category": "友情链接"
     },
     {
-      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
-      "link": "https://dusays.com/posts/894/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "我留起了胡子",
       "link": "https://tianheg.co/posts/growing-a-beard/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -108,6 +96,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
+      "link": "https://dusays.com/posts/894/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -984,18 +984,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Status code 403"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1010,13 +1010,6 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1037,7 +1030,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1045,6 +1038,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
