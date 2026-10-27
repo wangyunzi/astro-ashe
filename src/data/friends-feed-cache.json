@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-26T22:29:02.059Z",
-  "expiresAt": "2026-10-27T04:29:02.059Z",
+  "updatedAt": "2026-10-27T04:26:25.407Z",
+  "expiresAt": "2026-10-27T10:26:25.407Z",
   "items": [
     {
       "title": "太阳照在我手上—中秋记",
@@ -991,6 +991,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1002,7 +1009,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
@@ -1045,6 +1052,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "LMS",
+      "sourceType": "extraFeeds",
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
