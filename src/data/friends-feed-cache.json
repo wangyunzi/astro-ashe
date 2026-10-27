@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T17:46:10.282Z",
-  "expiresAt": "2026-10-27T23:46:10.282Z",
+  "updatedAt": "2026-10-27T21:59:02.857Z",
+  "expiresAt": "2026-10-28T03:59:02.857Z",
   "items": [
     {
       "title": "说说：#2026-10-27 12:33",
@@ -99,18 +99,6 @@
       "category": "友情链接"
     },
     {
-      "title": "我留起了胡子",
-      "link": "https://tianheg.co/posts/growing-a-beard/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "我留起了胡子 23 Oct, 2026 我留起了胡子 让它野蛮生长 在鼻子与嘴唇之间的上唇区 有了一撇一捺 我拍了胡子的照片 人中的位置没有胡子 从那里到两边嘴角处胡子是浓密的 我看起来不一样了 以前的我 尽可能刮干净胡子 觉得这代表了我对生活的态度 时间久了 干净的脸庞似乎代表了我的状态 可是，我想看看自己留胡子的样子 想看看自己成熟的样子 于是，我留起了",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
       "title": "国产数据库迁移：真正花时间的从来不是搬数据",
       "link": "https://dusays.com/posts/894/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -120,6 +108,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "我留起了胡子",
+      "link": "https://tianheg.co/posts/growing-a-beard/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "我留起了胡子 23 Oct, 2026 我留起了胡子 让它野蛮生长 在鼻子与嘴唇之间的上唇区 有了一撇一捺 我拍了胡子的照片 人中的位置没有胡子 从那里到两边嘴角处胡子是浓密的 我看起来不一样了 以前的我 尽可能刮干净胡子 觉得这代表了我对生活的态度 时间久了 干净的脸庞似乎代表了我的状态 可是，我想看看自己留胡子的样子 想看看自己成熟的样子 于是，我留起了",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -982,13 +982,6 @@
       "site": "https://www.shifeiti.com",
       "feed": "https://www.shifeiti.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "UyoAhz",
