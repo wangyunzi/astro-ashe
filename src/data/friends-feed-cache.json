@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-27T04:26:25.407Z",
-  "expiresAt": "2026-10-27T10:26:25.407Z",
+  "updatedAt": "2026-10-27T11:52:23.091Z",
+  "expiresAt": "2026-10-27T17:52:23.091Z",
   "items": [
     {
       "title": "太阳照在我手上—中秋记",
@@ -1040,11 +1040,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
