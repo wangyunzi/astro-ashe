@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-27T11:52:23.091Z",
-  "expiresAt": "2026-10-27T17:52:23.091Z",
+  "updatedAt": "2026-10-27T17:46:10.282Z",
+  "expiresAt": "2026-10-27T23:46:10.282Z",
   "items": [
+    {
+      "title": "说说：#2026-10-27 12:33",
+      "link": "https://blog.el9.cn/memos/talk-6ae029b111dd.html",
+      "date": "2026-10-27T04:33:00.000Z",
+      "summary": "腾讯代理的饥荒手游终于上线了(11月24日)，到时候我我看看怎么个事😂",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "太阳照在我手上—中秋记",
       "link": "https://jingxin18.cn/3598.html",
@@ -66,7 +78,7 @@
       "title": "TypechoCosPro:Typecho 的 COS 存储插件",
       "link": "https://blog.el9.cn/notes/TypechoCosPro.html",
       "date": "2026-10-23T06:14:00.000Z",
-      "summary": "目前最新版本为V1.1.6 更新时间为2026.10.26TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。基于苏苏（sus...",
+      "summary": "[!NOTE]目前最新版本为V1.1.14 更新时间为2026.10.28TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -87,18 +99,6 @@
       "category": "友情链接"
     },
     {
-      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
-      "link": "https://dusays.com/posts/894/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "我留起了胡子",
       "link": "https://tianheg.co/posts/growing-a-beard/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -108,6 +108,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
+      "link": "https://dusays.com/posts/894/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "荒井新生风格胶片模拟预设，13 款复古色调滤镜",
-      "link": "https://www.shephe.com/preset/huangjing-xinsheng-film-presets/",
-      "date": "2026-08-16T11:57:26.000Z",
-      "summary": "荒井新生的照片有一种独特的质感——明暗反差鲜明，高光泛着淡淡的洋红，暗部偏向冷蓝，整体像一卷扫描出来的胶片，带 […]",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -984,18 +984,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1009,20 +1009,13 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1040,18 +1033,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1059,13 +1045,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
