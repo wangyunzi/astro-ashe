@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-28T12:27:15.592Z",
-  "expiresAt": "2026-10-28T18:27:15.592Z",
+  "updatedAt": "2026-10-28T22:23:39.715Z",
+  "expiresAt": "2026-10-29T04:23:39.715Z",
   "items": [
+    {
+      "title": "PHP 性能优化，以及用 FastCGI 缓存加速 PHP 页面",
+      "link": "https://dusays.com/posts/895/",
+      "date": "2026-10-28T16:00:00.000Z",
+      "summary": "这台图床跑的是 Laravel 全栈框架，程序侧的每一毫秒都要乘以图片请求量。折腾了大半年，把 PHP 版本、扩展、FPM、Nginx、FastCGI 缓存一层层捋下来，外链首字节从 800ms 压到 60ms 上下。这篇把踩过的坑和可落地的配置按层拆开讲，示例统一用去不图床（兰空企业版）这套环境。 一、先说清楚瓶颈在哪 图床这种业务有个特殊之处：写请求很少",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-10-27 12:33",
       "link": "https://blog.el9.cn/memos/talk-6ae029b111dd.html",
@@ -961,18 +973,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "尼康云创预设合集：140 款 NP3 滤镜，导入机内直出复古胶片色调",
-      "link": "https://www.shephe.com/preset/nikon-cloud-creative-presets/",
-      "date": "2026-08-16T12:36:16.000Z",
-      "summary": "尼康云创 140 款 NP3 滤镜预设合集（2026.2 更新），覆盖 Negative Film、Color Mode、Bleach Bypass 及 Brandon Woelfel、Takahiro Sakai 等创作者风格，支持 Z8/Z9/Z6/Z7 系列导入机内直出。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -991,13 +991,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1009,7 +1002,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
@@ -1052,13 +1045,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
