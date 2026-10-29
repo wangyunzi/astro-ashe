@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-29T12:38:08.274Z",
-  "expiresAt": "2026-10-29T18:38:08.274Z",
+  "updatedAt": "2026-10-29T22:36:34.605Z",
+  "expiresAt": "2026-10-30T04:36:34.605Z",
   "items": [
     {
       "title": "CommentNotify 一款 Typecho 评论  QQ / 微信通知插件",
@@ -1012,13 +1012,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
