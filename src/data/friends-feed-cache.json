@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-29T22:36:34.605Z",
-  "expiresAt": "2026-10-30T04:36:34.605Z",
+  "updatedAt": "2026-10-30T05:08:51.600Z",
+  "expiresAt": "2026-10-30T11:08:51.600Z",
   "items": [
     {
       "title": "CommentNotify 一款 Typecho 评论  QQ / 微信通知插件",
@@ -994,6 +994,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1005,13 +1012,20 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1029,6 +1043,13 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1041,13 +1062,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
