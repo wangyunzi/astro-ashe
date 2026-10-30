@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-30T12:29:05.857Z",
-  "expiresAt": "2026-10-30T18:29:05.857Z",
+  "updatedAt": "2026-10-30T22:05:32.492Z",
+  "expiresAt": "2026-10-31T04:05:32.492Z",
   "items": [
+    {
+      "title": "EL9拼好题 — Typecho双栏主题",
+      "link": "https://blog.el9.cn/notes/el9pht.html",
+      "date": "2026-10-30T05:03:00.000Z",
+      "summary": "[!NOTE]目前最新版为v0.7.29 更新于2026.10.30一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "CommentNotify 一款 Typecho 评论  QQ / 微信通知插件",
       "link": "https://www.imsun.org/archives/1803.html",
@@ -964,18 +976,6 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
-    },
-    {
-      "title": "2026 欧洲摄影奖作品赏：好照片不只靠拍得漂亮",
-      "link": "https://www.shephe.com/post/european-photography-awards-2026-winners/",
-      "date": "2026-08-17T07:31:31.000Z",
-      "summary": "2026 欧洲摄影奖从 40 多个国家的 3000 余件投稿中选出年度摄影师与类别冠军。本文带你看完 11 幅重点作品，也聊聊这个奖项的定位，以及好照片为什么总能让人停下来多看一眼。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1015,18 +1015,11 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1034,20 +1027,6 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
-    },
-    {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
@@ -1062,20 +1041,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
