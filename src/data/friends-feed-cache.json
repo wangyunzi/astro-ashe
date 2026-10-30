@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T05:08:51.600Z",
-  "expiresAt": "2026-10-30T11:08:51.600Z",
+  "updatedAt": "2026-10-30T12:29:05.857Z",
+  "expiresAt": "2026-10-30T18:29:05.857Z",
   "items": [
     {
       "title": "CommentNotify 一款 Typecho 评论  QQ / 微信通知插件",
@@ -994,13 +994,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1012,7 +1005,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "Jdeal",
@@ -1033,7 +1026,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
@@ -1041,6 +1034,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "1900",
@@ -1062,6 +1062,20 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
