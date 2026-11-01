@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-01T05:22:32.824Z",
-  "expiresAt": "2026-11-01T11:22:32.824Z",
+  "updatedAt": "2026-11-01T12:57:24.065Z",
+  "expiresAt": "2026-11-01T18:57:24.065Z",
   "items": [
     {
       "title": "EL9拼好题 — Typecho双栏主题",
@@ -1015,6 +1015,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1041,20 +1048,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
