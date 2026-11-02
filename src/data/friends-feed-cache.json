@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-02T05:20:59.743Z",
-  "expiresAt": "2026-11-02T11:20:59.743Z",
+  "updatedAt": "2026-11-02T15:15:30.331Z",
+  "expiresAt": "2026-11-02T21:15:30.331Z",
   "items": [
+    {
+      "title": "走大朝台我在想啥？三",
+      "link": "https://1900.live/zou-da-zhao-tai-wo-zai-xiang-sha-san/",
+      "date": "2026-11-02T10:36:30.000Z",
+      "summary": "null 头一晚虽然很累，但是睡的很晚，客栈老板提供的这个房间里的床是硬板床，中途醒来好几次，很是折磨。 但是第二天依旧早早就起来了，客栈也没有早餐提供，不过即便提供我也不太想吃，和徐哥洗漱完商量了一下，一人在小卖部买了一桶泡面对付对付得了，要求已经降的非常低了。 因为我们离第二天的徒步起点很远，同住客栈的其他驴友们都是选择让老板送去徒步起点，等辣条起来后我",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "说说：#2026-11-02 08:24",
       "link": "https://blog.el9.cn/memos/talk-6ae7d838e3d0.html",
@@ -30,7 +42,7 @@
       "title": "EL9拼好题 — Typecho双栏主题",
       "link": "https://blog.el9.cn/notes/el9pht.html",
       "date": "2026-10-30T05:03:00.000Z",
-      "summary": "[!NOTE]目前最新版为v0.7.31 更新于2026.11.02一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
+      "summary": "[!NOTE]目前最新版为v0.7.32 更新于2026.11.02一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "Odyssey",
-      "link": "https://guanqr.com/life/films/odyssey/",
-      "date": "2026-08-18T14:24:41.000Z",
-      "summary": "諾蘭導演在電影《奧德賽》中，很巧妙地塑造了一個看似充滿神明的世界。沒有一個神以明確的形象展示給觀眾。你可以把故事中的狂風巨浪和電閃雷鳴看作是波塞冬和宙斯對主人公的懲罰，亦可以當作是單純的自然現象，古時候的人，難以抵抗自然之力，只能對它充滿敬畏，把它當作神。在奧德修斯身旁時常現身的雅典娜，她的形象也只是來自於進攻特洛伊城的那個夜晚，在雅典娜的雕塑前，奧德修斯親",
-      "source": "荷戟独彷徨",
-      "sourceUrl": "https://guanqr.com/",
-      "feedUrl": "https://guanqr.com/atom.xml",
-      "sourceType": "friends",
-      "description": "爱光学，爱生活，爱创造。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1008,18 +1008,11 @@
       "message": "Status code 503"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
