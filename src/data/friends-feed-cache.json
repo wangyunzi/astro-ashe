@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-11-01T21:52:27.246Z",
-  "expiresAt": "2026-11-02T03:52:27.246Z",
+  "updatedAt": "2026-11-02T05:20:59.743Z",
+  "expiresAt": "2026-11-02T11:20:59.743Z",
   "items": [
+    {
+      "title": "说说：#2026-11-02 08:24",
+      "link": "https://blog.el9.cn/memos/talk-6ae7d838e3d0.html",
+      "date": "2026-11-02T00:24:23.000Z",
+      "summary": "刚和朋友谈起往年双11买衣服裤子电子配件，现在买的都是干饭配件然后也不囤了:blobcat-bop:，主要是这力度越来越小，质量越来越差了md是真没把我们当人啊",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
+    {
+      "title": "我喜欢一个人",
+      "link": "https://tianheg.co/posts/i-like-living-alone/",
+      "date": "2026-11-01T16:00:00.000Z",
+      "summary": "我喜欢一个人 02 Nov, 2026 昨天休息，我度过了完美的一天 一个人在电脑前 一边看小说 一边让AI帮我写程序 那种将爱好外包给AI的感觉其实并不好受 所以，我刻意地不让AI写 自己手动输入 果然是漏洞百出 但还是感觉到久违的乐趣所在 一种无所事事的感觉，弥漫我的心 知道该做什么，但是不做 刻意忽视 一种困惑 萦绕于心 久久不得解 我在开导自己 让自",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
     {
       "title": "EL9拼好题 — Typecho双栏主题",
       "link": "https://blog.el9.cn/notes/el9pht.html",
       "date": "2026-10-30T05:03:00.000Z",
-      "summary": "[!NOTE]目前最新版为v0.7.29 更新于2026.10.30一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
+      "summary": "[!NOTE]目前最新版为v0.7.31 更新于2026.11.02一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -952,30 +976,6 @@
       "sourceType": "friends",
       "description": "爱光学，爱生活，爱创造。",
       "category": "友情链接"
-    },
-    {
-      "title": "运维工程师面试全攻略:从简历到 Offer 的完整指南",
-      "link": "https://dusays.com/archives/883/",
-      "date": "2026-08-17T16:00:00.000Z",
-      "summary": "运维岗位竞争激烈,如何从众多候选人中脱颖而出?本文基于我多年招聘运维工程师的经验,从简历优化、技术准备、面试技巧、谈薪策略四个维度,系统讲解如何拿到心仪的 Offer。同时附上 50 道高频面试题,帮你全面备战。 一、运维岗位现状 行业趋势 DevOps 化:传统运维向 SRE/DevOps 转型,要求更高 云原生:K8s、Docker 几乎成为必备技能 自",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
-      "title": "坏天气别急着收相机：风光摄影的光线、参数与构图思路",
-      "link": "https://www.shephe.com/photography/bad-weather-landscape-photography-guide/",
-      "date": "2026-08-17T08:18:21.000Z",
-      "summary": "阴天、雨雾、大风和雨后放晴并不等于拍摄失败。本文从预报判断、曝光、滤镜、镜头选择到器材防护，讲清楚怎样把变化的天气变成风光照片里的光线、层次和情绪。",
-      "source": "Shephe",
-      "sourceUrl": "https://www.shephe.com/",
-      "feedUrl": "https://www.shephe.com/feed",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
     }
   ],
   "errors": [
@@ -1019,7 +1019,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Status code 404"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Leonus",
