@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-04T14:04:17.364Z",
-  "expiresAt": "2026-11-04T20:04:17.364Z",
+  "updatedAt": "2026-11-04T23:26:41.017Z",
+  "expiresAt": "2026-11-05T05:26:41.017Z",
   "items": [
+    {
+      "title": "说说：#2026-11-04 15:49",
+      "link": "https://blog.el9.cn/memos/talk-6aeae37f8000.html",
+      "date": "2026-11-04T07:49:00.000Z",
+      "summary": "现在社会都这样了么:blobcat-approach:我理解的是只有服务于人民才叫义工，这种顶多是学徒工或者助理。",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "新机器交付前，我会先跑这 20 项检查",
       "link": "https://dusays.com/posts/896/",
@@ -29,7 +41,7 @@
     {
       "title": "说说：#2026-11-02 08:24",
       "link": "https://blog.el9.cn/memos/talk-6ae7d838e3d0.html",
-      "date": "2026-11-02T00:24:23.000Z",
+      "date": "2026-11-02T00:24:00.000Z",
       "summary": "刚和朋友谈起往年双11买衣服裤子电子配件，现在买的都是干饭配件然后也不囤了:blobcat-bop:，主要是这力度越来越小，质量越来越差了md是真没把我们当人啊",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
@@ -54,7 +66,7 @@
       "title": "EL9拼好题 — Typecho双栏主题",
       "link": "https://blog.el9.cn/notes/el9pht.html",
       "date": "2026-10-30T05:03:00.000Z",
-      "summary": "[!NOTE]目前最新版为v0.7.32 更新于2026.11.02一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
+      "summary": "[!NOTE]目前最新版为v0.8.10 更新于2026.11.04一款Typecho双栏布局的主题，一侧装导航和挂件，一侧是干净的内容流。本主题为老卢自用，顺手开源，如果使用中遇到了什么问题及...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -165,7 +177,7 @@
       "title": "TypechoCosPro:Typecho 的 COS 存储插件",
       "link": "https://blog.el9.cn/notes/TypechoCosPro.html",
       "date": "2026-10-23T06:14:00.000Z",
-      "summary": "[!NOTE]目前最新版本为V1.1.14 更新时间为2026.10.28TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。...",
+      "summary": "[!NOTE]目前最新版本为V1.1.15 更新时间为2026.11.04TypechoCosPro 让 Typecho 的图片和附件直接进腾讯云 COS，前端零改动，禁用插件还能原路退回本地。...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -964,18 +976,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-08-20 10:12",
-      "link": "https://cis.el9.cn/memos/18b0cac9.html",
-      "date": "2026-08-20T02:12:00.000Z",
-      "summary": "昨天上头了买了个Switch2,本来我想等lite2的结果没忍住😄估计等发布了又要消费一波了，重新体验了下野炊，不过该说不说优化后的确实清晰{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -992,13 +992,6 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1022,13 +1015,6 @@
       "message": "Request timed out after 4000ms"
     },
     {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1041,13 +1027,6 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
-    },
-    {
-      "source": "1900",
-      "sourceType": "extraFeeds",
-      "site": "https://1900.live/",
-      "feed": "https://1900.live/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
