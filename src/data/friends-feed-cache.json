@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:28:27.914Z",
-  "expiresAt": "2026-11-06T05:28:27.914Z",
+  "updatedAt": "2026-11-06T05:54:23.270Z",
+  "expiresAt": "2026-11-06T11:54:23.270Z",
   "items": [
     {
       "title": "说说：#2026-11-04 15:49",
@@ -994,6 +994,20 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Black Flies",
+      "sourceType": "friends",
+      "site": "https://www.yyyzyyyz.cn/",
+      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1006,13 +1020,6 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "老卢",
@@ -1034,6 +1041,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
