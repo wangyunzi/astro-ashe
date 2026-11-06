@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T13:59:38.022Z",
-  "expiresAt": "2026-11-06T19:59:38.022Z",
+  "updatedAt": "2026-11-06T22:54:10.923Z",
+  "expiresAt": "2026-11-07T04:54:10.923Z",
   "items": [
     {
       "title": "Tela: 为独立网络而做的阅读器",
@@ -1005,7 +1005,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
@@ -1050,18 +1050,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
+      "source": "LMS",
       "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "site": "https://lms.pub/",
+      "feed": "https://lms.pub/feed",
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
