@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07T12:43:49.637Z",
-  "expiresAt": "2026-11-07T18:43:49.637Z",
+  "updatedAt": "2026-11-07T21:38:15.766Z",
+  "expiresAt": "2026-11-08T03:38:15.766Z",
   "items": [
     {
       "title": "Tela: 为独立网络而做的阅读器",
@@ -1001,6 +1001,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "胡涂说",
+      "sourceType": "friends",
+      "site": "https://hutusi.com/",
+      "feed": "https://hutusi.com/feed.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
@@ -1048,13 +1055,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
