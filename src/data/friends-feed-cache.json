@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-08T21:52:28.550Z",
-  "expiresAt": "2026-11-09T03:52:28.550Z",
+  "updatedAt": "2026-11-09T05:36:14.462Z",
+  "expiresAt": "2026-11-09T11:36:14.462Z",
   "items": [
+    {
+      "title": "十月十月",
+      "link": "https://jingxin18.cn/3634.html",
+      "date": "2026-11-09T02:35:19.000Z",
+      "summary": "10月是忙碌的。 最近一段时间，成都的天气都很差。我不太喜欢这里的天气，一年有一半时间都阴天。在这里生活久了， […]",
+      "source": "二猫 blog",
+      "sourceUrl": "https://jingxin18.cn",
+      "feedUrl": "https://jingxin18.cn/feed",
+      "sourceType": "friends",
+      "description": "一个简单的 Blog 站点。",
+      "category": "友情链接"
+    },
     {
       "title": "Fediverse -  一款让Typecho博客与联邦宇宙互通的插件",
       "link": "https://www.imsun.org/archives/1804.html",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "从零理解 TCP/IP 协议栈:网络世界的通用语言",
-      "link": "https://dusays.com/posts/884/",
-      "date": "2026-08-23T16:00:00.000Z",
-      "summary": "每天我们都在和 TCP/IP 打交道:刷网页、看视频、聊微信。但当 HTTP 请求到达服务器时,数据是怎么一层层”剥洋葱”传递的? 本文从最基础的概念讲起,带你穿透协议栈,理解每一次网络通信背后的原理。 一、为什么需要协议 想象一个没有协议的世界:你写的数据,对方根本看不懂。就像两个人说话如果语言不通,只能鸡同鸭讲。 协议就是通信双方约定的规则: 数据格式 ",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -995,13 +995,6 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1044,6 +1037,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
