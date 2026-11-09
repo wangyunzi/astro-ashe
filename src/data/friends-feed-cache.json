@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-09T05:36:14.462Z",
-  "expiresAt": "2026-11-09T11:36:14.462Z",
+  "updatedAt": "2026-11-09T15:44:24.694Z",
+  "expiresAt": "2026-11-09T21:44:24.694Z",
   "items": [
     {
       "title": "十月十月",
@@ -997,18 +997,18 @@
       "message": "Status code 404"
     },
     {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1037,13 +1037,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     }
   ]
 }
