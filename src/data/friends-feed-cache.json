@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T01:21:20.552Z",
-  "expiresAt": "2026-11-10T07:21:20.552Z",
+  "updatedAt": "2026-11-10T14:37:21.917Z",
+  "expiresAt": "2026-11-10T20:37:21.917Z",
   "items": [
     {
       "title": "健身是最被低估的省钱方式",
@@ -1011,6 +1011,20 @@
       "message": "Status code 503"
     },
     {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1023,6 +1037,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
