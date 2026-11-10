@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-09T15:44:24.694Z",
-  "expiresAt": "2026-11-09T21:44:24.694Z",
+  "updatedAt": "2026-11-10T01:21:20.552Z",
+  "expiresAt": "2026-11-10T07:21:20.552Z",
   "items": [
+    {
+      "title": "健身是最被低估的省钱方式",
+      "link": "https://dusays.com/posts/897/",
+      "date": "2026-11-09T16:00:00.000Z",
+      "summary": "省钱这件事，大部分人只盯着收入那头想办法——砍掉几个外卖、换个便宜点的手机、薅薅优惠券。但还有一整条支出曲线藏在生活里，几乎没人算过：吃坏了身体要花钱，零食饮料要花钱，生病了更花钱。 而健身恰好能同时压住这三头。 一、健身的账，容易被算反 大部分人对健身的账本认知停在”花钱”这一行：办卡一年两三千，私教一节课三四百，装备再添一套。算完觉得不划算，于是算了。 ",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "十月十月",
       "link": "https://jingxin18.cn/3634.html",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "荐《奥德赛》电影――十年苦难让奥德修斯更具人性",
-      "link": "https://tianheg.co/posts/odyssey-movie/",
-      "date": "2026-08-24T02:59:00.000Z",
-      "summary": "《奥德赛》电影看完了，IMAX的大宽屏确实不错。 《奥德赛》原著作者并不确定，比较可信的说法是荷马和他同时代的人一同写就（参考：《奥德赛（张秋子导读版）》），讲述的是奥德修斯在特洛伊战争结束后十年漂泊异乡被众神阻挠不得返乡，经历重重磨难才最终返回故乡伊萨卡的故事。诺兰拍摄的电影按照原著进行了故事的讲述。",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -997,18 +997,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "风记星辰",
+      "sourceType": "friends",
+      "site": "https://www.thyuu.com",
+      "feed": "https://www.thyuu.com/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1029,7 +1029,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1037,6 +1037,13 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
