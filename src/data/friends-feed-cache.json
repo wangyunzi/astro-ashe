@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T00:18:54.024Z",
-  "expiresAt": "2026-11-12T06:18:54.024Z",
+  "updatedAt": "2026-11-12T14:54:20.426Z",
+  "expiresAt": "2026-11-12T20:54:20.426Z",
   "items": [
     {
       "title": "健身是最被低估的省钱方式",
@@ -52,6 +52,18 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
+    },
+    {
+      "title": "294、立冬",
+      "link": "https://1900.live/294-li-dong/",
+      "date": "2026-11-07T02:53:00.000Z",
+      "summary": "今年的立冬特别冷，身心都是 露凝成霜，叶尽归根，天地在清寒与静默之间，缓缓翻过秋日最后一页。 太阳行至黄经225°，立冬——冬之始，亦是万物收藏的序章。 水始冰，地始冻。池水渐渐收起粼粼波光，薄冰在清晨悄然铺展；地始冻，泥土沉入寒意，草木将最后的青意交还大地；雉入大水为蜃，古人以想象描摹时序的隐退，仿佛山野的声息也随之远去。秋叶落尽，枝干显出清峻的轮廓；寒风",
+      "source": "1900",
+      "sourceUrl": "https://1900.live/",
+      "feedUrl": "https://1900.live/rss.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
     },
     {
       "title": "Tela: 为独立网络而做的阅读器",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "个人博客记录日常。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-08-27 10:10",
-      "link": "https://cis.el9.cn/memos/3319956b.html",
-      "date": "2026-08-27T02:10:00.000Z",
-      "summary": "之前有人问我为什么看好邮储银行，我说我喜欢。因为我的第一张银行卡就是邮储的,而且用到了现在😄{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1046,11 +1046,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1058,6 +1065,20 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "Inks",
+      "sourceType": "extraFeeds",
+      "site": "https://inkss.cn/",
+      "feed": "https://inkss.cn/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Lhasa",
+      "sourceType": "extraFeeds",
+      "site": "https://lhasa.icu/",
+      "feed": "https://lhasa.icu/rss.xml",
+      "message": "Request timed out after 4000ms"
     }
   ]
 }
