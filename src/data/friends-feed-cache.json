@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T14:23:46.541Z",
-  "expiresAt": "2026-11-13T20:23:46.541Z",
+  "updatedAt": "2026-11-13T23:24:31.725Z",
+  "expiresAt": "2026-11-14T05:24:31.725Z",
   "items": [
     {
       "title": "健身是最被低估的省钱方式",
@@ -1036,7 +1036,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
@@ -1058,20 +1058,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "LMS",
-      "sourceType": "extraFeeds",
-      "site": "https://lms.pub/",
-      "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
