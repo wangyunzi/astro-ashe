@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T23:23:23.559Z",
-  "expiresAt": "2026-11-13T05:23:23.559Z",
+  "updatedAt": "2026-11-13T05:55:56.459Z",
+  "expiresAt": "2026-11-13T11:55:56.459Z",
   "items": [
     {
       "title": "健身是最被低估的省钱方式",
@@ -297,18 +297,6 @@
       "category": "友情链接"
     },
     {
-      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
-      "link": "https://dusays.com/posts/894/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "我留起了胡子",
       "link": "https://tianheg.co/posts/growing-a-beard/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -318,6 +306,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
+      "link": "https://dusays.com/posts/894/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -990,11 +990,25 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
+    },
+    {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1018,6 +1032,13 @@
       "message": "Request timed out after 4000ms"
     },
     {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1030,6 +1051,13 @@
       "site": "https://blog.leonus.cn",
       "feed": "https://blog.leonus.cn/atom.xml",
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
+    },
+    {
+      "source": "二猫 blog",
+      "sourceType": "friends",
+      "site": "https://jingxin18.cn",
+      "feed": "https://jingxin18.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Shephe",
