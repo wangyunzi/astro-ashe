@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-14T13:15:22.855Z",
-  "expiresAt": "2026-11-14T19:15:22.855Z",
+  "updatedAt": "2026-11-14T22:09:39.994Z",
+  "expiresAt": "2026-11-15T04:09:39.994Z",
   "items": [
+    {
+      "title": "说说：#2026-11-13 11:04",
+      "link": "https://blog.el9.cn/memos/talk-6af67e3eed95.html",
+      "date": "2026-11-13T03:04:29.000Z",
+      "summary": "早上刷到财政部贴息共补贴了多少多少钱😂，促进消费你去救那些水泥盒子还不每月多给农村老头老太太多发几百块钱实际呢，他们是真的会消费真会去买米面粮油，你贴水泥盒子他们只会还贷，让钱空转，社会主义国家...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "健身是最被低估的省钱方式",
       "link": "https://dusays.com/posts/897/",
@@ -153,7 +165,7 @@
       "title": "EL9拼好题 — Typecho双栏主题",
       "link": "https://blog.el9.cn/notes/el9pht.html",
       "date": "2026-10-30T05:03:00.000Z",
-      "summary": "[!NOTE]目前最新版为v0.10.5 更新于2026.11.07EL9拼好题是一款注重阅读体验和细节的双栏Typecho主题。具体细节自行体验。本主题为老卢自用，顺手开源，如果使用中遇到了什...",
+      "summary": "[!NOTE]目前最新版为v0.10.20 更新于2026.11.13EL9拼好题是一款注重阅读体验和细节的双栏Typecho主题。具体细节自行体验。本主题为老卢自用，顺手开源，如果使用中遇到了...",
       "source": "老卢",
       "sourceUrl": "https://blog.el9.cn/",
       "feedUrl": "https://blog.el9.cn/feed",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-08-27 10:10",
-      "link": "https://blog.el9.cn/memos/3319956b.html",
-      "date": "2026-08-27T02:10:00.000Z",
-      "summary": "之前有人问我为什么看好邮储银行，我说我喜欢。因为我的第一张银行卡就是邮储的,而且用到了现在😄{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -995,13 +995,6 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1022,13 +1015,6 @@
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
