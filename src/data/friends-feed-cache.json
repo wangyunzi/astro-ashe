@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-13T23:24:31.725Z",
-  "expiresAt": "2026-11-14T05:24:31.725Z",
+  "updatedAt": "2026-11-14T05:44:59.154Z",
+  "expiresAt": "2026-11-14T11:44:59.154Z",
   "items": [
     {
       "title": "健身是最被低估的省钱方式",
@@ -997,13 +997,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1015,7 +1008,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
@@ -1050,7 +1043,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
