@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-15T22:39:20.999Z",
-  "expiresAt": "2026-11-16T04:39:20.999Z",
+  "updatedAt": "2026-11-16T05:44:40.375Z",
+  "expiresAt": "2026-11-16T11:44:40.375Z",
   "items": [
+    {
+      "title": "友链页不该只是一张名单：我把 50 个博客做成了一条时间线",
+      "link": "https://dusays.com/posts/898/",
+      "date": "2026-11-15T16:00:00.000Z",
+      "summary": "博客侧栏那页友情链接，我加了三年，也放了三年。名字、头像、一句话介绍，摆得整整齐齐，然后就没有然后了——谁上周写了新东西，谁半年没更新，我一个都不知道。最近把它改成了一条会自动往前走的时间线：50 个站点、489 篇文章，谁更新了就自己冒出来。这篇把这套东西是什么、怎么跑的、以及我这边踩过的坑都摊开写一遍。 一、友链页最大的问题，是它不会动 大多数博客的友链",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "说说：#2026-11-13 11:04",
       "link": "https://blog.el9.cn/memos/talk-6af67e3eed95.html",
@@ -309,18 +321,6 @@
       "category": "友情链接"
     },
     {
-      "title": "我留起了胡子",
-      "link": "https://tianheg.co/posts/growing-a-beard/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "我留起了胡子 23 Oct, 2026 我留起了胡子 让它野蛮生长 在鼻子与嘴唇之间的上唇区 有了一撇一捺 我拍了胡子的照片 人中的位置没有胡子 从那里到两边嘴角处胡子是浓密的 我看起来不一样了 以前的我 尽可能刮干净胡子 觉得这代表了我对生活的态度 时间久了 干净的脸庞似乎代表了我的状态 可是，我想看看自己留胡子的样子 想看看自己成熟的样子 于是，我留起了",
-      "source": "一大加贝",
-      "sourceUrl": "https://tianheg.co/",
-      "feedUrl": "https://tianheg.co/index.xml",
-      "sourceType": "friends",
-      "description": "学习技术，热爱生活。",
-      "category": "友情链接"
-    },
-    {
       "title": "国产数据库迁移：真正花时间的从来不是搬数据",
       "link": "https://dusays.com/posts/894/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -330,6 +330,18 @@
       "feedUrl": "https://dusays.com/atom.xml",
       "sourceType": "friends",
       "description": "杜老师说。",
+      "category": "友情链接"
+    },
+    {
+      "title": "我留起了胡子",
+      "link": "https://tianheg.co/posts/growing-a-beard/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "我留起了胡子 23 Oct, 2026 我留起了胡子 让它野蛮生长 在鼻子与嘴唇之间的上唇区 有了一撇一捺 我拍了胡子的照片 人中的位置没有胡子 从那里到两边嘴角处胡子是浓密的 我看起来不一样了 以前的我 尽可能刮干净胡子 觉得这代表了我对生活的态度 时间久了 干净的脸庞似乎代表了我的状态 可是，我想看看自己留胡子的样子 想看看自己成熟的样子 于是，我留起了",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "Home Assistant 智能家居搭建:从零打造自动化生活",
-      "link": "https://dusays.com/archives/885/",
-      "date": "2026-08-29T16:00:00.000Z",
-      "summary": "早上起床,窗帘自动拉开、咖啡机开始煮咖啡;下班回家,空调提前打开、灯光自动亮起;晚上睡觉,所有电器自动关闭、安防系统启动。这不是科幻电影,这是 Home Assistant 能给你的真实生活。本文手把手教你搭建一套稳定、强大的智能家居系统。 一、Home Assistant 是什么 Home Assistant(简称 HA)是一个开源、本地优先的智能家居平台",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -990,13 +990,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "杜老师说",
-      "sourceType": "friends",
-      "site": "https://dusays.com",
-      "feed": "https://dusays.com/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
@@ -1004,10 +997,10 @@
       "message": "Status code 404"
     },
     {
-      "source": "Black Flies",
+      "source": "凡梦星尘空间站",
       "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1022,7 +1015,7 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "Jdeal",
@@ -1064,7 +1057,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Status code 410"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Frytea",
@@ -1078,14 +1071,7 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
-    },
-    {
-      "source": "Lhasa",
-      "sourceType": "extraFeeds",
-      "site": "https://lhasa.icu/",
-      "feed": "https://lhasa.icu/rss.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
     }
   ]
 }
