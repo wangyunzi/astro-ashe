@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-18T00:46:44.596Z",
-  "expiresAt": "2026-11-18T06:46:44.596Z",
+  "updatedAt": "2026-11-18T15:24:50.588Z",
+  "expiresAt": "2026-11-18T21:24:50.588Z",
   "items": [
+    {
+      "title": "AI Naive 软件开发：不卷 AI Native，做快乐的 AI 创客 （COSCon26 议题 PPT）",
+      "link": "https://hutusi.com/flows/2026/11/18/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "上周六杭州云谷中心，我在 COSCon26 大会的“AI 时代开源新人才”分会场做了个分享，题目叫《\"AI Naive\" 软件开发：不卷 AI Native，做快乐的 AI 创客》。起初，主办方联系我确认议题，我一看宣传海报被写成了《AI Native 软件开发》，便给 \"AI Naive\" 加上了引号，并且加上了个副...",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
     {
       "title": "免费服务友链朋友圈上线了",
       "link": "https://dusays.com/posts/898/",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
       "category": "友情链接"
-    },
-    {
-      "title": "Home Assistant 智能家居搭建:从零打造自动化生活",
-      "link": "https://dusays.com/posts/885/",
-      "date": "2026-08-29T16:00:00.000Z",
-      "summary": "早上起床,窗帘自动拉开、咖啡机开始煮咖啡;下班回家,空调提前打开、灯光自动亮起;晚上睡觉,所有电器自动关闭、安防系统启动。这不是科幻电影,这是 Home Assistant 能给你的真实生活。本文手把手教你搭建一套稳定、强大的智能家居系统。 一、Home Assistant 是什么 Home Assistant(简称 HA)是一个开源、本地优先的智能家居平台",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -1060,18 +1060,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "LMS",
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
