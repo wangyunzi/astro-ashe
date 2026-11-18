@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T15:44:40.306Z",
-  "expiresAt": "2026-11-17T21:44:40.306Z",
+  "updatedAt": "2026-11-18T00:46:44.596Z",
+  "expiresAt": "2026-11-18T06:46:44.596Z",
   "items": [
     {
       "title": "免费服务友链朋友圈上线了",
@@ -1036,7 +1036,7 @@
       "sourceType": "friends",
       "site": "https://vlieo.com/",
       "feed": "https://vlieo.com/atom.xml",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 404"
     },
     {
       "source": "Leonus",
