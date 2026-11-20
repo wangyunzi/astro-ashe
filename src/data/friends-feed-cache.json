@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-20T15:08:44.881Z",
-  "expiresAt": "2026-11-20T21:08:44.881Z",
+  "updatedAt": "2026-11-20T23:50:29.050Z",
+  "expiresAt": "2026-11-21T05:50:29.050Z",
   "items": [
+    {
+      "title": "Typecoh 书签插件Navtab",
+      "link": "https://blog.el9.cn/notes/navtab.html",
+      "date": "2026-11-20T11:17:00.000Z",
+      "summary": "[!NOTE]目前最新版为v1.8.15 更新于2026.11.20用了两年多Mtab整体感觉还是不错的，借着WorkBuddy的风改造成了我想要的样子并移植到了Typecho :blobcat...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
     {
       "title": "1Panel安装bitwarden后微调",
       "link": "https://blog.el9.cn/notes/bitwarden.html",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "一个简单的 Blog 站点。",
       "category": "友情链接"
-    },
-    {
-      "title": "AI Naive: 用 AI 做“无用之用”的独立软件作品集",
-      "link": "https://hutusi.com/flows/2026/08/30/",
-      "date": "2026-08-30T00:00:00.000Z",
-      "summary": "从去年下半年开始 AI Coding, 从 Claude Code 到 Codex, 从 Opus 4 到 Fable 5，我用 AI 给自己做了一系列的工具软件，主要是自己用自己玩，有少部分运行在公司的环境中。 - Amytis: 一个优雅的数字花园框架，可以做个人的静态博客，也可以做团队的知识库，目前我自己的博客框...",
-      "source": "胡涂说",
-      "sourceUrl": "https://hutusi.com/",
-      "feedUrl": "https://hutusi.com/feed.xml",
-      "sourceType": "friends",
-      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -997,13 +997,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1016,20 +1009,6 @@
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
       "message": "Status code 503"
-    },
-    {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "记忆一隅",
@@ -1046,18 +1025,11 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
-      "source": "二猫 blog",
-      "sourceType": "friends",
-      "site": "https://jingxin18.cn",
-      "feed": "https://jingxin18.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1071,7 +1043,7 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
