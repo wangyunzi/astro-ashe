@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-21T06:28:53.407Z",
-  "expiresAt": "2026-11-21T12:28:53.407Z",
+  "updatedAt": "2026-11-21T18:55:32.734Z",
+  "expiresAt": "2026-11-22T00:55:32.734Z",
   "items": [
+    {
+      "title": "RustDesk 自编译版本：预置服务器配置",
+      "link": "https://inkss.cn/post/a889ded0/",
+      "date": "2026-11-21T09:58:00.000Z",
+      "summary": "顺应潮流，借助 AI “纯靠许愿”搓出来的 RustDesk 自编译版本。相比官方版本，主要改动是内置了自己的 ID/Relay 服务器地址，把安装包发给小伙伴后直接就能用，不用再教他们填一堆服务器配置。 由于本来就是给自己和熟人使用的，还顺手做了一些定制化修改： 维度自编译版本上游 ID/API 服务器编译时内置，客户端默认隐藏不显示默认官方服务器 连接认",
+      "source": "Inks",
+      "sourceUrl": "https://inkss.cn/",
+      "feedUrl": "https://inkss.cn/atom.xml",
+      "sourceType": "extraFeeds",
+      "description": "只用于好友动态的订阅源。",
+      "category": "额外动态"
+    },
     {
       "title": "Typecoh 书签插件Navtab",
       "link": "https://blog.el9.cn/notes/navtab.html",
@@ -357,18 +369,6 @@
       "category": "友情链接"
     },
     {
-      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
-      "link": "https://dusays.com/posts/894/",
-      "date": "2026-10-22T16:00:00.000Z",
-      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
-    },
-    {
       "title": "我留起了胡子",
       "link": "https://tianheg.co/posts/growing-a-beard/",
       "date": "2026-10-22T16:00:00.000Z",
@@ -378,6 +378,18 @@
       "feedUrl": "https://tianheg.co/index.xml",
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
+      "category": "友情链接"
+    },
+    {
+      "title": "国产数据库迁移：真正花时间的从来不是搬数据",
+      "link": "https://dusays.com/posts/894/",
+      "date": "2026-10-22T16:00:00.000Z",
+      "summary": "这两年接了几个国产化替代的迁移项目，事后复盘算过一笔账：搬数据本身占整个项目周期不到 20%，剩下 80% 全耗在语法改写、存储过程翻译和双轨验证上。这篇把踩过的坑按阶段理一遍，顺序大致就是项目该走的顺序。 一、时间到底花在哪 第一次接这类项目，我也习惯性地把精力放在数据搬迁方案上——用什么工具导、怎么保一致、中断窗口多长。方案写得很漂亮，评估阶段三天就交了",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
       "category": "友情链接"
     },
     {
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "【讲座】手上园林·肩舆园林·屋下园林·天上园林",
-      "link": "https://jingxin18.cn/3550.html",
-      "date": "2026-08-30T04:11:29.000Z",
-      "summary": "园林，不能简单的看作风格和样式，也不仅仅是某一种空间营造的形式。园林是带着生活情趣的思想方法，是带着审美观的自 […]",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -990,25 +990,18 @@
       "message": "Status code 404"
     },
     {
+      "source": "杜老师说",
+      "sourceType": "friends",
+      "site": "https://dusays.com",
+      "feed": "https://dusays.com/atom.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "UyoAhz",
       "sourceType": "friends",
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "Black Flies",
-      "sourceType": "friends",
-      "site": "https://www.yyyzyyyz.cn/",
-      "feed": "https://www.yyyzyyyz.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1022,7 +1015,14 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "Jdeal",
+      "sourceType": "friends",
+      "site": "https://www.jdeal.cn",
+      "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "老卢",
@@ -1046,6 +1046,13 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
@@ -1060,18 +1067,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "LMS",
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
     }
   ]
 }
