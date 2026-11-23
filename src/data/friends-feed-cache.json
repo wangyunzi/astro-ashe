@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-23T06:49:32.797Z",
-  "expiresAt": "2026-11-23T12:49:32.797Z",
+  "updatedAt": "2026-11-23T23:38:46.284Z",
+  "expiresAt": "2026-11-24T05:38:46.284Z",
   "items": [
     {
       "title": "凌晨一点，我在厨房开椰子",
@@ -997,38 +997,17 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "风记星辰",
-      "sourceType": "friends",
-      "site": "https://www.thyuu.com",
-      "feed": "https://www.thyuu.com/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "Echo's blog",
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1050,7 +1029,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1060,18 +1039,11 @@
       "message": "Status code 404"
     },
     {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "LMS",
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
     }
   ]
 }
