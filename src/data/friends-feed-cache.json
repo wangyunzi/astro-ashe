@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T22:09:35.332Z",
-  "expiresAt": "2026-11-25T04:09:35.332Z",
+  "updatedAt": "2026-11-25T07:50:47.934Z",
+  "expiresAt": "2026-11-25T13:50:47.934Z",
   "items": [
     {
       "title": "说说：#2026-11-24 10:58",
@@ -997,6 +997,13 @@
       "message": "Status code 404"
     },
     {
+      "source": "凡梦星尘空间站",
+      "sourceType": "friends",
+      "site": "https://lisenhui.cn",
+      "feed": "https://lisenhui.cn/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1008,13 +1015,20 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Status code 503"
+      "message": "Request timed out after 4000ms"
     },
     {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
+      "message": "Request timed out after 4000ms"
+    },
+    {
+      "source": "老卢",
+      "sourceType": "friends",
+      "site": "https://blog.el9.cn/",
+      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
