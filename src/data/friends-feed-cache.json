@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T21:25:45.224Z",
-  "expiresAt": "2026-11-26T03:25:45.224Z",
+  "updatedAt": "2026-11-26T07:41:45.094Z",
+  "expiresAt": "2026-11-26T13:41:45.094Z",
   "items": [
     {
       "title": "说说：#2026-11-24 10:58",
@@ -1050,7 +1050,7 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
+      "message": "No valid RSS feed found for https://lms.pub/"
     }
   ]
 }
