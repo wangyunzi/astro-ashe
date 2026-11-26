@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T07:41:45.094Z",
-  "expiresAt": "2026-11-26T13:41:45.094Z",
+  "updatedAt": "2026-11-26T21:12:42.303Z",
+  "expiresAt": "2026-11-27T03:12:42.303Z",
   "items": [
     {
       "title": "说说：#2026-11-24 10:58",
@@ -1011,13 +1011,6 @@
       "message": "Status code 503"
     },
     {
-      "source": "Jdeal",
-      "sourceType": "friends",
-      "site": "https://www.jdeal.cn",
-      "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "记忆一隅",
       "sourceType": "friends",
       "site": "https://vlieo.com/",
@@ -1050,7 +1043,7 @@
       "sourceType": "extraFeeds",
       "site": "https://lms.pub/",
       "feed": "https://lms.pub/feed",
-      "message": "No valid RSS feed found for https://lms.pub/"
+      "message": "Unexpected close tag\nLine: 10\nColumn: 7\nChar: >"
     }
   ]
 }
