@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-27T07:40:48.325Z",
-  "expiresAt": "2026-11-27T13:40:48.325Z",
+  "updatedAt": "2026-11-27T20:55:45.970Z",
+  "expiresAt": "2026-11-28T02:55:45.970Z",
   "items": [
+    {
+      "title": "我把日程、订位和降价提醒，都交给了一颗豆子",
+      "link": "https://dusays.com/posts/900/",
+      "date": "2026-11-27T16:00:00.000Z",
+      "summary": "豆包最近长出了一个新形态，叫「小豆」。区别是以前你问它才答，现在它会自己找上门：该出门了提醒你、看中的东西降价了喊你、每天给你一份简报。这篇把它的玩法捋一遍。 先说清楚：小豆不是新 App 第一次听到「小豆」我以为字节又发了什么新应用，结果是豆包自己长出来的新形态。入口就在豆包里，同一个账号进去，它就从「你问我答的聊天框」变成了「会主动找你办事的助手」。 这",
+      "source": "杜老师说",
+      "sourceUrl": "https://dusays.com",
+      "feedUrl": "https://dusays.com/atom.xml",
+      "sourceType": "friends",
+      "description": "杜老师说。",
+      "category": "友情链接"
+    },
     {
       "title": "古法编程",
       "link": "https://hongtaoh.com/cn/2026/11/26/old-style-coding/",
@@ -15,6 +27,18 @@
       "category": "额外动态"
     },
     {
+      "title": "Agent 时代的编程语言",
+      "link": "https://hutusi.com/articles/agent-era-programming-languages/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "从 Ruby 谈起",
+      "source": "胡涂说",
+      "sourceUrl": "https://hutusi.com/",
+      "feedUrl": "https://hutusi.com/feed.xml",
+      "sourceType": "friends",
+      "description": "任抛星汉归园圃，留取乾坤盛酒囊。",
+      "category": "友情链接"
+    },
+    {
       "title": "说说：#2026-11-24 10:58",
       "link": "https://blog.el9.cn/memos/talk-6b04fd59ffe3.html",
       "date": "2026-11-24T02:58:00.000Z",
@@ -24,6 +48,18 @@
       "feedUrl": "https://blog.el9.cn/feed",
       "sourceType": "friends",
       "description": "个人博客记录日常。",
+      "category": "友情链接"
+    },
+    {
+      "title": "心绪",
+      "link": "https://tianheg.co/posts/a-mood/",
+      "date": "2026-11-22T16:00:00.000Z",
+      "summary": "心绪 23 Nov, 2026 今天我早起去总部开会 被子没盖住脚 启程后的我在找厕所 第一处有人，第二次没有，幸好！ 兴许是冬天来临的缘故 最近我过得格外压抑 花钱买了东西 从零开始组装电脑主机 没有我想象中那么快乐 昨天，一天都待在家里 引导Hermes（一个AI agent）帮我指定数据备份计划 还看了电视剧《Fringe（危机边缘）》 源文（.org",
+      "source": "一大加贝",
+      "sourceUrl": "https://tianheg.co/",
+      "feedUrl": "https://tianheg.co/index.xml",
+      "sourceType": "friends",
+      "description": "学习技术，热爱生活。",
       "category": "友情链接"
     },
     {
@@ -943,42 +979,6 @@
       "sourceType": "friends",
       "description": "学习技术，热爱生活。",
       "category": "友情链接"
-    },
-    {
-      "title": "290、白露",
-      "link": "https://1900.live/290-bai-lu/",
-      "date": "2026-09-07T01:18:00.000Z",
-      "summary": "null 露从今夜白，暑气在一场场渐凉的晨风里，终于褪去最后的锋芒。长夏的余温尚未完全散尽，草叶之间却已先一步凝起清莹的水光——白露，便是在这样的静默里到来。 太阳行至黄经165°，白露——秋意由“可感”走向“可见”的时节。夜间地面温度下降，空气中的水汽遇冷凝结，附在草木之上，清晨看去，仿佛天地一夜之间撒落了细碎的白玉。 鸿雁来，北雁循着渐冷的风向南而行，长",
-      "source": "1900",
-      "sourceUrl": "https://1900.live/",
-      "feedUrl": "https://1900.live/rss.xml",
-      "sourceType": "extraFeeds",
-      "description": "只用于好友动态的订阅源。",
-      "category": "额外动态"
-    },
-    {
-      "title": "爷爷",
-      "link": "https://jingxin18.cn/3553.html",
-      "date": "2026-09-06T19:01:39.000Z",
-      "summary": "我与爷爷不相见，已是再没有相见的日子了。 爷爷走了两周了，我心里的仍不能平静。这些日子想起他，想起的都是些很小 […]",
-      "source": "二猫 blog",
-      "sourceUrl": "https://jingxin18.cn",
-      "feedUrl": "https://jingxin18.cn/feed",
-      "sourceType": "friends",
-      "description": "一个简单的 Blog 站点。",
-      "category": "友情链接"
-    },
-    {
-      "title": "Web 应用常见漏洞与防御:OWASP Top 10 实战讲解",
-      "link": "https://dusays.com/posts/886/",
-      "date": "2026-09-04T16:00:00.000Z",
-      "summary": "据 Akamai 报告,2026 年 Web 应用攻击同比增长 40%,其中注入攻击和身份认证失效占比最高。无论你是开发者还是运维,了解 Web 应用常见漏洞都是必修课。本文基于 OWASP Top 10(2021 版),通过真实案例 + 代码讲解,带你建立完整的 Web 安全防护意识。 一、什么是 OWASP OWASP(Open Worldwide Ap",
-      "source": "杜老师说",
-      "sourceUrl": "https://dusays.com",
-      "feedUrl": "https://dusays.com/atom.xml",
-      "sourceType": "friends",
-      "description": "杜老师说。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -995,13 +995,6 @@
       "site": "https://uyoahz.cn/",
       "feed": "https://uyoahz.cn/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "风记星辰",
@@ -1050,7 +1043,7 @@
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1058,13 +1051,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "LMS",
