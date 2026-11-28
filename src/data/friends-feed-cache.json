@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-28T07:08:04.616Z",
-  "expiresAt": "2026-11-28T13:08:04.616Z",
+  "updatedAt": "2026-11-28T19:45:57.278Z",
+  "expiresAt": "2026-11-29T01:45:57.278Z",
   "items": [
     {
       "title": "我能想到的未来",
@@ -49,6 +49,18 @@
       "sourceType": "extraFeeds",
       "description": "只用于好友动态的订阅源。",
       "category": "额外动态"
+    },
+    {
+      "title": "Adobe未授权弹窗通用解决方法",
+      "link": "https://blog.el9.cn/notes/psnoags.html",
+      "date": "2026-11-27T02:34:00.000Z",
+      "summary": "这两天好多水友学习版ps都水友的跳授权弹窗了，这是因为adobe加强版权风控AGS校验升级，其实这已经不是第一次了，只是这次覆盖面积大而已，目前我遇到的都是软件联网或者开梯子导致的，我们只要禁止...",
+      "source": "老卢",
+      "sourceUrl": "https://blog.el9.cn/",
+      "feedUrl": "https://blog.el9.cn/feed",
+      "sourceType": "friends",
+      "description": "个人博客记录日常。",
+      "category": "友情链接"
     },
     {
       "title": "Agent 时代的编程语言",
@@ -967,18 +979,6 @@
       "sourceType": "friends",
       "description": "杜老师说。",
       "category": "友情链接"
-    },
-    {
-      "title": "说说：#2026-09-07 20:15",
-      "link": "https://blog.el9.cn/memos/a9347777.html",
-      "date": "2026-09-07T12:19:00.000Z",
-      "summary": "打工人来自新公司的第一份加油包😂{cat_gallery}{/cat_gallery}",
-      "source": "老卢",
-      "sourceUrl": "https://blog.el9.cn/",
-      "feedUrl": "https://blog.el9.cn/feed",
-      "sourceType": "friends",
-      "description": "个人博客记录日常。",
-      "category": "友情链接"
     }
   ],
   "errors": [
@@ -997,13 +997,6 @@
       "message": "Status code 404"
     },
     {
-      "source": "凡梦星尘空间站",
-      "sourceType": "friends",
-      "site": "https://lisenhui.cn",
-      "feed": "https://lisenhui.cn/rss.xml",
-      "message": "Request timed out after 4000ms"
-    },
-    {
       "source": "风记星辰",
       "sourceType": "friends",
       "site": "https://www.thyuu.com",
@@ -1015,20 +1008,13 @@
       "sourceType": "friends",
       "site": "https://www.liveout.cn/",
       "feed": "https://www.liveout.cn/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 503"
     },
     {
       "source": "Jdeal",
       "sourceType": "friends",
       "site": "https://www.jdeal.cn",
       "feed": "https://www.jdeal.cn/feed",
-      "message": "Request timed out after 4000ms"
-    },
-    {
-      "source": "老卢",
-      "sourceType": "friends",
-      "site": "https://blog.el9.cn/",
-      "feed": "https://blog.el9.cn/feed",
       "message": "Request timed out after 4000ms"
     },
     {
@@ -1046,11 +1032,18 @@
       "message": "getaddrinfo ENOTFOUND blog.leonus.cn"
     },
     {
+      "source": "1900",
+      "sourceType": "extraFeeds",
+      "site": "https://1900.live/",
+      "feed": "https://1900.live/rss.xml",
+      "message": "Request timed out after 4000ms"
+    },
+    {
       "source": "Shephe",
       "sourceType": "extraFeeds",
       "site": "https://www.shephe.com/",
       "feed": "https://www.shephe.com/feed",
-      "message": "Request timed out after 4000ms"
+      "message": "Status code 410"
     },
     {
       "source": "Frytea",
@@ -1058,13 +1051,6 @@
       "site": "https://www.frytea.com/",
       "feed": "https://www.frytea.com/atom.xml",
       "message": "Status code 404"
-    },
-    {
-      "source": "Inks",
-      "sourceType": "extraFeeds",
-      "site": "https://inkss.cn/",
-      "feed": "https://inkss.cn/atom.xml",
-      "message": "Request timed out after 4000ms"
     },
     {
       "source": "LMS",
